@@ -1,0 +1,471 @@
+{
+  "header-layout.desktop": {
+    "children": [
+      "sticky-layout#desktop"
+    ]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#header__menu-envio_gratis",
+      "flex-layout.row#header__menu-desktop"
+    ]
+  },
+  "flex-layout.row#header__menu-envio_gratis": {
+    "title": "Sección informativa envío gratis",
+    "props": {
+      "horizontalAlign": "rigth",
+      "verticalAlign": "center"
+    },
+    "children": [
+        "rich-text#header__menu-envio-gratis"
+    ]
+  },
+
+  //Sección Envío gratuito
+  "rich-text#header__menu-envio-gratis": {
+    "title": "Texto informativo envío gratuito",
+    "props": {
+      "text": "Envío gratis desde $250.000 - Devoluciones a 60 días",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "header__freeShipping--one"
+    }
+  },
+
+  "flex-layout.row#header__menu-desktop": {
+    "title": "Sección menu header en escritorio",
+    "props": {
+      "horizontalAlign": "rigth",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "flex-layout__desktop"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu",
+      "flex-layout.col#spacer",
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "locale-switcher",
+      "login",
+      "minicart.v2"
+    ]
+  },
+
+  //Sección Menú
+  "vtex.menu@2.x:menu#category-menu": {
+    "title": "Sección menu general",
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#mujeres",
+      "menu-item#hombres",
+      "menu-item#teens",
+      "menu-item#niños"
+    ]
+  },
+
+//Imágenes menu
+
+"image#header__menu-mujer": {
+    "title": "Imagen menu mujer",
+    "props": {
+        "src": "assets/img/header/header__menu-mujer.png"
+    }
+},
+
+"image#header__menu-hombre": {
+    "title": "Imagen menu hombre",
+    "props": {
+        "src": "assets/img/header/header__menu-hombre.png"
+    }
+},
+
+"image#header__menu-teen": {
+    "title": "Imagen menu teen",
+    "props": {
+        "src": "assets/img/header/header__menu-teen.png"
+    }
+},
+
+"image#header__menu-niños": {
+    "title": "Imagen menu niños",
+    "props": {
+        "src": "assets/img/header/header__menu-ninos.png"
+    }
+},
+
+//Seccion mujeres
+
+
+"menu-item#mujeres": {
+    "title": "Sección mujeres",
+    "props": {
+      "id": "menu-item-mujeres",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "mujeres",
+        "text": "Mujeres"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#mujeres"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#mujeres": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+        "flex-layout.row#mujeres"
+    ]
+  },
+  "flex-layout.row#mujeres": {
+    "children": [
+      "flex-layout.col#menu-mujeres",
+      "flex-layout.col#menu-mujeres2"
+    ]
+  },
+  "flex-layout.col#menu-mujeres": {
+    "children": [
+        "vtex.menu@2.x:menu#mujeres"
+    ]
+  },
+  "flex-layout.col#menu-mujeres2": {
+    "children": [
+        "image#header__menu-mujer"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#mujeres": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#prendas",
+      "menu-item#accesorios",
+      "menu-item#tallas_plus",
+      "menu-item#promocion",
+      "menu-item#colecciones",
+      "menu-item#destacados"
+    ]
+  },
+
+  "menu-item#prendas": {
+    "title": "Sección Prendas",
+    "props": {
+      "id": "menu-item-prendas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "prendas",
+        "text": "Prendas"
+      }
+    }
+  },
+  "menu-item#accesorios": {
+    "title": "Sección Accesorios",
+    "props": {
+      "id": "menu-item-accesorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "accesorios",
+        "text": "Accesorios"
+      }
+    }
+  },
+  "menu-item#tallas_plus": {
+    "title": "Sección Tallas_plus",
+    "props": {
+      "id": "menu-item-tallas_plus",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "tallas_plus",
+        "text": "Tallas Plus"
+      }
+    }
+  },
+  "menu-item#promocion": {
+    "title": "Sección Promocion",
+    "props": {
+      "id": "menu-item-promocion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "promocion",
+        "text": "Promoción"
+      }
+    }
+  },
+  "menu-item#colecciones": {
+    "title": "Sección Colecciones",
+    "props": {
+      "id": "menu-item-colecciones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "colecciones",
+        "text": "Colecciones"
+      }
+    }
+  },
+  "menu-item#destacados": {
+    "title": "Sección Destacados",
+    "props": {
+      "id": "menu-item-destacados",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "destacados",
+        "text": "Destacados"
+      }
+    }
+  },
+
+
+
+  //Sección Hombres
+
+"menu-item#hombres": {
+    "title": "Sección hombres",
+    "props": {
+      "id": "menu-item-hombres",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "hombres",
+        "text": "Hombres"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#hombres"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#hombres": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+        "flex-layout.row#hombres"
+    ]
+  },
+  "flex-layout.row#hombres": {
+    "children": [
+      "flex-layout.col#menu-hombres",
+      "flex-layout.col#menu-hombres2"
+    ]
+  },
+  "flex-layout.col#menu-hombres": {
+    "children": [
+        "vtex.menu@2.x:menu#hombres"
+    ]
+  },
+  "flex-layout.col#menu-hombres2": {
+    "children": [
+        "image#header__menu-hombre"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#hombres": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#prendas",
+      "menu-item#accesorios",
+      "menu-item#tallas_plus",
+      "menu-item#promocion",
+      "menu-item#colecciones",
+      "menu-item#destacados"
+    ]
+  },
+
+  //Sección Teens
+  "menu-item#teens": {
+    "title": "Sección teens",
+    "props": {
+      "id": "menu-item-teens",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "teens",
+        "text": "Teens"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#teens"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#teens": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+        "flex-layout.row#teens"
+    ]
+  },
+  "flex-layout.row#teens": {
+    "children": [
+      "flex-layout.col#menu-teens",
+      "flex-layout.col#menu-teens2"
+    ]
+  },
+  "flex-layout.col#menu-teens": {
+    "children": [
+        "vtex.menu@2.x:menu#teens"
+    ]
+  },
+  "flex-layout.col#menu-teens2": {
+    "children": [
+        "image#header__menu-teen"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#teens": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#prendas",
+      "menu-item#accesorios",
+      "menu-item#tallas_plus",
+      "menu-item#promocion",
+      "menu-item#colecciones",
+      "menu-item#destacados"
+    ]
+  },
+
+  //Sección Niños
+
+"menu-item#niños": {
+    "title": "Sección niños",
+    "props": {
+      "id": "menu-item-niños",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "niños",
+        "text": "Niños"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#niños"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#niños": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+        "flex-layout.row#niños"
+    ]
+  },
+  "flex-layout.row#niños": {
+    "children": [
+      "flex-layout.col#menu-niños",
+      "flex-layout.col#menu-niños2"
+    ]
+  },
+  "flex-layout.col#menu-niños": {
+    "children": [
+        "vtex.menu@2.x:menu#niños"
+    ]
+  },
+  "flex-layout.col#menu-niños2": {
+    "children": [
+        "image#header__menu-niños"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#niños": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#prendas",
+      "menu-item#accesorios",
+      "menu-item#tallas_plus",
+      "menu-item#promocion",
+      "menu-item#colecciones",
+      "menu-item#destacados"
+    ]
+  },
+
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo"
+    ]
+  },
+
+  //Sección logo
+  "logo": {
+    "title": "Logo global",
+    "props": {
+      "href": "#",
+      "url": "assets/img/global/global__logo-mango.png",
+      "width": "100"
+    }
+  }
+  
+}

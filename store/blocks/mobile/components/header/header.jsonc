@@ -1,0 +1,42 @@
+{
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#mobile"
+    ]
+  },
+  "sticky-layout#mobile": {
+    "children": [
+      "flex-layout.row#1-mobile",
+      "flex-layout.row#mobile"
+    ]
+  },
+
+  "flex-layout.row#1-mobile": {
+    "props": {
+      "horizontalAlign": "rigth",
+      "verticalAlign": "center"
+    },
+    "children": [
+        "rich-text#header__menu-envio-gratis"    ]
+  },
+
+  "flex-layout.row#mobile": {
+    "children": [
+      "drawer",
+      "logo",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+
+  "drawer": {
+    "children": []
+  }
+}
