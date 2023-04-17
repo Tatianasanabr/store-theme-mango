@@ -1,4 +1,36 @@
-/* Example desktop:
-.styledLinkContainer {
-    margin: 0 12px;
-} */
+.styledLinkContent {
+    font-family: "Urbanist";
+}
+
+.styledLinkContent--header__menu-nombre_categoria {
+    font-weight: bold;
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+
+.styledLinkContent--header__menu-nombre_categoria:hover {
+    border-bottom: 1px solid black;
+    transition: 0.1s;
+}
+
+.styledLinkContent--header__menu-categorias_iniciales {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #979899;
+}
+
+.styledLinkContent--header__menu-categorias_iniciales:hover {
+    color: black;
+    transition: color 0.5s ease;
+}
+
+.styledLinkContent--header__menu-categorias_iniciales_promo {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #f71963;
+}
+
+.styledLinkContent--header__menu-categorias_iniciales_promo:hover {
+    color: #dd1659;
+    transition: color 0.5s ease;
+}

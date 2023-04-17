@@ -1,0 +1,21 @@
+.imageElement--header__menu-imagen_prendas {
+    max-width  : 22%;
+    margin-left: 9rem;
+
+}
+
+.imageElement--header__menu-imagen_accesorios {
+    max-width  : 29%;
+    margin-left: 7.5rem;
+    height     : 4rem;
+}
+
+.imageElement--header__menu-imagen_tallas_plus {
+    max-width  : 26%;
+    margin-left: 8rem;
+}
+
+
+
+
+

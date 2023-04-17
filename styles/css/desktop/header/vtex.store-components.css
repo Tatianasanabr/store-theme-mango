@@ -1,0 +1,11 @@
+.imageElement--header__menu-imagen {
+    cursor: pointer;
+}
+
+.imageElement--header__menu-imagen:hover {
+    transition-duration       : 0.5s;
+    transition-timing-function: ease;
+    transition-delay          : 0s;
+    opacity                   : .8;
+}
+
