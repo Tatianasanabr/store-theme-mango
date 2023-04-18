@@ -1,33 +1,28 @@
 {
-  "header-layout.desktop": {
-    "children": [
-      "sticky-layout#desktop"
-    ]
-  },
   "sticky-layout#desktop": {
-    "title": "Sticky Header",
+    "title": "Sticky header",
     "props": {
-      "blockClass": "sticky-header"
+      "blockClass": "sticky-layout#desktop__header"
     },
     "children": [
-      "flex-layout.row#header__menu-envio_gratis",
-      "flex-layout.row#header__menu-desktop"
+      "flex-layout.row#desktop__header--free_shipping",
+      "flex-layout.row#desktop__header--menu"
     ]
   },
-  "flex-layout.row#header__menu-envio_gratis": {
-    "title": "Sección informativa envío gratis",
+  "flex-layout.row#desktop__header--free_shipping": {
+    "title": "Text container free shipping",
     "props": {
       "horizontalAlign": "rigth",
       "verticalAlign": "center"
     },
     "children": [
-      "rich-text#header__menu-envio-gratis"
+      "rich-text#desktop__header--free_shipping"
     ]
   },
 
-  //Sección Envío gratuito
-  "rich-text#header__menu-envio-gratis": {
-    "title": "Texto informativo envío gratuito",
+  //Free shipping section
+  "rich-text#desktop__header--free_shipping": {
+    "title": "Free shipping text",
     "props": {
       "text": "Envío gratis desde $250.000 - Devoluciones a 60 días",
       "textAlignment": "CENTER",
@@ -36,8 +31,8 @@
     }
   },
 
-  "flex-layout.row#header__menu-desktop": {
-    "title": "Sección menu header en escritorio",
+  "flex-layout.row#desktop__header--menu": {
+    "title": "Menu header section on desktop",
     "props": {
       "horizontalAlign": "rigth",
       "verticalAlign": "center",
@@ -47,7 +42,7 @@
       "blockClass": "flex-layout__desktop"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-menu",
+      "vtex.menu@2.x:menu#desktop__menu--category",
       "flex-layout.col#spacer",
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
@@ -59,294 +54,296 @@
   },
 
   //Sección Menú
-  "vtex.menu@2.x:menu#category-menu": {
-    "title": "Sección menu general",
+  "vtex.menu@2.x:menu#desktop__menu--category": {
+    "title": "Main section menu",
     "props": {
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#mujeres",
-      "menu-item#hombres",
-      "menu-item#teens",
-      "menu-item#niños"
+      "menu-item#desktop__menu--women",
+      "menu-item#desktop__menu--men",
+      "menu-item#desktop__menu--teens",
+      "menu-item#desktop__menu--kids"
     ]
   },
 
-  //Imágenes menu
-  "image#header__menu-mujer": {
-    "title": "Imagen menu mujer",
+  //Menu images
+  "image#header__menu--women": {
+    "title": "Women menu images",
     "props": {
-      "src": "assets/img/header/header__menu-mujer.png",
-      "blockClass": "header__menu-imagen"
+      "src": "assets/img/header/header__menu--women.png",
+      "blockClass": "header__menu--image"
     }
   },
 
-  "image#header__menu-hombre": {
-    "title": "Imagen menu hombre",
+  "image#header__menu--man": {
+    "title": "Men menu images.",
     "props": {
-      "src": "assets/img/header/header__menu-hombre.png",
-      "blockClass": "header__menu-imagen"
+      "src": "assets/img/header/header__menu--man.png",
+      "blockClass": "header__menu--image"
     }
   },
 
-  "image#header__menu-teen": {
-    "title": "Imagen menu teen",
+  "image#header__menu--teen": {
+    "title": "Teen menu images",
     "props": {
-      "src": "assets/img/header/header__menu-teen.png",
-      "blockClass": "header__menu-imagen"
+      "src": "assets/img/header/header__menu--teen.png",
+      "blockClass": "header__menu--image"
     }
   },
 
-  "image#header__menu-niños": {
-    "title": "Imagen menu niños",
+  "image#header__menu--kids": {
+    "title": "Kids menu image",
     "props": {
-      "src": "assets/img/header/header__menu-ninos.png",
-      "blockClass": "header__menu-imagen"
+      "src": "assets/img/header/header__menu--kids.png",
+      "blockClass": "header__menu--image"
     }
   },
 
-  //Seccion mujeres
-  "menu-item#mujeres": {
-    "title": "Sección mujeres",
+  //Women section
+  "menu-item#desktop__menu--women": {
+    "title": "Women section",
     "props": {
-      "id": "menu-item-mujeres",
+      "id": "menu-item-women",
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "header__menu-nombre_categoria",
+      "blockClass": "header__menu--department_name",
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "mujeres",
+        "tagTitle": "women",
         "text": "Mujeres"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#mujeres"
+      "vtex.menu@2.x:submenu#desktop__submenu--women"
     ]
   },
 
-  "vtex.menu@2.x:submenu#mujeres": {
-    "title": "Submenu mujeres",
+  "vtex.menu@2.x:submenu#desktop__submenu--women": {
+    "title": "Women submenu",
     "props": {
       "width": "100%"
     },
     "children": [
-      "flex-layout.row#mujeres"
+      "flex-layout.row#desktop__submenu--women"
     ]
   },
-  "flex-layout.row#mujeres": {
+  "flex-layout.row#desktop__submenu--women": {
+    "title": "Vertical women's section container",
     "children": [
-      "flex-layout.col#menu-mujeres",
-      "flex-layout.col#menu-mujeres2"
+      "flex-layout.col#menu__container--women",
+      "flex-layout.col#menu__image--women"
     ]
   },
-  "flex-layout.col#menu-mujeres": {
-    "title": "Menu vertical categorias seccion mujeres ",
+  "flex-layout.col#menu__container--women": {
+    "title": "Vertical menu container women",
     "children": [
-      "vtex.menu@2.x:menu#mujeres"
+      "vtex.menu@2.x:menu#desktop__department--women"
     ]
   },
-  "flex-layout.col#menu-mujeres2": {
-    "title": "Contenedor imágen sección mujeres",
+  "flex-layout.col#menu__image--women": {
+    "title": "Container image section women",
     "children": [
-      "image#header__menu-mujer"
+      "image#header__menu--women"
     ]
   },
 
-  "vtex.menu@2.x:menu#mujeres": {
-    "title": "Menu mujeres general",
+  "vtex.menu@2.x:menu#desktop__department--women": {
+    "title": "Menu departments section women",
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#prendas",
-      "menu-item#accesorios",
-      "menu-item#tallas_plus",
-      "menu-item#promocion",
-      "menu-item#colecciones",
-      "menu-item#destacados"
+      "menu-item#desktop__category--clothing",
+      "menu-item#desktop__category--accessories",
+      "menu-item#desktop__category--plus_size",
+      "menu-item#desktop__category--discount",
+      "menu-item#desktop__category--collections",
+      "menu-item#desktop__category--exceptional"
     ]
   },
 
-  "menu-item#prendas": {
-    "title": "Sección Prendas",
+  "menu-item#desktop__category--clothing": {
+    "title": "Desktop clothing section",
     "props": {
-      "id": "menu-item-prendas",
+      "id": "menu-item-clothing",
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "header__menu-categorias_iniciales",
+      "blockClass": "header__menu--category_name",
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "prendas",
+        "tagTitle": "clothing",
         "text": "Prendas"
       }
     }
   },
-  "menu-item#accesorios": {
-    "title": "Sección Accesorios",
+  "menu-item#desktop__category--accessories": {
+    "title": "Desktop Accessories section",
     "props": {
-      "id": "menu-item-accesorios",
+      "id": "menu-item-accessories",
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "header__menu-categorias_iniciales",
+      "blockClass": "header__menu--category_name",
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "accesorios",
+        "tagTitle": "accessories",
         "text": "Accesorios"
       }
     }
   },
-  "menu-item#tallas_plus": {
-    "title": "Sección Tallas Plus",
+  "menu-item#desktop__category--plus_size": {
+    "title": "Desktop plus size section",
     "props": {
-      "id": "menu-item-tallas_plus",
+      "id": "menu-item-plus_size",
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "header__menu-categorias_iniciales",
+      "blockClass": "header__menu--category_name",
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "tallas_plus",
+        "tagTitle": "plus_size",
         "text": "Tallas Plus"
       }
     }
   },
-  "menu-item#promocion": {
-    "title": "Sección Promocion",
+  "menu-item#desktop__category--discount": {
+    "title": "Desktop discount section",
     "props": {
-      "id": "menu-item-promocion",
+      "id": "menu-item-discount",
       "type": "custom",
       "iconId": null,
       "highlight": true,
-      "blockClass": "header__menu-categorias_iniciales_promo",
+      "blockClass": "header__menu--category_name-discount",
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "promocion",
+        "tagTitle": "discount",
         "text": "Promoción"
       }
     }
   },
-  "menu-item#colecciones": {
-    "title": "Sección Colecciones",
+  "menu-item#desktop__category--collections": {
+    "title": "Desktop collection section",
     "props": {
-      "id": "menu-item-colecciones",
+      "id": "menu-item-collections",
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "header__menu-categorias_iniciales",
+      "blockClass": "header__menu--category_name",
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "colecciones",
+        "tagTitle": "collections",
         "text": "Colecciones"
       }
     }
   },
-  "menu-item#destacados": {
-    "title": "Sección Destacados",
+  "menu-item#desktop__category--exceptional": {
+    "title": "Desktop exceptional section",
     "props": {
-      "id": "menu-item-destacados",
+      "id": "menu-item-exceptional",
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "header__menu-categorias_iniciales",
+      "blockClass": "header__menu--category_name",
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "destacados",
+        "tagTitle": "exceptional",
         "text": "Destacados"
       }
     }
   },
 
-  //Sección Hombres
-  "menu-item#hombres": {
-    "title": "Sección hombres",
+  //Men section
+  "menu-item#desktop__menu--men": {
+    "title": "Men section",
     "props": {
-      "id": "menu-item-hombres",
+      "id": "menu-item-men",
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "header__menu-nombre_categoria",
+      "blockClass": "header__menu--department_name",
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "hombres",
+        "tagTitle": "men",
         "text": "Hombres"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#hombres"
+      "vtex.menu@2.x:submenu#desktop__submenu--men"
     ]
   },
 
-  "vtex.menu@2.x:submenu#hombres": {
-    "title": "Submenu hombres",
+  "vtex.menu@2.x:submenu#desktop__submenu--men": {
+    "title": "Women submenu",
     "props": {
       "width": "100%"
     },
     "children": [
-      "flex-layout.row#hombres"
+      "flex-layout.row#desktop__submenu--men"
     ]
   },
-  "flex-layout.row#hombres": {
+  "flex-layout.row#desktop__submenu--men": {
+    "title": "Vertical men's section container",
     "children": [
-      "flex-layout.col#menu-hombres",
-      "flex-layout.col#menu-hombres2"
+      "flex-layout.col#menu__container--men",
+      "flex-layout.col#menu__image--men"
     ]
   },
-  "flex-layout.col#menu-hombres": {
-    "title": "Menu vertical categorias seccion hombres ",
+  "flex-layout.col#menu__container--men": {
+    "title": "Vertical menu container men",
     "children": [
-      "vtex.menu@2.x:menu#hombres"
+      "vtex.menu@2.x:menu#desktop__department--men"
     ]
   },
-  "flex-layout.col#menu-hombres2": {
-    "title": "Contenedor imágen sección hombres",
+  "flex-layout.col#menu__image--men": {
+    "title": "Container image section men",
     "children": [
-      "image#header__menu-hombre"
+      "image#header__menu--man"
     ]
   },
 
-  "vtex.menu@2.x:menu#hombres": {
-    "title": "Menu hombres general",
+  "vtex.menu@2.x:menu#desktop__department--men": {
+    "title": "Menu departments section men",
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#prendas",
-      "menu-item#accesorios",
-      "menu-item#tallas_plus",
-      "menu-item#promocion",
-      "menu-item#colecciones",
-      "menu-item#destacados"
+      "menu-item#desktop__category--clothing",
+      "menu-item#desktop__category--accessories",
+      "menu-item#desktop__category--plus_size",
+      "menu-item#desktop__category--discount",
+      "menu-item#desktop__category--collections",
+      "menu-item#desktop__category--exceptional"
     ]
   },
 
   //Sección Teens
-  "menu-item#teens": {
-    "title": "Sección teens",
+  "menu-item#desktop__menu--teens": {
+    "title": "Teens section",
     "props": {
       "id": "menu-item-teens",
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "header__menu-nombre_categoria",
+      "blockClass": "header__menu--department_name",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -356,113 +353,115 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#teens"
+      "vtex.menu@2.x:submenu#desktop__submenu--teens"
     ]
   },
 
-  "vtex.menu@2.x:submenu#teens": {
+  "vtex.menu@2.x:submenu#desktop__submenu--teens": {
     "props": {
       "width": "100%"
     },
     "children": [
-      "flex-layout.row#teens"
+      "flex-layout.row#desktop__submenu--teens"
     ]
   },
-  "flex-layout.row#teens": {
+  "flex-layout.row#desktop__submenu--teens": {
+    "title": "Vertical teens section container",
     "children": [
-      "flex-layout.col#menu-teens",
-      "flex-layout.col#menu-teens2"
+      "flex-layout.col#menu__container--teens",
+      "flex-layout.col#menu__image--teens"
     ]
   },
-  "flex-layout.col#menu-teens": {
-    "title": "Menu vertical categorias seccion teens ",
+  "flex-layout.col#menu__container--teens": {
+    "title": "Vertical menu container teens",
     "children": [
-      "vtex.menu@2.x:menu#teens"
+      "vtex.menu@2.x:menu#desktop__department--teens"
     ]
   },
-  "flex-layout.col#menu-teens2": {
-    "title": "Contenedor imágen sección teen",
+  "flex-layout.col#menu__image--teens": {
+    "title": "Container image section teens",
     "children": [
-      "image#header__menu-teen"
+      "image#header__menu--teen"
     ]
   },
 
-  "vtex.menu@2.x:menu#teens": {
-    "title": "Menu teens general",
+  "vtex.menu@2.x:menu#desktop__department--teens": {
+    "title": "Menu departments section teens",
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#prendas",
-      "menu-item#accesorios",
-      "menu-item#tallas_plus",
-      "menu-item#promocion",
-      "menu-item#colecciones",
-      "menu-item#destacados"
+      "menu-item#desktop__category--clothing",
+      "menu-item#desktop__category--accessories",
+      "menu-item#desktop__category--plus_size",
+      "menu-item#desktop__category--discount",
+      "menu-item#desktop__category--collections",
+      "menu-item#desktop__category--exceptional"
     ]
   },
 
   //Sección Niños
-  "menu-item#niños": {
-    "title": "Sección niños",
+  "menu-item#desktop__menu--kids": {
+    "title": "Kids section",
     "props": {
-      "id": "menu-item-niños",
+      "id": "menu-item-kids",
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "header__menu-nombre_categoria",
+      "blockClass": "header__menu--department_name",
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "niños",
+        "tagTitle": "kids",
         "text": "Niños"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#niños"
+      "vtex.menu@2.x:submenu#desktop__submenu--kids"
     ]
   },
 
-  "vtex.menu@2.x:submenu#niños": {
+  "vtex.menu@2.x:submenu#desktop__submenu--kids": {
     "props": {
       "width": "100%"
     },
     "children": [
-      "flex-layout.row#niños"
+      "flex-layout.row#desktop__submenu--kids"
     ]
   },
-  "flex-layout.row#niños": {
+  "flex-layout.row#desktop__submenu--kids": {
+    "title": "Vertical kids section container",
     "children": [
-      "flex-layout.col#menu-niños",
-      "flex-layout.col#menu-niños2"
+      "flex-layout.col#menu__container--kids",
+      "flex-layout.col#menu__image--kids"
     ]
   },
-  "flex-layout.col#menu-niños": {
-    "title": "Menu vertical categorias seccion niños ",
+  "flex-layout.col#menu__container--kids": {
+    "title": "Vertical menu container kids",
     "children": [
-      "vtex.menu@2.x:menu#niños"
+      "vtex.menu@2.x:menu#desktop__department--kids"
     ]
   },
-  "flex-layout.col#menu-niños2": {
-    "title": "Contenedor imágen sección niños",
+  "flex-layout.col#menu__image--kids": {
+    "title": "Container image section kids",
     "children": [
-      "image#header__menu-niños"
+      "image#header__menu--kids"
     ]
   },
 
-  "vtex.menu@2.x:menu#niños": {
-    "title": "Menu niños general",
+  "vtex.menu@2.x:menu#desktop__department--kids": {
+    "title": "Menu departments section kids",
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#prendas",
-      "menu-item#accesorios",
-      "menu-item#tallas_plus",
-      "menu-item#promocion",
-      "menu-item#colecciones",
-      "menu-item#destacados"
+      "menu-item#desktop__category--clothing",
+      "menu-item#desktop__category--accessories",
+      "menu-item#desktop__category--plus_size",
+      "menu-item#desktop__category--discount",
+      "menu-item#desktop__category--collections",
+      "menu-item#desktop__category--exceptional"
     ]
   },
 

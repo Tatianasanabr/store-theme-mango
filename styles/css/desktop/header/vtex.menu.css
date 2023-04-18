@@ -2,35 +2,35 @@
     font-family: "Urbanist";
 }
 
-.styledLinkContent--header__menu-nombre_categoria {
+.styledLinkContent--header__menu--department_name {
     font-weight: bold;
     font-size: .8rem;
     letter-spacing: 1px;
 }
 
-.styledLinkContent--header__menu-nombre_categoria:hover {
+.styledLinkContent--header__menu--department_name:hover {
     border-bottom: 1px solid black;
     transition: 0.1s;
 }
 
-.styledLinkContent--header__menu-categorias_iniciales {
+.styledLinkContent--header__menu--category_name {
     font-weight: bold;
     font-size: 1.3rem;
     color: #979899;
 }
 
-.styledLinkContent--header__menu-categorias_iniciales:hover {
+.styledLinkContent--header__menu--category_name:hover {
     color: black;
     transition: color 0.5s ease;
 }
 
-.styledLinkContent--header__menu-categorias_iniciales_promo {
+.styledLinkContent--header__menu--category_name-discount {
     font-weight: bold;
     font-size: 1.3rem;
     color: #f71963;
 }
 
-.styledLinkContent--header__menu-categorias_iniciales_promo:hover {
+.styledLinkContent--header__menu--category_name-discount:hover {
     color: #dd1659;
     transition: color 0.5s ease;
 }

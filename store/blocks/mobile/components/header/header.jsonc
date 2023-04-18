@@ -1,10 +1,12 @@
 {
   "header-layout.mobile": {
+    "title": "Header Layout Sección Mobile",
     "children": [
       "sticky-layout#mobile"
     ]
   },
   "sticky-layout#mobile": {
+    "title": "Sticky Sección Mobile",
     "children": [
       "flex-layout.row#1-mobile",
       "flex-layout.row#mobile"
@@ -12,16 +14,18 @@
   },
 
   "flex-layout.row#1-mobile": {
+    "title": "Texto informativo envío gratis",
     "props": {
       "horizontalAlign": "rigth",
       "verticalAlign": "center"
     },
     "children": [
-      "rich-text#header__menu-envio-gratis"
+      "rich-text#desktop__header--free_shipping"
     ]
   },
 
   "flex-layout.row#mobile": {
+    "title": "Contenido vista mobile",
     "children": [
       "flex-layout.col#drawer",
       "logo",
@@ -38,6 +42,7 @@
   },
 
   "flex-layout.col#drawer": {
+    "title": "Contenedor drawer",
     "children": [
       "drawer#header__mobile--menu",
       "rich-text#drawer__texto--menu"
@@ -48,6 +53,7 @@
   },
 
   "rich-text#drawer__texto--menu": {
+    "title": "Texto Menu drawer",
     "props": {
       "text": "Menú",
       "blockClass": "drawer__texto-menu"
@@ -55,6 +61,7 @@
   },
 
   "drawer#header__mobile--menu": {
+    "title": "Drawer header",
     "props": {
       "blockClass": "drawer__menu-global"
     },
@@ -77,7 +84,7 @@
     ]
   },
 
-  //Imágenes menu
+  //Imágenes Menú
   "image#header__menu-prendas-mobile": {
     "title": "Imagen menu prendas",
     "props": {
@@ -102,7 +109,7 @@
     }
   },
 
-  //Seccion mujeres
+  //Sección Mujeres
   "menu-item#mujeres-mobile": {
     "title": "Sección mujeres",
     "props": {
@@ -134,12 +141,13 @@
     ]
   },
   "flex-layout.row#mujeres-mobile": {
+    "title": "Contenedor menu vertical mujeres",
     "children": [
       "flex-layout.col#menu-mujeres-mobile"
     ]
   },
   "flex-layout.col#menu-mujeres-mobile": {
-    "title": "Menu vertical categorias seccion mujeres ",
+    "title": "Menu vertical categorias mujeres ",
     "children": [
       "vtex.menu@2.x:menu#mujeres-mobile",
       "vtex.menu@2.x:menu#mujeres2-mobile"
@@ -147,7 +155,7 @@
   },
 
   "vtex.menu@2.x:menu#mujeres-mobile": {
-    "title": "Menu mujeres general",
+    "title": "Contenedor Menu mujeres general",
     "props": {
       "orientation": "vertical"
     },
@@ -321,12 +329,13 @@
     ]
   },
   "flex-layout.row#hombres-mobile": {
+    "title": "Contenedor menu vertical hombres",
     "children": [
       "flex-layout.col#menu-hombres-mobile"
     ]
   },
   "flex-layout.col#menu-hombres-mobile": {
-    "title": "Menu vertical categorias seccion hombres ",
+    "title": "Menu vertical categorias hombres ",
     "children": [
       "vtex.menu@2.x:menu#hombres-mobile"
     ]
@@ -369,6 +378,7 @@
   },
 
   "vtex.menu@2.x:submenu#teens-mobile": {
+    "title": "Submenu teens",
     "props": {
       "width": "100%"
     },
@@ -377,12 +387,13 @@
     ]
   },
   "flex-layout.row#teens-mobile": {
+    "title": "Contenedor menu vertical teens",
     "children": [
       "flex-layout.col#menu-teens-mobile"
     ]
   },
   "flex-layout.col#menu-teens-mobile": {
-    "title": "Menu vertical categorias seccion teens ",
+    "title": "Menu vertical categorias teens ",
     "children": [
       "vtex.menu@2.x:menu#teens-mobile"
     ]
@@ -425,6 +436,7 @@
   },
 
   "vtex.menu@2.x:submenu#niños-mobile": {
+    "title": "Submenu niños",
     "props": {
       "width": "100%"
     },
@@ -433,6 +445,7 @@
     ]
   },
   "flex-layout.row#niños-mobile": {
+    "title": "Contenedor menu vertical niños",
     "children": [
       "flex-layout.col#menu-niños-mobile"
     ]
