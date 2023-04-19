@@ -10,7 +10,7 @@
     ]
   },
   "flex-layout.row#desktop__header--free_shipping": {
-    "title": "Text container free shipping",
+    "title": "Text container free shipping desktop",
     "props": {
       "horizontalAlign": "rigth",
       "verticalAlign": "center"
@@ -53,9 +53,9 @@
     ]
   },
 
-  //Sección Menú
+  //Menu section
   "vtex.menu@2.x:menu#desktop__menu--category": {
-    "title": "Main section menu",
+    "title": "Main section menu desktop",
     "props": {
       "experimentalOptimizeRendering": true
     },
@@ -77,7 +77,7 @@
   },
 
   "image#header__menu--man": {
-    "title": "Men menu images.",
+    "title": "Men menu images",
     "props": {
       "src": "assets/img/header/header__menu--man.png",
       "blockClass": "header__menu--image"
@@ -292,7 +292,7 @@
   },
 
   "vtex.menu@2.x:submenu#desktop__submenu--men": {
-    "title": "Women submenu",
+    "title": "Men submenu",
     "props": {
       "width": "100%"
     },
@@ -335,7 +335,7 @@
     ]
   },
 
-  //Sección Teens
+  //Teens section
   "menu-item#desktop__menu--teens": {
     "title": "Teens section",
     "props": {
@@ -358,6 +358,7 @@
   },
 
   "vtex.menu@2.x:submenu#desktop__submenu--teens": {
+    "title": "Submenu teens",
     "props": {
       "width": "100%"
     },
@@ -400,7 +401,7 @@
     ]
   },
 
-  //Sección Niños
+  //Kids section
   "menu-item#desktop__menu--kids": {
     "title": "Kids section",
     "props": {
@@ -423,6 +424,7 @@
   },
 
   "vtex.menu@2.x:submenu#desktop__submenu--kids": {
+    "title": "Submenu kids",
     "props": {
       "width": "100%"
     },
@@ -479,7 +481,7 @@
     ]
   },
 
-  //Sección logo
+  //Logo section
   "logo": {
     "title": "Logo desktop",
     "props": {

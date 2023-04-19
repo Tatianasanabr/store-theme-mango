@@ -1,16 +1,16 @@
-.imageElement--header__menu-imagen_prendas {
+.imageElement--header__menu--clothing_image {
     max-width  : 22%;
     margin-left: 9rem;
 
 }
 
-.imageElement--header__menu-imagen_accesorios {
+.imageElement--header__menu--accessories_image {
     max-width  : 29%;
     margin-left: 7.5rem;
     height     : 4rem;
 }
 
-.imageElement--header__menu-imagen_tallas_plus {
+.imageElement--header__menu--plus_size_image {
     max-width  : 26%;
     margin-left: 8rem;
 }
