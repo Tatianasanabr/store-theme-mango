@@ -34,3 +34,26 @@
     color: #dd1659;
     transition: color 0.5s ease;
 }
+
+.submenuWrapper--desktop__subcategory--women--isOpen {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 29rem;
+    margin-right: 9rem;
+    width: 12rem;
+    height: 24rem;
+    margin-top: -25px;
+}
+
+.submenuWrapper--desktop__submenu--container--isOpen {
+    height: 27rem;
+    width: 100%;
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.submenu--desktop__subcategory--women {
+    position: fixed;
+    top: 100px;
+    left: 500px;
+}
