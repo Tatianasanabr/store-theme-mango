@@ -2,23 +2,23 @@
     display: flex;
 }
 
-.styledLinkContent--header__menu-categorias_mobile {
+.styledLinkContent--mobile__department--categories {
     font-weight   : bold;
     letter-spacing: .5px;
 }
 
-.styledLinkContent--header__menu-categorias_mobile-newnow {
+.styledLinkContent--mobile__departament--newnow {
     font-weight   : bold;
     letter-spacing: 1.5px;
     color         : white;
 }
 
-.styledLinkContent--header__menu-categorias_mobile-promocion {
+.styledLinkContent--mobile__department--discount {
     font-weight   : bold;
     letter-spacing: .5px;
 }
 
-.menuItem--header__menu-categorias_mobile {
+.menuItem--mobile__department--categories {
     display         : flex;
     align-items     : flex-end;
     border-radius   : .3rem;
@@ -27,7 +27,7 @@
     margin          : 2px 2px;
 }
 
-.menuItem--header__menu-categorias_mobile-newnow {
+.menuItem--mobile__departament--newnow {
     display            : flex;
     align-items        : flex-end;
     border-radius      : .3rem;
@@ -41,7 +41,7 @@
     background-size    : cover;
 }
 
-.menuItem--header__menu-categorias_mobile-promocion {
+.menuItem--mobile__department--discount {
     display         : flex;
     align-items     : flex-end;
     border-radius   : .3rem;
@@ -51,6 +51,6 @@
     height          : 70px;
 }
 
-.styledLinkContent--header__menu-nombre_categoria-mobile:hover {
+.styledLinkContent--mobile__header--category_name:hover {
     border-bottom: 1px solid black;
 }

@@ -1,0 +1,270 @@
+{
+  "vtex.menu@2.x:submenu#desktop__subcategory--women": {
+    "title": "Women subcategory",
+    "props": {
+      "width": "100%",
+      "blockClass": "desktop__subcategory--women"
+    },
+    "children": [
+      "flex-layout.col#desktop__subcategory--women"
+    ]
+  },
+  "flex-layout.col#desktop__subcategory--women": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+        "blockClass": "pruebita15"
+    },
+    "title": "Vertical women's subcategory container",
+    "children": [
+      "flex-layout.row#submenu__container-submenu--women"
+    ]
+  },
+  "flex-layout.row#submenu__container-submenu--women": {
+    "title": "Vertical menu container women",
+    "children": [
+      "vtex.menu@2.x:menu#desktop__department--women-subcategory"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#desktop__department--women-subcategory": {
+    "title": "Subcategory departments section women",
+    "props": {
+      "orientation": "vertical",
+      "experimentalOptimizeRendering": true,
+      "blockClass": "desktop__department--women-subcategory"
+    },
+    "children": [
+      "menu-item#desktop__subcategory--dresses",
+      "menu-item#desktop__subcategory--shirts",
+      "menu-item#desktop__subcategory--Tshirts",
+      "menu-item#desktop__subcategory--jackets",
+      "menu-item#desktop__subcategory--jersey",
+      "menu-item#desktop__subcategory--sweatshirts",
+      "menu-item#desktop__subcategory--coats",
+      "menu-item#desktop__subcategory--pants",
+      "menu-item#desktop__subcategory--jeans",
+      "menu-item#desktop__subcategory--skirts",
+      "menu-item#desktop__subcategory--shorts",
+      "menu-item#desktop__subcategory--bikini",
+      "menu-item#desktop__subcategory--sportswear",
+      "menu-item#desktop__subcategory--underwear"
+    ]
+  },
+
+  "menu-item#desktop__subcategory--dresses": {
+    "title": "Desktop dresses subcategory",
+    "props": {
+      "id": "menu-item-dresses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "header__menu--subcategory",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "dresses",
+        "text": "Vestidos y monos"
+      }
+    }
+  },
+  "menu-item#desktop__subcategory--shirts": {
+    "title": "Desktop shirts subcategory",
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "header__menu--subcategory",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "shirts",
+        "text": "Camisas"
+      }
+    }
+  },
+  "menu-item#desktop__subcategory--Tshirts": {
+    "title": "Desktop Tshirts subcategory",
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "header__menu--subcategory",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Tshirts",
+        "text": "Camisetas y tops"
+      }
+    }
+  },
+
+  "menu-item#desktop__subcategory--jackets": {
+    "title": "Desktop jackets subcategory",
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "header__menu--subcategory",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Jackets",
+        "text": "Chaquetas y americanas"
+      }
+    }
+  },
+
+  "menu-item#desktop__subcategory--jersey": {
+    "title": "Desktop jersey subcategory",
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "header__menu--subcategory",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Jersey",
+        "text": "Jerséis y cárdigans"
+      }
+    }
+  },
+
+  "menu-item#desktop__subcategory--sweatshirts": {
+    "title": "Desktop sweatshirts subcategory",
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "header__menu--subcategory",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "sweatshirts",
+        "text": "Sudaderas"
+      }
+    }
+  },
+  "menu-item#desktop__subcategory--coats": {
+    "title": "Desktop coats subcategory",
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "header__menu--subcategory",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "coats",
+        "text": "Abrigos"
+      }
+    }
+  },
+  "menu-item#desktop__subcategory--pants": {
+    "title": "Desktop pants subcategory",
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "header__menu--subcategory",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "pants",
+        "text": "Pantalones"
+      }
+    }
+  },
+  "menu-item#desktop__subcategory--jeans": {
+    "title": "Desktop jeans subcategory",
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "header__menu--subcategory",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "jeans",
+        "text": "Jeans"
+      }
+    }
+  },
+  "menu-item#desktop__subcategory--skirts": {
+    "title": "Desktop skirts subcategory",
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "header__menu--subcategory",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "skirts",
+        "text": "Faldas"
+      }
+    }
+  },
+  "menu-item#desktop__subcategory--shorts": {
+    "title": "Desktop shorts subcategory",
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "header__menu--subcategory",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Shorts",
+        "text": "Shorts"
+      }
+    }
+  },
+  "menu-item#desktop__subcategory--bikini": {
+    "title": "Desktop bikini subcategory",
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "header__menu--subcategory",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "bikini",
+        "text": "Bikinis y bañadores"
+      }
+    }
+  },
+  "menu-item#desktop__subcategory--sportswear": {
+    "title": "Desktop sportswear subcategory",
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "header__menu--subcategory",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Sportswear",
+        "text": "Ropa deportiva"
+      }
+    }
+  },
+  "menu-item#desktop__subcategory--underwear": {
+    "title": "Desktop underwear subcategory",
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "header__menu--subcategory",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Underwear.",
+        "text": "Ropa interior y lencería"
+      }
+    }
+  }
+}

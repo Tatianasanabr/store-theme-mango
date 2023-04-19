@@ -1,0 +1,11 @@
+{
+  "header-layout.desktop": {
+    "title": "Header Layout Sección escritorio",
+    "props": {
+      "blockClass": "desktop__header_layout"
+    },
+    "children": [
+      "sticky-layout#desktop"
+    ]
+  }
+}
