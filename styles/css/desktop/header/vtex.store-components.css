@@ -1,0 +1,15 @@
+.imageElement--header__menu--image {
+    cursor: pointer;
+}
+
+.imageElement--header__menu--image:hover {
+    transition-duration       : 0.5s;
+    transition-timing-function: ease;
+    transition-delay          : 0s;
+    opacity                   : .8;
+}
+
+.imageElement--header__menu--image {
+    margin-left: 10rem;
+}
+

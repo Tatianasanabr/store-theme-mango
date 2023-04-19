@@ -1,0 +1,352 @@
+{
+  "sticky-layout#desktop": {
+    "title": "Sticky header",
+    "props": {
+      "blockClass": "sticky-layout#desktop__header"
+    },
+    "children": [
+      "flex-layout.row#desktop__header--free_shipping",
+      "flex-layout.row#desktop__header--menu"
+    ]
+  },
+  "flex-layout.row#desktop__header--free_shipping": {
+    "title": "Text container free shipping desktop",
+    "props": {
+      "horizontalAlign": "rigth",
+      "verticalAlign": "center"
+    },
+    "children": [
+      "rich-text#desktop__header--free_shipping"
+    ]
+  },
+
+  //Free shipping section
+  "rich-text#desktop__header--free_shipping": {
+    "title": "Free shipping text",
+    "props": {
+      "text": "Envío gratis desde $250.000 - Devoluciones a 60 días",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "header__freeShipping--one"
+    }
+  },
+
+  "flex-layout.row#desktop__header--menu": {
+    "title": "Menu header section on desktop",
+    "props": {
+      "horizontalAlign": "rigth",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "flex-layout__desktop"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desktop__menu--category",
+      "flex-layout.col#spacer",
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "locale-switcher",
+      "login",
+      "minicart.v2"
+    ]
+  },
+
+  //Menu section
+  "vtex.menu@2.x:menu#desktop__menu--category": {
+    "title": "Main section menu desktop",
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "desktop__menu--category"
+    },
+    "children": [
+      "menu-item#desktop__menu--women",
+      "menu-item#desktop__menu--men",
+      "menu-item#desktop__menu--teens",
+      "menu-item#desktop__menu--kids"
+    ]
+  },
+
+  //Menu images
+  "image#header__menu--women": {
+    "title": "Women menu images",
+    "props": {
+      "src": "assets/img/header/header__menu--women.png",
+      "blockClass": "header__menu--image"
+    }
+  },
+
+  "image#header__menu--man": {
+    "title": "Men menu images",
+    "props": {
+      "src": "assets/img/header/header__menu--man.png",
+      "blockClass": "header__menu--image"
+    }
+  },
+
+  "image#header__menu--teen": {
+    "title": "Teen menu images",
+    "props": {
+      "src": "assets/img/header/header__menu--teen.png",
+      "blockClass": "header__menu--image"
+    }
+  },
+
+  "image#header__menu--kids": {
+    "title": "Kids menu image",
+    "props": {
+      "src": "assets/img/header/header__menu--kids.png",
+      "blockClass": "header__menu--image"
+    }
+  },
+
+  //Women section
+  "menu-item#desktop__menu--women": {
+    "title": "Women section",
+    "props": {
+      "id": "menu-item-women",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "header__menu--department_name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "women",
+        "text": "Mujeres"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desktop__submenu--women"
+    ]
+  },
+
+  //Men section
+  "menu-item#desktop__menu--men": {
+    "title": "Men section",
+    "props": {
+      "id": "menu-item-men",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "header__menu--department_name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "men",
+        "text": "Hombres"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desktop__submenu--men"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#desktop__submenu--men": {
+    "title": "Men submenu",
+    "props": {
+      "width": "100%",
+      "blockClass": "desktop__submenu--container"
+    },
+    "children": [
+      "flex-layout.row#desktop__submenu--men"
+    ]
+  },
+  "flex-layout.row#desktop__submenu--men": {
+    "title": "Vertical men's section container",
+    "children": [
+      "flex-layout.col#menu__container--men",
+      "flex-layout.col#menu__image--men"
+    ]
+  },
+  "flex-layout.col#menu__container--men": {
+    "title": "Vertical menu container men",
+    "children": [
+      "vtex.menu@2.x:menu#desktop__department--men"
+    ]
+  },
+  "flex-layout.col#menu__image--men": {
+    "title": "Container image section men",
+    "children": [
+      "image#header__menu--man"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#desktop__department--men": {
+    "title": "Menu departments section men",
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#desktop__category--clothing",
+      "menu-item#desktop__category--accessories",
+      "menu-item#desktop__category--plus_size",
+      "menu-item#desktop__category--discount",
+      "menu-item#desktop__category--collections",
+      "menu-item#desktop__category--exceptional"
+    ]
+  },
+
+  //Teens section
+  "menu-item#desktop__menu--teens": {
+    "title": "Teens section",
+    "props": {
+      "id": "menu-item-teens",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "header__menu--department_name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "teens",
+        "text": "Teen"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desktop__submenu--teens"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#desktop__submenu--teens": {
+    "title": "Submenu teens",
+    "props": {
+      "width": "100%",
+      "blockClass": "desktop__submenu--container"
+    },
+    "children": [
+      "flex-layout.row#desktop__submenu--teens"
+    ]
+  },
+  "flex-layout.row#desktop__submenu--teens": {
+    "title": "Vertical teens section container",
+    "children": [
+      "flex-layout.col#menu__container--teens",
+      "flex-layout.col#menu__image--teens"
+    ]
+  },
+  "flex-layout.col#menu__container--teens": {
+    "title": "Vertical menu container teens",
+    "children": [
+      "vtex.menu@2.x:menu#desktop__department--teens"
+    ]
+  },
+  "flex-layout.col#menu__image--teens": {
+    "title": "Container image section teens",
+    "children": [
+      "image#header__menu--teen"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#desktop__department--teens": {
+    "title": "Menu departments section teens",
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#desktop__category--clothing",
+      "menu-item#desktop__category--accessories",
+      "menu-item#desktop__category--plus_size",
+      "menu-item#desktop__category--discount",
+      "menu-item#desktop__category--collections",
+      "menu-item#desktop__category--exceptional"
+    ]
+  },
+
+  //Kids section
+  "menu-item#desktop__menu--kids": {
+    "title": "Kids section",
+    "props": {
+      "id": "menu-item-kids",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "header__menu--department_name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "kids",
+        "text": "Niños"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desktop__submenu--kids"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#desktop__submenu--kids": {
+    "title": "Submenu kids",
+    "props": {
+      "width": "100%",
+      "blockClass": "desktop__submenu--container"
+
+    },
+    "children": [
+      "flex-layout.row#desktop__submenu--kids"
+    ]
+  },
+  "flex-layout.row#desktop__submenu--kids": {
+    "title": "Vertical kids section container",
+    "children": [
+      "flex-layout.col#menu__container--kids",
+      "flex-layout.col#menu__image--kids"
+    ]
+  },
+  "flex-layout.col#menu__container--kids": {
+    "title": "Vertical menu container kids",
+    "children": [
+      "vtex.menu@2.x:menu#desktop__department--kids"
+    ]
+  },
+  "flex-layout.col#menu__image--kids": {
+    "title": "Container image section kids",
+    "children": [
+      "image#header__menu--kids"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#desktop__department--kids": {
+    "title": "Menu departments section kids",
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#desktop__category--clothing",
+      "menu-item#desktop__category--accessories",
+      "menu-item#desktop__category--plus_size",
+      "menu-item#desktop__category--discount",
+      "menu-item#desktop__category--collections",
+      "menu-item#desktop__category--exceptional"
+    ]
+  },
+
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo"
+    ]
+  },
+
+  //Logo section
+  "logo": {
+    "title": "Logo desktop",
+    "props": {
+      "href": "/",
+      "url": "assets/img/global/global__logo-mango.png",
+      "width": "197",
+      "blockClass": "header__logo-desktop"
+    }
+  }
+}

@@ -1,0 +1,474 @@
+{
+  "sticky-layout#mobile": {
+    "title": "Sticky Sección Mobile",
+    "children": [
+      "flex-layout.row#mobile__header--free_shipping",
+      "flex-layout.row#mobile__header--menu"
+    ]
+  },
+
+  "flex-layout.row#mobile__header--free_shipping": {
+    "title": "Text container free shipping mobile",
+    "props": {
+      "horizontalAlign": "rigth",
+      "verticalAlign": "center"
+    },
+    "children": [
+      "rich-text#desktop__header--free_shipping"
+    ]
+  },
+
+  "flex-layout.row#mobile__header--menu": {
+    "title": "Menu header section on mobile",
+    "children": [
+      "flex-layout.col#drawer",
+      "logo",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.col#drawer": {
+    "title": "Contenedor drawer",
+    "children": [
+      "drawer#header__mobile--menu",
+      "rich-text#drawer__texto--menu"
+    ],
+    "props": {
+      "blockClass": "header__middle"
+    }
+  },
+
+  "rich-text#drawer__texto--menu": {
+    "title": "Texto Menu drawer",
+    "props": {
+      "text": "Menú",
+      "blockClass": "drawer__texto-menu"
+    }
+  },
+
+  "drawer#header__mobile--menu": {
+    "title": "Drawer header",
+    "props": {
+      "blockClass": "drawer__menu-global"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#mobile__menu--category"
+    ]
+  },
+
+  //Sección Menú
+  "vtex.menu@2.x:menu#mobile__menu--category": {
+    "title": "Main section menu mobile",
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#mobile__menu--women",
+      "menu-item#mobile__menu--men",
+      "menu-item#mobile__menu--teens",
+      "menu-item#mobile__menu--kids"
+    ]
+  },
+
+  //Menu images
+  "image#mobile__menu--clothing": {
+    "title": "Clothing menu image",
+    "props": {
+      "src": "assets/img/header/header__mobile/header__submenu-prendas.png",
+      "blockClass": "header__menu--clothing_image"
+    }
+  },
+
+  "image#mobile__menu--accessories": {
+    "title": "Imagen menu accesorios",
+    "props": {
+      "src": "assets/img/header/header__mobile/header__submenu-accesorios.png",
+      "blockClass": "header__menu--accessories_image"
+    }
+  },
+
+  "image#mobile__menu--plus-size": {
+    "title": "Imagen menu tallas plus",
+    "props": {
+      "src": "assets/img/header/header__mobile/header__submenu-tallas-plus.png",
+      "blockClass": "header__menu--plus_size_image"
+    }
+  },
+
+  //Women section
+  "menu-item#mobile__menu--women": {
+    "title": "Women section",
+    "props": {
+      "id": "menu-item-mujeres",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "mobile__header--category_name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "mujeres",
+        "text": "Mujer"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#mobile__submenu--women"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#mobile__submenu--women": {
+    "title": "Women submenu",
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile__submenu--women"
+    ]
+  },
+  "flex-layout.row#mobile__submenu--women": {
+    "title": "Vertical women's section container",
+    "children": [
+      "flex-layout.col#mobile__container--women"
+    ]
+  },
+  "flex-layout.col#mobile__container--women": {
+    "title": "Vertical menu container women",
+    "children": [
+      "vtex.menu@2.x:menu#mobile__department--women",
+      "vtex.menu@2.x:menu#mobile__department--women2"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#mobile__department--women": {
+    "title": "Menu container women",
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#mobile__department--newnow",
+      "menu-item#mobile__department--clothing"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#mobile__department--women2": {
+    "title": "Menu mujeres general",
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#mobile__department--accessories",
+      "menu-item#mobile__department--plus_size",
+      "menu-item#mobile__department--discount"
+    ]
+  },
+
+  "menu-item#mobile__department--newnow": {
+    "title": "Sección New Now",
+    "props": {
+      "id": "menu-item-prendas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "mobile__departament--newnow",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "newnow",
+        "text": "New Now"
+      }
+    }
+  },
+
+  "menu-item#mobile__department--clothing": {
+    "title": "Sección Prendas",
+    "props": {
+      "id": "menu-item-prendas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "mobile__department--categories",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "prendas",
+        "text": "Prendas"
+      }
+    },
+    "children": [
+      "flex-layout.col#mobile__menu--clothing"
+    ]
+  },
+
+  "flex-layout.col#mobile__menu--clothing": {
+    "title": "Clothing image container",
+    "children": [
+      "image#mobile__menu--clothing"
+    ]
+  },
+
+  "menu-item#mobile__department--accessories": {
+    "title": "Accessories section",
+    "props": {
+      "id": "menu-item-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "mobile__department--categories",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "accessories",
+        "text": "Accesorios"
+      }
+    },
+    "children": [
+      "flex-layout.col#mobile__menu--accessories"
+    ]
+  },
+
+  "flex-layout.col#mobile__menu--accessories": {
+    "title": "Accessories image container",
+    "children": [
+      "image#mobile__menu--accessories"
+    ]
+  },
+
+  "menu-item#mobile__department--plus_size": {
+    "title": "Plus size section",
+    "props": {
+      "id": "menu-item-plus_size",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "mobile__department--categories",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "plus_size",
+        "text": "Tallas Plus"
+      }
+    },
+    "children": [
+      "flex-layout.col#mobile__menu--plus_size"
+    ]
+  },
+
+  "flex-layout.col#mobile__menu--plus_size": {
+    "title": "Plus size image container",
+    "children": [
+      "image#mobile__menu--plus-size"
+    ]
+  },
+
+  "menu-item#mobile__department--discount": {
+    "title": "Discount section",
+    "props": {
+      "id": "menu-item-promocion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass": "mobile__department--discount",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "discount",
+        "text": "Promoción"
+      }
+    }
+  },
+
+  //Men section
+  "menu-item#mobile__menu--men": {
+    "title": "Men section mobile",
+    "props": {
+      "id": "menu-item-hombres",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "mobile__header--category_name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "men",
+        "text": "Hombre"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#mobile__submenu--men"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#mobile__submenu--men": {
+    "title": "Men submenu mobile",
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile__submenu--men"
+    ]
+  },
+  "flex-layout.row#mobile__submenu--men": {
+    "title": "Vertical men's section container",
+    "children": [
+      "flex-layout.col#mobile__container--men"
+    ]
+  },
+  "flex-layout.col#mobile__container--men": {
+    "title": "Vertical menu container men",
+    "children": [
+      "vtex.menu@2.x:menu#mobile__department--men"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#mobile__department--men": {
+    "title": "Menu departments section men",
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#mobile__department--newnow",
+      "menu-item#mobile__department--clothing",
+      "menu-item#mobile__department--accessories",
+      "menu-item#mobile__department--plus_size",
+      "menu-item#mobile__department--discount"
+    ]
+  },
+
+  //Sección Teens
+  "menu-item#mobile__menu--teens": {
+    "title": "Teens section",
+    "props": {
+      "id": "menu-item-teens",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "mobile__header--category_name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "teens",
+        "text": "Teen"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#mobile__submenu--teens"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#mobile__submenu--teens": {
+    "title": "Submenu teens mobile",
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile__submenu--teens"
+    ]
+  },
+  "flex-layout.row#mobile__submenu--teens": {
+    "title": "Vertical teens section container",
+    "children": [
+      "flex-layout.col#menu__container--teens2"
+    ]
+  },
+
+  "flex-layout.col#menu__container--teens2": {
+    "title": "Vertical menu container teens",
+    "children": [
+      "vtex.menu@2.x:menu#mobile__department--teens"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#mobile__department--teens": {
+    "title": "Menu departments section teens",
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#mobile__department--newnow",
+      "menu-item#mobile__department--clothing",
+      "menu-item#mobile__department--accessories",
+      "menu-item#mobile__department--plus_size",
+      "menu-item#mobile__department--discount"
+    ]
+  },
+
+  //Kids section
+  "menu-item#mobile__menu--kids": {
+    "title": "Kids section",
+    "props": {
+      "id": "menu-item-niños",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "mobile__header--category_name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "kids",
+        "text": "Niños"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#mobile__submenu--kids"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#mobile__submenu--kids": {
+    "title": "Submenu kids mobile",
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile__submenu--kids"
+    ]
+  },
+  "flex-layout.row#mobile__submenu--kids": {
+    "title": "Vertical teens section container",
+    "children": [
+      "flex-layout.col#menu__container--kids2"
+    ]
+  },
+  "flex-layout.col#menu__container--kids2": {
+    "title": "Vertical menu container teens",
+    "children": [
+      "vtex.menu@2.x:menu#mobile__department--kids"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#mobile__department--kids": {
+    "title": "Menu departments section kids",
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#mobile__department--newnow",
+      "menu-item#mobile__department--clothing",
+      "menu-item#mobile__department--accessories",
+      "menu-item#mobile__department--plus_size",
+      "menu-item#mobile__department--discount"
+    ]
+  },
+
+  "login": {
+    "props": {
+      "showIconProfile": true
+    }
+  }
+}

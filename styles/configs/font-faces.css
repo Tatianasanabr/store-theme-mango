@@ -1,4 +1,9 @@
 @font-face{
+    font-family: "Urbanist";
+    src: url(assets/fonts/global/Urbanist-VariableFont_wght.ttf); 
+}
+
+@font-face{
     font-family: "Roboto-Bold";
     src: url(assets/fonts/Roboto-Bold.ttf); 
 }
@@ -11,6 +16,11 @@
 @font-face{
     font-family: "Roboto-Medium";
     src: url(assets/fonts/Roboto-Medium.ttf); 
+}
+
+@font-face{
+    font-family: "Roboto-Regular";
+    src: url(assets/fonts/Roboto-Regular.ttf); 
 }
 
 @font-face{

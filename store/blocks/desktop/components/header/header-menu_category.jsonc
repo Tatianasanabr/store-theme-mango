@@ -1,0 +1,172 @@
+{
+  "vtex.menu@2.x:submenu#desktop__submenu--women": {
+    "title": "Women submenu",
+    "props": {
+      "width": "100%",
+      "blockClass": "desktop__submenu--container"
+    },
+    "children": [
+      "flex-layout.row#desktop__submenu--women"
+    ]
+  },
+  "flex-layout.row#desktop__submenu--women": {
+    "title": "Vertical women's section container",
+    "props": {
+        "blockClass": "pruebita11"
+    },
+    "children": [
+      "flex-layout.col#menu__container--women",
+      "flex-layout.col#menu__image--women"
+    ]
+  },
+  "flex-layout.col#menu__container--women": {
+    "title": "Vertical menu container women",
+    "children": [
+      "vtex.menu@2.x:menu#desktop__department--women"
+    ]
+  },
+  "flex-layout.col#menu__image--women": {
+    "title": "Container image section women",
+    "children": [
+      "image#header__menu--women"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#desktop__department--women": {
+    "title": "Menu departments section women",
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#desktop__category--clothing",
+      "menu-item#desktop__category--accessories",
+      "menu-item#desktop__category--plus_size",
+      "menu-item#desktop__category--discount",
+      "menu-item#desktop__category--collections",
+      "menu-item#desktop__category--exceptional"
+    ]
+  },
+
+  "menu-item#desktop__category--clothing": {
+    "title": "Desktop clothing section",
+    "props": {
+      "id": "menu-item-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "header__menu--category_name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "clothing",
+        "text": "Prendas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desktop__subcategory--women"
+    ]
+  },
+
+  "menu-item#desktop__category--accessories": {
+    "title": "Desktop Accessories section",
+    "props": {
+      "id": "menu-item-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "header__menu--category_name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "accessories",
+        "text": "Accesorios"
+      }
+    },
+    "blocks": [
+        "vtex.menu@2.x:submenu#desktop__subcategory--women"
+      ]
+  },
+  "menu-item#desktop__category--plus_size": {
+    "title": "Desktop plus size section",
+    "props": {
+      "id": "menu-item-plus_size",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "header__menu--category_name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "plus_size",
+        "text": "Tallas Plus"
+      }
+    },
+    "blocks": [
+        "vtex.menu@2.x:submenu#desktop__subcategory--women"
+      ]
+  },
+  "menu-item#desktop__category--discount": {
+    "title": "Desktop discount section",
+    "props": {
+      "id": "menu-item-discount",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass": "header__menu--category_name-discount",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "discount",
+        "text": "Promoción"
+      }
+    },
+    "blocks": [
+        "vtex.menu@2.x:submenu#desktop__subcategory--women"
+      ]
+  },
+  "menu-item#desktop__category--collections": {
+    "title": "Desktop collection section",
+    "props": {
+      "id": "menu-item-collections",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "header__menu--category_name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "collections",
+        "text": "Colecciones"
+      }
+    },
+    "blocks": [
+        "vtex.menu@2.x:submenu#desktop__subcategory--women"
+      ]
+  },
+
+  "menu-item#desktop__category--exceptional": {
+    "title": "Desktop exceptional section",
+    "props": {
+      "id": "menu-item-exceptional",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "header__menu--category_name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "exceptional",
+        "text": "Destacados"
+      }
+    },
+    "blocks": [
+        "vtex.menu@2.x:submenu#desktop__subcategory--women"
+      ]
+  }
+}
