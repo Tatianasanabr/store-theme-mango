@@ -1,9 +1,13 @@
 {
   "sticky-layout#mobile": {
-    "title": "Sticky Sección Mobile",
+    "title": "Sticky sección Mobile",
+    "props": {
+      "blockClass": "mobile__sticky_layout"
+    },
     "children": [
       "flex-layout.row#mobile__header--free_shipping",
-      "flex-layout.row#mobile__header--menu"
+      "flex-layout.row#mobile__header--menu",
+      "search-bar#mobile__header--menu"
     ]
   },
 
@@ -11,27 +15,59 @@
     "title": "Text container free shipping mobile",
     "props": {
       "horizontalAlign": "rigth",
-      "verticalAlign": "center"
+      "verticalAlign": "center",
+      "blockClass": "mobile__header--free_shipping"
     },
     "children": [
-      "rich-text#desktop__header--free_shipping"
+      "rich-text#mobile--free_shipping"
     ]
+  },
+
+  //Mobile free shipping section
+  "rich-text#mobile--free_shipping": {
+    "title": "Free shipping text",
+    "props": {
+      "text": "Envío gratis desde $250.000 - Devoluciones a 60 días",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "mobile--free_shipping"
+    }
   },
 
   "flex-layout.row#mobile__header--menu": {
     "title": "Menu header section on mobile",
     "children": [
       "flex-layout.col#drawer",
-      "logo",
+      "logo#mobile__header--logo",
       "flex-layout.col#spacer",
       "login",
       "minicart.v2"
     ],
     "props": {
-      "blockClass": "main-header-mobile",
+      "blockClass": "mobile__header--menu",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
+    }
+  },
+
+  "minicart.v2":{
+    "props": {
+      "id": "hpa-cart",
+      "size": 100
+    }
+  },
+
+  //Searchbar section
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
+  },
+
+  "search-bar#mobile__header--menu": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "blockClass": "mobile__header--menu",
+      "openAutocompleteOnFocus": true
     }
   },
 
@@ -60,8 +96,14 @@
       "blockClass": "drawer__menu-global"
     },
     "children": [
-      "vtex.menu@2.x:menu#mobile__menu--category"
+      "vtex.menu@2.x:menu#mobile__menu--category",
+      "mega-menu#mobile_menu"
+
     ]
+  },
+
+  "mega-menu#mobile_menu": {
+  
   },
 
   //Sección Menú
@@ -469,6 +511,17 @@
   "login": {
     "props": {
       "showIconProfile": true
+    }
+  },
+
+  //Logo section 
+  "logo#mobile__header--logo": {
+    "title": "Logo mobile",
+    "props": {
+      "href": "/",
+      "url": "assets/img/global/global__logo-mango.png",
+      "width": "140",
+      "blockClass": "mobile__header--logo"
     }
   }
 }

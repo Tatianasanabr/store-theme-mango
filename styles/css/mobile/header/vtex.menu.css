@@ -54,3 +54,8 @@
 .styledLinkContent--mobile__header--category_name:hover {
     border-bottom: 1px solid black;
 }
+
+.container--mobile--free_shipping {
+    background-color: aqua;
+}
+

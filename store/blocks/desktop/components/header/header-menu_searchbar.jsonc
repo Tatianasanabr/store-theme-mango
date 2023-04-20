@@ -1,0 +1,57 @@
+//Desktop Searchbar section
+{
+    "flex-layout.row#desktop__searchbar--one": {
+        "children": [
+            "modal-trigger#desktop__searchbar--one"
+        ]
+      },
+       "modal-trigger#desktop__searchbar--one": {
+        "children": [
+          "rich-text#example",
+          "modal-layout#example"
+        ]
+      },
+      "rich-text#example": {
+        "props": {
+          "text": "Click me"
+        }
+      },
+      "modal-layout#example": {
+        "children": [
+          "rich-text#modal-content",
+          "search-bar#desktop--menu"
+
+        ]
+      },
+      "rich-text#modal-content": {
+        "props": {
+          "text": "Hello"
+        }
+      },
+
+
+
+
+    //since here
+  "autocomplete-result-list.v2": {
+    "props": {
+        "blockClass": "desktop__searchbar--autocomplete"
+    },
+    "blocks": [
+      "product-summary"
+    ]
+  },
+
+  "search-bar#desktop--menu": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "blockClass": "desktop--menu",
+      "openAutocompleteOnFocus": true,
+      "hasIconLeft": false,
+      "containerMode": "overlay",
+      "maxWidth": 200
+    }
+  }
+}
