@@ -1,0 +1,19 @@
+{
+    //Mobile Searchbar section
+  "flex-layout.row#mobile__searchbar--one": {
+    "children": [
+        "search-bar#mobile__header--menu"
+    ], 
+    "props": {
+        "blockClass": "pruebis"
+    }
+  },
+
+  "search-bar#mobile__header--menu": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "blockClass": "mobile__header--menu",
+      "openAutocompleteOnFocus": true
+    }
+  }
+} 

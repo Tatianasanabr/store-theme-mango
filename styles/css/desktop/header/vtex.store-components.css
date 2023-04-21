@@ -13,3 +13,15 @@
     margin-left: 10rem;
 }
 
+.autoCompleteOuterContainer--desktop__menu--searchbar {
+    border: none;
+}
+
+.autoCompleteOuterContainer {
+    border: none;
+}
+
+.searchBarIcon--desktop__menu--searchbar--search {
+    display: none;
+}
+
