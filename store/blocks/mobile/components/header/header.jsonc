@@ -7,7 +7,7 @@
     "children": [
       "flex-layout.row#mobile__header--free_shipping",
       "flex-layout.row#mobile__header--menu",
-      "search-bar#mobile__header--menu"
+      "flex-layout.row#mobile__searchbar--one"
     ]
   },
 
@@ -55,19 +55,6 @@
     "props": {
       "id": "hpa-cart",
       "size": 100
-    }
-  },
-
-  //Searchbar section
-  "autocomplete-result-list.v2": {
-    "blocks": ["product-summary"]
-  },
-
-  "search-bar#mobile__header--menu": {
-    "blocks": ["autocomplete-result-list.v2"],
-    "props": {
-      "blockClass": "mobile__header--menu",
-      "openAutocompleteOnFocus": true
     }
   },
 

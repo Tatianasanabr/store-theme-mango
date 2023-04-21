@@ -1,41 +1,74 @@
 //Desktop Searchbar section
 {
-    "flex-layout.row#desktop__searchbar--one": {
-        "children": [
-            "modal-trigger#desktop__searchbar--one"
-        ]
-      },
-       "modal-trigger#desktop__searchbar--one": {
-        "children": [
-          "rich-text#example",
-          "modal-layout#example"
-        ]
-      },
-      "rich-text#example": {
-        "props": {
-          "text": "Click me"
-        }
-      },
-      "modal-layout#example": {
-        "children": [
-          "rich-text#modal-content",
-          "search-bar#desktop--menu"
+  "flex-layout.row#desktop__searchbar--one": {
+    "children": [
+      "modal-trigger#desktop__searchbar--one"
+    ], 
+    "props": {
+        "blockClass": "desktop__searchbar--one"
+    }
+  },
 
-        ]
-      },
-      "rich-text#modal-content": {
-        "props": {
-          "text": "Hello"
-        }
-      },
+  "modal-content#desktop__searchbar--one": {
+    "children": [
+      "modal-header"
+    ],
+    "props": {
+        "blockClass": "desktop__searchbar--one"
+    }
+  },
 
+  "modal-header": {
+    "props": {
+      "showCloseButton": true,
+      "iconCloseSize": 32,
+      "blockClass": "desktop__searchbar--one"
 
+    }
+  },
 
+  "modal-trigger#desktop__searchbar--one": {
+    "children": [
+      "icon#home__searchbar--icon",
+      "rich-text#desktop__searchbar--one",
+      "modal-layout#example"
+    ],
+    "props": {
+        "blockClass": "desktop__searchbar--one"
+    }
+  },
 
-    //since here
+  "rich-text#desktop__searchbar--one": {
+    "props": {
+      "text": "Buscar",
+      "blockClass": "desktop__searchbar--one"
+    }
+  },
+
+  "icon#home__searchbar--icon": {
+    "props": {
+        "id": "hpa-search",
+        "size": 25,
+        "width": "15%",
+        "viewBox": "0 0 25 25",
+        "blockClass": "home__searchbar--icon"
+    }
+  },
+
+  "modal-layout#example": {
+    "children": [
+      "modal-content#desktop__searchbar--one",
+      "search-bar#desktop--menu"
+    ],
+    "props": {
+        "blockClass": "desktop__searchbar--one"
+    }
+  },
+
+  //since here
   "autocomplete-result-list.v2": {
     "props": {
-        "blockClass": "desktop__searchbar--autocomplete"
+      "blockClass": "desktop__searchbar--autocomplete"
     },
     "blocks": [
       "product-summary"
@@ -47,11 +80,12 @@
       "autocomplete-result-list.v2"
     ],
     "props": {
-      "blockClass": "desktop--menu",
+      "blockClass": "desktop__menu--searchbar",
       "openAutocompleteOnFocus": true,
-      "hasIconLeft": false,
+      "hasIconLeft": true,
       "containerMode": "overlay",
-      "maxWidth": 200
+      "maxWidth": 900
     }
   }
 }
+

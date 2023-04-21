@@ -47,8 +47,8 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
       "flex-layout.row#desktop__searchbar--one",
-      "locale-switcher",
       "login",
+      "locale-switcher",
       "minicart.v2"
     ]
   },
