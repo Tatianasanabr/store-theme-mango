@@ -12,7 +12,6 @@
   "flex-layout.row#desktop__submenu--women": {
     "title": "Vertical women's section container",
     "props": {
-        "blockClass": "pruebita11"
     },
     "children": [
       "flex-layout.col#menu__container--women",

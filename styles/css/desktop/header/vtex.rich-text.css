@@ -4,3 +4,9 @@
     font-weight: bold;
     padding: .4rem;
 }
+
+.paragraph--desktop__searchbar--one {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: .3px;
+}

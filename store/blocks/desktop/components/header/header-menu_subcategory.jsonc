@@ -12,8 +12,7 @@
   "flex-layout.col#desktop__subcategory--women": {
     "props": {
       "horizontalAlign": "left",
-      "verticalAlign": "center",
-        "blockClass": "pruebita15"
+      "verticalAlign": "center"
     },
     "title": "Vertical women's subcategory container",
     "children": [
