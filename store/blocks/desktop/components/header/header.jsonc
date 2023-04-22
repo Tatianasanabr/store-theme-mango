@@ -48,7 +48,7 @@
       "flex-layout.col#spacer",
       "flex-layout.row#desktop__searchbar--one",
       "flex-layout.col#desktop__menu--login",
-      "locale-switcher",
+      "flex-layout.col#desktop__menu--favorites",
       "minicart.v2"
     ]
   },

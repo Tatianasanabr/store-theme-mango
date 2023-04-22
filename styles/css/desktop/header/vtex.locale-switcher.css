@@ -1,0 +1,9 @@
+.buttonText {
+    display: none;
+}
+
+.globeIcon--desktop__menu--favorites {
+    width: 3rem;
+    height: 1.3rem;
+    margin-top: 5px;
+}

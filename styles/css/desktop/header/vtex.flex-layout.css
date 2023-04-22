@@ -4,7 +4,13 @@
 }
 
 .flexCol--desktop__menu--login {
-    flex: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexCol--desktop__menu--favorites {
+    display: flex;
     flex-direction: column;
     align-items: center;
 }

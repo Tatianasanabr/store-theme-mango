@@ -1,4 +1,3 @@
-
     //since here
    {
     "flex-layout.col#desktop__menu--login": {
@@ -17,10 +16,7 @@
           "blockClass": "desktop__menu--login",
           "showIconProfile": true,
           "hideIconLabel": true,
-          "isInitialScreenOptionOnly": false,
-          "login-content": {
-            "emailAndPasswordTitle": "Funcionaaaa"
-            }
+          "isInitialScreenOptionOnly": false
           }
         },
 
