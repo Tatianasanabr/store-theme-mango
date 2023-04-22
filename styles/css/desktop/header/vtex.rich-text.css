@@ -10,3 +10,10 @@
     font-weight: bold;
     letter-spacing: .3px;
 }
+
+.paragraph--desktop__login--info {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: .3px;
+    margin-top: -9px;
+}
