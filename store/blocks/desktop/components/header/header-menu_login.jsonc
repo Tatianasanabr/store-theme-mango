@@ -1,0 +1,34 @@
+
+    //since here
+   {
+    "flex-layout.col#desktop__menu--login": {
+        "children": [
+            "login#desktop__menu--login2",
+            "rich-text#desktop__login--info"
+        ],
+        "props": {
+            "blockClass": "desktop__menu--login"
+        }
+    },
+
+
+    "login#desktop__menu--login2": {
+        "props": {
+          "blockClass": "desktop__menu--login",
+          "showIconProfile": true,
+          "hideIconLabel": true,
+          "isInitialScreenOptionOnly": false,
+          "login-content": {
+            "emailAndPasswordTitle": "Funcionaaaa"
+            }
+          }
+        },
+
+      "rich-text#desktop__login--info": {
+        "props": {
+            "text": "Iniciar Sesión",
+            "blockClass": "desktop__login--info"
+        }
+      }
+   }
+  
