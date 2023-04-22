@@ -1,6 +1,6 @@
 .profileIcon--desktop__menu--login {
-    width: 5rem;
-    height: 1.3rem;
+    width     : 5rem;
+    height    : 1.3rem;
     margin-top: -10px;
 }
 
@@ -9,11 +9,10 @@
 }
 
 .formTitle::before {
-    content: "Iniciar Sesión";
+    content   : "Iniciar Sesión";
     visibility: visible;
 }
 
 .vtex-button__label {
     visibility: hidden;
 }
-

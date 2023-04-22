@@ -39,9 +39,11 @@
     "title": "Menu header section on mobile",
     "children": [
       "flex-layout.col#drawer",
-      "logo#mobile__header--logo",
       "flex-layout.col#spacer",
+      "logo#mobile__header--logo",
+      "flex-layout.col#mobile__searchbar",
       "login",
+      "locale-switcher#mobile__menu--favorites",
       "minicart.v2"
     ],
     "props": {
@@ -49,6 +51,31 @@
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
+    }
+  },
+
+  "locale-switcher#mobile__menu--favorites": {
+    "props": {
+      "blockClass": "mobile__menu--favorites  "
+    }
+  },
+
+  "flex-layout.col#mobile__searchbar": {
+    "children": [
+      "icon#mobile__searchbar--icon"
+    ],
+    "props": {
+      "blockClass": "mobile__searchbar--icon"
+    }
+  },
+
+  "icon#mobile__searchbar--icon": {
+    "props": {
+        "id": "hpa-search",
+        "size": 25,
+        "width": "15%",
+        "viewBox": "0 0 25 25",
+        "blockClass": "mobile__searchbar--icon"
     }
   },
 

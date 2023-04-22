@@ -1,5 +1,6 @@
 {
   "flex-layout.col#desktop__menu--favorites": {
+    "title": "Favorites section container",
     "children": [
       "locale-switcher#desktop__menu--favorites",
       "rich-text#desktop__favorites--icon"
@@ -9,11 +10,13 @@
     }
   },
   "locale-switcher#desktop__menu--favorites": {
+    "title": "Logo section favorites",
     "props": {
       "blockClass": "desktop__menu--favorites"
     }
   },
   "rich-text#desktop__favorites--icon": {
+    "title": "Informative text favorites section",
     "props": {
       "text": "Favoritos",
       "blockClass": "desktop__favorites--info"

@@ -49,7 +49,7 @@
       "flex-layout.row#desktop__searchbar--one",
       "flex-layout.col#desktop__menu--login",
       "flex-layout.col#desktop__menu--favorites",
-      "minicart.v2"
+      "flex-layout.col#desktop__menu--minicart"
     ]
   },
 
@@ -326,11 +326,13 @@
   },
 
   "flex-layout.col#spacer": {
+    "title": "Desktop spacer",
     "props": {
       "width": "grow"
     }
   },
   "flex-layout.col#logo-desktop": {
+    "title": "Logo container",
     "props": {
       "verticalAlign": "middle"
     },
