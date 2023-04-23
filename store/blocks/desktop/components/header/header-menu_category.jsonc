@@ -11,8 +11,7 @@
   },
   "flex-layout.row#desktop__submenu--women": {
     "title": "Vertical women's section container",
-    "props": {
-    },
+    "props": {},
     "children": [
       "flex-layout.col#menu__container--women",
       "flex-layout.col#menu__image--women"
@@ -84,8 +83,8 @@
       }
     },
     "blocks": [
-        "vtex.menu@2.x:submenu#desktop__subcategory--women"
-      ]
+      "vtex.menu@2.x:submenu#desktop__subcategory--women"
+    ]
   },
   "menu-item#desktop__category--plus_size": {
     "title": "Desktop plus size section",
@@ -104,8 +103,8 @@
       }
     },
     "blocks": [
-        "vtex.menu@2.x:submenu#desktop__subcategory--women"
-      ]
+      "vtex.menu@2.x:submenu#desktop__subcategory--women"
+    ]
   },
   "menu-item#desktop__category--discount": {
     "title": "Desktop discount section",
@@ -124,8 +123,8 @@
       }
     },
     "blocks": [
-        "vtex.menu@2.x:submenu#desktop__subcategory--women"
-      ]
+      "vtex.menu@2.x:submenu#desktop__subcategory--women"
+    ]
   },
   "menu-item#desktop__category--collections": {
     "title": "Desktop collection section",
@@ -144,8 +143,8 @@
       }
     },
     "blocks": [
-        "vtex.menu@2.x:submenu#desktop__subcategory--women"
-      ]
+      "vtex.menu@2.x:submenu#desktop__subcategory--women"
+    ]
   },
 
   "menu-item#desktop__category--exceptional": {
@@ -165,7 +164,7 @@
       }
     },
     "blocks": [
-        "vtex.menu@2.x:submenu#desktop__subcategory--women"
-      ]
+      "vtex.menu@2.x:submenu#desktop__subcategory--women"
+    ]
   }
 }

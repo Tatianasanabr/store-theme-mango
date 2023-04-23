@@ -10,11 +10,11 @@
     ]
   },
   "flex-layout.col#desktop__subcategory--women": {
+    "title": "Vertical women's subcategory container",
     "props": {
       "horizontalAlign": "left",
       "verticalAlign": "center"
     },
-    "title": "Vertical women's subcategory container",
     "children": [
       "flex-layout.row#submenu__container-submenu--women"
     ]

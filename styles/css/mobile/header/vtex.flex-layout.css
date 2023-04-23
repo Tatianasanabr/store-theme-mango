@@ -5,3 +5,11 @@
 .flexRow--mobile__header--menu {
     border-bottom: 1px solid #d7d7d8;
 }
+
+.mobile__searchbar--icon {
+    margin-top: 23px;
+}
+
+.flexColChild--mobile__searchbar--icon {
+    margin-top: 23px;
+}

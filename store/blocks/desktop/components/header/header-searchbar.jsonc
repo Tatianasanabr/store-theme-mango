@@ -1,44 +1,47 @@
-//Desktop Searchbar section
 {
   "flex-layout.row#desktop__searchbar--one": {
+    "title": "Container section search bar",
     "children": [
       "modal-trigger#desktop__searchbar--one"
-    ], 
+    ],
     "props": {
-        "blockClass": "desktop__searchbar--one"
+      "blockClass": "desktop__searchbar--one"
     }
   },
 
   "modal-content#desktop__searchbar--one": {
+    "title": "Container Modal section search bar",
     "children": [
       "modal-header"
     ],
     "props": {
-        "blockClass": "desktop__searchbar--one"
+      "blockClass": "desktop__searchbar--one"
     }
   },
 
   "modal-header": {
+    "title": "Modal header search bar",
     "props": {
       "showCloseButton": true,
       "iconCloseSize": 32,
       "blockClass": "desktop__searchbar--one"
-
     }
   },
 
   "modal-trigger#desktop__searchbar--one": {
+    "title": "Modal trigger search bar",
     "children": [
       "icon#home__searchbar--icon",
       "rich-text#desktop__searchbar--one",
       "modal-layout#example"
     ],
     "props": {
-        "blockClass": "desktop__searchbar--one"
+      "blockClass": "desktop__searchbar--one"
     }
   },
 
   "rich-text#desktop__searchbar--one": {
+    "title": "Informative text search bar section",
     "props": {
       "text": "Buscar",
       "blockClass": "desktop__searchbar--one"
@@ -46,27 +49,29 @@
   },
 
   "icon#home__searchbar--icon": {
+    "title": "Search bar icon ",
     "props": {
-        "id": "hpa-search",
-        "size": 25,
-        "width": "15%",
-        "viewBox": "0 0 25 25",
-        "blockClass": "home__searchbar--icon"
+      "id": "hpa-search",
+      "size": 25,
+      "width": "15%",
+      "viewBox": "0 0 25 25",
+      "blockClass": "home__searchbar--icon"
     }
   },
 
   "modal-layout#example": {
+    "title": "Open search bar modal",
     "children": [
       "modal-content#desktop__searchbar--one",
       "search-bar#desktop--menu"
     ],
     "props": {
-        "blockClass": "desktop__searchbar--one"
+      "blockClass": "desktop__searchbar--one"
     }
   },
 
-  //since here
   "autocomplete-result-list.v2": {
+    "title": "Autocomplete function",
     "props": {
       "blockClass": "desktop__searchbar--autocomplete"
     },
@@ -76,6 +81,7 @@
   },
 
   "search-bar#desktop--menu": {
+    "title": "Search bar container",
     "blocks": [
       "autocomplete-result-list.v2"
     ],
@@ -88,4 +94,3 @@
     }
   }
 }
-

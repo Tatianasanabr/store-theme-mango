@@ -1,0 +1,10 @@
+.cartIcon--desktop__menu--minicart {
+    margin-top: -38px;
+    width     : 32px;
+    height    : 25px;
+}
+
+.minicartQuantityBadge--desktop__menu--minicart {
+    margin-top  : -19px;
+    margin-right: -4px;
+}

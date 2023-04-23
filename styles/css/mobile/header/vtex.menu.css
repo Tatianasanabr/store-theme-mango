@@ -10,7 +10,7 @@
 .styledLinkContent--mobile__departament--newnow {
     font-weight   : bold;
     letter-spacing: 1.5px;
-    color         : white;
+    color         : #ffffff;
 }
 
 .styledLinkContent--mobile__department--discount {
@@ -52,10 +52,5 @@
 }
 
 .styledLinkContent--mobile__header--category_name:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #040100;
 }
-
-.container--mobile--free_shipping {
-    background-color: aqua;
-}
-
