@@ -12,29 +12,6 @@
     ]
   },
 
-  "flex-layout.row#mobile__header--free_shipping": {
-    "title": "Text container free shipping mobile",
-    "props": {
-      "horizontalAlign": "rigth",
-      "verticalAlign": "center",
-      "blockClass": "mobile__header--free_shipping"
-    },
-    "children": [
-      "rich-text#mobile--free_shipping"
-    ]
-  },
-
-  //Mobile free shipping section
-  "rich-text#mobile--free_shipping": {
-    "title": "Free shipping text",
-    "props": {
-      "text": "Envío gratis desde $250.000 - Devoluciones a 60 días",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": "mobile--free_shipping"
-    }
-  },
-
   "flex-layout.row#mobile__header--menu": {
     "title": "Menu header section on mobile",
     "children": [
@@ -57,32 +34,6 @@
   "locale-switcher#mobile__menu--favorites": {
     "props": {
       "blockClass": "mobile__menu--favorites  "
-    }
-  },
-
-  "flex-layout.col#mobile__searchbar": {
-    "children": [
-      "icon#mobile__searchbar--icon"
-    ],
-    "props": {
-      "blockClass": "mobile__searchbar--icon"
-    }
-  },
-
-  "icon#mobile__searchbar--icon": {
-    "props": {
-        "id": "hpa-search",
-        "size": 25,
-        "width": "15%",
-        "viewBox": "0 0 25 25",
-        "blockClass": "mobile__searchbar--icon"
-    }
-  },
-
-  "minicart.v2":{
-    "props": {
-      "id": "hpa-cart",
-      "size": 100
     }
   },
 
@@ -113,13 +64,10 @@
     "children": [
       "vtex.menu@2.x:menu#mobile__menu--category",
       "mega-menu#mobile_menu"
-
     ]
   },
 
-  "mega-menu#mobile_menu": {
-  
-  },
+  "mega-menu#mobile_menu": {},
 
   //Sección Menú
   "vtex.menu@2.x:menu#mobile__menu--category": {
@@ -521,16 +469,5 @@
       "menu-item#mobile__department--plus_size",
       "menu-item#mobile__department--discount"
     ]
-  },
-
-  //Logo section 
-  "logo#mobile__header--logo": {
-    "title": "Logo mobile",
-    "props": {
-      "href": "/",
-      "url": "assets/img/global/global__logo-mango.png",
-      "width": "140",
-      "blockClass": "mobile__header--logo"
-    }
   }
 }

@@ -1,0 +1,9 @@
+{
+  "login": {
+    "title": "Login icon",
+    "props": {
+      "showIconProfile": true,
+      "hideIconLabel": true
+    }
+  }
+}
