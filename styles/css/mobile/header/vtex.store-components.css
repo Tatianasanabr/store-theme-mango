@@ -21,9 +21,9 @@
     margin-right: 6rem;
 }
 
-@media (max-width: 425px) {
+/* @media (max-width: 425px) {
     .logoImage--mobile__header--logo {
-        max-width : 70%;
+        max-width : 51%;
         margin-top: 1rem;
     }
-}
+} */
