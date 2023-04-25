@@ -21,9 +21,6 @@
     margin-right: 6rem;
 }
 
-/* @media (max-width: 425px) {
-    .logoImage--mobile__header--logo {
-        max-width : 51%;
-        margin-top: 1rem;
-    }
-} */
+.searchBarContainer {
+    background-color: #ffffff;
+}
