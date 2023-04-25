@@ -1,19 +1,79 @@
 {
+  "responsive-layout.mobile#global__products--store": {
+    "title": "Responsive Mobile",
+    "children": ["flex-layout.row#home__section-1"]
+  },
+
   "flex-layout.row#home__section-1": {
     "title": "DESKTOP Row with text",
     "children": [
-      "rich-text#section-1"
+      "search-result-layout.customQuery#home__search"
     ]
   },
 
-  "rich-text#section-1": {
-    "title": "Text Favorites at desktop",
+  "search-result-layout.customQuery#home__search": {
     "props": {
-      "blockClass": "",
-      "text": "Favoritos en DESKTOP",
-      "font": "t-heading-2",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "querySchema": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home__search--desktop",
+      "search-result-layout.mobile#home__search--mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#home__search--desktop": {
+    "children": ["flex-layout.row#home__results"]
+  },
+  "search-result-layout.mobile#home__search--mobile": {
+    "children": ["flex-layout.row#home__results"]
+  },
+
+  "flex-layout.row#home__results": {
+    "children": [
+      "flex-layout.col#home__results--search",
+      "flex-layout.col#home__results--filter"
+    ]
+  },
+
+  "flex-layout.col#home__results--filter": {
+    "props": {
+      "width": "10%"
+    }
+  },
+
+
+  "flex-layout.col#home__results--search": {
+    "children": [
+      "search-content#home__results--search"
+    ]
+  },
+
+  "search-content#home__results--search": {
+    "blocks": ["gallery", "not-found"]
+  },
+
+  "gallery": {
+    "blocks": ["product-summary.shelf"]
+  },
+
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
+  },
+
+
+  "rich-text#test": {
+    "props": {
+      "text": "This is a probe test"
     }
   }
 }

@@ -2,16 +2,9 @@
   "flex-layout.col#desktop__menu--minicart": {
     "title": "Bag section container",
     "children": [
-      "minicart.v2#desktop__menu--minicart",
+      "minicart.v2#global__section--minicart",
       "rich-text#desktop__minicart--icon"
     ],
-    "props": {
-      "blockClass": "desktop__menu--minicart"
-    }
-  },
-
-  "minicart.v2#desktop__menu--minicart": {
-    "title": "Bag section logo",
     "props": {
       "blockClass": "desktop__menu--minicart"
     }

@@ -1,0 +1,114 @@
+{
+    "footer": {
+        "title": "Footer",
+        "blocks": ["footer-layout.desktop"]
+    },
+    "footer-layout.desktop": {
+        "children": [
+            "disclosure-layout-group#desktop__footer--menu"
+        ]
+    },
+   
+    "disclosure-layout-group#desktop__footer--menu": {
+        "children": [
+            "disclosure-layout#desktop__policies",
+            "disclosure-layout#desktop__about-us"
+            /* "disclosure-layout#departments" */
+        ]
+    },
+    "disclosure-layout#desktop__policies": {
+        "children": ["disclosure-trigger#desktop__policies", "disclosure-content#desktop__policies"]
+    },
+    "disclosure-trigger#desktop__policies": {
+        "children": ["rich-text#desktop__policies"]
+    },
+    "rich-text#desktop__policies": {
+        "props": {
+            "text": "Políticas de la tienda desktop"
+        }
+    },
+    "disclosure-content#desktop__policies": {
+        "children": ["menu#desktop__policies"]
+    },
+    "menu#desktop__policies": {
+        "children": [
+            "menu-item#desktop__terms-and-conds",
+            "menu-item#desktop__privacy-policies"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#desktop__terms-and-conds": {
+        "props": {
+            "id": "menu-terms-and-conds",
+            "type": "custom",
+            "text": "Términos y condiciones",
+            "itemsProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Terminos y condiciones"
+            }
+        }
+    },
+    "menu-item#desktop__privacy-policies": {
+        "props": {
+            "id": "menu-privacy-policies",
+            "type": "custom",
+            "text": "Políticas de privacidad",
+            "itemsProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Políticas de privacidad"
+            }
+        }
+    },
+
+    "disclosure-layout#desktop__about-us": {
+        "children": ["disclosure-trigger#desktop__about-us", "disclosure-content#desktop__about-us"]
+    },
+    "disclosure-trigger#desktop__about-us": {
+        "children": ["rich-text#desktop__about-us"]
+    },
+    "rich-text#desktop__about-us": {
+        "props": {
+            "text": "Políticas de la tienda"
+        }
+    },
+    "disclosure-content#desktop__about-us": {
+        "children": ["menu#desktop__about-us"]
+    },
+    "menu#desktop__about-us": {
+        "children": [
+            "menu-item#desktop__about-us",
+            "menu-item#desktop__our-shops"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#desktop__about-us": {
+        "props": {
+            "id": "menu-terms-and-conds",
+            "type": "custom",
+            "text": "Términos y condiciones",
+            "itemsProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Acerca de Nosotros"
+            }
+        }
+    },
+    "menu-item#desktop__our-shops": {
+        "props": {
+            "id": "menu-privacy-policies",
+            "type": "custom",
+            "text": "Nuestras tiendas",
+            "itemsProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Nuestras tiendas"
+            }
+        }
+    }
+}

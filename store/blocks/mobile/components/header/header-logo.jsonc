@@ -1,0 +1,12 @@
+{
+  //Logo section
+  "logo#mobile__header--logo": {
+    "title": "Logo mobile",
+    "props": {
+      "href": "/",
+      "url": "assets/img/global/global__logo-mango.png",
+      "width": "140",
+      "blockClass": "mobile__header--logo"
+    }
+  }
+}

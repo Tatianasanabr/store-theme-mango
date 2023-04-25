@@ -1,0 +1,8 @@
+{
+  "minicart.v2#mobile__menu--minicart": {
+    "props": {
+      "id": "hpa-cart",
+      "size": 100
+    }
+  }
+}
