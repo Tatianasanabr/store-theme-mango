@@ -1,0 +1,20 @@
+{
+  "flex-layout.col#desktop__menu--minicart": {
+    "title": "Bag section container",
+    "children": [
+      "minicart.v2#global__section--minicart",
+      "rich-text#desktop__minicart--icon"
+    ],
+    "props": {
+      "blockClass": "desktop__menu--minicart"
+    }
+  },
+
+  "rich-text#desktop__minicart--icon": {
+    "title": "Informative text bag section",
+    "props": {
+      "text": "Bolsa",
+      "blockClass": "desktop__minicart--info"
+    }
+  }
+}

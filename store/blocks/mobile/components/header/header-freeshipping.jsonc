@@ -1,0 +1,24 @@
+{
+  "flex-layout.row#mobile__header--free_shipping": {
+    "title": "Text container free shipping mobile",
+    "props": {
+      "horizontalAlign": "rigth",
+      "verticalAlign": "center",
+      "blockClass": "mobile__header--free_shipping"
+    },
+    "children": [
+      "rich-text#mobile--free_shipping"
+    ]
+  },
+
+  //Mobile free shipping section
+  "rich-text#mobile--free_shipping": {
+    "title": "Free shipping text",
+    "props": {
+      "text": "Envío gratis desde $250.000 - Devoluciones a 60 días",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "mobile--free_shipping"
+    }
+  }
+}

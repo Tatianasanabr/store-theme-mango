@@ -47,9 +47,9 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
       "flex-layout.row#desktop__searchbar--one",
-      "login",
-      "locale-switcher",
-      "minicart.v2"
+      "flex-layout.col#desktop__menu--login",
+      "flex-layout.col#desktop__menu--favorites",
+      "flex-layout.col#desktop__menu--minicart"
     ]
   },
 
@@ -326,11 +326,13 @@
   },
 
   "flex-layout.col#spacer": {
+    "title": "Desktop spacer",
     "props": {
       "width": "grow"
     }
   },
   "flex-layout.col#logo-desktop": {
+    "title": "Logo container",
     "props": {
       "verticalAlign": "middle"
     },

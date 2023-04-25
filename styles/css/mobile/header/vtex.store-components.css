@@ -16,6 +16,11 @@
 }
 
 .logoImage--mobile__header--logo {
-    max-width: 70%;
-    margin-top: 1rem;
+    max-width   : 70%;
+    margin-top  : 1rem;
+    margin-right: 6rem;
+}
+
+.searchBarContainer {
+    background-color: #ffffff;
 }

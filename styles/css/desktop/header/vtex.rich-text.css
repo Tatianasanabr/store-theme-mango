@@ -1,12 +1,37 @@
 .paragraph--header__freeShipping--one {
     font-family: "Urbanist";
-    font-size: 12px;
+    font-size  : 12px;
     font-weight: bold;
-    padding: .4rem;
+    padding    : .4rem;
 }
 
 .paragraph--desktop__searchbar--one {
-    font-size: 13px;
-    font-weight: bold;
+    font-size     : 13px;
+    font-weight   : bold;
     letter-spacing: .3px;
+}
+
+.paragraph--desktop__login--info {
+    font-size     : 13px;
+    font-weight   : bold;
+    letter-spacing: .3px;
+    margin-top    : -9px;
+}
+
+.paragraph--desktop__favorites--info {
+    font-size     : 13px;
+    font-weight   : bold;
+    letter-spacing: .3px;
+    margin-top    : -1px;
+}
+
+.paragraph--desktop__minicart--info {
+    font-size     : 13px;
+    font-weight   : bold;
+    letter-spacing: .3px;
+    margin-top    : -30px;
+}
+
+.container--header__freeShipping--one {
+    background-color: #ffffff;
 }
