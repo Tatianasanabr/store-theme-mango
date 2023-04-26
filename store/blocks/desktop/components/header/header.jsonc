@@ -27,7 +27,8 @@
       "text": "Envío gratis desde $250.000 - Devoluciones a 60 días",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": "header__freeShipping--one"
+      "blockClass": "header__freeShipping--one",
+      "font": "heading-6"
     }
   },
 
@@ -115,7 +116,7 @@
         "href": "#",
         "noFollow": true,
         "tagTitle": "women",
-        "text": "Mujeres"
+        "text": "Mujer"
       }
     },
     "blocks": [
@@ -137,7 +138,7 @@
         "href": "#",
         "noFollow": true,
         "tagTitle": "men",
-        "text": "Hombres"
+        "text": "Hombre"
       }
     },
     "blocks": [
@@ -181,12 +182,18 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#desktop__category--clothing",
+      "flex-layout.row#desktop__category--clothing",
+      "flex-layout.row#desktop__category--accessories",
+      "flex-layout.row#desktop__category--plus_size",
+      "flex-layout.row#desktop__category--discount",
+      "flex-layout.row#desktop__category--collections",
+      "flex-layout.row#desktop__category--exceptional"
+      /*"menu-item#desktop__category--clothing",
       "menu-item#desktop__category--accessories",
       "menu-item#desktop__category--plus_size",
       "menu-item#desktop__category--discount",
       "menu-item#desktop__category--collections",
-      "menu-item#desktop__category--exceptional"
+      "menu-item#desktop__category--exceptional"*/
     ]
   },
 
@@ -248,12 +255,18 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#desktop__category--clothing",
+      "flex-layout.row#desktop__category--clothing",
+      "flex-layout.row#desktop__category--accessories",
+      "flex-layout.row#desktop__category--plus_size",
+      "flex-layout.row#desktop__category--discount",
+      "flex-layout.row#desktop__category--collections",
+      "flex-layout.row#desktop__category--exceptional"
+      /*"menu-item#desktop__category--clothing",
       "menu-item#desktop__category--accessories",
       "menu-item#desktop__category--plus_size",
       "menu-item#desktop__category--discount",
       "menu-item#desktop__category--collections",
-      "menu-item#desktop__category--exceptional"
+      "menu-item#desktop__category--exceptional"*/
     ]
   },
 
@@ -316,12 +329,18 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#desktop__category--clothing",
+      "flex-layout.row#desktop__category--clothing",
+      "flex-layout.row#desktop__category--accessories",
+      "flex-layout.row#desktop__category--plus_size",
+      "flex-layout.row#desktop__category--discount",
+      "flex-layout.row#desktop__category--collections",
+      "flex-layout.row#desktop__category--exceptional"
+      /*"menu-item#desktop__category--clothing",
       "menu-item#desktop__category--accessories",
       "menu-item#desktop__category--plus_size",
       "menu-item#desktop__category--discount",
       "menu-item#desktop__category--collections",
-      "menu-item#desktop__category--exceptional"
+      "menu-item#desktop__category--exceptional"*/
     ]
   },
 

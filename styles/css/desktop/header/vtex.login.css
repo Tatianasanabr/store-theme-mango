@@ -2,17 +2,29 @@
     width     : 5rem;
     height    : 1.3rem;
     margin-top: -10px;
+    background-color: transparent;
+
 }
 
 .formTitle {
     visibility: hidden;
+    background-color: transparent;
+
 }
 
 .formTitle::before {
     content   : "Iniciar Sesión";
     visibility: visible;
+    background-color: transparent;
+
 }
 
 .vtex-button__label {
     visibility: hidden;
+    background-color: transparent;
+
+}
+
+.container {
+    background-color: transparent;
 }

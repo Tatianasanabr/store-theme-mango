@@ -37,12 +37,49 @@
     },
     "children": [
       "menu-item#desktop__category--clothing",
+      "flex-layout.row#desktop__category--accessories",
+      "flex-layout.row#desktop__category--plus_size",
+      "flex-layout.row#desktop__category--discount",
+      "flex-layout.row#desktop__category--collections",
+      "flex-layout.row#desktop__category--exceptional"
+      /* "menu-item#desktop__category--clothing",
       "menu-item#desktop__category--accessories",
       "menu-item#desktop__category--plus_size",
       "menu-item#desktop__category--discount",
       "menu-item#desktop__category--collections",
-      "menu-item#desktop__category--exceptional"
+      "menu-item#desktop__category--exceptional"*/
     ]
+  },
+
+  "flex-layout.row#desktop__category--clothing": {
+    "title": "Flex layout category container",
+    "props": {
+      "blockClass": "desktop__category--clothing"
+    },
+    "children": [
+      "flex-layout.row#menu__category--clothing"
+    ]
+  },
+
+  "flex-layout.row#menu__category--clothing": {
+    "title": "Flex layout menu category container",
+    "props": {
+      "blockClass": "menu__category--clothing"
+    },
+    "children": [
+      "menu-item#desktop__category--clothing"
+    ]
+  },
+
+  "icon#home__category--icon": {
+    "title": "Arrow categories icon",
+    "props": {
+      "id": "hpa-arrow",
+      "size": 25,
+      "width": "15%",
+      "viewBox": "0 0 25 25",
+      "blockClass": "home__categories--icon"
+    }
   },
 
   "menu-item#desktop__category--clothing": {
@@ -61,8 +98,23 @@
         "text": "Prendas"
       }
     },
+    /* "children": ["icon#home__category--icon"], */
     "blocks": [
       "vtex.menu@2.x:submenu#desktop__subcategory--women"
+    ]
+  },
+
+  "flex-layout.row#desktop__category--accessories": {
+    "title": "Flex layout category container",
+    "children": [
+      "flex-layout.row#menu__category--accessories"
+    ]
+  },
+
+  "flex-layout.row#menu__category--accessories": {
+    "title": "Flex layout menu category container",
+    "children": [
+      "menu-item#desktop__category--accessories"
     ]
   },
 
@@ -82,8 +134,23 @@
         "text": "Accesorios"
       }
     },
+    "children": ["icon#home__category--icon"],
     "blocks": [
       "vtex.menu@2.x:submenu#desktop__subcategory--women"
+    ]
+  },
+
+  "flex-layout.row#desktop__category--plus_size": {
+    "title": "Flex layout category container",
+    "children": [
+      "flex-layout.row#menu__category--plus_size"
+    ]
+  },
+
+  "flex-layout.row#menu__category--plus_size": {
+    "title": "Flex layout menu category container",
+    "children": [
+      "menu-item#desktop__category--plus_size"
     ]
   },
   "menu-item#desktop__category--plus_size": {
@@ -102,8 +169,23 @@
         "text": "Tallas Plus"
       }
     },
+    "children": ["icon#home__category--icon"],
     "blocks": [
       "vtex.menu@2.x:submenu#desktop__subcategory--women"
+    ]
+  },
+
+  "flex-layout.row#desktop__category--discount": {
+    "title": "Flex layout category container",
+    "children": [
+      "flex-layout.row#menu__category--discount"
+    ]
+  },
+
+  "flex-layout.row#menu__category--discount": {
+    "title": "Flex layout menu category container",
+    "children": [
+      "menu-item#desktop__category--discount"
     ]
   },
   "menu-item#desktop__category--discount": {
@@ -122,8 +204,23 @@
         "text": "Promoción"
       }
     },
+    "children": ["icon#home__category--icon"],
     "blocks": [
       "vtex.menu@2.x:submenu#desktop__subcategory--women"
+    ]
+  },
+
+  "flex-layout.row#desktop__category--collections": {
+    "title": "Flex layout category container",
+    "children": [
+      "flex-layout.row#menu__category--collections"
+    ]
+  },
+
+  "flex-layout.row#menu__category--collections": {
+    "title": "Flex layout menu category container",
+    "children": [
+      "menu-item#desktop__category--collections"
     ]
   },
   "menu-item#desktop__category--collections": {
@@ -142,8 +239,23 @@
         "text": "Colecciones"
       }
     },
+    "children": ["icon#home__category--icon"],
     "blocks": [
       "vtex.menu@2.x:submenu#desktop__subcategory--women"
+    ]
+  },
+
+  "flex-layout.row#desktop__category--exceptional": {
+    "title": "Flex layout category container",
+    "children": [
+      "flex-layout.row#menu__category--exceptional"
+    ]
+  },
+
+  "flex-layout.row#menu__category--exceptional": {
+    "title": "Flex layout menu category container",
+    "children": [
+      "menu-item#desktop__category--exceptional"
     ]
   },
 
@@ -163,6 +275,7 @@
         "text": "Destacados"
       }
     },
+    "children": ["icon#home__category--icon"],
     "blocks": [
       "vtex.menu@2.x:submenu#desktop__subcategory--women"
     ]

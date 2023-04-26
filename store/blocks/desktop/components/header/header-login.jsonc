@@ -23,7 +23,7 @@
   "rich-text#desktop__login--info": {
     "title": "Informative text login section",
     "props": {
-      "text": "Iniciar Sesión",
+      "text": "Iniciar sesión",
       "blockClass": "desktop__login--info"
     }
   }

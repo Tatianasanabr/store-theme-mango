@@ -14,7 +14,7 @@
 }
 
 .closeButton--desktop__searchbar--one {
-    margin: 5px 2px;
+    margin: -11px 2px;
 }
 
 .container--desktop__searchbar--one {
@@ -25,7 +25,8 @@
     display       : flex;
     flex-direction: row-reverse;
     margin-left   : 0;
-    margin-right  : 15rem;
+    margin-right  : 17rem;
+    height: 3.7rem;
 }
 
 .backdrop--desktop__searchbar--one {

@@ -1,0 +1,16 @@
+{
+  "info-card#mobile__home-info": {
+    "title": "InfoCard mobile home",
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/img/global/global__home--infocard.png",
+      "headline": "Spring Hints",
+      "callToActionText": "Descubre más",
+      "callToActionUrl": "#",
+      "blockClass": "mobile__home-info",
+      "textAlignment": "CENTER"
+    }
+  }
+}

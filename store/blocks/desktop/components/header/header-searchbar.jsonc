@@ -23,8 +23,17 @@
     "title": "Modal header search bar",
     "props": {
       "showCloseButton": true,
+      "text": "cerrar",
       "iconCloseSize": 32,
       "blockClass": "desktop__searchbar--one"
+    },
+    "children": ["rich-text#desktop__close"]
+  },
+
+  "rich-text#desktop__close": {
+    "props": {
+      "text": "Cancelar",
+      "blockClass": "desktop__close--info"
     }
   },
 

@@ -5,13 +5,14 @@
   },
 
   "flex-layout.row#home__section-1": {
-    "title": "DESKTOP Row with text",
+    "title": "Desktop Row with text",
     "children": [
       "search-result-layout.customQuery#home__search"
     ]
   },
 
   "search-result-layout.customQuery#home__search": {
+    "title": "Custom Query",
     "props": {
       "querySchema": {
         "skusFilter": "ALL",
@@ -19,19 +20,22 @@
       }
     },
     "blocks": [
-      "search-result-layout.desktop#home__search--desktop",
-      "search-result-layout.mobile#home__search--mobile",
+      "search-result-layout.desktop#desktop__home--search",
+      "search-result-layout.mobile#mobile__home--search",
       "search-not-found-layout"
     ]
   },
-  "search-result-layout.desktop#home__search--desktop": {
+  "search-result-layout.desktop#desktop__home--search": {
+    "title": "Desktop search",
     "children": ["flex-layout.row#home__results"]
   },
-  "search-result-layout.mobile#home__search--mobile": {
+  "search-result-layout.mobile#mobile__home--search": {
+    "title": "Mobile search",
     "children": ["flex-layout.row#home__results"]
   },
 
   "flex-layout.row#home__results": {
+    "title": "Results container",
     "children": [
       "flex-layout.col#home__results--search",
       "flex-layout.col#home__results--filter"
@@ -39,6 +43,7 @@
   },
 
   "flex-layout.col#home__results--filter": {
+    "title": "Filter results",
     "props": {
       "width": "10%"
     }
@@ -46,20 +51,24 @@
 
 
   "flex-layout.col#home__results--search": {
+    "title": "Result search container",
     "children": [
       "search-content#home__results--search"
     ]
   },
 
   "search-content#home__results--search": {
+    "title": "Search container",
     "blocks": ["gallery", "not-found"]
   },
 
   "gallery": {
+    "title": "Search gallery",
     "blocks": ["product-summary.shelf"]
   },
 
   "product-summary.shelf": {
+    "title": "Product Summary",
     "children": [
       "product-summary-image",
       "product-summary-name",
@@ -68,12 +77,5 @@
       "product-summary-price",
       "add-to-cart-button"
     ]
-  },
-
-
-  "rich-text#test": {
-    "props": {
-      "text": "This is a probe test"
-    }
   }
 }
