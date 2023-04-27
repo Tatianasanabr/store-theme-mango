@@ -62,12 +62,12 @@
       "blockClass": "drawer__menu-global"
     },
     "children": [
-      "vtex.menu@2.x:menu#mobile__menu--category",
-      "mega-menu#mobile_menu"
+      "vtex.menu@2.x:menu#mobile__menu--category"
+      /* "mega-menu#mobile_menu" */
     ]
   },
 
-  "mega-menu#mobile_menu": {},
+  /* "mega-menu#mobile_menu": {}, */
 
   //Sección Menú
   "vtex.menu@2.x:menu#mobile__menu--category": {

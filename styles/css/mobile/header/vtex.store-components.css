@@ -21,6 +21,26 @@
     margin-right: 6rem;
 }
 
-.searchBarContainer {
-    background-color: #ffffff;
+.autoCompleteOuterContainer--mobile__header--menu {
+    background-color: #f3f3f3;
+
+}
+
+.autoCompleteOuterContainer--mobile__header--menu :first-child {
+    border: none;
+    background-color: #f3f3f3;
+}
+
+.autoCompleteOuterContainer--mobile__header--menu :nth-child(2n) {
+    background-color: #f3f3f3;
+}
+
+.autoCompleteOuterContainer--mobile__header--menu :nth-child(1n) {
+    background-color: #f3f3f3;
+}
+
+.searchBarIcon--mobile__header--menu--search :first-child {
+    display: none;
+    /* margin-right: 31rem;
+    margin-left: -10rem; */
 }

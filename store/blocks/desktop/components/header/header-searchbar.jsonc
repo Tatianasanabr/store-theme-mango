@@ -90,7 +90,7 @@
   },
 
   "search-bar#desktop--menu": {
-    "title": "Search bar container",
+    "title": "Desktop search bar icon",
     "blocks": [
       "autocomplete-result-list.v2"
     ],

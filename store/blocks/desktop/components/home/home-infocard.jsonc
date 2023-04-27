@@ -1,15 +1,15 @@
 {
-  "info-card#mobile__home--info_card": {
+  "info-card#desktop__home--info_card": {
     "title": "InfoCard desktop home",
     "props": {
-      "id": "mobile-home-info_card",
+      "id": "desktop-home-info_card",
       "isFullModeStyle": true,
       "textPosition": "center",
       "imageUrl": "assets/img/global/global__home--infocard.png",
       "headline": "Soft touch",
       "callToActionText": "Descubre más",
       "callToActionUrl": "#",
-      "blockClass": "mobile__home--info_card",
+      "blockClass": "desktop__home--info_card",
       "textAlignment": "CENTER"
     }
   }
