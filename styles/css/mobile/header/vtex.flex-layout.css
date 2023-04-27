@@ -1,13 +1,13 @@
 .flexRow--mobile__header--free_shipping {
-    border-bottom: 1px solid #d7d7d8;
+    border-bottom   : 1px solid #d7d7d8;
     background-color: #ffffff;
-    margin-top: 0;
+    margin-top      : 0;
 }
 
 .flexRow--mobile__header--menu {
-    border-bottom: 1px solid #d7d7d8;
+    border-bottom   : 1px solid #d7d7d8;
     background-color: #ffffff;
-    display: flex;
+    display         : flex;
 }
 
 .mobile__searchbar--icon {
@@ -16,4 +16,8 @@
 
 .flexColChild--mobile__searchbar--icon {
     margin-top: 23px;
+}
+
+.flexRow--mobile__searchbar--one :first-child {
+    background-color: #ffffff;
 }

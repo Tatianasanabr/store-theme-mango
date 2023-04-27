@@ -1,4 +1,4 @@
-.container--desktop__home-info_sale {
+.container--mobile__home-info_sale {
     background-color: #C20E0E;
     color           : #fff;
     text-transform  : uppercase;
@@ -6,12 +6,12 @@
     margin-top      : .1rem;
 }
 
-.paragraph--desktop__home-info_sale {
+.paragraph--mobile__home-info_sale {
     font-size  : 14px;
     font-weight: bold;
 }
 
-.link--desktop__home-info_sale {
+.link--mobile__home-info_sale {
     color         : #fff;
     text-transform: capitalize;
     cursor        : pointer;

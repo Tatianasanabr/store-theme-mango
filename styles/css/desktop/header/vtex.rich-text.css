@@ -34,12 +34,12 @@
 
 .container--header__freeShipping--one {
     background-color: #ffffff;
-    border-bottom: 1px solid #aaa;
+    border-bottom   : 1px solid #aaa;
 }
 
 .paragraph--desktop__close--info {
-    margin-top: 1.7rem;
+    margin-top  : 2rem;
     margin-right: -3rem;
-    font-size: 12px;
-    font-weight: bold;
+    font-size   : 12px;
+    font-weight : bold;
 }

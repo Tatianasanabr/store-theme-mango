@@ -1,0 +1,39 @@
+{
+  "flex-layout.row#mobile__home--info_sale": {
+    "title": "Info sale section container",
+    "children": [
+        "flex-layout.col#mobile__home-info_sale",
+        "flex-layout.col#home__info_sale--icon"
+    ],
+    "props": {
+      "blockClass": "mobile__home--info_sale"
+    }
+  },
+
+  "flex-layout.col#mobile__home-info_sale": {
+    "children": ["rich-text#mobile__home-info_sale"]
+  },
+
+  "rich-text#mobile__home-info_sale": {
+    "title": "Informative discount text",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Sale | hasta 50% off [Compra ahora](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+      "blockClass": "mobile__home-info_sale"
+    }
+  },
+  "flex-layout.col#home__info_sale--icon": {
+    "children": ["icon#home__info_sale--icon"]
+  },
+  "icon#home__info_sale--icon": {
+    "title": "Info sale icon ",
+    "props": {
+      "id": "hpa-cart",
+      "size": 50,
+      "width": "15%",
+      "viewBox": "0 0 25 25",
+      "blockClass": "home__info_sale--icon"
+    }
+  }
+}

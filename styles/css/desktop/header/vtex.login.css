@@ -1,26 +1,26 @@
 .profileIcon--desktop__menu--login {
-    width     : 5rem;
-    height    : 1.3rem;
-    margin-top: 0px;
+    width           : 5rem;
+    height          : 1.3rem;
+    margin-top      : 0px;
     background-color: transparent;
 
 }
 
 .formTitle {
-    visibility: hidden;
+    visibility      : hidden;
     background-color: transparent;
 
 }
 
 .formTitle::before {
-    content   : "Iniciar Sesión";
-    visibility: visible;
+    content         : "Iniciar Sesión";
+    visibility      : visible;
     background-color: transparent;
 
 }
 
 .vtex-button__label {
-    visibility: hidden;
+    visibility      : hidden;
     background-color: transparent;
 
 }

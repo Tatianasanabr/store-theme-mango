@@ -3,29 +3,28 @@
 }
 
 .menuContainerNav--desktop__menu--category {
-    display: flex;
-    height: 64px;
-    margin: 0 0 0 1rem;
-    padding: 0;
+    display   : flex;
+    height    : 64px;
+    margin    : 0 0 0 1rem;
+    padding   : 0;
     list-style: none;
 }
+
 .menuItem--header__menu--department_name {
-    display: flex;
-    align-items: center;
+    display        : flex;
+    align-items    : center;
     justify-content: center;
-    height: 100%;
-    width: 4.7rem;
-    margin: 0;
-    list-style: none;
-    cursor: pointer;
-    margin-left: -5px;
+    height         : 100%;
+    width          : 4.7rem;
+    margin         : 0;
+    list-style     : none;
+    cursor         : pointer;
+    margin-left    : -5px;
 }
 
-.menuItem--header__menu--category_name--isOpen::after {
-   
-}
+.menuItem--header__menu--category_name--isOpen::after {}
 
-.styledLinkContainer--header__menu--category_name   {
+.styledLinkContainer--header__menu--category_name {
     content: "→"
 }
 
@@ -48,7 +47,7 @@
 
 .styledLinkContent--header__menu--category_name:hover {
     color     : #040100;
-    transition: color 0.5s ease; 
+    transition: color 0.5s ease;
 }
 
 .styledLinkContent--header__menu--category_name-discount {
@@ -97,11 +96,11 @@
 }
 
 .menuItem--header__menu--category_name--isClosed {
-    display: flex;
+    display    : flex;
     align-items: flex-end;
 }
 
 .menuItem--header__menu--category_name-discount--isClosed {
-    display: flex;
+    display    : flex;
     align-items: flex-end;
 }

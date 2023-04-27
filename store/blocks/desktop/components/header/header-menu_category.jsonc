@@ -134,7 +134,7 @@
         "text": "Accesorios"
       }
     },
-    "children": ["icon#home__category--icon"],
+    "children": [/* "icon#home__category--icon" */],
     "blocks": [
       "vtex.menu@2.x:submenu#desktop__subcategory--women"
     ]
@@ -169,7 +169,7 @@
         "text": "Tallas Plus"
       }
     },
-    "children": ["icon#home__category--icon"],
+    "children": [/* "icon#home__category--icon" */],
     "blocks": [
       "vtex.menu@2.x:submenu#desktop__subcategory--women"
     ]
@@ -204,7 +204,7 @@
         "text": "Promoción"
       }
     },
-    "children": ["icon#home__category--icon"],
+    "children": [/* "icon#home__category--icon" */],
     "blocks": [
       "vtex.menu@2.x:submenu#desktop__subcategory--women"
     ]
@@ -239,7 +239,7 @@
         "text": "Colecciones"
       }
     },
-    "children": ["icon#home__category--icon"],
+    "children": [/* "icon#home__category--icon" */],
     "blocks": [
       "vtex.menu@2.x:submenu#desktop__subcategory--women"
     ]
@@ -275,7 +275,7 @@
         "text": "Destacados"
       }
     },
-    "children": ["icon#home__category--icon"],
+    "children": [/* "icon#home__category--icon" */],
     "blocks": [
       "vtex.menu@2.x:submenu#desktop__subcategory--women"
     ]

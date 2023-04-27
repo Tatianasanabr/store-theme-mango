@@ -4,7 +4,9 @@
     "children": [
       "info-card#desktop__home--info_card",
       "rich-text#desktop__home-info_sale",
+      "slider-layout#home__slider--children",
       "flex-layout.row#home__section-1"
+      
     ]
   }
 }
