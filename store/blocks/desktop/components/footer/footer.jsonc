@@ -1,113 +1,112 @@
 {
     "footer": {
-        "title": "Footer",
+        "title": "Footer desktop",
         "blocks": ["footer-layout.desktop"]
     },
     "footer-layout.desktop": {
+        "title": "Footer desktop container",
         "children": [
-            "disclosure-layout-group#desktop__footer--menu"
+            "rich-text#desktop__footer--new_clothes",
+            "rich-text#desktop__footer--discover",
+            "flex-layout.row#desktop__footer--container",
+            "rich-text#desktop__footer--exclusive_discounts"
         ]
     },
    
-    "disclosure-layout-group#desktop__footer--menu": {
+    "flex-layout.row#desktop__footer--container": {
+        "title": "Footer categories",
         "children": [
-            "disclosure-layout#desktop__policies",
-            "disclosure-layout#desktop__about-us"
-            /* "disclosure-layout#departments" */
+            "flex-layout.row#footer__container--col-one"
         ]
     },
-    "disclosure-layout#desktop__policies": {
-        "children": ["disclosure-trigger#desktop__policies", "disclosure-content#desktop__policies"]
-    },
-    "disclosure-trigger#desktop__policies": {
-        "children": ["rich-text#desktop__policies"]
-    },
-    "rich-text#desktop__policies": {
+
+    "rich-text#desktop__footer--discover": {
+        "title": "Informative text discover footer",
         "props": {
-            "text": "Políticas de la tienda desktop"
+            "text": "Descubre más prendas de la colección",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "desktop__footer--discover"
         }
     },
-    "disclosure-content#desktop__policies": {
-        "children": ["menu#desktop__policies"]
+
+    "rich-text#desktop__footer--new_clothes": {
+        "title": "Informative text clothes footer",
+        "props": {
+            "text": "Nuevas prendas cada semana. Inspírate con las últimas tendencias. #MangoNewNow",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "desktop__footer--new_clothes"
+        }
     },
-    "menu#desktop__policies": {
+
+    "rich-text#desktop__footer--exclusive_discounts": {
+        "title": "Informative text discounts footer",
+        "props": {
+            "text": "Recibe promociones exclusivas, ventas privadas y novedades",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "desktop__footer--exclusive_discounts"
+        }
+    },
+
+    "flex-layout.row#footer__container--col-one": {
+        "title": "Footer category container",
+        "children": ["menu#desktop__footer--categories"]
+    },
+    
+    "menu#desktop__footer--categories": {
+        "title": "Footer menu category",
         "children": [
-            "menu-item#desktop__terms-and-conds",
-            "menu-item#desktop__privacy-policies"
+            "menu-item#desktop__footer--dresses",
+            "menu-item#desktop__footer--shirts",
+            "menu-item#desktop__footer--tshirts"
+
         ],
         "props": {
-            "orientation": "vertical"
+            "orientation": "horizontal"
         }
     },
-    "menu-item#desktop__terms-and-conds": {
+    "menu-item#desktop__footer--dresses": {
+        "title": "Footer dresses category",
         "props": {
-            "id": "menu-terms-and-conds",
+            "id": "menu-terms-dresses",
             "type": "custom",
-            "text": "Términos y condiciones",
+            "text": "Vestidos y monos",
+            "blockClass": "desktop__footer--dresses",
             "itemsProps": {
                 "type": "internal",
                 "href": "/",
-                "tagTitle": "Terminos y condiciones"
+                "tagTitle": "Dresses"
             }
         }
     },
-    "menu-item#desktop__privacy-policies": {
+    "menu-item#desktop__footer--shirts": {
+        "title": "Footer shirts category",
         "props": {
             "id": "menu-privacy-policies",
             "type": "custom",
-            "text": "Políticas de privacidad",
+            "text": "Camisas",
+            "blockClass": "desktop__footer--shirts",
             "itemsProps": {
                 "type": "internal",
                 "href": "/",
-                "tagTitle": "Políticas de privacidad"
+                "tagTitle": "Shirts"
             }
         }
     },
 
-    "disclosure-layout#desktop__about-us": {
-        "children": ["disclosure-trigger#desktop__about-us", "disclosure-content#desktop__about-us"]
-    },
-    "disclosure-trigger#desktop__about-us": {
-        "children": ["rich-text#desktop__about-us"]
-    },
-    "rich-text#desktop__about-us": {
+    "menu-item#desktop__footer--tshirts": {
+        "title": "Footer tshirts category",
         "props": {
-            "text": "Políticas de la tienda"
-        }
-    },
-    "disclosure-content#desktop__about-us": {
-        "children": ["menu#desktop__about-us"]
-    },
-    "menu#desktop__about-us": {
-        "children": [
-            "menu-item#desktop__about-us",
-            "menu-item#desktop__our-shops"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
-    },
-    "menu-item#desktop__about-us": {
-        "props": {
-            "id": "menu-terms-and-conds",
+            "id": "menu-tshirts",
             "type": "custom",
-            "text": "Términos y condiciones",
+            "text": "Camisetas y tops",
+            "blockClass": "desktop__footer--tshirts",
             "itemsProps": {
                 "type": "internal",
                 "href": "/",
-                "tagTitle": "Acerca de Nosotros"
-            }
-        }
-    },
-    "menu-item#desktop__our-shops": {
-        "props": {
-            "id": "menu-privacy-policies",
-            "type": "custom",
-            "text": "Nuestras tiendas",
-            "itemsProps": {
-                "type": "internal",
-                "href": "/",
-                "tagTitle": "Nuestras tiendas"
+                "tagTitle": "Tshirts"
             }
         }
     }

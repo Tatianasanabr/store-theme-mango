@@ -1,0 +1,24 @@
+.container--footer__new_clothes {
+    padding       : 2.5rem;
+    font-size     : .9rem;
+    letter-spacing: .3px;
+    border-bottom : .5px solid #979899;
+
+
+
+}
+
+.container--footer__exclusive_discounts {
+    border-top : .5px solid #979899;
+    padding    : 3rem;
+    font-weight: bold;
+    font-size  : .9rem;
+
+}
+
+.container--footer__discover {
+    border-top : .5px solid #979899;
+    padding    : 2rem;
+    font-weight: bold;
+    font-size  : 1.3rem;
+}
