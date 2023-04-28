@@ -171,14 +171,24 @@
     },
     "children": [
       "menu-item#mobile__department--accessories",
-      "menu-item#mobile__department--plus_size",
       "menu-item#mobile__department--discount",
+      "menu-item#mobile__department--plus_size",
+      "flex-layout.row#mobile__menu--collections",
+      "flex-layout.row#mobile__submenu--novelty",
+      "flex-layout.row#mobile__submenu--party",
+      "flex-layout.row#mobile__submenu--office",
+      "flex-layout.row#mobile__submenu--novelty",
+      "flex-layout.row#mobile__submenu--party",
+      "flex-layout.row#mobile__menu--trends",
+      "flex-layout.row#mobile__submenu--novelty",
+      "flex-layout.row#mobile__submenu--party",
+      "flex-layout.row#mobile__submenu--office",
       "flex-layout.row#mobile__menu--profile",
       "flex-layout.row#mobile__menu--bag",
       "flex-layout.row#mobile__menu--favorites",
       "flex-layout.row#mobile__menu--store",
-      "flex-layout.row#mobile__menu--help"
-
+      "flex-layout.row#mobile__menu--help",
+      "flex-layout.row#mobile__menu--globe"
     ]
   },
 
@@ -297,130 +307,8 @@
         "href": "#",
         "noFollow": true,
         "tagTitle": "discount",
-        "text": "Promoción"
+        "text": "Sale"
       }
-    }
-  },
-
-  //Icon menu section
-
-  "flex-layout.row#mobile__menu--profile": {
-    "children": ["flex-layout.col#mobile__menu--profile"]
-  },
-
-  "flex-layout.col#mobile__menu--profile": {
-    "children": ["icon#mobile__login--icon", "rich-text#mobile__searchbar--icon"]
-  },
-  "rich-text#mobile__searchbar--icon": {
-    "props": {
-      "text": "Iniciar sesión | Crear cuenta"
-    }
-  },
-
-  "icon#mobile__login--icon": {
-    "title": "Mobile login  icon",
-    "props": {
-      "id": "hpa-profile",
-      "size": 25,
-      "width": "15%",
-      "viewBox": "0 0 25 25",
-      "blockClass": "mobile__login--icon"
-    }
-  },
-
-  "flex-layout.row#mobile__menu--bag": {
-    "children": ["flex-layout.col#mobile__menu--bag"]
-  },
-
-  "flex-layout.col#mobile__menu--bag": {
-    "children": ["icon#mobile__bag--icon", "rich-text#mobile__bag--icon"]
-  },
-  "rich-text#mobile__bag--icon": {
-    "props": {
-      "text": "Mis compras"
-    }
-  },
-
-  "icon#mobile__bag--icon": {
-    "title": "Mobile bag  icon",
-    "props": {
-      "id": "hpa-cart",
-      "size": 25,
-      "width": "15%",
-      "viewBox": "0 0 25 25",
-      "blockClass": "mobile__bag--icon"
-    }
-  },
-
-  "flex-layout.row#mobile__menu--favorites": {
-    "children": ["flex-layout.col#mobile__menu--favorites"]
-  },
-
-  "flex-layout.col#mobile__menu--favorites": {
-    "children": ["icon#mobile__favorites--icon", "rich-text#mobile__favorites--icon"]
-  },
-  "rich-text#mobile__favorites--icon": {
-    "props": {
-      "text": "Favoritos"
-    }
-  },
-
-  "icon#mobile__favorites--icon": {
-    "title": "Mobile favorites  icon",
-    "props": {
-      "id": "mpa-globe",
-      "size": 25,
-      "width": "15%",
-      "viewBox": "0 0 25 25",
-      "blockClass": "mobile__favorites--icon"
-    }
-  },
-
-  "flex-layout.row#mobile__menu--store": {
-    "children": ["flex-layout.col#mobile__menu--store"]
-  },
-
-  "flex-layout.col#mobile__menu--store": {
-    "children": ["icon#mobile__store--icon", "rich-text#mobile__store--icon"]
-  },
-  "rich-text#mobile__store--icon": {
-    "props": {
-      "text": "Buscar tiendas"
-    }
-  },
-
-  "icon#mobile__store--icon": {
-    "title": "Mobile store  icon",
-    "props": {
-      "id": "mpa-store",
-      "size": 25,
-      "width": "15%",
-      "viewBox": "0 0 25 25",
-      "blockClass": "mobile__store--icon"
-    }
-  },
-
-  "flex-layout.row#mobile__menu--help": {
-    "children": ["flex-layout.col#mobile__menu--help"]
-  },
-
-  "flex-layout.col#mobile__menu--help": {
-    "children": ["icon#mobile__help--icon", "rich-text#mobile__help--icon"]
-  },
-  "rich-text#mobile__help--icon": {
-    "props": {
-      "text": "Ayuda"
-    }
-  },
-
-  "icon#mobile__help--icon": {
-    "title": "Mobile store  icon",
-    "props": {
-      "id": "inf-help--filled",
-      "size": 25,
-      "width": "15%",
-      "viewBox": "0 0 25 25",
-      "blockClass": "mobile__store--icon"
     }
   },
 
@@ -477,13 +365,24 @@
       "menu-item#mobile__department--newnow",
       "menu-item#mobile__department--clothing",
       "menu-item#mobile__department--accessories",
-      "menu-item#mobile__department--plus_size",
       "menu-item#mobile__department--discount",
+      "menu-item#mobile__department--plus_size",
+      "flex-layout.row#mobile__menu--collections",
+      "flex-layout.row#mobile__submenu--novelty",
+      "flex-layout.row#mobile__submenu--party",
+      "flex-layout.row#mobile__submenu--office",
+      "flex-layout.row#mobile__submenu--novelty",
+      "flex-layout.row#mobile__submenu--party",
+      "flex-layout.row#mobile__menu--trends",
+      "flex-layout.row#mobile__submenu--novelty",
+      "flex-layout.row#mobile__submenu--party",
+      "flex-layout.row#mobile__submenu--office",
       "flex-layout.row#mobile__menu--profile",
       "flex-layout.row#mobile__menu--bag",
       "flex-layout.row#mobile__menu--favorites",
       "flex-layout.row#mobile__menu--store",
-      "flex-layout.row#mobile__menu--help"
+      "flex-layout.row#mobile__menu--help",
+      "flex-layout.row#mobile__menu--globe"
     ]
   },
 
@@ -541,13 +440,24 @@
       "menu-item#mobile__department--newnow",
       "menu-item#mobile__department--clothing",
       "menu-item#mobile__department--accessories",
-      "menu-item#mobile__department--plus_size",
       "menu-item#mobile__department--discount",
+      "menu-item#mobile__department--plus_size",
+      "flex-layout.row#mobile__menu--collections",
+      "flex-layout.row#mobile__submenu--novelty",
+      "flex-layout.row#mobile__submenu--party",
+      "flex-layout.row#mobile__submenu--office",
+      "flex-layout.row#mobile__submenu--novelty",
+      "flex-layout.row#mobile__submenu--party",
+      "flex-layout.row#mobile__menu--trends",
+      "flex-layout.row#mobile__submenu--novelty",
+      "flex-layout.row#mobile__submenu--party",
+      "flex-layout.row#mobile__submenu--office",
       "flex-layout.row#mobile__menu--profile",
       "flex-layout.row#mobile__menu--bag",
       "flex-layout.row#mobile__menu--favorites",
       "flex-layout.row#mobile__menu--store",
-      "flex-layout.row#mobile__menu--help"
+      "flex-layout.row#mobile__menu--help",
+      "flex-layout.row#mobile__menu--globe"
     ]
   },
 
@@ -604,13 +514,24 @@
       "menu-item#mobile__department--newnow",
       "menu-item#mobile__department--clothing",
       "menu-item#mobile__department--accessories",
-      "menu-item#mobile__department--plus_size",
       "menu-item#mobile__department--discount",
+      "menu-item#mobile__department--plus_size",
+      "flex-layout.row#mobile__menu--collections",
+      "flex-layout.row#mobile__submenu--novelty",
+      "flex-layout.row#mobile__submenu--party",
+      "flex-layout.row#mobile__submenu--office",
+      "flex-layout.row#mobile__submenu--novelty",
+      "flex-layout.row#mobile__submenu--party",
+      "flex-layout.row#mobile__menu--trends",
+      "flex-layout.row#mobile__submenu--novelty",
+      "flex-layout.row#mobile__submenu--party",
+      "flex-layout.row#mobile__submenu--office",
       "flex-layout.row#mobile__menu--profile",
       "flex-layout.row#mobile__menu--bag",
       "flex-layout.row#mobile__menu--favorites",
       "flex-layout.row#mobile__menu--store",
-      "flex-layout.row#mobile__menu--help"
+      "flex-layout.row#mobile__menu--help",
+      "flex-layout.row#mobile__menu--globe"
     ]
   }
 }

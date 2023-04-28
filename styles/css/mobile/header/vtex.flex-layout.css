@@ -21,3 +21,82 @@
 .flexRow--mobile__searchbar--one :first-child {
     background-color: #ffffff;
 }
+
+.flexCol--mobile__menu--profile {
+    display       : flex;
+    flex-direction: row;
+    margin        : 1rem 1rem;
+}
+
+.flexCol--mobile__menu--bag {
+    display       : flex;
+    flex-direction: row;
+    margin        : 1rem 1rem;
+}
+
+.flexCol--mobile__menu--favorites {
+    display       : flex;
+    flex-direction: row;
+    margin        : 1rem 1rem;
+}
+
+.flexCol--mobile__menu--store {
+    display       : flex;
+    flex-direction: row;
+    margin        : 1rem 1rem;
+}
+
+.flexCol--mobile__menu--help {
+    display       : flex;
+    flex-direction: row;
+    margin        : 1rem 1rem;
+}
+
+.flexCol--mobile__menu--globe {
+    display       : flex;
+    flex-direction: row;
+    margin        : 1rem 1rem;
+}
+
+.flexColChild--mobile__menu--globe :last-child,
+.flexColChild--mobile__menu--help :last-child,
+.flexColChild--mobile__menu--store :last-child,
+.flexColChild--mobile__menu--favorites :last-child {
+    margin-top: -2px;
+    color     : #666;
+    cursor    : pointer;
+}
+
+.flexColChild--mobile__menu--bag :last-child,
+.flexColChild--mobile__menu--profile :last-child {
+    margin-top: -1px;
+    color     : #666;
+    cursor    : pointer;
+}
+
+.flexCol--mobile__menu--collections {
+    margin: 0.5rem 1rem;
+}
+
+.flexRowContent--mobile__menu--see_more {
+    display       : flex;
+    flex-direction: row;
+}
+
+.flexRow--mobile__menu--see_more {
+    margin-left: 18rem;
+    margin-top : -3rem;
+    border     : 0;
+}
+
+.flexCol--mobile__submenu--novelty,
+.flexCol--mobile__submenu--party,
+.flexCol--mobile__submenu--office {
+    display       : flex;
+    flex-direction: inherit;
+}
+
+.flexRowContent--mobile__menu--more {
+    margin-left: 2rem;
+}
+

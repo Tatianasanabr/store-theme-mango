@@ -1,3 +1,9 @@
 .openIconContainer--drawer__menu-global {
     padding: 5px 10px 1px 6px;
 }
+
+.opened--drawer__menu-global {
+    overflow: auto;
+    width: 100%!important;
+    max-width: 100%!important;
+}
