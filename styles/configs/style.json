@@ -269,84 +269,84 @@
     ],
     "styles": {
       "heading-1": {
-        "fontFamily": "Urbanist, Urbanist, Roboto-Bold, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "MangoSans-Regular, Roboto-Bold, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "normal",
         "fontSize": "3rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-2": {
-        "fontFamily": "Urbanist, Roboto-Medium, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "MangoSans-Regular, Roboto-Medium, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "normal",
         "fontSize": "2.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-3": {
-        "fontFamily": "Urbanist, Roboto-Medium, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "MangoSans-Regular, Roboto-Medium, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.75rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-4": {
-        "fontFamily": "Urbanist, Roboto-Regular, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "MangoSans-Regular, Roboto-Regular, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.5rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-5": {
-        "fontFamily": "Urbanist, Roboto-Light, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "MangoSans-Regular, Roboto-Light, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-6": {
-        "fontFamily": "Urbanist, Roboto-Light, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "MangoSans-Regular, Roboto-Light, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "body": {
-        "fontFamily": "Urbanist, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "MangoSans-Regular, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "small": {
-        "fontFamily": "Urbanist, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "MangoSans-Regular, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "normal",
         "fontSize": "0.875rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "mini": {
-        "fontFamily": "Urbanist, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "MangoSans-Regular, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "normal",
         "fontSize": "0.75rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "action": {
-        "fontFamily": "Urbanist, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "MangoSans-Regular, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "500",
         "fontSize": "1rem",
         "textTransform": "uppercase",
         "letterSpacing": "0"
       },
       "action--small": {
-        "fontFamily": "Urbanist, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "MangoSans-Regular, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "500",
         "fontSize": "0.875rem",
         "textTransform": "uppercase",
         "letterSpacing": "0"
       },
       "action--large": {
-        "fontFamily": "Urbanist, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "MangoSans-Regular, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "500",
         "fontSize": "1.25rem",
         "textTransform": "uppercase",

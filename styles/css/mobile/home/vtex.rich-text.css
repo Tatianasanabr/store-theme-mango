@@ -1,0 +1,21 @@
+.container--mobile__home-info_sale {
+    background-color: #C20E0E;
+    color           : #fff;
+    text-transform  : uppercase;
+    padding         : 1.2rem;
+    margin-top      : .1rem;
+}
+
+.paragraph--mobile__home-info_sale {
+    font-size  : 14px;
+    font-weight: bold;
+}
+
+.link--mobile__home-info_sale {
+    color         : #fff;
+    text-transform: capitalize;
+    cursor        : pointer;
+    letter-spacing: .3px;
+    font-size     : 13px;
+    font-weight   : normal;
+}

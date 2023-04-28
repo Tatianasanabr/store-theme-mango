@@ -6,7 +6,7 @@
       "search-bar#mobile__header--menu"
     ],
     "props": {
-      "blockClass": "pruebis"
+      "blockClass": "mobile__searchbar--one"
     }
   },
 
@@ -17,7 +17,10 @@
     ],
     "props": {
       "blockClass": "mobile__header--menu",
-      "openAutocompleteOnFocus": true
+      "hasIconLeft": true,
+      "openAutocompleteOnFocus": true,
+      "containerMode": "overlay",
+      "maxWidth": 900
     }
   },
 
@@ -31,6 +34,7 @@
   },
 
   "icon#mobile__searchbar--icon": {
+    "title": "Mobile search bar icon",
     "props": {
       "id": "hpa-search",
       "size": 25,

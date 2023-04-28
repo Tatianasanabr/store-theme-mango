@@ -1,0 +1,290 @@
+{
+  //Collection & trends section
+
+  "flex-layout.row#mobile__menu--collections": {
+    "title": "Main container collections",
+    "children": [
+      "flex-layout.col#mobile__menu--collections"
+    ],
+    "props": {
+      "blockClass": "mobile__menu--collections"
+    }
+  },
+  "flex-layout.col#mobile__menu--collections": {
+    "title": "Container menu collections",
+    "children": [
+      "rich-text#mobile__menu--collection_one",
+      "rich-text#mobile__menu--collection_two",
+      "flex-layout.row#mobile__menu--see_more"
+    ],
+    "props": {
+      "blockClass": "mobile__menu--collections"
+    }
+  },
+
+  "rich-text#mobile__menu--collection_one": {
+    "title": "informative text profile icon",
+    "props": {
+      "text": "Colecciones",
+      "blockClass": "mobile__menu--collection_one"
+    }
+  },
+  "rich-text#mobile__menu--collection_two": {
+    "title": "informative text profile icon",
+    "props": {
+      "text": "Un look para cada momento",
+      "blockClass": "mobile__menu--collection_two"
+    }
+  },
+
+  "flex-layout.row#mobile__menu--see_more": {
+    "title": "See more section text",
+    "props": {
+      "blockClass": "mobile__menu--see_more"
+    },
+    "children": [
+      "flex-layout.col#mobile__menu--see_text",
+      "flex-layout.col#mobile__menu--see_icon"
+    ]
+  },
+  "flex-layout.col#mobile__menu--see_text": {
+    "title": "See more text container",
+    "props": {
+      "horizontalAlign": "right"
+    },
+    "children": [
+      "rich-text#mobile__menu--see_text"
+    ]
+  },
+
+  "rich-text#mobile__menu--see_text": {
+    "title": "See more text",
+    "props": {
+      "text": "Ver más",
+      "blockClass": "mobile__menu--see_text"
+    }
+  },
+  "flex-layout.col#mobile__menu--see_icon": {
+    "children": [
+      "icon#home__menu--see_icon"
+    ]
+  },
+
+  "icon#home__menu--see_icon": {
+    "title": "See icon ",
+    "props": {
+      "id": "mpa-arrow_see",
+      "size": 25,
+      "width": "15%",
+      "viewBox": "0 0 25 25",
+      "blockClass": "home__menu--see_icon"
+    }
+  },
+
+  "flex-layout.row#mobile__menu--trends": {
+    "title": "Main container trends",
+    "children": [
+      "flex-layout.col#mobile__menu--trends"
+    ],
+    "props": {
+      "blockClass": "mobile__menu--collections"
+    }
+  },
+  "flex-layout.col#mobile__menu--trends": {
+    "title": "Container menu trends",
+    "children": [
+      "rich-text#mobile__menu--trends_one",
+      "rich-text#mobile__menu--trends_two",
+      "flex-layout.row#mobile__menu--see_more"
+    ],
+    "props": {
+      "blockClass": "mobile__menu--collections"
+    }
+  },
+
+  "rich-text#mobile__menu--trends_one": {
+    "title": "informative text profile icon",
+    "props": {
+      "text": "Tendencias",
+      "blockClass": "mobile__menu--trends_one"
+    }
+  },
+  "rich-text#mobile__menu--trends_two": {
+    "title": "informative text profile icon",
+    "props": {
+      "text": "Los esenciales para estar a la última",
+      "blockClass": "mobile__menu--trends_two"
+    }
+  },
+
+  //collections submenu
+
+  "flex-layout.row#mobile__submenu--novelty": {
+    "title": "Main container submenu novelty",
+    "children": [
+      "flex-layout.col#mobile__submenu--novelty"
+    ],
+    "props": {
+      "blockClass": "mobile__submenu--novelty"
+    }
+  },
+  "flex-layout.col#mobile__submenu--novelty": {
+    "title": "Container submenu novelty",
+    "children": [
+      "image#mobile__submenu--novelty",
+      "rich-text#mobile__submenu--novelty_one",
+      "rich-text#mobile__submenu--novelty_two",
+      "flex-layout.row#mobile__menu--more"
+    ],
+    "props": {
+      "blockClass": "mobile__submenu--novelty"
+    }
+  },
+
+  "image#mobile__submenu--novelty": {
+    "title": "Novelty image",
+    "props": {
+      "src": "assets/img/header/header__mobile/submenu__novelty.jpg",
+      "maxHeight": 45,
+      "blockClass": "mobile__submenu--novelty"
+    }
+  },
+
+  "rich-text#mobile__submenu--novelty_one": {
+    "title": "informative first novelty text",
+    "props": {
+      "text": "Novedad",
+      "blockClass": "mobile__submenu--novelty_one"
+    }
+  },
+  "rich-text#mobile__submenu--novelty_two": {
+    "title": "informative second novelty text",
+    "props": {
+      "text": "Descubre las últimas novedades",
+      "blockClass": "mobile__submenu--novelty_two"
+    }
+  },
+
+  "flex-layout.row#mobile__menu--more": {
+    "title": "More information section",
+    "props": {
+      "blockClass": "mobile__menu--more"
+    },
+    "children": [
+      "flex-layout.col#mobile__submenu--see_icon"
+    ]
+  },
+
+  "flex-layout.col#mobile__submenu--see_icon": {
+    "title": "See icon section",
+    "children": [
+      "icon#home__submenu--see_icon"
+    ],
+    "props": {
+      "blockClass": "mobile__submenu--see_icon"
+    }
+  },
+
+  "icon#home__submenu--see_icon": {
+    "title": "See icon",
+    "props": {
+      "id": "mpa-arrow_see",
+      "size": 25,
+      "width": "15%",
+      "viewBox": "0 0 25 25",
+      "blockClass": "home__submenu--see_icon"
+    }
+  },
+
+  "flex-layout.row#mobile__submenu--party": {
+    "title": "Main container submenu party",
+    "children": [
+      "flex-layout.col#mobile__submenu--party"
+    ],
+    "props": {
+      "blockClass": "mobile__submenu--party"
+    }
+  },
+  "flex-layout.col#mobile__submenu--party": {
+    "title": "Container submenu party",
+    "children": [
+      "image#mobile__submenu--party",
+      "rich-text#mobile__submenu--party_one",
+      "rich-text#mobile__submenu--party_two",
+      "flex-layout.row#mobile__menu--more"
+    ],
+    "props": {
+      "blockClass": "mobile__submenu--party"
+    }
+  },
+
+  "image#mobile__submenu--party": {
+    "title": "Party image",
+    "props": {
+      "src": "assets/img/header/header__mobile/submenu__party.jpg",
+      "maxHeight": 45,
+      "blockClass": "mobile__submenu--party"
+    }
+  },
+
+  "rich-text#mobile__submenu--party_one": {
+    "title": "informative text profile icon",
+    "props": {
+      "text": "Fiesta y eventos",
+      "blockClass": "mobile__submenu--party_one"
+    }
+  },
+  "rich-text#mobile__submenu--party_two": {
+    "title": "informative text profile icon",
+    "props": {
+      "text": "Look para ocasiones especiales",
+      "blockClass": "mobile__submenu--party_two"
+    }
+  },
+
+  "flex-layout.row#mobile__submenu--office": {
+    "title": "Main container submenu office",
+    "children": [
+      "flex-layout.col#mobile__submenu--office"
+    ],
+    "props": {
+      "blockClass": "mobile__submenu--office"
+    }
+  },
+  "flex-layout.col#mobile__submenu--office": {
+    "title": "Container submenu office",
+    "children": [
+      "image#mobile__submenu--office",
+      "rich-text#mobile__submenu--office_one",
+      "rich-text#mobile__submenu--office_two",
+      "flex-layout.row#mobile__menu--more"
+    ],
+    "props": {
+      "blockClass": "mobile__submenu--office"
+    }
+  },
+
+  "image#mobile__submenu--office": {
+    "title": "Office image",
+    "props": {
+      "src": "assets/img/header/header__mobile/submenu__office.jpg",
+      "maxHeight": 45,
+      "blockClass": "mobile__submenu--office"
+    }
+  },
+
+  "rich-text#mobile__submenu--office_one": {
+    "title": "informative text profile icon",
+    "props": {
+      "text": "Selection",
+      "blockClass": "mobile__submenu--office_one"
+    }
+  },
+  "rich-text#mobile__submenu--office_two": {
+    "title": "informative text profile icon",
+    "props": {
+      "text": "Adaptados a tu rutina  premium",
+      "blockClass": "mobile__submenu--office_two"
+    }
+  }
+}

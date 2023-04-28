@@ -1,0 +1,17 @@
+.sliderLayoutContainer--home__slider {
+    margin-top: .1rem;
+}
+
+.sliderArrows--home__slider {
+    color: #fff;
+}
+
+.paginationDot--home__slider--isActive {
+    color: #C20E0E;
+
+}
+
+.paginationDot--home__slider {
+    margin-bottom   : .5rem;
+    background-color: #fff;
+}

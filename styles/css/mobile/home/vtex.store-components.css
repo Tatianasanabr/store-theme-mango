@@ -1,0 +1,28 @@
+.infoCardContainer--desktop__home--info_card {
+    height: 28rem;
+}
+
+.infoCardHeadline--mobile__home--info_card {
+    color         : #ffff;
+    text-transform: uppercase;
+    font-size     : 2.9rem;
+    letter-spacing: 1px;
+}
+
+.infoCardTextContainer--mobile__home--info_card {
+    margin-top: 8rem;
+}
+
+.infoCardCallActionContainer--mobile__home--info_card :first-child {
+    text-transform  : capitalize;
+    background-color: #ffff;
+    color           : black;
+    font-size       : .9rem;
+    border          : none;
+    border-radius   : 0;
+
+}
+
+.infoCardCallActionContainer--mobile__home--info_card {
+    margin-top: 5rem;
+}

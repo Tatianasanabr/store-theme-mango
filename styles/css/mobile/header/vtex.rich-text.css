@@ -8,3 +8,52 @@
     font-size  : 13px;
     margin-left: 2px;
 }
+
+.paragraph--mobile__menu--collection_one,
+.paragraph--mobile__menu--trends_one {
+    font-weight   : bold;
+    font-size     : 1.4rem;
+    letter-spacing: .3px;
+}
+
+.paragraph--mobile__menu--collection_two,
+.paragraph--mobile__menu--trends_two {
+    color: #666;
+}
+
+.container--mobile__menu--see_text {
+    margin-top: -5px;
+}
+
+.paragraph--mobile__menu--see_text {
+    margin-left: -4rem;
+}
+
+.paragraph--mobile__submenu--novelty_two {
+    margin-top : 19px;
+    margin-left: -67px;
+    color      : #666;
+    font-size  : .9rem;
+}
+
+.paragraph--mobile__submenu--party_two {
+    margin-top : 19px;
+    margin-left: -117px;
+    color      : #666;
+    font-size  : .9rem;
+}
+
+.paragraph--mobile__submenu--office_two {
+    margin-top : 19px;
+    margin-left: -69px;
+    color      : #666;
+    font-size  : .9rem;
+}
+
+
+.paragraph--mobile__submenu--novelty_one,
+.paragraph--mobile__submenu--party_one,
+.paragraph--mobile__submenu--office_one {
+    margin-left: 15px;
+    font-weight: bold;
+}

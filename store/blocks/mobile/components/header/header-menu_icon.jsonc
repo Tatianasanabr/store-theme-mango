@@ -1,0 +1,237 @@
+{
+  //Icon menu section
+
+  "flex-layout.row#mobile__menu--profile": {
+    "title": "Main container profile icon",
+    "children": [
+      "flex-layout.col#mobile__menu--profile"
+    ],
+    "props": {
+      "blockClass": "mobile__menu--profile"
+    }
+  },
+
+  "flex-layout.col#mobile__menu--profile": {
+    "title": "Container profile icon",
+    "children": [
+      "icon#mobile__login--icon",
+      "rich-text#mobile__searchbar--icon"
+    ],
+    "props": {
+      "blockClass": "mobile__menu--profile"
+    }
+  },
+  "rich-text#mobile__searchbar--icon": {
+    "title": "informative text profile icon",
+    "props": {
+      "text": "Iniciar sesión | Crear cuenta",
+      "blockClass": "mobile__searchbar--icon"
+    }
+  },
+
+  "icon#mobile__login--icon": {
+    "title": "Mobile login  icon",
+    "props": {
+      "id": "hpa-profile",
+      "size": 25,
+      "width": "15%",
+      "viewBox": "0 0 25 25",
+      "blockClass": "mobile__login--icon"
+    }
+  },
+
+  "flex-layout.row#mobile__menu--bag": {
+    "title": "Main container bag icon",
+    "children": [
+      "flex-layout.col#mobile__menu--bag"
+    ],
+    "props": {
+      "blockClass": "mobile__menu--bag"
+    }
+  },
+
+  "flex-layout.col#mobile__menu--bag": {
+    "title": "Container bag icon",
+    "children": [
+      "icon#mobile__bag--icon",
+      "rich-text#mobile__bag--icon"
+    ],
+    "props": {
+      "blockClass": "mobile__menu--bag"
+    }
+  },
+  "rich-text#mobile__bag--icon": {
+    "title": "informative text bag icon",
+    "props": {
+      "text": "Mis compras",
+      "blockClass": "mobile__bag--icon"
+    }
+  },
+
+  "icon#mobile__bag--icon": {
+    "title": "Mobile bag  icon",
+    "props": {
+      "id": "hpa-cart",
+      "size": 25,
+      "width": "15%",
+      "viewBox": "0 0 25 25",
+      "blockClass": "mobile__bag--icon"
+    }
+  },
+
+  "flex-layout.row#mobile__menu--favorites": {
+    "title": "Main container favorites icon",
+    "children": [
+      "flex-layout.col#mobile__menu--favorites"
+    ],
+    "props": {
+      "blockClass": "mobile__menu--favorites"
+    }
+  },
+
+  "flex-layout.col#mobile__menu--favorites": {
+    "title": "Container favorites icon",
+    "children": [
+      "icon#mobile__favorites--icon",
+      "rich-text#mobile__favorites--icon"
+    ],
+    "props": {
+      "blockClass": "mobile__menu--favorites"
+    }
+  },
+  "rich-text#mobile__favorites--icon": {
+    "title": "informative text favorites icon",
+    "props": {
+      "text": "Favoritos",
+      "blockClass": "mobile__favorites--icon"
+    }
+  },
+
+  "icon#mobile__favorites--icon": {
+    "title": "Mobile favorites  icon",
+    "props": {
+      "id": "mpa-globe",
+      "size": 25,
+      "width": "15%",
+      "viewBox": "0 0 25 25",
+      "blockClass": "mobile__favorites--icon"
+    }
+  },
+
+  "flex-layout.row#mobile__menu--store": {
+    "title": "Main container store icon",
+    "children": [
+      "flex-layout.col#mobile__menu--store"
+    ],
+    "props": {
+      "blockClass": "mobile__menu--store"
+    }
+  },
+
+  "flex-layout.col#mobile__menu--store": {
+    "title": "Container store icon",
+    "children": [
+      "icon#mobile__store--icon",
+      "rich-text#mobile__store--icon"
+    ],
+    "props": {
+      "blockClass": "mobile__menu--store"
+    }
+  },
+  "rich-text#mobile__store--icon": {
+    "title": "informative text store icon",
+    "props": {
+      "text": "Buscar tiendas",
+      "blockClass": "mobile__store--icon"
+    }
+  },
+
+  "icon#mobile__store--icon": {
+    "title": "Mobile store  icon",
+    "props": {
+      "id": "mpa-store",
+      "size": 25,
+      "width": "15%",
+      "viewBox": "0 0 25 25",
+      "blockClass": "mobile__store--icon"
+    }
+  },
+
+  "flex-layout.row#mobile__menu--help": {
+    "title": "Main container help icon",
+    "children": [
+      "flex-layout.col#mobile__menu--help"
+    ],
+    "props": {
+      "blockClass": "mobile__menu--help"
+    }
+  },
+
+  "flex-layout.col#mobile__menu--help": {
+    "title": "Container help icon",
+    "children": [
+      "icon#mobile__help--icon",
+      "rich-text#mobile__help--icon"
+    ],
+    "props": {
+      "blockClass": "mobile__menu--help"
+    }
+  },
+  "rich-text#mobile__help--icon": {
+    "title": "informative text help icon",
+    "props": {
+      "text": "Ayuda",
+      "blockClass": "mobile__help--icon"
+    }
+  },
+
+  "icon#mobile__help--icon": {
+    "title": "Mobile store  icon",
+    "props": {
+      "id": "inf-help--filled",
+      "size": 25,
+      "width": "15%",
+      "viewBox": "0 0 25 25",
+      "blockClass": "mobile__help--icon"
+    }
+  },
+
+  "flex-layout.row#mobile__menu--globe": {
+    "title": "Main container globe icon",
+    "children": [
+      "flex-layout.col#mobile__menu--globe"
+    ],
+    "props": {
+      "blockClass": "mobile__menu--globe"
+    }
+  },
+
+  "flex-layout.col#mobile__menu--globe": {
+    "title": "Container globe icon",
+    "children": [
+      "icon#mobile__globe--icon",
+      "rich-text#mobile__globe--icon"
+    ],
+    "props": {
+      "blockClass": "mobile__menu--globe"
+    }
+  },
+  "rich-text#mobile__globe--icon": {
+    "title": "informative text globe icon",
+    "props": {
+      "text": "Colombia",
+      "blockClass": "mobile__globe--icon"
+    }
+  },
+
+  "icon#mobile__globe--icon": {
+    "title": "Mobile globe  icon",
+    "props": {
+      "id": "mpa-globe2",
+      "size": 25,
+      "width": "15%",
+      "viewBox": "0 0 25 25",
+      "blockClass": "mobile__globe--icon"
+    }
+  }
+}

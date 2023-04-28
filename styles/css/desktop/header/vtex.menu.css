@@ -1,11 +1,37 @@
 .styledLinkContent {
-    font-family: "Urbanist";
+    font-family: "MangoSans-Regular";
+}
+
+.menuContainerNav--desktop__menu--category {
+    display   : flex;
+    height    : 64px;
+    margin    : 0 0 0 1rem;
+    padding   : 0;
+    list-style: none;
+}
+
+.menuItem--header__menu--department_name {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    height         : 100%;
+    width          : 4.7rem;
+    margin         : 0;
+    list-style     : none;
+    cursor         : pointer;
+    margin-left    : -5px;
+}
+
+.menuItem--header__menu--category_name--isOpen::after {}
+
+.styledLinkContainer--header__menu--category_name {
+    content: "→"
 }
 
 .styledLinkContent--header__menu--department_name {
     font-weight   : bold;
     font-size     : .8rem;
-    letter-spacing: 1px;
+    letter-spacing: .5px;
 }
 
 .styledLinkContent--header__menu--department_name:hover {
@@ -52,6 +78,7 @@
     width         : 12rem;
     height        : 24rem;
     margin-top    : -25px;
+    border        : none;
 }
 
 .submenuWrapper--desktop__submenu--container--isOpen {
@@ -59,11 +86,21 @@
     width     : 100%;
     padding   : 2rem;
     overflow  : hidden;
-    margin-top: 3px;
+    margin-top: 30px;
 }
 
 .submenu--desktop__subcategory--women {
     position: fixed;
     top     : 100px;
     left    : 500px;
+}
+
+.menuItem--header__menu--category_name--isClosed {
+    display    : flex;
+    align-items: flex-end;
+}
+
+.menuItem--header__menu--category_name-discount--isClosed {
+    display    : flex;
+    align-items: flex-end;
 }

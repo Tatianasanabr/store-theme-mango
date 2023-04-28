@@ -5,6 +5,8 @@
 }
 
 .minicartQuantityBadge--desktop__menu--minicart {
-    margin-top  : -19px;
-    margin-right: -4px;
+    margin-top      : .2px;
+    margin-right    : 4px;
+    background-color: transparent;
+    color           : #000000;
 }
