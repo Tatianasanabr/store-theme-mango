@@ -3,11 +3,19 @@
   "flex-layout.row#mobile__searchbar--one": {
     "title": "Search bar section",
     "children": [
-      "search-bar#mobile__header--menu"
+      "flex-layout.col#mobile__searchbar--menu",
+      "flex-layout.col#mobile__camera--icon"
     ],
     "props": {
       "blockClass": "mobile__searchbar--one"
     }
+  },
+
+  "flex-layout.col#mobile__searchbar--menu": {
+    "props": {
+      "blockClass": "mobile__searchbar--menu"
+    },
+    "children": ["search-bar#mobile__header--menu"]
   },
 
   "search-bar#mobile__header--menu": {
@@ -41,6 +49,24 @@
       "width": "15%",
       "viewBox": "0 0 25 25",
       "blockClass": "mobile__searchbar--icon"
+    }
+  },
+
+  "flex-layout.col#mobile__camera--icon": {
+    "title": "Camera icon container",
+    "children": ["icon#mobile__camera--icon"],
+    "props": {
+      "blockClass": "mobile__camera--icon"
+    }
+  },
+  "icon#mobile__camera--icon": {
+    "title": "Mobile camera icon",
+    "props": {
+      "id": "mpa-camera",
+      "size": 30,
+      "width": "10%", 
+      /*"viewBox": "0 0 25 25"*/
+      "blockClass": "mobile__camera--icon"
     }
   }
 }

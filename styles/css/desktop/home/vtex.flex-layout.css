@@ -1,5 +1,10 @@
-/* Example desktop:
-.flexRow--home__section-2 {
-    margin: 50px auto;
-    max-width: 1200px;
-} */
+.flexColChild--home__icon--sale {
+    margin-left: 30rem;
+    margin-top: 15px;
+    margin-bottom: -15px;
+}
+
+.flexRowContent--desktop__home--grid_cards {
+    margin-top: .1rem;
+}
+

@@ -3,7 +3,12 @@
     "title": "Home Section 1 Desktop",
     "children": [
       "info-card#desktop__home--info_card",
-      "rich-text#desktop__home-info_sale",
+      "rich-text#desktop__home--info_sale",
+      "flex-layout.row#desktop__home--grid_cards",
+      "flex-layout.row#desktop__home--grid_cards2",
+      "flex-layout.row#desktop__home--grid_cards3",
+      "rich-text#desktop__home--info_shop",
+      "rich-text#desktop__home--hashtag",
       "slider-layout#home__slider--children",
       "flex-layout.row#home__section-1"
       

@@ -4,6 +4,11 @@
       "children": [
         "info-card#mobile__home--info_card",
         "rich-text#mobile__home-info_sale",
+        "flex-layout.row#mobile__home--grid_cards",
+        "flex-layout.row#mobile__home--grid_cards2",
+        "flex-layout.row#mobile__home--grid_cards3",
+        "rich-text#desktop__home--info_shop",
+        "rich-text#desktop__home--hashtag",
         "slider-layout#home__slider--children"
       ]
     }

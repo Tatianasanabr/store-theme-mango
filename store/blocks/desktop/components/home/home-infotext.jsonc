@@ -1,11 +1,29 @@
 {
-    "rich-text#desktop__home-info_sale": {
-        "title": "Informative discount text",
-        "props": {
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "text": "Sale | hasta 50% off [Compra ahora](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
-            "blockClass": "desktop__home-info_sale"
-        }
+  "rich-text#desktop__home--info_sale": {
+    "title": "Informative discount text",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Sale | hasta 50% off [Compra ahora](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+      "blockClass": "desktop__home-info_sale"
     }
+  },
+  "rich-text#desktop__home--info_shop": {
+    "title": "Informative discount text",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**Compra en nuestro Whatsapp 322 5236657** Recibe asesoría personalizada y te entregamos aproximadamente en 3hrs [**Comprar**](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+      "blockClass": "desktop__home--info_shop"
+    }
+  },
+  "rich-text#desktop__home--hashtag": {
+    "title": "Informative discount text",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "#Mangogirls",
+      "blockClass": "desktop__home--hashtag"
+    }
+  }
 }

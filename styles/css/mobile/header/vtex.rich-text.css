@@ -14,11 +14,12 @@
     font-weight   : bold;
     font-size     : 1.4rem;
     letter-spacing: .3px;
+    margin-top    : 17px;
 }
 
 .paragraph--mobile__menu--collection_two,
 .paragraph--mobile__menu--trends_two {
-    color: #666;
+    color: #aaa;
 }
 
 .container--mobile__menu--see_text {
@@ -32,21 +33,21 @@
 .paragraph--mobile__submenu--novelty_two {
     margin-top : 19px;
     margin-left: -67px;
-    color      : #666;
+    color      : #aaa;
     font-size  : .9rem;
 }
 
 .paragraph--mobile__submenu--party_two {
     margin-top : 19px;
     margin-left: -117px;
-    color      : #666;
+    color      : #aaa;
     font-size  : .9rem;
 }
 
 .paragraph--mobile__submenu--office_two {
     margin-top : 19px;
     margin-left: -69px;
-    color      : #666;
+    color      : #aaa;
     font-size  : .9rem;
 }
 
@@ -57,3 +58,4 @@
     margin-left: 15px;
     font-weight: bold;
 }
+

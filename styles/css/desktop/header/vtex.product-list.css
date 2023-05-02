@@ -1,0 +1,30 @@
+.quantityDropdownContainer--desktop__quantity--selector {
+    /* border: 1px solid pink; */
+    margin-left: -3rem;
+    margin-top: 0.5rem;
+}
+
+.productName--product__name--info {
+   /*  background-color: lightblue; */
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.price--desktop__price--item {
+    margin-top: -4rem;
+    margin-left: 4rem;
+}
+
+.unitPriceMeasurementUnit {
+    margin-left: -3rem;
+    display: none;
+}
+
+.productPrice {
+    text-align: inherit;
+}
+
+.price {
+    font-size: 14px;
+    width: 0px !important;
+}
