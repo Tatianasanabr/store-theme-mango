@@ -14,3 +14,29 @@
 .minicartProductListContainer--minicart__product--list {
     margin-top: 1rem;
 }
+
+.opened--desktop__menu--minicart {
+    height      : 30.5rem;
+    margin-top  : 5.7rem;
+    margin-right: 1rem;
+    border      : 1px solid #aaa;
+}
+
+.overlay--desktop__menu--minicart--visible {
+    opacity: 0.1 !important;
+}
+
+.closeIconButton--desktop__menu--minicart {
+    display: none;
+}
+
+.minicartTitle--minicart__base--content {
+    visibility: hidden;
+}
+
+.minicartTitle--minicart__base--content::before {
+    visibility : visible;
+    content    : "Bolsa (3)";
+    font-size  : 1rem;
+    font-weight: bold;
+}

@@ -103,3 +103,19 @@
     cursor: pointer;
     
 }
+
+.infoCardContainer--desktop__home--grid_card1:hover,
+.infoCardContainer--desktop__home--grid_card2:hover,
+.infoCardContainer--desktop__home--grid_card3:hover,
+.infoCardContainer--desktop__home--grid_card4:hover,
+.infoCardContainer--desktop__home--grid_card5:hover,
+.infoCardContainer--desktop__home--grid_card6:hover,
+.infoCardContainer--desktop__home--grid_card7:hover,
+.infoCardContainer--desktop__home--grid_card8:hover,
+.infoCardContainer--desktop__home--grid_card9:hover {
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    opacity: .8;
+    cursor: pointer;
+}

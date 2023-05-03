@@ -24,6 +24,8 @@
     "title": "Informative text login section",
     "props": {
       "text": "Iniciar sesión",
+      "href": "/",
+      "loginLink": "/",
       "blockClass": "desktop__login--info"
     }
   }

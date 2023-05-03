@@ -1,46 +1,13 @@
 .profileIcon--desktop__menu--login {
     width           : 5rem;
     height          : 1.3rem;
-    margin-top      : 0px;
+    margin-top      : -9px;
     background-color: transparent;
-
 }
-
-/* .formTitle {
-    visibility      : hidden;
-    background-color: transparent;
-
-}
-
-.formTitle::before {
-    content         : "Iniciar Sesión";
-    visibility      : visible;
-    border          : 1px solid black;
-    padding         : 1rem 8rem;
-    background-color: black;
-    color           : white;
-    margin-left     : 4rem;
-} */
 
 .vtex-button__label {
     visibility      : hidden;
     background-color: transparent;
+    background-color: purple;
 
-}
-
-.container {
-    background-color: transparent;
-}
-
-.arrowUp {
-    margin-right: -1.5rem;
-    margin-top  : 1.5rem;
-    border-top  : .5px solid #aaa;
-}
-
-.content {
-    margin-left : 0rem;
-    margin-top  : 1.5rem;
-    margin-right: -13rem;
-    border-top  : .5px solid #aaa;
 }

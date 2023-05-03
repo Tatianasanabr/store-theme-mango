@@ -7,3 +7,7 @@
     height    : 1.3rem;
     margin-top: 10px;
 }
+
+.relativeContainer--desktop__menu--favorites {
+    margin-top: 4px;
+}

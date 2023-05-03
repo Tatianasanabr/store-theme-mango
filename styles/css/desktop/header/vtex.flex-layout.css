@@ -14,6 +14,7 @@
     flex-direction: column;
     align-items   : center;
     margin-left   : 4px;
+    cursor        : pointer;
 }
 
 .flexCol--desktop__menu--favorites {
@@ -21,6 +22,7 @@
     flex-direction: column;
     align-items   : center;
     margin-left   : 4px;
+    cursor        : pointer;
 
 }
 
@@ -36,8 +38,12 @@
     background-color: white;
 }
 
+.flexColChild--desktop__menu--login {
+    margin-top: 10px;
+}
+
 .flexCol--desktop__menu--login :first-child {
-    background-color: white;
+    background-color: transparent;
 }
 
 .flexCol--desktop__menu--minicart :first-child {
@@ -45,43 +51,40 @@
 }
 
 .flexCol--minicart__empty {
-    display: flex;
+    display        : flex;
     justify-content: center;
-    align-items: center;
+    align-items    : center;
 }
+
 .flexRowContent--desktop__product--container {
-    /* border: 1px solid blue; */
     padding: 0;
-    height: 150px;
-    width: 350px;
+    height : 150px;
+    width  : 350px;
 }
 
 .flexColChild--desktop__product--image {
-   /*  border: 1px solid green; */
-   margin-top: .5rem;
+    margin-top: .5rem;
 }
 
 .flexColChild--product__description {
-    /* border: 1px solid magenta; */
     width: 130px;
 }
 
 .flexRowContent--product__description {
-    display: flex;
+    display       : flex;
     flex-direction: column-reverse;
-    width: 27rem!important;
-    margin-top: .5rem;
+    width         : 27rem !important;
+    margin-top    : .5rem;
 }
 
 .flexRowContent--desktop__price--remove {
-    margin-top: -4rem;
-    margin-left: 3rem;
-    justify-content: flex-start;
-    position: sticky;
+    transform: translateX(194px);
+    position : relative;
+    top      : -104px;
 }
 
 .flexCol--desktop__remove--button {
-    margin-top: 1rem;
+    margin-top : 3rem;
     margin-left: 6rem;
 }
 
@@ -95,13 +98,35 @@
 
 .flexRowContent--minicart__footer :global(.vtex-button) {
     background-color: black;
-    border: black;
-    text-transform: lowercase;
+    border          : black;
+    text-transform  : lowercase;
 }
 
 .flexRowContent--minicart__footer {
     flex-direction: column;
-    align-items: center;
-    width: 47rem;
-    margin-left: -11rem;
+    align-items   : center;
+    width         : 47rem;
+    margin-left   : -11rem;
 }
+
+.flexRowContent--desktop__searchbar--one {
+    cursor    : pointer;
+    margin-top: 6px;
+}
+
+.flexColChild--desktop__remove--button :global(.vtex-button) {
+    background    : transparent;
+    color         : #727273;
+    border        : none;
+    text-transform: capitalize;
+    font-size     : .8125rem;
+    visibility    : hidden;
+}
+
+.flexColChild--desktop__remove--button :global(.vtex-button)::after {
+    visibility: visible;
+    content   : "Eliminar";
+}
+
+
+

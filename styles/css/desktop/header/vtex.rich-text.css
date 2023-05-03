@@ -11,18 +11,23 @@
     letter-spacing: .3px;
 }
 
+.container--desktop__searchbar--one {
+    margin-top: -6px;
+}
+
+
 .paragraph--desktop__login--info {
     font-size     : 11px;
     font-weight   : bold;
     letter-spacing: .3px;
-    margin-top    : -4px;
+    margin-top    : -24px;
 }
 
 .paragraph--desktop__favorites--info {
     font-size     : 11px;
     font-weight   : bold;
     letter-spacing: .3px;
-    margin-top    : 3px;
+    margin-top    : 0px;
 }
 
 .paragraph--desktop__minicart--info {
@@ -42,4 +47,25 @@
     margin-right: -3rem;
     font-size   : 12px;
     font-weight : bold;
+}
+
+.wrapper--desktop__quantity--selector {
+    font-size: .8125rem;
+    transform: translateX(-46px);
+}
+
+.wrapper--desktop__size--selector {
+    font-size: .8125rem;
+    transform: translateX(-201px);
+    position : relative;
+    top      : 20px;
+    color    : #727273;
+}
+
+.wrapper--desktop__color--selector {
+    font-size: .8125rem;
+    transform: translateX(-243px);
+    position : relative;
+    top      : 40px;
+    color    : #727273;
 }

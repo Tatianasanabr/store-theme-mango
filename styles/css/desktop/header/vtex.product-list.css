@@ -1,23 +1,21 @@
 .quantityDropdownContainer--desktop__quantity--selector {
-    /* border: 1px solid pink; */
     margin-left: -3rem;
-    margin-top: 0.5rem;
+    margin-top : 0.5rem;
 }
 
 .productName--product__name--info {
-   /*  background-color: lightblue; */
     font-weight: bold;
-    font-size: 1rem;
+    font-size  : 1rem;
 }
 
 .price--desktop__price--item {
-    margin-top: -4rem;
+    margin-top : -4rem;
     margin-left: 4rem;
 }
 
 .unitPriceMeasurementUnit {
     margin-left: -3rem;
-    display: none;
+    display    : none;
 }
 
 .productPrice {
@@ -26,5 +24,33 @@
 
 .price {
     font-size: 14px;
-    width: 0px !important;
+    width    : 0px !important;
+}
+
+.productName--product__name--info {
+    font-size     : .875rem;
+    letter-spacing: .01875rem;
+}
+
+.productBrandName--product__brand--info {
+    font-size: .58125rem;
+}
+
+.quantitySelectorIncrease--desktop__quantity--selector,
+.quantitySelectorDecrease--desktop__quantity--selector {
+    display: none;
+    border : none;
+}
+
+.quantitySelectorWrapper--desktop__quantity--selector :nth-child(3n) {
+    border    : none;
+    margin-top: 1rem;
+}
+
+.quantitySelectorWrapper--desktop__quantity--selector {
+    transform: translateX(-73px);
+    position : relative;
+    top      : -17px;
+    left     : -13px;
+    font-size: .8125rem;
 }
