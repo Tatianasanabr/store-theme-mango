@@ -8,3 +8,23 @@
     margin-top: .1rem;
 }
 
+.flexRowContent--desktop__section--girls {
+    display: flex;
+    flex-direction: row;
+    position: inherit;
+    margin: 1rem 8rem;
+}
+
+.flexCol--desktop__section--girl_one,
+.flexCol--desktop__section--girl_two,
+.flexCol--desktop__section--girl_three,
+.flexCol--desktop__section--girl_four{
+    margin: 5px 6px;
+}
+
+.flexRowContent--desktop__images--lines {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+

@@ -9,6 +9,10 @@
       "flex-layout.row#desktop__home--grid_cards3",
       "rich-text#desktop__home--info_shop",
       "rich-text#desktop__home--hashtag",
+      "flex-layout.row#desktop__section--girls",
+      "link.product#desktop__button--see_more",
+      "rich-text#desktop__our--lines",
+      "flex-layout.row#desktop__images--lines",
       "slider-layout#home__slider--children",
       "flex-layout.row#home__section-1"
       

@@ -69,3 +69,22 @@
     top      : 40px;
     color    : #727273;
 }
+
+.wrapper--desktop__taxes--info {
+    font-size: .75rem;
+    letter-spacing: .01875rem;
+}
+
+.paragraph--desktop__taxes--info {
+    white-space: nowrap;
+    margin-top: -23px;
+}
+
+.paragraph--desktop__our--lines {
+    padding: 5.5rem;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: .3px;
+    color: #121314;
+}

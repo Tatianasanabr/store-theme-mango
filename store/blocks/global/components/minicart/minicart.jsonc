@@ -3,7 +3,7 @@
     "title": "Minicart bag section",
     "props": {
       "blockClass": "desktop__menu--minicart",
-      /* "variation": "popup", */
+      /*"variation": "popup",*/
       "itemCountMode": "total",
       "quantityDisplay": "always"
     },
@@ -294,7 +294,18 @@
     "title": "minicart empty and summary",
     "children": [
       "minicart-summary",
-      "minicart-checkout-button"
+      "flex-layout.col#minicart__footer",
+      "rich-text#desktop__taxes--info"
+    ],
+    "props": {
+      "blockClass": "minicart__footer"
+    }
+  },
+
+  "flex-layout.col#minicart__footer": {
+    "children": [
+      "minicart-checkout-button",
+      "link.product#desktop__button--see_bag"
     ],
     "props": {
       "blockClass": "minicart__footer"
@@ -305,7 +316,10 @@
     "title": "Minicart summary",
     "blocks": [
       "checkout-summary.compact#minicart"
-    ]
+    ],
+    "props": {
+      "blockClass": "minicart__summary--items"
+    }
   },
 
   "minicart-checkout-button": {
@@ -313,6 +327,23 @@
     "props": {
       "finishShoppingButtonLink": "/checkout/#/orderform",
       "blockClass": "checkout__button"
+    }
+  },
+
+  "rich-text#desktop__taxes--info": {
+    "title": "Taxes text",
+    "props": {
+      "text": "Impuestos incluidos",
+      "blockClass": "desktop__taxes--info"
+    }
+  },
+
+  "link.product#desktop__button--see_bag": {
+    "title": "See bag button",
+    "props": {
+      "href": "/{slug}/p",
+      "label": "Ver bolsa",
+      "blockClass": "desktop__button--see_bag"
     }
   },
 

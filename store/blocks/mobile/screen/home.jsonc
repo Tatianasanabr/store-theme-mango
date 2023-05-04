@@ -9,6 +9,7 @@
         "flex-layout.row#mobile__home--grid_cards3",
         "rich-text#desktop__home--info_shop",
         "rich-text#desktop__home--hashtag",
+        "link.product#mobile__button--see_more",
         "slider-layout#home__slider--children"
       ]
     }

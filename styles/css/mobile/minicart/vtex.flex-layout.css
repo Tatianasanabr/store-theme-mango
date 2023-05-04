@@ -1,0 +1,24 @@
+.flexColChild--mobile__remove--button {
+    position: relative;
+    left: 100rem;
+}
+
+.flexColChild--mobile__remove--button :global(.vtex-button) {
+    background    : transparent;
+    color         : #727273;
+    border        : none;
+    text-transform: capitalize;
+    font-size     : .8125rem;
+    visibility    : hidden;
+}
+
+.flexColChild--mobile__remove--button :global(.vtex-button)::after {
+    visibility: visible;
+    content   : "Eliminar";
+}
+
+.flexRow--mobile__price--remove {
+    position: relative;
+    top: -9rem;
+    left: 12rem;
+}

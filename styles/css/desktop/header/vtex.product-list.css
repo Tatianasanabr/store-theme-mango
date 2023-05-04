@@ -6,6 +6,8 @@
 .productName--product__name--info {
     font-weight: bold;
     font-size  : 1rem;
+    font-size     : .875rem;
+    letter-spacing: .01875rem;
 }
 
 .price--desktop__price--item {
@@ -23,13 +25,8 @@
 }
 
 .price {
-    font-size: 14px;
+    font-size: 12px;
     width    : 0px !important;
-}
-
-.productName--product__name--info {
-    font-size     : .875rem;
-    letter-spacing: .01875rem;
 }
 
 .productBrandName--product__brand--info {

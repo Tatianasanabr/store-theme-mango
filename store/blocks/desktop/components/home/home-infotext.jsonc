@@ -25,5 +25,15 @@
       "text": "#Mangogirls",
       "blockClass": "desktop__home--hashtag"
     }
+  },
+
+  "rich-text#desktop__our--lines": {
+    "title": "Informative our lines text",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Nuestras Líneas",
+      "blockClass": "desktop__our--lines"
+    }
   }
 }
