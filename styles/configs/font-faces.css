@@ -1,6 +1,36 @@
 @font-face{
     font-family: "MangoSans-Regular";
+    font-weight: 400;
+    font-style: normal;
     src: url(assets/fonts/global/MangoSans-Regular.ttf); 
+}
+
+@font-face{
+    font-family: "MangoSans-RegularItalic";
+    font-weight: 400;
+    font-style: italic;
+    src: url(assets/fonts/global/MangoSans-RegularItalic.ttf); 
+}
+
+@font-face{
+    font-family: "MangoSans-Light";
+    font-weight: 300;
+    font-style: normal;
+    src: url(assets/fonts/global/MangoSans-Light.ttf); 
+}
+
+@font-face{
+    font-family: "MangoSans-LightItalic";
+    font-weight: 300;
+    font-style: normal;
+    src: url(assets/fonts/global/MangoSans-LightItalic.ttf); 
+}
+
+@font-face{
+    font-family: "Austin-Light";
+    font-weight: 300;
+    font-style: normal;
+    src: url(assets/fonts/global/Austin-Light.ttf); 
 }
 
 @font-face{

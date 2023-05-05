@@ -16,7 +16,9 @@
       "blockClass": "desktop__menu--login",
       "showIconProfile": true,
       "hideIconLabel": true,
-      "isInitialScreenOptionOnly": false
+      "isInitialScreenOptionOnly": false,
+/*       "logInButtonBehavior": "link",
+ */      "iconLabel": "hi"
     }
   },
 

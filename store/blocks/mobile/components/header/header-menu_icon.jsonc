@@ -34,7 +34,7 @@
     "props": {
       "id": "hpa-profile",
       "size": 25,
-      "width": "15%",
+      "width": "20%",
       "viewBox": "0 0 25 25",
       "blockClass": "mobile__login--icon"
     }
