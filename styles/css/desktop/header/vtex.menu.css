@@ -22,8 +22,6 @@
     margin-left    : -5px;
 }
 
-.menuItem--header__menu--category_name--isOpen::after {}
-
 .styledLinkContainer--header__menu--category_name {
     content: "→"
 }
@@ -43,9 +41,32 @@
     font-weight: bold;
     font-size  : 1.3rem;
     color      : #979899;
+    position   : relative;
+    width: 9rem;
+}
+
+.styledLinkContent--header__menu--category_name::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-image: url("assets/img/flecha-correcta.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0;
+  transition: opacity 0,2s ease;
+}
+
+.styledLinkContent--header__menu--category_name:hover::before {
+    opacity: 1;
+    right: 0;
 }
 
 .styledLinkContent--header__menu--category_name:hover {
+    padding-right: 20px;
     color     : #040100;
     transition: color 0.5s ease;
 }
@@ -54,11 +75,34 @@
     font-weight: bold;
     font-size  : 1.3rem;
     color      : #f71963;
+    position   : relative;
+    width: 9rem;
 }
+
+.styledLinkContent--header__menu--category_name-discount::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url("assets/img/flecha-correctapink.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0;
+    transition: opacity 0,2s ease;
+  }
+
+  .styledLinkContent--header__menu--category_name-discount:hover::before {
+    opacity: 1;
+    right: 0;
+  }
 
 .styledLinkContent--header__menu--category_name-discount:hover {
     color     : #dd1659;
     transition: color 0.5s ease;
+    padding-right: 20px;
 }
 
 .styledLink--header__menu--subcategory {

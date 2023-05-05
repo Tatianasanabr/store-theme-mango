@@ -1,7 +1,6 @@
 .imageElement--header__menu--clothing_image {
     max-width  : 22%;
     margin-left: 9rem;
-
 }
 
 .imageElement--header__menu--accessories_image {
@@ -13,6 +12,23 @@
 .imageElement--header__menu--plus_size_image {
     max-width  : 26%;
     margin-left: 8rem;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .imageElement--header__menu--clothing_image {
+        margin-left: 31rem;
+        width      : 3.4rem;
+    }
+
+    .imageElement--header__menu--accessories_image {
+        margin-left: 29rem;
+        margin-top : 1rem;
+    }
+
+    .imageElement--header__menu--plus_size_image {
+        margin-left: 30rem;
+        width      : 3.5rem;
+    }
 }
 
 .logoImage--mobile__header--logo {
@@ -46,8 +62,20 @@
 .imageElement--mobile__submenu--novelty,
 .imageElement--mobile__submenu--party,
 .imageElement--mobile__submenu--office {
-    width        : 55px;
+    width        : 3.1rem;
     height       : 60px;
     border-radius: 50%;
     margin-left  : 1rem;
 }
+
+.searchBarInnerContainer--mobile__header--menu {
+    max-width: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .autoCompleteOuterContainer--mobile__header--menu {
+        width: 43rem;
+    }
+}
+
+

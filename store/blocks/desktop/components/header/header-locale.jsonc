@@ -12,7 +12,8 @@
   "locale-switcher#desktop__menu--favorites": {
     "title": "Logo section favorites",
     "props": {
-      "blockClass": "desktop__menu--favorites"
+      "blockClass": "desktop__menu--favorites",
+      "href": "/"
     }
   },
   "rich-text#desktop__favorites--icon": {

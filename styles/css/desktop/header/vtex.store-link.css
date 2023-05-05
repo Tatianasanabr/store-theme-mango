@@ -1,0 +1,13 @@
+.label--desktop__button--see_bag {
+    position: relative;
+    top: -2.4rem;
+    border: 1px solid black;
+    right: 6rem;
+    padding: 11.3px 36px;
+    font-size: .8125rem;
+}
+
+.link--desktop__button--see_bag {
+    color: black;
+    text-decoration: none;
+}

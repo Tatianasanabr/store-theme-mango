@@ -1,0 +1,32 @@
+.wrapper--mobile__quantity--selector {
+    font-size: .8125rem;
+    transform: translateX(-46px);
+}
+
+.wrapper--mobile__size--selector {
+    font-size: .8125rem;
+    transform: translateX(-201px);
+    position: relative;
+    top: -36px;
+    color: #727273;
+    left: 9.8rem;
+}
+
+.wrapper--mobile__color--selector {
+    font-size: .8125rem;
+    transform: translateX(-42px);
+    position: relative;
+    top: -37px;
+    color: #727273;
+}
+
+.wrapper--mobile__taxes--info {
+    font-size: .75rem;
+    letter-spacing: .01875rem;
+}
+
+.paragraph--mobile__taxes--info {
+    white-space: nowrap;
+    margin-top: -23px;
+    margin-left: 6.7rem;
+}

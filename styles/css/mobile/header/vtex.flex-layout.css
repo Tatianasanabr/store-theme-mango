@@ -83,10 +83,22 @@
     flex-direction: row;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .flexRowContent--mobile__menu--see_more {
+        margin: 0;
+    }
+}
+
 .flexRow--mobile__menu--see_more {
     margin-left: 18rem;
     margin-top : -3rem;
     border     : 0;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .flexRow--mobile__menu--see_more {
+        margin-left: 43rem;
+    }
 }
 
 .flexCol--mobile__submenu--novelty,
@@ -94,9 +106,57 @@
 .flexCol--mobile__submenu--office {
     display       : flex;
     flex-direction: inherit;
+    margin-top    : 11px;
 }
 
 .flexRowContent--mobile__menu--more {
     margin-left: 2rem;
 }
 
+.flexColChild--mobile__submenu--see_icon {
+    width: 0;
+}
+
+.flexCol--mobile__submenu--see_icon {
+    margin-top: 13px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .flexCol--mobile__submenu--see_icon {
+        margin-left: 24rem;
+    }
+}
+
+.flexRowContent--mobile__menu--profile {
+    margin-top: 3rem;
+}
+
+.flexCol--header__middle {
+    margin-left: 0.5rem;
+}
+
+.flexColChild--mobile__camera--icon {
+    margin-left: 21rem;
+    margin-top: -3rem;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .flexColChild--mobile__searchbar--menu {
+        display: flex;
+        justify-content: end;
+    }
+
+    .flexColChild--mobile__camera--icon {
+        padding: 1rem;
+        margin-left: 20.7rem;
+        margin-top: 1px;
+    }
+}
+
+@media (max-width: 375px) {
+    .flexColChild--mobile__camera--icon {
+        /* padding: 1rem; */
+        margin-left: 20rem;
+        margin-top: -50px;
+    }
+}

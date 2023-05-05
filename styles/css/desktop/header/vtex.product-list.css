@@ -1,0 +1,53 @@
+.quantityDropdownContainer--desktop__quantity--selector {
+    margin-left: -3rem;
+    margin-top : 0.5rem;
+}
+
+.productName--product__name--info {
+    font-weight: bold;
+    font-size  : 1rem;
+    font-size     : .875rem;
+    letter-spacing: .01875rem;
+}
+
+.price--desktop__price--item {
+    margin-top : -4rem;
+    margin-left: 4rem;
+}
+
+.unitPriceMeasurementUnit {
+    margin-left: -3rem;
+    display    : none;
+}
+
+.productPrice {
+    text-align: inherit;
+}
+
+.price {
+    font-size: 12px;
+    width    : 0px !important;
+}
+
+.productBrandName--product__brand--info {
+    font-size: .58125rem;
+}
+
+.quantitySelectorIncrease--desktop__quantity--selector,
+.quantitySelectorDecrease--desktop__quantity--selector {
+    display: none;
+    border : none;
+}
+
+.quantitySelectorWrapper--desktop__quantity--selector :nth-child(3n) {
+    border    : none;
+    margin-top: 1rem;
+}
+
+.quantitySelectorWrapper--desktop__quantity--selector {
+    transform: translateX(-73px);
+    position : relative;
+    top      : -17px;
+    left     : -13px;
+    font-size: .8125rem;
+}

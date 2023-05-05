@@ -1,0 +1,14 @@
+.label--desktop__button--see_more {
+    position: relative;
+    top: 1.6rem;
+    border: 1px solid black;
+    right: -35rem;
+    padding: 11.3px 36px;
+    font-size: .8125rem;
+    background-color: black;
+}
+
+.link--desktop__button--see_more {
+    color: white;
+    text-decoration: none;
+}

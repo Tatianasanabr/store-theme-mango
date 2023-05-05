@@ -19,3 +19,26 @@
     font-size     : 13px;
     font-weight   : normal;
 }
+
+.container--desktop__home--info_shop {
+    background-color: #F3F0E9;
+    color           : black;
+    padding         : 1.2rem;
+    margin-top      : .1rem;
+    font-size: .8rem;
+}
+
+.link--desktop__home--info_shop {
+    color         : black;
+    text-transform: capitalize;
+    cursor        : pointer;
+    letter-spacing: .3px;
+    font-size     : 13px;
+    font-weight   : normal;
+}
+
+.container--desktop__home--hashtag {
+    text-transform: uppercase;
+    padding: 3.8rem;
+    font-size: 2.1rem;
+}

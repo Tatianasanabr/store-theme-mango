@@ -1,0 +1,8 @@
+.image--product__image {
+    width: 15rem;
+    height: 15rem;
+}
+
+.nameContainer--product__name {
+    font-weight: bold;
+}

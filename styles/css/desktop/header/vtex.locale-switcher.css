@@ -3,7 +3,11 @@
 }
 
 .globeIcon--desktop__menu--favorites {
-    width     : 2rem;
-    height    : 1.3rem;
-    margin-top: 10px;
+    width     : 1.8rem;
+    height    : 1.2rem;
+    margin-top: 12px;
+}
+
+.relativeContainer--desktop__menu--favorites {
+    margin-top: 4px;
 }

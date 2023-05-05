@@ -12,5 +12,14 @@
       "blockClass": "mobile__home--info_card",
       "textAlignment": "CENTER"
     }
+  },
+
+  "link.product#mobile__button--see_more": {
+    "title": "See more button",
+    "props": {
+      "href": "/{slug}/p",
+      "label": "Descubre más",
+      "blockClass": "mobile__button--see_more"
+    }
   }
 }

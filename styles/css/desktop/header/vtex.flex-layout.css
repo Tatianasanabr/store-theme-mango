@@ -14,6 +14,7 @@
     flex-direction: column;
     align-items   : center;
     margin-left   : 4px;
+    cursor        : pointer;
 }
 
 .flexCol--desktop__menu--favorites {
@@ -21,6 +22,7 @@
     flex-direction: column;
     align-items   : center;
     margin-left   : 4px;
+    cursor        : pointer;
 
 }
 
@@ -31,3 +33,117 @@
     margin-left   : 10px;
     margin-right  : 15px;
 }
+
+.flexCol--desktop__menu--login :last-child {
+    background-color: white;
+}
+
+.flexColChild--desktop__menu--login {
+    margin-top: 10px;
+}
+
+.flexCol--desktop__menu--login :first-child {
+    background-color: transparent;
+}
+
+.flexCol--desktop__menu--minicart :first-child {
+    background-color: transparent;
+}
+
+.flexCol--minicart__empty {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.flexRowContent--desktop__product--container {
+    padding: 0;
+    height : 150px;
+    width  : 350px;
+}
+
+.flexColChild--desktop__product--image {
+    margin-top: .5rem;
+}
+
+.flexColChild--product__description {
+    width: 130px;
+}
+
+.flexRowContent--product__description {
+    display       : flex;
+    flex-direction: column-reverse;
+    width         : 27rem !important;
+    margin-top    : .5rem;
+}
+
+.flexRowContent--desktop__price--remove {
+    transform: translateX(180px);
+    position : relative;
+    top      : -85px;
+}
+
+.flexCol--desktop__remove--button {
+    margin-top : 3rem;
+    margin-left: 6rem;
+}
+
+.flexRow--desktop__product--container {
+    margin-bottom: 20px;
+}
+
+.stretchChildrenWidth {
+    padding: 0;
+}
+
+.flexRowContent--minicart__footer :global(.vtex-button) {
+    background-color: black;
+    border          : black;
+    text-transform  : capitalize;
+    border-radius: 0;
+}
+
+.flexRowContent--minicart__footer {
+    flex-direction: column;
+    align-items   : center;
+    display: flex;
+    /* margin-top: 2rem; */
+}
+
+.flexRowContent--desktop__searchbar--one {
+    cursor    : pointer;
+    margin-top: 6px;
+}
+
+.flexColChild--desktop__remove--button {
+    position: relative;
+    left: -19.7rem;
+}
+
+.flexColChild--desktop__remove--button :global(.vtex-button) {
+    background    : transparent;
+    color         : #727273;
+    border        : none;
+    text-transform: capitalize;
+    font-size     : .8125rem;
+    visibility    : hidden;
+}
+
+.flexColChild--desktop__remove--button :global(.vtex-button)::after {
+    visibility: visible;
+    content   : "Eliminar";
+}
+
+.flexCol--minicart__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+}
+
+.flexRow--desktop__section--girls {
+    margin-right: 16rem;
+}
+
+
+
+

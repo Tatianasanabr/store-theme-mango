@@ -1,35 +1,41 @@
 .paragraph--header__freeShipping--one {
     font-family: "MangoSans-Regular";
     font-size  : 12px;
-    font-weight: bold;
+    font-weight: 700;
     padding    : .3rem;
 }
 
 .paragraph--desktop__searchbar--one {
     font-size     : 11px;
-    font-weight   : bold;
     letter-spacing: .3px;
+    font-weight: bold;
+    font-style: normal;
 }
+
+.container--desktop__searchbar--one {
+    margin-top: -6px;
+}
+
 
 .paragraph--desktop__login--info {
     font-size     : 11px;
     font-weight   : bold;
     letter-spacing: .3px;
-    margin-top    : -4px;
+    margin-top    : -24px;
 }
 
 .paragraph--desktop__favorites--info {
     font-size     : 11px;
     font-weight   : bold;
     letter-spacing: .3px;
-    margin-top    : 3px;
+    margin-top    : 0.3px;
 }
 
 .paragraph--desktop__minicart--info {
     font-size     : 11px;
     font-weight   : bold;
     letter-spacing: .3px;
-    margin-top    : -30px;
+    margin-top    : -28.4px;
 }
 
 .container--header__freeShipping--one {
@@ -42,4 +48,44 @@
     margin-right: -3rem;
     font-size   : 12px;
     font-weight : bold;
+}
+
+.wrapper--desktop__quantity--selector {
+    font-size: .8125rem;
+    transform: translateX(-46px);
+}
+
+.wrapper--desktop__size--selector {
+    font-size: .8125rem;
+    transform: translateX(-201px);
+    position : relative;
+    top      : 20px;
+    color    : #727273;
+}
+
+.wrapper--desktop__color--selector {
+    font-size: .8125rem;
+    transform: translateX(-243px);
+    position : relative;
+    top      : 40px;
+    color    : #727273;
+}
+
+.wrapper--desktop__taxes--info {
+    font-size: .75rem;
+    letter-spacing: .01875rem;
+}
+
+.paragraph--desktop__taxes--info {
+    white-space: nowrap;
+    margin-top: -23px;
+}
+
+.paragraph--desktop__our--lines {
+    padding: 5.5rem;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: .3px;
+    color: #121314;
 }
