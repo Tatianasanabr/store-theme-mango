@@ -1,30 +1,95 @@
 .profileIcon--desktop__menu--login {
-    width           : 5rem;
-    height          : 1.3rem;
-    margin-top      : 0px;
+    width           : 4.5rem;
+    height          : 1.4rem;
+    margin-top      : -7px;
     background-color: transparent;
-
-}
-
-.formTitle {
-    visibility      : hidden;
-    background-color: transparent;
-
-}
-
-.formTitle::before {
-    content         : "Iniciar Sesión";
-    visibility      : visible;
-    background-color: transparent;
-
 }
 
 .vtex-button__label {
     visibility      : hidden;
     background-color: transparent;
-
+    background-color: purple;
 }
 
-.container {
-    background-color: transparent;
+.options {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.optionsList {
+    display: flex;
+    flex-direction: column-reverse;
+    border-bottom: 1px solid pink;
+}
+
+.optionsListItem {
+    order: 2;
+}
+
+.contentContainer {
+    margin-left: 191px;
+    margin-right: -161px;
+    margin-top: 15px;
+}
+
+.arrowUp {
+    margin-right: -20px;
+    margin-top: 6px;
+}
+
+.emailPasswordOptionBtn :first-child {
+    background-color: black;
+    color: #fff;
+    font-family: "MangoSans-Regular";
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.emailPasswordOptionBtn :first-child :global(.vtex-button__label :first-child) {
+    color: #fff;
+    font-family: "MangoSans-Regular";
+    text-transform: capitalize;
+    visibility: hidden;
+    transform: translate(1px, -6px);
+    font-size: .825rem;
+}
+
+
+.emailPasswordOptionBtn :first-child :global(.vtex-button__label ::after) {
+    color: #fff;
+    font-family: "MangoSans-Regular";
+    text-transform: capitalize;
+    visibility: visible;
+    content: "Iniciar sesión";
+}
+
+
+
+.accessCodeOptionBtn :first-child {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    border: none;
+}
+
+.accessCodeOptionBtn :first-child :global(.vtex-button__label :first-child) {
+    color: #fff;
+    font-family: "MangoSans-Regular";
+    text-transform: capitalize;
+    visibility: hidden;
+    transform: translate(1px, -6px);
+    font-size: .825rem;
+}
+
+.accessCodeOptionBtn :first-child :global(.vtex-button__label ::after) {
+    color: black;
+    font-family: "MangoSans-Regular";
+    text-transform: capitalize;
+    visibility: visible;
+    content: "¿No tienes cuenta? Regístrate";
 }

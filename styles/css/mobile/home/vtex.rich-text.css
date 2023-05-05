@@ -19,3 +19,8 @@
     font-size     : 13px;
     font-weight   : normal;
 }
+
+.link--desktop__home-info_sale:hover {
+    color     : #b8b8b8;
+    transition: color 0.2s ease;
+}

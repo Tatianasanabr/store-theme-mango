@@ -1,0 +1,224 @@
+{
+    "flex-layout.row#desktop__home--grid_cards": {
+        "title": "Grid cards home main",
+        "children": [
+            "flex-layout.col#desktop__home--grid_card1",
+            "flex-layout.col#desktop__home--grid_card2",
+            "flex-layout.col#desktop__home--grid_card3"
+        ],
+        "props": {
+            "blockClass": "desktop__home--grid_cards"
+        }
+    },
+    "flex-layout.col#desktop__home--grid_card1": {
+        "title": "First grid container",
+        "children": ["info-card#desktop__home--grid_card1"],
+        "props": {
+            "blockClass": "desktop__home--grid_card1"
+        }
+    },
+    "flex-layout.col#desktop__home--grid_card2": {
+        "title": "Second grid container",
+        "children": ["info-card#desktop__home--grid_card2"],
+        "props": {
+            "blockClass": "desktop__home--grid_card2"
+        }
+    },
+    "flex-layout.col#desktop__home--grid_card3": {
+        "title": "Third grid container",
+        "children": ["info-card#desktop__home--grid_card3"],
+        "props": {
+            "blockClass": "desktop__home--grid_card3"
+        }
+    },
+    "info-card#desktop__home--grid_card1": {
+      "title": "First grid card",
+      "props": {
+        "id": "desktop-home-info_card",
+        "isFullModeStyle": true,
+        "textPosition": "left",
+        "imageUrl": "assets/img/global/home/home__grid--card1.jpg",
+        "headline": "Exclusivo online",
+        "callToActionText": "Descubre más",
+        "callToActionUrl": "#",
+        "blockClass": "desktop__home--grid_card1",
+        "textAlignment": "CENTER"
+      }
+    },
+    "info-card#desktop__home--grid_card2": {
+        "title": "Second grid card",
+        "props": {
+          "id": "desktop-home-info_card",
+          "isFullModeStyle": true,
+          "textPosition": "left",
+          "imageUrl": "assets/img/global/home/home__grid--card2.jpg",
+          "headline": "Best sellers",
+          "callToActionText": "Descubre más",
+          "callToActionUrl": "#",
+          "blockClass": "desktop__home--grid_card2",
+          "textAlignment": "CENTER"
+        }
+      },
+      "info-card#desktop__home--grid_card3": {
+        "title": "Third grid card",
+        "props": {
+          "id": "desktop-home-info_card",
+          "isFullModeStyle": true,
+          "textPosition": "left",
+          "imageUrl": "assets/img/global/home/home__grid--card3.jpg",
+          "headline": "Colección lino",
+          "callToActionText": "Descubre más",
+          "callToActionUrl": "#",
+          "blockClass": "desktop__home--grid_card3",
+          "textAlignment": "CENTER"
+        }
+      },
+      "flex-layout.row#desktop__home--grid_cards2": {
+        "title": "Grid cards home main",
+        "children": [
+            "flex-layout.col#desktop__home--grid_card4",
+            "flex-layout.col#desktop__home--grid_card5",
+            "flex-layout.col#desktop__home--grid_card6"
+        ],
+        "props": {
+            "blockClass": "desktop__home--grid_cards"
+        }
+    },
+    "flex-layout.col#desktop__home--grid_card4": {
+        "title": "First grid container",
+        "children": ["info-card#desktop__home--grid_card4"],
+        "props": {
+            "blockClass": "desktop__home--grid_card4"
+        }
+    },
+    "flex-layout.col#desktop__home--grid_card5": {
+        "title": "Second grid container",
+        "children": ["info-card#desktop__home--grid_card5"],
+        "props": {
+            "blockClass": "desktop__home--grid_card5"
+        }
+    },
+    "flex-layout.col#desktop__home--grid_card6": {
+        "title": "Third grid container",
+        "children": ["info-card#desktop__home--grid_card6"],
+        "props": {
+            "blockClass": "desktop__home--grid_card6"
+        }
+    },
+    "info-card#desktop__home--grid_card4": {
+      "title": "First grid card",
+      "props": {
+        "id": "desktop-home-info_card",
+        "isFullModeStyle": true,
+        "textPosition": "left",
+        "imageUrl": "assets/img/global/home/home__grid--card4.jpg",
+        "headline": "Exclusivo online",
+        "callToActionText": "Descubre más",
+        "callToActionUrl": "#",
+        "blockClass": "desktop__home--grid_card4",
+        "textAlignment": "CENTER"
+      }
+    },
+    "info-card#desktop__home--grid_card5": {
+        "title": "Second grid card",
+        "props": {
+          "id": "desktop-home-info_card",
+          "isFullModeStyle": true,
+          "textPosition": "left",
+          "imageUrl": "assets/img/global/home/home__grid--card5.jpg",
+          "headline": "Best sellers",
+          "callToActionText": "Descubre más",
+          "callToActionUrl": "#",
+          "blockClass": "desktop__home--grid_card5",
+          "textAlignment": "CENTER"
+        }
+      },
+      "info-card#desktop__home--grid_card6": {
+        "title": "Third grid card",
+        "props": {
+          "id": "desktop-home-info_card",
+          "isFullModeStyle": true,
+          "textPosition": "left",
+          "imageUrl": "assets/img/global/home/home__grid--card6.jpg",
+          "headline": "Colección lino",
+          "callToActionText": "Descubre más",
+          "callToActionUrl": "#",
+          "blockClass": "desktop__home--grid_card6",
+          "textAlignment": "CENTER"
+        }
+      },
+      "flex-layout.row#desktop__home--grid_cards3": {
+        "title": "Grid cards home main",
+        "children": [
+            "flex-layout.col#desktop__home--grid_card7",
+            "flex-layout.col#desktop__home--grid_card8",
+            "flex-layout.col#desktop__home--grid_card9"
+        ],
+        "props": {
+            "blockClass": "desktop__home--grid_cards"
+        }
+    },
+    "flex-layout.col#desktop__home--grid_card7": {
+        "title": "First grid container",
+        "children": ["info-card#desktop__home--grid_card7"],
+        "props": {
+            "blockClass": "desktop__home--grid_card7"
+        }
+    },
+    "flex-layout.col#desktop__home--grid_card8": {
+        "title": "Second grid container",
+        "children": ["info-card#desktop__home--grid_card8"],
+        "props": {
+            "blockClass": "desktop__home--grid_card8"
+        }
+    },
+    "flex-layout.col#desktop__home--grid_card9": {
+        "title": "Third grid container",
+        "children": ["info-card#desktop__home--grid_card9"],
+        "props": {
+            "blockClass": "desktop__home--grid_card9"
+        }
+    },
+    "info-card#desktop__home--grid_card7": {
+      "title": "First grid card",
+      "props": {
+        "id": "desktop-home-info_card",
+        "isFullModeStyle": true,
+        "textPosition": "left",
+        "imageUrl": "assets/img/global/home/home__grid--card7.jpg",
+        "headline": "Exclusivo online",
+        "callToActionText": "Descubre más",
+        "callToActionUrl": "#",
+        "blockClass": "desktop__home--grid_card7",
+        "textAlignment": "CENTER"
+      }
+    },
+    "info-card#desktop__home--grid_card8": {
+        "title": "Second grid card",
+        "props": {
+          "id": "desktop-home-info_card",
+          "isFullModeStyle": true,
+          "textPosition": "left",
+          "imageUrl": "assets/img/global/home/home__grid--card8.jpg",
+          "headline": "Best sellers",
+          "callToActionText": "Descubre más",
+          "callToActionUrl": "#",
+          "blockClass": "desktop__home--grid_card8",
+          "textAlignment": "CENTER"
+        }
+      },
+      "info-card#desktop__home--grid_card9": {
+        "title": "Third grid card",
+        "props": {
+          "id": "desktop-home-info_card",
+          "isFullModeStyle": true,
+          "textPosition": "left",
+          "imageUrl": "assets/img/global/home/home__grid--card9.jpg",
+          "headline": "Colección lino",
+          "callToActionText": "Descubre más",
+          "callToActionUrl": "#",
+          "blockClass": "desktop__home--grid_card9",
+          "textAlignment": "CENTER"
+        }
+      }
+  }

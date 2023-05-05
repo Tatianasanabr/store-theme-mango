@@ -12,5 +12,49 @@
       "blockClass": "desktop__home--info_card",
       "textAlignment": "CENTER"
     }
+  },
+
+  "link.product#desktop__button--see_more": {
+    "title": "See more button",
+    "props": {
+      "href": "/{slug}/p",
+      "label": "Descubre más",
+      "blockClass": "desktop__button--see_more"
+    }
+  },
+
+  "flex-layout.row#desktop__images--lines": {
+    "children": [
+      "flex-layout.col#desktop__lines--men",
+      "flex-layout.col#desktop__lines--kids",
+      "flex-layout.col#desktop__lines--teens"
+    ],
+    "props": {
+      "blockClass": "desktop__images--lines"
+    }
+  },
+  "flex-layout.col#desktop__lines--men": {
+    "children": ["image#lines__men"]
+  },
+  "image#lines__men": {
+    "props": {
+      "src": "assets/img/global/home/lines_men.jpg"
+    }
+  },
+  "flex-layout.col#desktop__lines--kids": {
+    "children": ["image#lines__kids"]
+  },
+  "image#lines__kids": {
+    "props": {
+      "src": "assets/img/global/home/lines_kids.jpg"
+    }
+  },
+  "flex-layout.col#desktop__lines--teens": {
+    "children": ["image#lines__teens"]
+  },
+  "image#lines__teens": {
+    "props": {
+      "src": "assets/img/global/home/lines_teens.jpg"
+    }
   }
 }

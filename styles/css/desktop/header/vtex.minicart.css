@@ -1,12 +1,85 @@
 .cartIcon--desktop__menu--minicart {
-    margin-top: -38px;
+    margin-top: -15px;
     width     : 32px;
-    height    : 25px;
+    height    : 21px;
 }
 
 .minicartQuantityBadge--desktop__menu--minicart {
-    margin-top      : .2px;
-    margin-right    : 4px;
+    margin-top      : 6.1px;
+    margin-right    : 6px;
     background-color: transparent;
     color           : #000000;
 }
+
+.minicartProductListContainer--minicart__product--list {
+    padding: 16px;
+    height: 300px!important;
+    overflow-x: hidden;
+}
+
+.opened--desktop__menu--minicart {
+    /* height      : 30.5rem; */
+    margin-top  : 5.7rem;
+    margin-right: 1rem;
+    border      : 1px solid #aaa;
+}
+
+.overlay--desktop__menu--minicart--visible {
+    opacity: 0.1 !important;
+}
+
+.closeIconButton--desktop__menu--minicart {
+    display: none;
+}
+
+.minicartTitle--minicart__base--content {
+    visibility: hidden;
+}
+
+.minicartTitle--minicart__base--content::before {
+    visibility : visible;
+    content    : "Bolsa (3)";
+    font-size  : 1rem;
+    font-weight: bold;
+}
+
+.minicartSummary--minicart__summary {
+    position: relative;
+    right: 6rem;
+}
+
+.minicartSummary--minicart__summary--items:first-child :nth-child(2n){
+    margin-right: -13rem;
+    font-size: .875rem;
+}
+
+.minicartSummary--minicart__summary--items {
+    margin-left: -13rem;
+}
+
+.minicartSideBarContentWrapper--desktop__menu--minicart {
+    height: 70%!important;
+}
+
+.minicartCheckoutButton--checkout__button {
+    position: relative;
+    left: 7rem;
+/*     width: 0!important;
+ */}
+
+ .minicartCheckoutButton--checkout__button {
+    width: 13rem;
+ }
+ 
+ .minicartCheckoutButton--checkout__button :global(.vtex-button__label){
+    visibility: hidden;
+ }
+
+ .minicartCheckoutButton--checkout__button :global(.vtex-button__label)::before{
+    visibility: visible;
+    content: "Comenzar pedido";
+    white-space: nowrap;
+    font-size: .8125rem;
+    font-weight: bold;
+    margin-left: 4.3rem;
+ }

@@ -68,14 +68,50 @@
   },
 
   "product-summary.shelf": {
-    "title": "Product Summary",
+    "title": "Product Summary shelf",
     "children": [
-      "product-summary-image",
-      "product-summary-name",
-      "product-rating-inline",
-      "product-summary-space",
-      "product-summary-price",
-      "add-to-cart-button"
+      "product-summary-image#product__image",
+      "product-summary-name#product__name",
+      "product-rating-inline#product__rating",
+      "product-summary-space#product__space",
+      "product-summary-price#product__price",
+      "add-to-cart-button#product__button"
     ]
+  },
+  "product-summary-image#product__image": {
+    "title": "Product summary image",
+    "props": {
+      "blockClass": "product__image"
+    }
+  },
+  "product-summary-name#product__name": {
+    "title": "Product summary name",
+    "props": {
+      "blockClass": "product__name"
+    }
+  },
+  "product-rating-inline#product__rating": {
+    "title": "Product summary rating",
+    "props": {
+      "blockClass": "product__rating"
+    }
+  },
+  "product-summary-space#product__space": {
+    "title": "Product summary space",
+    "props": {
+      "blockClass": "product__space"
+    }
+  },
+  "product-summary-price#product__price": {
+    "title": "Product summary price",
+    "props": {
+      "blockClass": "product__price"
+    }
+  },
+  "add-to-cart-button#product__button": {
+    "title": "Product summary button",
+    "props": {
+      "blockClass": "product__button"
+    }
   }
 }

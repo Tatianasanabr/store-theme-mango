@@ -23,6 +23,99 @@
 
 }
 
+.infoCardCallActionContainer--desktop__home--info_card :first-child:hover {
+    background-color     : #d7d7d8;
+    transition: background-color 0.8s ease;
+    background-clip: padding-box;
+}
+
 .infoCardCallActionContainer--desktop__home--info_card {
     margin-top: 5rem;
+}
+
+.infoCardContainer--desktop__home--grid_card1,
+.infoCardContainer--desktop__home--grid_card4,
+.infoCardContainer--desktop__home--grid_card7 {
+    height: 36rem;
+    margin-right: .1rem;
+    cursor: pointer;
+}
+
+.infoCardContainer--desktop__home--grid_card2,
+.infoCardContainer--desktop__home--grid_card5,
+.infoCardContainer--desktop__home--grid_card8 {
+    height: 36rem;
+    margin-right: .1rem;
+    cursor: pointer;
+}
+
+.infoCardContainer--desktop__home--grid_card3,
+.infoCardContainer--desktop__home--grid_card6,
+.infoCardContainer--desktop__home--grid_card9 {
+    height: 36rem;
+    cursor: pointer;
+    margin-right: -1rem;
+}
+
+.infoCardHeadline--desktop__home--grid_card1,
+.infoCardHeadline--desktop__home--grid_card2,
+.infoCardHeadline--desktop__home--grid_card3,
+.infoCardHeadline--desktop__home--grid_card4,
+.infoCardHeadline--desktop__home--grid_card5,
+.infoCardHeadline--desktop__home--grid_card6,
+.infoCardHeadline--desktop__home--grid_card7,
+.infoCardHeadline--desktop__home--grid_card8,
+.infoCardHeadline--desktop__home--grid_card9 {
+    color: #ffff;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    white-space: nowrap;
+}
+
+.infoCardTextContainer--desktop__home--grid_card1,
+.infoCardTextContainer--desktop__home--grid_card2,
+.infoCardTextContainer--desktop__home--grid_card3,
+.infoCardTextContainer--desktop__home--grid_card4,
+.infoCardTextContainer--desktop__home--grid_card5,
+.infoCardTextContainer--desktop__home--grid_card6,
+.infoCardTextContainer--desktop__home--grid_card7,
+.infoCardTextContainer--desktop__home--grid_card8,
+.infoCardTextContainer--desktop__home--grid_card9 {
+    margin-top: 20rem;
+}
+
+.infoCardCallActionContainer--desktop__home--grid_card1 :first-child,
+.infoCardCallActionContainer--desktop__home--grid_card2 :first-child,
+.infoCardCallActionContainer--desktop__home--grid_card3 :first-child,
+.infoCardCallActionContainer--desktop__home--grid_card4 :first-child,
+.infoCardCallActionContainer--desktop__home--grid_card5 :first-child,
+.infoCardCallActionContainer--desktop__home--grid_card6 :first-child,
+.infoCardCallActionContainer--desktop__home--grid_card7 :first-child,
+.infoCardCallActionContainer--desktop__home--grid_card8 :first-child,
+.infoCardCallActionContainer--desktop__home--grid_card9 :first-child {
+    text-transform: capitalize;
+    background-color: transparent;
+    color: #ffff;
+    font-size: .9rem;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    
+}
+
+.infoCardContainer--desktop__home--grid_card1:hover,
+.infoCardContainer--desktop__home--grid_card2:hover,
+.infoCardContainer--desktop__home--grid_card3:hover,
+.infoCardContainer--desktop__home--grid_card4:hover,
+.infoCardContainer--desktop__home--grid_card5:hover,
+.infoCardContainer--desktop__home--grid_card6:hover,
+.infoCardContainer--desktop__home--grid_card7:hover,
+.infoCardContainer--desktop__home--grid_card8:hover,
+.infoCardContainer--desktop__home--grid_card9:hover {
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    opacity: .8;
+    cursor: pointer;
 }
