@@ -1,0 +1,8 @@
+{
+  "responsive-layout.phone#phone__header--section": {
+    "title": "Header Layout Sección Phone",
+    "children": [
+      "sticky-layout#phone"
+    ]
+  }
+}

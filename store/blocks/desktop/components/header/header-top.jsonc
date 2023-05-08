@@ -1,0 +1,24 @@
+{
+    //Free shipping section
+  "flex-layout.row#desktop__header--free_shipping": {
+    "title": "Text container free shipping desktop",
+    "props": {
+      "horizontalAlign": "rigth",
+      "verticalAlign": "center"
+    },
+    "children": [
+      "rich-text#desktop__header--free_shipping"
+    ]
+  },
+
+  "rich-text#desktop__header--free_shipping": {
+    "title": "Free shipping text",
+    "props": {
+      "text": "Envío gratis desde $250.000 - Devoluciones a 60 días",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "header__freeShipping--one",
+      "font": "heading-6"
+    }
+  }
+}

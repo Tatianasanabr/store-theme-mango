@@ -1,0 +1,81 @@
+{
+  //Bag icon
+  "flex-layout.col#desktop__menu--minicart": {
+    "title": "Bag section container",
+    "children": [
+      "minicart.v2#desktop__section--minicart",
+      "rich-text#desktop__minicart--icon"
+    ],
+    "props": {
+      "blockClass": "desktop__menu--minicart"
+    }
+  },
+
+  "rich-text#desktop__minicart--icon": {
+    "title": "Informative text bag section",
+    "props": {
+      "text": "Bolsa",
+      "blockClass": "desktop__minicart--info"
+    }
+  },
+
+  //Login icon
+  "flex-layout.col#desktop__menu--login": {
+    "title": "Container login section",
+    "children": [
+      "login#desktop__menu--login2",
+      "rich-text#desktop__login--info"
+    ],
+    "props": {
+      "blockClass": "desktop__menu--login"
+    }
+  },
+
+  "login#desktop__menu--login2": {
+    "title": "Login section icon",
+    "props": {
+      "blockClass": "desktop__menu--login",
+      "showIconProfile": true,
+      "hideIconLabel": true,
+      "isInitialScreenOptionOnly": false,
+      "emailPlaceholder": "E-mail",
+      "passwordPlaceholder": "Contraseña"    
+    }
+  },
+
+  "rich-text#desktop__login--info": {
+    "title": "Informative text login section",
+    "props": {
+      "text": "Iniciar sesión",
+      "href": "/",
+      "loginLink": "/",
+      "blockClass": "desktop__login--info"
+    }
+  },
+
+  //Favorites icon
+  "flex-layout.col#desktop__menu--favorites": {
+    "title": "Favorites section container",
+    "children": [
+      "locale-switcher#desktop__menu--favorites",
+      "rich-text#desktop__favorites--icon"
+    ],
+    "props": {
+      "blockClass": "desktop__menu--favorites"
+    }
+  },
+  "locale-switcher#desktop__menu--favorites": {
+    "title": "Logo section favorites",
+    "props": {
+      "blockClass": "desktop__menu--favorites",
+      "href": "/"
+    }
+  },
+  "rich-text#desktop__favorites--icon": {
+    "title": "Informative text favorites section",
+    "props": {
+      "text": "Favoritos",
+      "blockClass": "desktop__favorites--info"
+    }
+  }
+}

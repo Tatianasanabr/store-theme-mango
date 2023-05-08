@@ -1,0 +1,26 @@
+.flexColChild--tablet__searchbar--icon {
+    position: absolute;
+    /* transform: translateY(19px); */
+    height: 0!important;
+    left: 34.5rem;
+    top: 2.8rem;
+}
+
+@media (min-width: 640px) and (max-width: 1024px) {
+    .flexColChild--tablet__searchbar--icon {
+        left: 36.5rem;
+    }
+}
+
+.flexColChild--tablet__camera--icon {
+    position: absolute;
+    right: 5px;
+    top: 65%;
+    transform: translateY(-50%);
+    height: 0!important;
+}
+
+.flexRowContent--tablet__header--menu {
+    border-bottom: 1px solid #d7d7d8;
+    padding: 3px;
+}

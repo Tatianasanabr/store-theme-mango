@@ -42,12 +42,6 @@
       "flex-layout.row#desktop__category--discount",
       "flex-layout.row#desktop__category--collections",
       "flex-layout.row#desktop__category--exceptional"
-      /* "menu-item#desktop__category--clothing",
-      "menu-item#desktop__category--accessories",
-      "menu-item#desktop__category--plus_size",
-      "menu-item#desktop__category--discount",
-      "menu-item#desktop__category--collections",
-      "menu-item#desktop__category--exceptional"*/
     ]
   },
 
@@ -98,7 +92,6 @@
         "text": "Prendas"
       }
     },
-    /* "children": ["icon#home__category--icon"], */
     "blocks": [
       "vtex.menu@2.x:submenu#desktop__subcategory--women"
     ]
@@ -134,7 +127,6 @@
         "text": "Accesorios"
       }
     },
-    "children": [/* "icon#home__category--icon" */],
     "blocks": [
       "vtex.menu@2.x:submenu#desktop__subcategory--women"
     ]
@@ -169,7 +161,6 @@
         "text": "Tallas Plus"
       }
     },
-    "children": [/* "icon#home__category--icon" */],
     "blocks": [
       "vtex.menu@2.x:submenu#desktop__subcategory--women"
     ]
@@ -204,7 +195,6 @@
         "text": "Promoción"
       }
     },
-    "children": [/* "icon#home__category--icon" */],
     "blocks": [
       "vtex.menu@2.x:submenu#desktop__subcategory--women"
     ]
@@ -239,7 +229,6 @@
         "text": "Colecciones"
       }
     },
-    "children": [/* "icon#home__category--icon" */],
     "blocks": [
       "vtex.menu@2.x:submenu#desktop__subcategory--women"
     ]
@@ -275,7 +264,6 @@
         "text": "Destacados"
       }
     },
-    "children": [/* "icon#home__category--icon" */],
     "blocks": [
       "vtex.menu@2.x:submenu#desktop__subcategory--women"
     ]

@@ -1,0 +1,18 @@
+.profileIcon--tablet__icon--login {
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    top: 5px;
+    right: 9px;
+}
+
+@media (max-width: 768px) {
+    .contentContainer {
+        position: absolute;
+        left: -8.2rem;
+    }
+
+    .arrowUp {
+        margin-right: 10px;
+    }
+}   

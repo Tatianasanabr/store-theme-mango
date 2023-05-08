@@ -1,25 +1,7 @@
-.flexRow--mobile__header--free_shipping {
-    border-bottom   : 1px solid #d7d7d8;
-    background-color: #ffffff;
-    margin-top      : 0;
-}
-
 .flexRow--mobile__header--menu {
     border-bottom   : 1px solid #d7d7d8;
     background-color: #ffffff;
     display         : flex;
-}
-
-.mobile__searchbar--icon {
-    margin-top: 23px;
-}
-
-.flexColChild--mobile__searchbar--icon {
-    margin-top: 23px;
-}
-
-.flexRow--mobile__searchbar--one :first-child {
-    background-color: #ffffff;
 }
 
 .flexCol--mobile__menu--profile {
@@ -129,34 +111,4 @@
 
 .flexRowContent--mobile__menu--profile {
     margin-top: 3rem;
-}
-
-.flexCol--header__middle {
-    margin-left: 0.5rem;
-}
-
-.flexColChild--mobile__camera--icon {
-    margin-left: 21rem;
-    margin-top: -3rem;
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .flexColChild--mobile__searchbar--menu {
-        display: flex;
-        justify-content: end;
-    }
-
-    .flexColChild--mobile__camera--icon {
-        padding: 1rem;
-        margin-left: 20.7rem;
-        margin-top: 1px;
-    }
-}
-
-@media (max-width: 375px) {
-    .flexColChild--mobile__camera--icon {
-        /* padding: 1rem; */
-        margin-left: 20rem;
-        margin-top: -50px;
-    }
 }

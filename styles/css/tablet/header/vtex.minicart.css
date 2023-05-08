@@ -1,0 +1,10 @@
+@media (min-width: 430px) and (max-width: 1024px) {
+    .cartIcon--mobile__menu--minicart {
+        width: 24px!important;
+        height: 25px!important;
+        margin-top: -2px;
+    }
+}
+
+
+

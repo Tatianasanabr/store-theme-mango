@@ -1,0 +1,24 @@
+{
+    "flex-layout.row#tablet__header--free_shipping": {
+      "title": "Text container free shipping phone",
+      "props": {
+        "horizontalAlign": "rigth",
+        "verticalAlign": "center",
+        "blockClass": "phone__header--free_shipping"
+      },
+      "children": [
+        "rich-text#tablet--free_shipping"
+      ]
+    },
+  
+    //Phone free shipping section
+    "rich-text#tablet--free_shipping": {
+      "title": "Free shipping tablet text",
+      "props": {
+        "text": "Envío gratis desde $250.000 - Devoluciones a 60 días",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "phone--free_shipping"
+      }
+    }
+  }

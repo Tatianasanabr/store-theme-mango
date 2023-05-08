@@ -2,15 +2,15 @@
   "responsive-layout.mobile#home__section-1": {
     "title": "Home Section 1 Desktop",
     "children": [
-      "info-card#mobile__home--info_card",
-      "rich-text#mobile__home-info_sale",
+      "info-card#mobile__home--info_card"
+      /*"rich-text#mobile__home-info_sale",
       "flex-layout.row#mobile__home--grid_cards",
       "flex-layout.row#mobile__home--grid_cards2",
-      "flex-layout.row#mobile__home--grid_cards3",
+      "flex-layout.row#mobile__home--grid_cards3", 
       "rich-text#desktop__home--info_shop",
-      "rich-text#desktop__home--hashtag",
+      "rich-text#desktop__home--hashtag"
       "link.product#mobile__button--see_more",
-      "slider-layout#home__slider--children"
+      "slider-layout#home__slider--children"*/
     ]
   }
 }

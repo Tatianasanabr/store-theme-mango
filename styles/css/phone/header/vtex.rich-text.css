@@ -1,0 +1,11 @@
+.paragraph--phone--free_shipping {
+    font-weight: bold;
+    font-size  : 11px;
+    padding: 0.2rem;
+}
+
+.paragraph--drawer__texto-menu {
+    margin-top : 1px;
+    font-size  : 13px;
+    margin-left: 2px;
+}

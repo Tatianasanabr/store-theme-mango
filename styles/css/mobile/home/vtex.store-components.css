@@ -5,8 +5,9 @@
 .infoCardHeadline--mobile__home--info_card {
     color         : #ffff;
     text-transform: uppercase;
-    font-size     : 2.9rem;
+    font-size     : 3.5rem;
     letter-spacing: 1px;
+    white-space: pre-wrap;
 }
 
 .infoCardTextContainer--mobile__home--info_card {

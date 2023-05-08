@@ -1,0 +1,47 @@
+.flexRow--phone__header--free_shipping {
+    border-bottom   : 1px solid #d7d7d8;
+    background-color: #ffffff;
+    margin-top      : 0;
+}
+
+.phone__searchbar--icon {
+    margin-top: 23px;
+}
+
+.flexCol--phone__searchbar--icon {
+    width: 42px;
+    position: relative;
+    left: 1rem;
+}
+
+.flexColChild--phone__searchbar--icon {
+    position: absolute;
+    transform: translateY(19px);
+    height: 0!important;
+    left: 0rem;
+}
+
+.flexRow--phone__searchbar--one {
+    border-top: 1px solid #d7d7d8;
+}
+
+
+.flexRow--phone__searchbar--one :first-child {
+    background-color: #ffffff;
+}
+
+.flexCol--phone__header--middle {
+    margin-left: 0.5rem;
+}
+
+.flexColChild--phone__camera--icon {
+    position: absolute;
+    right: 5px;
+    top: 65%;
+    transform: translateY(-50%);
+    height: 0!important;
+}
+
+.flexRowContent--phone__header--menu {
+    padding: 2px;
+}

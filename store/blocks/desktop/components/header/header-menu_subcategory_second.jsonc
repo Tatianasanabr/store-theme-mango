@@ -1,0 +1,198 @@
+{
+    "vtex.menu@2.x:menu#desktop__subcategory--second": {
+      "title": "Women subcategor second",
+      "props": {
+        "width": "100%",
+        "blockClass": "desktop__subcategory--second"
+      },
+      "children": [
+        "flex-layout.col#desktop__subcategory--second"
+      ]
+    },
+    "flex-layout.col#desktop__subcategory--second": {
+      "title": "Vertical second subcategory container",
+      "props": {
+        "horizontalAlign": "left",
+        "verticalAlign": "center"
+      },
+      "children": [
+        "flex-layout.row#submenu__container-submenu--second"
+      ]
+    },
+    "flex-layout.row#submenu__container-submenu--second": {
+      "title": "Vertical menu container second",
+      "children": [
+        "vtex.menu@2.x:menu#desktop__department--second-subcategory"
+      ]
+    },
+  
+    "vtex.menu@2.x:menu#desktop__department--second-subcategory": {
+      "title": "Subcategory departments section women",
+      "props": {
+        "orientation": "vertical",
+        "experimentalOptimizeRendering": true,
+        "blockClass": "desktop__department--second-subcategory"
+      },
+      "children": [
+        "rich-text#desktop__subcategory--header_second",
+        "menu-item#desktop__subcategory--shoes",
+        "menu-item#desktop__subcategory--bags",
+        "menu-item#desktop__subcategory--jewerly",
+        "menu-item#desktop__subcategory--leather",
+        "menu-item#desktop__subcategory--belts",
+        "menu-item#desktop__subcategory--sunglasses",
+        "menu-item#desktop__subcategory--handkerchiefs",
+        "menu-item#desktop__subcategory--hats",
+        "menu-item#desktop__subcategory--more_accessories"
+      ]
+    },
+  
+    "rich-text#desktop__subcategory--header_second": {
+      "title": "Header second subcategory",
+      "props": {
+        "text": "Accesorios",
+        "blockClass": "desktop__subcategory--header_second"
+      }
+    },
+  
+    "menu-item#desktop__subcategory--shoes": {
+      "title": "Desktop shoes subcategory",
+      "props": {
+        "id": "menu-item-shoes",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "header__menu--subcategory_second",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "shoes",
+          "text": "Zapatos"
+        }
+      }
+    },
+    "menu-item#desktop__subcategory--bags": {
+      "title": "Desktop bags subcategory",
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header__menu--subcategory_second",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "bags",
+          "text": "Bolsos"
+        }
+      }
+    },
+    "menu-item#desktop__subcategory--jewerly": {
+      "title": "Desktop jewerly subcategory",
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header__menu--subcategory_second",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "jewerly",
+          "text": "Bisutería"
+        }
+      }
+    },
+  
+    "menu-item#desktop__subcategory--leather": {
+      "title": "Desktop leather subcategory",
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header__menu--subcategory_second",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "leather",
+          "text": "Marroquinería"
+        }
+      }
+    },
+  
+    "menu-item#desktop__subcategory--belts": {
+      "title": "Desktop belts subcategory",
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header__menu--subcategory_second",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "belts",
+          "text": "Cinturones"
+        }
+      }
+    },
+  
+    "menu-item#desktop__subcategory--sunglasses": {
+      "title": "Desktop sunglasses subcategory",
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header__menu--subcategory_second",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "sunglasses",
+          "text": "Gafas de sol"
+        }
+      }
+    },
+    "menu-item#desktop__subcategory--handkerchiefs": {
+      "title": "Desktop handkerchiefs subcategory",
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header__menu--subcategory_second",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "handkerchiefs",
+          "text": "Fulares y pañuelos"
+        }
+      }
+    },
+    "menu-item#desktop__subcategory--hats": {
+      "title": "Desktop hats subcategory",
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header__menu--subcategory_second",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "hats",
+          "text": "Sombreros"
+        }
+      }
+    },
+    "menu-item#desktop__subcategory--more_accessories": {
+      "title": "Desktop more_accessories subcategory",
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header__menu--subcategory_second",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "more_accessories",
+          "text": "Más accesorios"
+        }
+      }
+    }
+  }

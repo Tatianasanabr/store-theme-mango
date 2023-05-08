@@ -2,7 +2,7 @@
     cursor: pointer;
 }
 
-.logoContainer--header__logo-desktop {
+.logoContainer--desktop__header--logo {
     display        : flex;
     align-items    : center;
     justify-content: center;
@@ -10,7 +10,7 @@
     height         : 100%;
 }
 
-.logoImage--header__logo-desktop {
+.logoImage--desktop__header--logo {
     position   : absolute;
     text-align : center;
     width      : 11rem;
@@ -40,5 +40,9 @@
 
 .searchBarIcon--desktop__menu--searchbar--search {
     display: none;
+}
+
+.container {
+    padding: 0;
 }
 

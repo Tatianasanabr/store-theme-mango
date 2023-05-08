@@ -1,0 +1,72 @@
+{
+    //Tablet Searchbar section
+    "flex-layout.row#tablet__searchbar--one": {
+      "title": "Search bar section",
+      "children": [
+        "flex-layout.col#tablet__searchbar--menu",
+        "flex-layout.col#tablet__camera--icon"
+      ],
+      "props": {
+        "blockClass": "tablet__searchbar--one"
+      }
+    },
+  
+    "flex-layout.col#tablet__searchbar--menu": {
+      "props": {
+        "blockClass": "tablet__searchbar--menu"
+      },
+      "children": ["search-bar#tablet__header--menu"]
+    },
+  
+    "search-bar#tablet__header--menu": {
+      "title": "Search bar icon",
+      "blocks": [
+        "autocomplete-result-list.v2"
+      ],
+      "props": {
+        "blockClass": "tablet__header--menu",
+        "hasIconLeft": true,
+        "openAutocompleteOnFocus": true,
+        "containerMode": "overlay",
+        "maxWidth": 900
+      }
+    },
+  
+    "flex-layout.col#tablet__searchbar": {
+      "children": [
+        "icon#tablet__searchbar--icon"
+      ],
+      "props": {
+        "blockClass": "tablet__searchbar--icon"
+      }
+    },
+  
+    "icon#tablet__searchbar--icon": {
+      "title": "Tablet search bar icon",
+      "props": {
+        "id": "hpa-search",
+        "size": 30,
+        "width": "15%",
+        "viewBox": "0 0 25 25",
+        "blockClass": "tablet__searchbar--icon"
+      }
+    },
+  
+    "flex-layout.col#tablet__camera--icon": {
+      "title": "Camera icon container",
+      "children": ["icon#tablet__camera--icon"],
+      "props": {
+        "blockClass": "tablet__camera--icon"
+      }
+    },
+    "icon#tablet__camera--icon": {
+      "title": "Tablet camera icon",
+      "props": {
+        "id": "mpa-camera",
+        "size": 30,
+        "width": "10%", 
+        /*"viewBox": "0 0 25 25"*/
+        "blockClass": "tablet__camera--icon"
+      }
+    }
+  }
