@@ -31,3 +31,13 @@
     position: relative;
     left: -12.7rem;
 }
+
+@media (max-width: 760 ) {
+    .productPrice--desktop__price--item {
+        position: absolute;
+        z-index: 1;
+    }
+
+ }
+
+

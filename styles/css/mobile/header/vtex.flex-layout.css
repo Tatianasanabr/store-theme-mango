@@ -112,3 +112,7 @@
 .flexRowContent--mobile__menu--profile {
     margin-top: 3rem;
 }
+
+.flexRowContent--phone__header--menu {
+    background-color: #ffffff;
+}

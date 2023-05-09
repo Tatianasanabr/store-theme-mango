@@ -23,4 +23,9 @@
 .flexRowContent--tablet__header--menu {
     border-bottom: 1px solid #d7d7d8;
     padding: 3px;
+    background-color: #fff;
+}
+
+.flexRowContent--tablet__searchbar--one {
+    background-color: #fff;
 }

@@ -23,38 +23,78 @@
     }
   },
 
-  "flex-layout.row#desktop__images--lines": {
+  "flex-layout.row#desktop__home--grid_lines": {
+    "title": "Grid cards home main",
     "children": [
-      "flex-layout.col#desktop__lines--men",
-      "flex-layout.col#desktop__lines--kids",
-      "flex-layout.col#desktop__lines--teens"
+        "flex-layout.col#desktop__home--grid_men",
+        "flex-layout.col#desktop__home--grid_kids",
+        "flex-layout.col#desktop__home--grid_teens"
     ],
     "props": {
-      "blockClass": "desktop__images--lines"
+        "blockClass": "desktop__home--grid_cards"
+    }
+},
+"flex-layout.col#desktop__home--grid_men": {
+    "title": "First grid container",
+    "children": ["info-card#desktop__home--grid_men"],
+    "props": {
+        "blockClass": "desktop__home--grid_men"
+    }
+},
+"flex-layout.col#desktop__home--grid_kids": {
+    "title": "Second grid container",
+    "children": ["info-card#desktop__home--grid_kids"],
+    "props": {
+        "blockClass": "desktop__home--grid_kids"
+    }
+},
+"flex-layout.col#desktop__home--grid_teens": {
+    "title": "Third grid container",
+    "children": ["info-card#desktop__home--grid_teens"],
+    "props": {
+        "blockClass": "desktop__home--grid_teens"
+    }
+},
+"info-card#desktop__home--grid_men": {
+  "title": "Men grid card",
+  "props": {
+    "id": "desktop-home-info_card",
+    "isFullModeStyle": true,
+    "textPosition": "left",
+    "imageUrl": "assets/img/global/home/lines_men.jpg",
+    "headline": "",
+    "callToActionText": "Hombre",
+    "callToActionUrl": "#",
+    "blockClass": "desktop__home--grid_men",
+    "textAlignment": "CENTER"
+  }
+},
+"info-card#desktop__home--grid_kids": {
+    "title": "Kids grid card",
+    "props": {
+      "id": "desktop-home-info_card",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/global/home/lines_kids.jpg",
+      "headline": "",
+      "callToActionText": "Niños",
+      "callToActionUrl": "#",
+      "blockClass": "desktop__home--grid_kids",
+      "textAlignment": "CENTER"
     }
   },
-  "flex-layout.col#desktop__lines--men": {
-    "children": ["image#lines__men"]
-  },
-  "image#lines__men": {
+  "info-card#desktop__home--grid_teens": {
+    "title": "Third grid card",
     "props": {
-      "src": "assets/img/global/home/lines_men.jpg"
-    }
-  },
-  "flex-layout.col#desktop__lines--kids": {
-    "children": ["image#lines__kids"]
-  },
-  "image#lines__kids": {
-    "props": {
-      "src": "assets/img/global/home/lines_kids.jpg"
-    }
-  },
-  "flex-layout.col#desktop__lines--teens": {
-    "children": ["image#lines__teens"]
-  },
-  "image#lines__teens": {
-    "props": {
-      "src": "assets/img/global/home/lines_teens.jpg"
+      "id": "desktop__home--grid_teens",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/global/home/lines_teens.jpg",
+      "headline": "",
+      "callToActionText": "Teen",
+      "callToActionUrl": "#",
+      "blockClass": "desktop__home--grid_teens",
+      "textAlignment": "CENTER"
     }
   }
 }

@@ -9,3 +9,9 @@
     font-size  : 13px;
     margin-left: 2px;
 }
+
+@media (max-width: 425px) {
+    .paragraph--desktop__taxes--info {
+        margin-left: 113px;
+    }
+}

@@ -3,8 +3,8 @@
     "title": "Minicart bag section",
     "props": {
       "blockClass": "desktop__menu--minicart",
-      /*"variation": "popup",*/
-      "itemCountMode": "total",
+      /* "variation": "popup", */
+     "itemCountMode": "total",
       "quantityDisplay": "always"
     },
     "children": [
@@ -68,7 +68,7 @@
     ],
     "props": {
       "fullWidth": "true",
-      "paddingBottom": "5",
+      "paddingBottom": "7",
       "paddingTop": "6",
       "colSizing": "auto",
       "preserveLayoutOnMobile": "true",
@@ -100,17 +100,18 @@
     ],
     "props": {
       "width": "grow",
-      "blockClass": "main-container.desktop"
+      "blockClass": "main__container--desktop"
     }
   },
   "flex-layout.col#sub-container.desktop": {
     "title": "Minicart subcontainer desktop",
     "children": [
       "flex-layout.row#product-description",
-      "flex-layout.col#quantity.desktop",
+      "flex-layout.row#principal",
       "flex-layout.row#price-remove"
     ],
     "props": {
+      "blockClass": "sub__container--desktop",
       "preserveLayoutOnMobile": "true",
       "colSizing": "auto"
     }
@@ -152,7 +153,7 @@
   "flex-layout.row#price-remove": {
     "title": "Minicart price remove container",
     "children": [
-      "flex-layout.col#price.desktop",
+      /* "flex-layout.col#price.desktop", */
       "flex-layout.col#remove-button.desktop"
     ],
     "props": {
@@ -164,7 +165,7 @@
     "title": "Quantity selector container",
     "children": [
       "rich-text#desktop__quantity--selector",
-      "quantity-selector",
+      /* "quantity-selector", */
       "rich-text#desktop__size--selector",
       "rich-text#desktop__color--selector"
     ],
@@ -364,5 +365,46 @@
       "textPosition": "CENTER",
       "blockClass": "minicart__empty--text"
     }
+  },
+
+
+  "flex-layout.row#principal": {
+    "children": [
+      "flex-layout.row#otraprueba",
+      "flex-layout.col#price.desktop"
+    ],
+    "props": {
+      "blockClass": "principaaaal"
+    }
+    
+  },
+
+  "flex-layout.row#otraprueba": {
+    "children": [
+      "flex-layout.col#otraprueba2",
+      "flex-layout.col#quantity-selector.desktop"
+    ],
+    "props": {
+      "blockClass": "otraprueba"
+    }
+  },
+  "flex-layout.col#otraprueba2": {
+    "children": ["rich-text#desktop__textoprueba--selector"]
+  },
+  "rich-text#desktop__textoprueba--selector": {
+    "props": {
+      "text": "Cantidad:"
+    }
+  },
+
+  "flex-layout.col#quantity-selector.desktop": {
+    "children": [
+      "quantity-selector"
+    ],
+    "props": {
+      "preventHorizontalStretch": "true"
+    }
   }
+  
+
 }

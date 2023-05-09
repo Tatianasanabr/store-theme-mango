@@ -45,3 +45,14 @@
 .flexRowContent--phone__header--menu {
     padding: 2px;
 }
+
+@media (max-width: 425px) {
+    .flexCol--minicart__footer {
+        display: flex;
+        flex-direction: revert;
+        align-items: center;
+        margin-bottom: 18px;
+    }
+}
+
+

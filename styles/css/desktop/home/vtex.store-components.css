@@ -119,3 +119,29 @@
     opacity: .8;
     cursor: pointer;
 }
+
+.infoCardContainer--desktop__home--grid_kids {
+    height: 32rem;
+}
+
+.infoCardContainer--desktop__home--grid_men {
+    height: 32rem;
+}
+
+.infoCardContainer--desktop__home--grid_teens {
+    height: 32rem;
+}
+
+.infoCardTextContainer--desktop__home--grid_men :global(.vtex-button),
+.infoCardTextContainer--desktop__home--grid_kids :global(.vtex-button),
+.infoCardTextContainer--desktop__home--grid_teens :global(.vtex-button) {
+    position: relative;
+    top: 11rem;
+    left: 50%;
+    transform: translate(78%, 50%);
+    background-color: #ffff;
+    border: none;
+    border-radius: 0;
+    color: black;
+    text-transform: capitalize;
+}

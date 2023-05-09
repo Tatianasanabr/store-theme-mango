@@ -68,17 +68,17 @@
 
 .wrapper--desktop__size--selector {
     font-size: .8125rem;
-    transform: translateX(-201px);
+    transform: translateX(-180px);
     position : relative;
-    top      : 20px;
+    top      : 50px;
     color    : #727273;
 }
 
 .wrapper--desktop__color--selector {
     font-size: .8125rem;
-    transform: translateX(-243px);
+    transform: translateX(-180px);
     position : relative;
-    top      : 40px;
+    top      : 48px;
     color    : #727273;
 }
 
@@ -99,5 +99,17 @@
     line-height: 38px;
     letter-spacing: .3px;
     color: #121314;
+}
+
+.paragraph--desktop__size--selector {
+    position: relative;
+    top: -30px;
+    left: -20px;
+}
+
+.paragraph--desktop__color--selector {
+    position: relative;
+    top: -11px;
+    left: -61px;
 }
 

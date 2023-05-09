@@ -12,9 +12,9 @@
       "flex-layout.row#desktop__section--girls",
       "link.product#desktop__button--see_more",
       "rich-text#desktop__our--lines",
-      "flex-layout.row#desktop__images--lines",
-      "slider-layout#home__slider--children",
-      "flex-layout.row#home__section-1"
+      "flex-layout.row#desktop__home--grid_lines",
+      /* "flex-layout.row#home__section-1", */
+      "slider-layout#home__slider--children"
       
     ]
   }
