@@ -31,7 +31,7 @@
         "flex-layout.col#desktop__home--grid_teens"
     ],
     "props": {
-        "blockClass": "desktop__home--grid_cards"
+        "blockClass": "desktop__home--grid_sections"
     }
 },
 "flex-layout.col#desktop__home--grid_men": {

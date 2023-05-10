@@ -53,6 +53,39 @@
         align-items: center;
         margin-bottom: 18px;
     }
+
+    .minicartCheckoutButton--checkout__button {
+        width: 100%;
+        left: 1rem;
+    }
+
+    .flexRowContent--otraprueba :global(.vtex-rich-text-0-x-container) {
+        transform: translateY(3px);
+    }
+
+    .closeIcon--desktop__searchbar--one {
+        margin-top: 2px;
+    }
+
+    .flexCol--desktop__price--container {
+        width: 100%;
+    }
 }
+
+@media (max-width: 374px) {
+    .flexCol--sub__container--desktop {
+        margin-left: -6rem;
+    }
+}
+
+@media (min-width: 399px) and (max-width: 425px) {
+    .flexRowContent--otraprueba {
+        font-size: 15px; 
+    }
+}
+
+
+
+
 
 

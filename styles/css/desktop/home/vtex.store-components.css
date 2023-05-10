@@ -145,3 +145,21 @@
     color: black;
     text-transform: capitalize;
 }
+
+.infoCardContainer--desktop__home--grid_men:hover,
+.infoCardContainer--desktop__home--grid_kids:hover,
+.infoCardContainer--desktop__home--grid_teens:hover{
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    opacity: .8;
+    cursor: pointer;
+}
+
+.infoCardCallActionContainer--desktop__home--grid_men :first-child:hover,
+.infoCardCallActionContainer--desktop__home--grid_kids :first-child:hover,
+.infoCardCallActionContainer--desktop__home--grid_teens :first-child:hover {
+    background-color     : #d7d7d8;
+    transition: background-color 0.8s ease;
+    background-clip: padding-box;
+}

@@ -20,7 +20,7 @@
         "flex-layout.col#tablet__searchbar",
         "login#tablet__icon--login",
         "locale-switcher#tablet__menu--favorites",
-        "minicart.v2#mobile__section--minicart"
+        "minicart.v2#desktop__section--minicart"
       ],
       "props": {
         "blockClass": "tablet__header--menu",

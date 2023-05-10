@@ -1,0 +1,48 @@
+@media (max-width: 425px) {
+    .paragraph--desktop__taxes--info {
+        margin-left: 113px;
+        margin-top: 0rem;
+    }
+    .productImageContainer--desktop__product--image {
+        width: 85px!important;
+    }
+
+    .price--desktop__price--item {
+        transform: translateY(2px);
+    }
+
+    .productPrice--desktop__price--item {
+        position: relative;
+        top: 4px;
+        left: 57px;
+    }
+
+    .quantitySelector {
+        transform: translateY(-37px);
+        margin-left: 40px;
+    }
+
+    .price--desktop__price--item {
+        margin-left: 3rem;
+    }
+}
+
+@media (max-width: 374px) {
+    .productImageContainer--desktop__product--image {
+        width: 70px!important;
+    }
+}
+
+@media (min-width: 399px) and (max-width: 425px) {
+    .productImageContainer--desktop__product--image {
+        width: 92px!important;
+    }
+
+    .price--desktop__price--item {
+        margin-left: 7rem;
+    }
+
+    .flexColChild--desktop__remove--button {
+        left: -8.7rem;
+    }
+}

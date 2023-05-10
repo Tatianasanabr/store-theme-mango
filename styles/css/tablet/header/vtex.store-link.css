@@ -1,0 +1,5 @@
+@media (min-width: 426px) and (max-width: 768px) {
+    .label--desktop__button--see_bag {
+        display: none;
+    }
+}

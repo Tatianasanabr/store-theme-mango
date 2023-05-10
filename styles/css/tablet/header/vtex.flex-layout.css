@@ -29,3 +29,13 @@
 .flexRowContent--tablet__searchbar--one {
     background-color: #fff;
 }
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .flexRowContent--minicart__footer {
+        margin-left: -5rem;
+    }
+
+    .flexColChild--desktop__remove--button {
+        left: -8.7rem;
+    }
+}

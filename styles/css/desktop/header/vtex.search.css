@@ -1,0 +1,34 @@
+.biggy-autocomplete-wrapper:first-child :global(.vtex-search-1-x-tileList) {
+    display: none;
+}
+
+.biggy-autocomplete-wrapper:first-child :global(.vtex-search-1-x-itemListTitle) {
+    display: none;
+}
+
+.itemList--top-search:first-child :global(.vtex-search-1-x-itemListItem) {
+    border-bottom: 0.5px solid #d7d7d8;
+    width: 29rem;
+    font-family: "MangoSans-Light";
+    font-size: .875rem;
+    line-height: 1.375rem;
+    margin-left: 4.3rem;
+}
+
+.itemList--top-search:first-child :global(.vtex-search-1-x-itemListPrefix) {
+    display: none;
+}
+
+.itemList--top-search:first-child :global(.vtex-search-1-x-itemListTitle) {
+    display: none;
+}
+
+.itemList--suggestion:first-child :global(.vtex-search-1-x-itemListItem):first-child{
+    border-bottom: 0.5px solid #d7d7d8;
+    width: 29rem;
+    font-family: "MangoSans-Light";
+    font-size: .875rem;
+    line-height: 1.375rem;
+    margin-left: 4.3rem;
+    text-transform: lowercase;
+}
