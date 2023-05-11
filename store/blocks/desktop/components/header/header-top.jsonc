@@ -4,7 +4,8 @@
     "title": "Text container free shipping desktop",
     "props": {
       "horizontalAlign": "rigth",
-      "verticalAlign": "center"
+      "verticalAlign": "center",
+      "blockClass": "desktop__header--free_shipping"
     },
     "children": [
       "rich-text#desktop__header--free_shipping"

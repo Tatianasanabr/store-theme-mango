@@ -8,9 +8,12 @@
       "flex-layout.row#mobile__home--grid_cards2",
       "flex-layout.row#mobile__home--grid_cards3", 
       "rich-text#desktop__home--info_shop",
-      "rich-text#desktop__home--hashtag",
-      "link.product#mobile__button--see_more",
-      "slider-layout#home__slider--children"
+      "flex-layout.row#phone__home--social_card",
+      "flex-layout.row#phone__home--grid_lines",
+      "flex-layout.row#home__shelf",
+      "slider-layout#home__slider--children",
+      "flex-layout.row#phone__disclosure--container-row",
+      "footer#mobile"
     ]
   }
 }

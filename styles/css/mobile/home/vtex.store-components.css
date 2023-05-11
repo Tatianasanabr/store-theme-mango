@@ -32,11 +32,15 @@
     margin-top: 5rem;
 }
 
+.infoCardContainer--mobile__home--grid_card1{
+    margin-top: 2px;
+}
+
 .infoCardContainer--mobile__home--grid_card1,
 .infoCardContainer--mobile__home--grid_card4,
 .infoCardContainer--mobile__home--grid_card7 {
     height: 36rem;
-    margin-right: -.5rem;
+    /* margin-right: -.5rem; */
     margin-left: -.5rem;
     cursor: pointer;
 }
@@ -45,7 +49,7 @@
 .infoCardContainer--mobile__home--grid_card5,
 .infoCardContainer--mobile__home--grid_card8 {
     height: 36rem;
-    margin-right: -.5rem;
+    /* margin-right: -.5rem; */
     margin-left: -.5rem;
     cursor: pointer;
 }
@@ -55,7 +59,7 @@
 .infoCardContainer--mobile__home--grid_card9 {
     height: 36rem;
     cursor: pointer;
-    margin-right: -.5rem;
+    /* margin-right: -.5rem; */
     margin-left: -.5rem;
 }
 

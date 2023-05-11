@@ -1,0 +1,8 @@
+.paragraph--mobile__footer--discounts {
+    font-size: 13px;
+    letter-spacing: .3px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    padding: 9px 4px;
+}

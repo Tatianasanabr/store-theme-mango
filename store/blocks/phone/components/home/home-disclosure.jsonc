@@ -1,0 +1,148 @@
+{
+    "flex-layout.row#phone__disclosure--container-row": {
+        "title": "Disclosure container main",
+        "children": [
+            "flex-layout.col#phone__disclosure--container-col"
+        ],
+        "props": {
+            "blockClass": "phone__disclosure--container-row",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#phone__disclosure--container-col": {
+        "title": "diclosure container column",
+        "children": [
+            "disclosure-layout-group#footer__menu--group"
+        ],
+        "props": {
+            "blockClass": "flex-layout.col#phone__disclosure--container-col"
+        }
+    },
+    "disclosure-layout-group#footer__menu--group": {
+        "title": "Disclosure footer menu group",
+        "children": [
+            "disclosure-layout#clothes",
+            "disclosure-layout#accesories"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "footer__menu--group",
+            "maxVisible": "many"
+        }
+    },
+
+
+    "disclosure-layout#clothes":{
+        "children":[
+            "disclosure-trigger#help",
+            "disclosure-content#help"
+        ],
+        "props":{
+            "blockClass":"disclosure__help--container"
+        }
+    },
+    "disclosure-trigger#help":{
+        "children":["rich-text#help", "disclosure-state-indicator"],
+        "props":{
+            "blockClass":"disclosure__trigger--container"
+        }
+    },
+    "rich-text#help":{
+        "props":{
+            "text": "Prendas",
+            "blockClass":"disclosure__text--title"
+        }
+    },
+    "disclosure-state-indicator": {
+        "props": {
+            "Show": "icon-caret#down",
+            "Hide": "icon-caret#up"
+          }
+    },
+    "icon-caret#down": {
+        "props": {
+            "orientation": "down",
+            "blockClass": "icon__caret--down"
+        }
+    },
+    "icon-caret#up": {
+        "props": {
+            "orientation": "up",
+            "blockClass": "icon__caret--up"
+        }
+    },
+
+    "disclosure-content#help":{
+        "children":["menu#help"],
+        "props":{
+            "blockClass":"disclosure__content--help"
+        }
+    },
+    "menu#help":{
+        "children":[
+            "menu-item#desktop__home--dresses",
+            "menu-item#desktop__home--shirts",
+            "menu-item#desktop__home--tshirts",
+            "menu-item#desktop__home--jackets",
+            "menu-item#desktop__home--sweater",
+            "menu-item#desktop__home--hoodies",
+            "menu-item#desktop__home--coats",
+            "menu-item#desktop__home--pants",
+            "menu-item#desktop__home--jeans",
+            "menu-item#desktop__home--skirts",
+            "menu-item#desktop__home--shorts",
+            "menu-item#desktop__home--swimsuit",
+            "menu-item#desktop__home--sportswear",
+            "menu-item#desktop__home--lingerie"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"disclosure__menu"
+        }
+    },
+
+    "disclosure-layout#accesories":{
+        "children":[
+            "disclosure-trigger#accesories",
+            "disclosure-content#accesories"
+        ],
+        "props":{
+            "blockClass":"disclosure__help--container"
+        }
+    },
+    "disclosure-trigger#accesories":{
+        "children":["rich-text#accesories", "disclosure-state-indicator"],
+        "props":{
+            "blockClass":"disclosure__trigger--container"
+        }
+    },
+    "rich-text#accesories":{
+        "props":{
+            "text": "Accesorios",
+            "blockClass":"disclosure__text--title"
+        }
+    },
+    "disclosure-content#accesories":{
+        "children":["menu#help"],
+        "props":{
+            "blockClass":"disclosure__content--help"
+        }
+    },
+    "menu#accesories":{
+        "children":[
+            "menu-item#desktop__home--shoes",
+            "menu-item#desktop__home--bags",
+            "menu-item#desktop__home--jewerly",
+            "menu-item#desktop__home--leather",
+            "menu-item#desktop__home--belts",
+            "menu-item#desktop__home--sunglasses",
+            "menu-item#desktop__home--scarf",
+            "menu-item#desktop__home--hats",
+            "menu-item#desktop__home--more_accesories"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"disclosure__menu"
+        }
+    }
+}

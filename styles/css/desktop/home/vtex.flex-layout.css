@@ -43,4 +43,22 @@
     width: 26.7rem;
 }
 
+.flexRowContent--desktop__women--categories {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.flexRowContent--desktop__women--category {
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.flexColChild--desktop__women--accesories {
+    height: 9%!important;
+}
+
+.flexColChild--desktop__women--clothes {
+    margin-top: -1px;
+    margin-bottom: -20px;
+}
 
