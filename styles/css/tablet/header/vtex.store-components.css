@@ -20,16 +20,10 @@
 }
 
 .searchBarInnerContainer--tablet__header--menu {
-    /* margin-left: 0.6rem;
-    width: 44.3rem; */
     width: 100%;
     padding: 10px;
     border-radius: 5px;
 }
 
-.searchBarContainer {
-    width: 95vw;
-    margin: 0 auto;
-}
 
     

@@ -119,7 +119,7 @@
 
 .flexRowContent--desktop__searchbar--one {
     cursor    : pointer;
-    margin-top: 6px;
+    margin-top: -14px;
 }
 
 .flexColChild--desktop__remove--button {
@@ -190,8 +190,90 @@
     max-width: 100vw;
 }
 
+.flexCol--desktop__header--bag_icon {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
 
+.flexCol--desktop__header--search_icon {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
 
+.flexCol--desktop__header--login_icon {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: -2px;
+}
 
+.flexCol--desktop__header--favorites_icon {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: -2px;
+}
 
+/*Estilos iconos header*/
+.flexRow--desktop__header--icons {
+    margin-right: 33px;
+}
+
+.flexRowContent--desktop__header--icons {
+    gap: 19px;
+}
+
+.flexColChild--desktop__header--search_icon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.flexColChild--desktop__header--login_icon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.flexColChild--desktop__header--favorites_icon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.flexColChild--desktop__header--bag_icon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.flexColChild--desktop__header--search_icon:first-child {
+    position: relative;
+    top: 25px;
+}
+
+.flexColChild--desktop__header--login_icon:first-child {
+    position: relative;
+    top: 11px;
+    left: 9px;
+}
+
+.flexColChild--desktop__header--favorites_icon:first-child {
+    position: relative;
+    top: 20px;
+    left: 4px;
+}
+
+.flexColChild--desktop__header--bag_icon:first-child {
+    position: relative;
+    top: 6px;
+}
+
+.flexColChild--desktop__header--login_icon:first-child :global(.vtex-button) {
+    width: 4rem;
+    margin-left: -1rem;
+    background: transparent;
+}
 

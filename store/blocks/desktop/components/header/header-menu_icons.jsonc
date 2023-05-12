@@ -77,5 +77,141 @@
       "text": "Favoritos",
       "blockClass": "desktop__favorites--info"
     }
+  },
+
+
+
+  //Header icons
+  "flex-layout.row#desktop__header--icons": {
+    "title": "Desktop header icons container",
+    "children": [
+      "flex-layout.col#desktop__header--search_icon",
+      "flex-layout.col#desktop__header--login_icon",
+      "flex-layout.col#desktop__header--favorites_icon",
+      "flex-layout.col#desktop__header--bag_icon"
+    ],
+    "props": {
+      "blockClass": "desktop__header--icons"
+    }
+  },
+  "flex-layout.col#desktop__header--search_icon": {
+    "title": "Desktop header search icon container",
+    "children": [
+      /* "icon#desktop__searchbar--icon",
+      "rich-text#desktop__search--icon", */
+      "flex-layout.row#desktop__searchbar--one"
+    ],
+    "props": {
+      "blockClass": "desktop__header--search_icon"
+    }
+  },
+  "flex-layout.col#desktop__header--login_icon": {
+    "title": "Desktop header search icon container",
+    "children": [
+      "login#desktop__menu--login2",
+      /* "icon#desktop__login--icon", */
+      "rich-text#desktop__login--icon"
+      
+    ],
+    "props": {
+      "blockClass": "desktop__header--login_icon"
+    }
+  },
+  "flex-layout.col#desktop__header--favorites_icon": {
+    "title": "Desktop header search icon container",
+    "children": [
+      "icon#desktop__favorites--icon",
+      "rich-text#desktop__favorites--icon2"
+    ],
+    "props": {
+      "blockClass": "desktop__header--favorites_icon"
+    }
+  },
+  "flex-layout.col#desktop__header--bag_icon": {
+    "title": "Desktop header search icon container",
+    "children": [
+      /* "icon#desktop__bag--icon", */
+      "minicart.v2#desktop__section--minicart",
+      "rich-text#desktop__bag--icon"
+    ],
+    "props": {
+      "blockClass": "desktop__header--bag_icon"
+    }
+  },
+  "icon#desktop__searchbar--icon": {
+    "title": "Search bar icon ",
+    "props": {
+      "id": "hpa-search",
+      "size": 25,
+      "width": "15%",
+      "viewBox": "0 0 25 25",
+      "blockClass": "desktop__searchbar--icon"
+    }
+  },
+  "rich-text#desktop__search--icon": {
+    "title": "Informative text favorites icon",
+    "props": {
+      "text": "Buscar",
+      /* "href": "/",
+      "loginLink": "/", */
+      "blockClass": "desktop__search--icon"
+    }
+  },
+  "icon#desktop__login--icon": {
+    "title": "Desktop login  icon",
+    "props": {
+      "id": "hpa-profile",
+      "size": 40,
+      "width": "20%",
+      "viewBox": "0 0 25 25",
+      "blockClass": "desktop__login--icon"
+    }
+  },
+  "rich-text#desktop__login--icon": {
+    "title": "Informative text login icon",
+    "props": {
+      "text": "Iniciar sesión",
+      /* "href": "/",
+      "loginLink": "/", */
+      "blockClass": "desktop__login--icon"
+    }
+  },
+  
+  "icon#desktop__favorites--icon": {
+    "title": "Desktop favorites  icon",
+    "props": {
+      "id": "mpa-globe",
+      "size": 30,
+      "width": "15%",
+      "viewBox": "0 0 25 25",
+      "blockClass": "desktop__favorites--icon"
+    }
+  },
+  "rich-text#desktop__favorites--icon2": {
+    "title": "Informative text favorites icon",
+    "props": {
+      "text": "Favoritos",
+      /* "href": "/",
+      "loginLink": "/", */
+      "blockClass": "desktop__favorites--icon"
+    }
+  },
+  "icon#desktop__bag--icon": {
+    "title": "Desktop bag  icon",
+    "props": {
+      "id": "hpa-cart",
+      "size": 32,
+      "width": "15%",
+      "viewBox": "0 0 25 25",
+      "blockClass": "desktop__bag--icon"
+    }
+  },
+  "rich-text#desktop__bag--icon": {
+    "title": "Informative text bag icon",
+    "props": {
+      "text": "Bolsa",
+      "blockClass": "desktop__bag--info"
+    }
   }
 }
+

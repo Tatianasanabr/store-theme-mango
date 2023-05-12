@@ -39,6 +39,7 @@
         height: 25px;
         width: 33px;
         margin-top: 2px;
+        transform: translate(2px, -1px);
     }
 
     .minicartQuantityBadge--desktop__menu--minicart {
@@ -77,6 +78,7 @@
         height: 25px;
         width: 33px;
         margin-top: 2px;
+        transform: translate(2px, -1px);
     }
 
     .minicartQuantityBadge--desktop__menu--minicart {
@@ -111,6 +113,7 @@
         height: 25px;
         width: 33px;
         margin-top: 2px;
+        transform: translate(2px, -1px);
     }
 
     .minicartQuantityBadge--desktop__menu--minicart {
@@ -123,3 +126,5 @@
         margin-top: 76px;
     }
 }
+
+

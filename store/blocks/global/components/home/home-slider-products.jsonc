@@ -38,7 +38,7 @@
       "product-summary.shelf#home__shelf--products": {
         "title": "home product summary shelf",
             "children": [
-              "product-summary-image#product__image",
+              "product-summary-image#global__product--image",
               "product-summary-name#product__name",
               "product-summary-price#product__price",
               "product-summary-space#product__space",
@@ -50,7 +50,7 @@
       },
 
   
-      "product-summary-image#product__image": {
+      "product-summary-image#global__product--image": {
         "title": "home product summary image",
         "props": {
           "blockClass": "product__image"

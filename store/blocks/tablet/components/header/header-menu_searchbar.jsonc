@@ -3,8 +3,8 @@
     "flex-layout.row#tablet__searchbar--one": {
       "title": "Search bar section",
       "children": [
-        "flex-layout.col#tablet__searchbar--menu",
-        "flex-layout.col#tablet__camera--icon"
+        "flex-layout.col#tablet__searchbar--menu"
+        /* "flex-layout.col#tablet__camera--icon" */
       ],
       "props": {
         "blockClass": "tablet__searchbar--one"

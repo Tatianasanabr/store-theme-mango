@@ -55,6 +55,10 @@
     .drawerContent--desktop__menu--minicart {
         overflow-y: hidden!important;
     }
+
+    .cartIcon--desktop__menu--minicart {
+        transform: translate(4px, -1px);
+    }
 }
 
 

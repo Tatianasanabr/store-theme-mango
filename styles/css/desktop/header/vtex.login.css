@@ -3,6 +3,8 @@
     height          : 1.4rem;
     margin-top      : -7px;
     background-color: transparent;
+    position: absolute;
+    left: -5px;
 }
 
 .vtex-button__label {
@@ -27,15 +29,14 @@
 }
 
 .contentContainer {
-    margin-left: 191px;
-    margin-right: -161px;
-    margin-top: 15px;
     border: 1px solid #aaa;
-
+    position: absolute;
+    transform: translate(4.8rem,8px);
+    width: 24.8rem;
 }
 
 .arrowUp {
-    margin-right: -20px;
+    margin-right: 17px;
     margin-top: 13px;
     border: 1px solid #aaa;
 }

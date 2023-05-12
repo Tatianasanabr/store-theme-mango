@@ -17,10 +17,11 @@
         "flex-layout.col#tablet__drawer",
         "flex-layout.col#tablet__menu--spacer",
         "logo#phone__header--logo",
-        "flex-layout.col#tablet__searchbar",
+        /* "flex-layout.col#tablet__searchbar",
         "login#tablet__icon--login",
         "locale-switcher#tablet__menu--favorites",
-        "minicart.v2#desktop__section--minicart"
+        "minicart.v2#desktop__section--minicart" */
+        "flex-layout.row#tablet__header--icons"
       ],
       "props": {
         "blockClass": "tablet__header--menu",

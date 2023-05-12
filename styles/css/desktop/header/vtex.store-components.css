@@ -31,7 +31,6 @@
 
 .autoCompleteOuterContainer--desktop__menu--searchbar :first-child {
     border     : none;
-    margin-left: -.3rem;
 }
 
 .autoCompleteOuterContainer {

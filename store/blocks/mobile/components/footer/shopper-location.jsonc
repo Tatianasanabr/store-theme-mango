@@ -135,7 +135,7 @@
         "title": "mobile trigger container",
         "children": [
           "rich-text#mobile__trigger--cont",
-          "overlay-layout"    
+          "overlay-layout#mobile"    
         ],
         "props": {
             "blockClass": "mobile__trigger--containe"
@@ -150,16 +150,16 @@
         }
     },
     
-    "overlay-layout": {
+    "overlay-layout#mobile": {
         "props": {
           "placement": "left"
         },
         "children": [
-          "rich-text#link"
+          "rich-text#link__mobile"
         ]
     },
     
-    "rich-text#link": {
+    "rich-text#link__mobile": {
         "props": {
           "text": "\n**Reach us at**\nwww.vtex.com.br",
           "blockClass": "link"
