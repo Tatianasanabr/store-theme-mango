@@ -119,3 +119,47 @@
     opacity: .8;
     cursor: pointer;
 }
+
+.infoCardContainer--desktop__home--grid_kids {
+    height: 32rem;
+}
+
+.infoCardContainer--desktop__home--grid_men {
+    height: 32rem;
+}
+
+.infoCardContainer--desktop__home--grid_teens {
+    height: 32rem;
+}
+
+.infoCardTextContainer--desktop__home--grid_men :global(.vtex-button),
+.infoCardTextContainer--desktop__home--grid_kids :global(.vtex-button),
+.infoCardTextContainer--desktop__home--grid_teens :global(.vtex-button) {
+    position: relative;
+    top: 11rem;
+    left: 50%;
+    transform: translate(78%, 50%);
+    background-color: #ffff;
+    border: none;
+    border-radius: 0;
+    color: black;
+    text-transform: capitalize;
+}
+
+.infoCardContainer--desktop__home--grid_men:hover,
+.infoCardContainer--desktop__home--grid_kids:hover,
+.infoCardContainer--desktop__home--grid_teens:hover{
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    opacity: .8;
+    cursor: pointer;
+}
+
+.infoCardCallActionContainer--desktop__home--grid_men :first-child:hover,
+.infoCardCallActionContainer--desktop__home--grid_kids :first-child:hover,
+.infoCardCallActionContainer--desktop__home--grid_teens :first-child:hover {
+    background-color     : #d7d7d8;
+    transition: background-color 0.8s ease;
+    background-clip: padding-box;
+}

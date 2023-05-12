@@ -34,6 +34,7 @@
       "blockClass": "desktop__department--women-subcategory"
     },
     "children": [
+      "rich-text#desktop__subcategory--header",
       "menu-item#desktop__subcategory--dresses",
       "menu-item#desktop__subcategory--shirts",
       "menu-item#desktop__subcategory--Tshirts",
@@ -49,6 +50,14 @@
       "menu-item#desktop__subcategory--sportswear",
       "menu-item#desktop__subcategory--underwear"
     ]
+  },
+
+  "rich-text#desktop__subcategory--header": {
+    "title": "Header subcategory",
+    "props": {
+      "text": "Prendas",
+      "blockClass": "desktop__subcategory--header"
+    }
   },
 
   "menu-item#desktop__subcategory--dresses": {

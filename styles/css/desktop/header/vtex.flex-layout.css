@@ -23,6 +23,7 @@
     align-items   : center;
     margin-left   : 4px;
     cursor        : pointer;
+    margin-top: 0.5px;
 
 }
 
@@ -50,6 +51,10 @@
     background-color: transparent;
 }
 
+.flexColChild--product__description {
+    position: relative;
+}
+
 .flexCol--minicart__empty {
     display        : flex;
     justify-content: center;
@@ -57,13 +62,16 @@
 }
 
 .flexRowContent--desktop__product--container {
-    padding: 0;
+     padding: 0;
     height : 150px;
     width  : 350px;
+    padding: 0;
+    height: 150px;
+    width: 350px;
 }
 
 .flexColChild--desktop__product--image {
-    margin-top: .5rem;
+    width: 150px;
 }
 
 .flexColChild--product__description {
@@ -78,7 +86,7 @@
 }
 
 .flexRowContent--desktop__price--remove {
-    transform: translateX(180px);
+   transform: translateX(180px);
     position : relative;
     top      : -85px;
 }
@@ -107,17 +115,16 @@
     flex-direction: column;
     align-items   : center;
     display: flex;
-    /* margin-top: 2rem; */
 }
 
 .flexRowContent--desktop__searchbar--one {
     cursor    : pointer;
-    margin-top: 6px;
+    margin-top: -14px;
 }
 
 .flexColChild--desktop__remove--button {
     position: relative;
-    left: -19.7rem;
+    left: -11.7rem;
 }
 
 .flexColChild--desktop__remove--button :global(.vtex-button) {
@@ -144,6 +151,129 @@
     margin-right: 16rem;
 }
 
+.flexCol--priceWrapper {
+    position: absolute;
+    top: 16px;
+    right: -17px;
+}
+
+.flexColChild--main__container--desktop {
+    transform: translateY(20px);
+}
+
+.flexCol--main__container--desktop {
+    display: flex;
+} 
+
+.flexCol--sub__container--desktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    margin-left: -4rem;
+}
 
 
+.flexRowContent--otraprueba :global(.vtex-rich-text-0-x-container) {
+    transform: translateY(15px);
+}
+
+.closeIcon--desktop__searchbar--one {
+    margin-top: 6px;
+}
+
+.flexRow--desktop__header--free_shipping :global(.vtex-store-components-3-x-container) {
+    max-width: 100vw!important;
+}
+
+.flexRow--desktop__home--grid_cards :global(.vtex-store-components-3-x-container) {
+    max-width: 100vw;
+}
+
+.flexCol--desktop__header--bag_icon {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.flexCol--desktop__header--search_icon {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.flexCol--desktop__header--login_icon {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: -2px;
+}
+
+.flexCol--desktop__header--favorites_icon {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: -2px;
+}
+
+/*Estilos iconos header*/
+.flexRow--desktop__header--icons {
+    margin-right: 33px;
+}
+
+.flexRowContent--desktop__header--icons {
+    gap: 19px;
+}
+
+.flexColChild--desktop__header--search_icon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.flexColChild--desktop__header--login_icon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.flexColChild--desktop__header--favorites_icon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.flexColChild--desktop__header--bag_icon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.flexColChild--desktop__header--search_icon:first-child {
+    position: relative;
+    top: 25px;
+}
+
+.flexColChild--desktop__header--login_icon:first-child {
+    position: relative;
+    top: 11px;
+    left: 9px;
+}
+
+.flexColChild--desktop__header--favorites_icon:first-child {
+    position: relative;
+    top: 20px;
+    left: 4px;
+}
+
+.flexColChild--desktop__header--bag_icon:first-child {
+    position: relative;
+    top: 6px;
+}
+
+.flexColChild--desktop__header--login_icon:first-child :global(.vtex-button) {
+    width: 4rem;
+    margin-left: -1rem;
+    background: transparent;
+}
 

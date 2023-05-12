@@ -2,12 +2,9 @@
   "store.home": {
     "title": "Store home",
     "blocks": [
-      "responsive-layout.desktop#home__section-1",
-      "responsive-layout.mobile#home__section-1",
-      /* "responsive-layout.tablet#home__section-1", */
-      /* "responsive-layout.phone#home__section-1" */
-      "responsive-layout.mobile#global__products--store",
-      "footer#mobile"
+      "responsive-layout.desktop#home__desktop",
+      "responsive-layout.mobile#home__mobile",
+      "responsive-layout.phone#home__phone"
    ]
   }
 }

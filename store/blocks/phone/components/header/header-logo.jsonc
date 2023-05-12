@@ -1,0 +1,12 @@
+{
+    //Phone logo section
+  "logo#phone__header--logo": {
+    "title": "Logo phone",
+    "props": {
+      "href": "/",
+      "url": "assets/img/global/global__logo-mango.png",
+      "width": "140",
+      "blockClass": "phone__header--logo"
+    }
+  }
+}

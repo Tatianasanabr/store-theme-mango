@@ -6,3 +6,7 @@
 .nameContainer--product__name {
     font-weight: bold;
 }
+
+.productBrand--product__name {
+    font-size: 14px;
+}

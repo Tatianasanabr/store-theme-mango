@@ -1,0 +1,26 @@
+{
+    "newsletter-form#mobile__newsletter--form": {
+        "title": "Desktop newsletter form",
+        "children": [
+            "newsletter-input-email#mobile__input--email",
+            "newsletter-submit#mobile__submit--email"
+        ],
+        "props": {
+            "blockClass": "mobile__newsletter--form"
+        }
+    },
+    "newsletter-input-email#mobile__input--email": {
+        "title": "Desktop input email newsletter section",
+        "props": {
+            "placeholderText": "Escribe tu e-mail",
+            "blockClass": "mobile__input--email"
+        }
+    },
+    "newsletter-submit#mobile__submit--email": {
+        "title": "Desktop submit email newsletter section",
+        "props": {
+            "submitButtonLabel": "Suscribirme",
+            "blockClass": "mobile__submit--email"
+        }
+    }
+}

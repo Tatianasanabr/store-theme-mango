@@ -1,0 +1,36 @@
+.flexRowContent--tablet__header--menu {
+    border-bottom: 1px solid #d7d7d8;
+    padding: 3px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flexRowContent--tablet__searchbar--one {
+    background-color: #fff;
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .flexRowContent--minicart__footer {
+        margin-left: -5rem;
+    }
+
+    .flexColChild--desktop__remove--button {
+        left: -8.7rem;
+    }
+}
+
+.flexRowContent--tablet__header--icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flexCol--tablet__header--search_icon {
+    transform: translate(10px, 10px);
+}
+
+.flexCol--tablet__header--favorites_icon {
+    transform: translate(10px, 10px);
+}

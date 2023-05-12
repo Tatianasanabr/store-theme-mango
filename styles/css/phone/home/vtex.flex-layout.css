@@ -1,5 +1,20 @@
-/* Example Phone:
-.flexRow--home__section-2 {
-    margin: 50px auto;
-    max-width: 1200px;
-} */
+.flexRowContent--phone__home--social_card {
+    padding: 24px 32px;
+}
+
+.flexRowContent--phone__disclosure--container-row:first-child :global(.vtex-flex-layout-0-x-flexColChild) {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexRowContent--phone__disclosure--container-row :first-child :global(.vtex-disclosure-layout-1-x-trigger) {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.flexRow--phone__disclosure--container-row {
+    padding: 1rem 2rem;
+}

@@ -1,0 +1,24 @@
+.container--phone__home--grid_lines {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    font-size: 14px;
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+    .paragraph--phone__home--grid_lines {
+       font-size: 18px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+    .paragraph--phone__home--grid_lines {
+        font-size: 21px;
+    }
+}
+
+.paragraph--disclosure__text--title {
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: .3px;
+}

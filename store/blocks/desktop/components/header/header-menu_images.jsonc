@@ -1,0 +1,34 @@
+{
+  //Desktop menu images
+  "image#header__menu--women": {
+    "title": "Women menu images",
+    "props": {
+      "src": "assets/img/header/header__menu--women.png",
+      "blockClass": "header__menu--image"
+    }
+  },
+
+  "image#header__menu--man": {
+    "title": "Men menu images",
+    "props": {
+      "src": "assets/img/header/header__menu--man.png",
+      "blockClass": "header__menu--image"
+    }
+  },
+
+  "image#header__menu--teen": {
+    "title": "Teen menu images",
+    "props": {
+      "src": "assets/img/header/header__menu--teen.png",
+      "blockClass": "header__menu--image"
+    }
+  },
+
+  "image#header__menu--kids": {
+    "title": "Kids menu image",
+    "props": {
+      "src": "assets/img/header/header__menu--kids.png",
+      "blockClass": "header__menu--image"
+    }
+  }
+}

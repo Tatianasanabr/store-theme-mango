@@ -9,28 +9,6 @@
       "flex-layout.row#desktop__header--menu"
     ]
   },
-  "flex-layout.row#desktop__header--free_shipping": {
-    "title": "Text container free shipping desktop",
-    "props": {
-      "horizontalAlign": "rigth",
-      "verticalAlign": "center"
-    },
-    "children": [
-      "rich-text#desktop__header--free_shipping"
-    ]
-  },
-
-  //Free shipping section
-  "rich-text#desktop__header--free_shipping": {
-    "title": "Free shipping text",
-    "props": {
-      "text": "Envío gratis desde $250.000 - Devoluciones a 60 días",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": "header__freeShipping--one",
-      "font": "heading-6"
-    }
-  },
 
   "flex-layout.row#desktop__header--menu": {
     "title": "Menu header section on desktop",
@@ -44,13 +22,14 @@
     },
     "children": [
       "vtex.menu@2.x:menu#desktop__menu--category",
-      "flex-layout.col#spacer",
+      "flex-layout.col#desktop__menu--spacer",
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "flex-layout.row#desktop__searchbar--one",
+      "flex-layout.col#desktop__menu--spacer",
+      "flex-layout.row#desktop__header--icons"
+      /* "flex-layout.row#desktop__searchbar--one",
       "flex-layout.col#desktop__menu--login",
       "flex-layout.col#desktop__menu--favorites",
-      "flex-layout.col#desktop__menu--minicart"
+      "flex-layout.col#desktop__menu--minicart"*/
     ]
   },
 
@@ -67,39 +46,6 @@
       "menu-item#desktop__menu--teens",
       "menu-item#desktop__menu--kids"
     ]
-  },
-
-  //Menu images
-  "image#header__menu--women": {
-    "title": "Women menu images",
-    "props": {
-      "src": "assets/img/header/header__menu--women.png",
-      "blockClass": "header__menu--image"
-    }
-  },
-
-  "image#header__menu--man": {
-    "title": "Men menu images",
-    "props": {
-      "src": "assets/img/header/header__menu--man.png",
-      "blockClass": "header__menu--image"
-    }
-  },
-
-  "image#header__menu--teen": {
-    "title": "Teen menu images",
-    "props": {
-      "src": "assets/img/header/header__menu--teen.png",
-      "blockClass": "header__menu--image"
-    }
-  },
-
-  "image#header__menu--kids": {
-    "title": "Kids menu image",
-    "props": {
-      "src": "assets/img/header/header__menu--kids.png",
-      "blockClass": "header__menu--image"
-    }
   },
 
   //Women section
@@ -188,12 +134,6 @@
       "flex-layout.row#desktop__category--discount",
       "flex-layout.row#desktop__category--collections",
       "flex-layout.row#desktop__category--exceptional"
-      /*"menu-item#desktop__category--clothing",
-      "menu-item#desktop__category--accessories",
-      "menu-item#desktop__category--plus_size",
-      "menu-item#desktop__category--discount",
-      "menu-item#desktop__category--collections",
-      "menu-item#desktop__category--exceptional"*/
     ]
   },
 
@@ -261,12 +201,6 @@
       "flex-layout.row#desktop__category--discount",
       "flex-layout.row#desktop__category--collections",
       "flex-layout.row#desktop__category--exceptional"
-      /*"menu-item#desktop__category--clothing",
-      "menu-item#desktop__category--accessories",
-      "menu-item#desktop__category--plus_size",
-      "menu-item#desktop__category--discount",
-      "menu-item#desktop__category--collections",
-      "menu-item#desktop__category--exceptional"*/
     ]
   },
 
@@ -297,7 +231,6 @@
     "props": {
       "width": "100%",
       "blockClass": "desktop__submenu--container"
-
     },
     "children": [
       "flex-layout.row#desktop__submenu--kids"
@@ -335,16 +268,10 @@
       "flex-layout.row#desktop__category--discount",
       "flex-layout.row#desktop__category--collections",
       "flex-layout.row#desktop__category--exceptional"
-      /*"menu-item#desktop__category--clothing",
-      "menu-item#desktop__category--accessories",
-      "menu-item#desktop__category--plus_size",
-      "menu-item#desktop__category--discount",
-      "menu-item#desktop__category--collections",
-      "menu-item#desktop__category--exceptional"*/
     ]
   },
 
-  "flex-layout.col#spacer": {
+  "flex-layout.col#desktop__menu--spacer": {
     "title": "Desktop spacer",
     "props": {
       "width": "grow"
@@ -356,18 +283,17 @@
       "verticalAlign": "middle"
     },
     "children": [
-      "logo"
+      "logo#desktop__header--logo"
     ]
   },
-
-  //Logo section
-  "logo": {
+  //Desktop logo section
+  "logo#desktop__header--logo": {
     "title": "Logo desktop",
     "props": {
       "href": "/",
       "url": "assets/img/global/global__logo-mango.png",
       "width": "197",
-      "blockClass": "header__logo-desktop"
+      "blockClass": "desktop__header--logo"
     }
   }
 }

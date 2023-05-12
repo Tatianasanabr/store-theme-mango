@@ -1,5 +1,5 @@
 {
-  "responsive-layout.desktop#home__section-1": {
+  "responsive-layout.desktop#home__desktop": {
     "title": "Home Section 1 Desktop",
     "children": [
       "info-card#desktop__home--info_card",
@@ -12,9 +12,12 @@
       "flex-layout.row#desktop__section--girls",
       "link.product#desktop__button--see_more",
       "rich-text#desktop__our--lines",
-      "flex-layout.row#desktop__images--lines",
+      "flex-layout.row#desktop__home--grid_lines",
+      /* "flex-layout.row#home__section-1", 
+      "flex-layout.row#global__home--product-summary",*/
+      "flex-layout.row#home__shelf",
       "slider-layout#home__slider--children",
-      "flex-layout.row#home__section-1"
+      "flex-layout.row#desktop__women--categories"
       
     ]
   }

@@ -1,0 +1,12 @@
+.openIconContainer--mobile__menu--minicart {
+    padding: 0;
+    position: relative;
+    top: 2px;
+}
+
+.minicartQuantityBadge--mobile__menu--minicart {
+    position: absolute;
+    top: 10px;
+    right: -14px;
+}
+

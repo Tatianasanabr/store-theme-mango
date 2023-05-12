@@ -21,13 +21,13 @@
 }
 
 .productPrice {
-    text-align: inherit;
+    text-align: center;
 }
 
-.price {
+/* .price {
     font-size: 12px;
     width    : 0px !important;
-}
+} */
 
 .productBrandName--product__brand--info {
     font-size: .58125rem;
@@ -44,10 +44,27 @@
     margin-top: 1rem;
 }
 
-.quantitySelectorWrapper--desktop__quantity--selector {
-    transform: translateX(-73px);
+/* .quantitySelectorWrapper--desktop__quantity--selector {
+    transform: translateX(-141px);
     position : relative;
-    top      : -17px;
-    left     : -13px;
+    top      : -18px;
+    left     : 65px;
     font-size: .8125rem;
+} */
+
+.productImageContainer--desktop__product--image {
+    width: 119px;
+    margin-top: 14px;
 }
+
+.productPrice--desktop__price--item {
+    position: relative;
+    top: 59px;
+    left: -94px;
+}
+
+.price--desktop__price--item {
+    transform: translateY(3px);
+}
+
+

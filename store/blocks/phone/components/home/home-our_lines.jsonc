@@ -1,0 +1,90 @@
+{
+    "flex-layout.row#phone__home--grid_lines": {
+        "title": "Grid cards home main phone",
+        "children": [
+            "rich-text#phone__home--grid_lines",
+            "flex-layout.col#phone__home--grid_men",
+            "flex-layout.col#phone__home--grid_kids",
+            "flex-layout.col#phone__home--grid_teens"
+        ],
+        "props": {
+            "blockClass": "phone__home--grid_sections"
+        }
+    },
+    "rich-text#phone__home--grid_lines": {
+        "title": "Phone home grid lines text",
+        "props": {
+            "text": "Nuestras líneas",
+            "blockClass": "phone__home--grid_lines"
+        }
+    },
+    "flex-layout.col#phone__home--grid_men": {
+        "title": "First grid container",
+        "children": [
+            "info-card#phone__home--grid_men"
+        ],
+        "props": {
+            "blockClass": "phone__home--grid_men"
+        }
+    },
+    "flex-layout.col#phone__home--grid_kids": {
+        "title": "Second grid container",
+        "children": [
+            "info-card#phone__home--grid_kids"
+        ],
+        "props": {
+            "blockClass": "phone__home--grid_kids"
+        }
+    },
+    "flex-layout.col#phone__home--grid_teens": {
+        "title": "Third grid container",
+        "children": [
+            "info-card#phone__home--grid_teens"
+        ],
+        "props": {
+            "blockClass": "phone__home--grid_teens"
+        }
+    },
+    "info-card#phone__home--grid_men": {
+        "title": "Men grid card",
+        "props": {
+            "id": "desktop-home-info_card",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "assets/img/global/home/lines_men.jpg",
+            "headline": "",
+            "callToActionText": "Hombre",
+            "callToActionUrl": "#",
+            "blockClass": "phone__home--grid_men",
+            "textAlignment": "CENTER"
+        }
+    },
+    "info-card#phone__home--grid_kids": {
+        "title": "Kids grid card",
+        "props": {
+            "id": "desktop-home-info_card",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "assets/img/global/home/lines_kids.jpg",
+            "headline": "",
+            "callToActionText": "Niños",
+            "callToActionUrl": "#",
+            "blockClass": "phone__home--grid_kids",
+            "textAlignment": "CENTER"
+        }
+    },
+    "info-card#phone__home--grid_teens": {
+        "title": "Third grid card",
+        "props": {
+            "id": "phone__home--grid_teens",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "assets/img/global/home/lines_teens.jpg",
+            "headline": "",
+            "callToActionText": "Teen",
+            "callToActionUrl": "#",
+            "blockClass": "phone__home--grid_teens",
+            "textAlignment": "CENTER"
+        }
+    }
+}

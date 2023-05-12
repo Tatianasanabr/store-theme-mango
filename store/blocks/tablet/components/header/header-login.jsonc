@@ -1,0 +1,16 @@
+{
+    "login#tablet__icon--login": {
+      "title": "Login icon tablet",
+      "props": {
+        "id": "hpa-profile",
+        "size": 50,
+        "width": "50%",
+        "viewBox": "0 0 25 25",
+        "showIconProfile": true,
+        "hideIconLabel": true,
+        "blockClass": "tablet__icon--login",
+        "emailPlaceholder": "E-mail",
+      "passwordPlaceholder": "Contraseña"
+      }
+    }
+  }

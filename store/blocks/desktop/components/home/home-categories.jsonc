@@ -1,0 +1,435 @@
+{
+    "flex-layout.row#desktop__women--categories": {
+        "title": "Desktop women categories",
+        "children": [
+            "flex-layout.row#desktop__women--category",
+            "rich-text#desktop__women--category_text"
+        ],
+        "props": {
+            "blockClass": "desktop__women--categories"
+        }
+    },
+    "flex-layout.row#desktop__women--category": {
+        "title": "Desktop women category",
+        "children": [
+            "flex-layout.col#desktop__women--clothes",
+            "flex-layout.col#desktop__women--accesories"
+        ],
+        "props": {
+            "blockClass": "desktop__women--category"
+        }
+    },
+    "rich-text#desktop__women--category_text": {
+        "title": "Women category text",
+        "props": {
+            "text": "Mujer",
+            "blockClass": "desktop__women--category_text"
+        }
+    },
+    //Clothes section
+    "flex-layout.col#desktop__women--clothes": {
+        "title": "Desktop Women category clothes",
+        "children": [
+            "rich-text#desktop__clothes--category_text",
+            "menu#desktop__clothes--categories"
+        ],
+        "props": {
+            "blockClass": "desktop__women--clothes"
+        }
+    },
+    "rich-text#desktop__clothes--category_text": {
+        "title": "Desktop clothes category text",
+        "props": {
+            "text": "Prendas",
+            "blockClass": "desktop__clothes--category_text"
+        }
+    },
+
+    "menu#desktop__clothes--categories": {
+        "title": "Footer menu category",
+        "children": [
+            "menu-item#desktop__home--dresses",
+            "menu-item#desktop__home--shirts",
+            "menu-item#desktop__home--tshirts",
+            "menu-item#desktop__home--jackets",
+            "menu-item#desktop__home--sweater",
+            "menu-item#desktop__home--hoodies",
+            "menu-item#desktop__home--coats",
+            "menu-item#desktop__home--pants",
+            "menu-item#desktop__home--jeans",
+            "menu-item#desktop__home--skirts",
+            "menu-item#desktop__home--shorts",
+            "menu-item#desktop__home--swimsuit",
+            "menu-item#desktop__home--sportswear",
+            "menu-item#desktop__home--lingerie"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "desktop__clothes--categories"
+        }
+    },
+    "menu-item#desktop__home--dresses": {
+        "title": "Desktop categories dresses",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Vestidos y monos",
+            "blockClass": "desktop__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Dresses"
+            }
+        }        
+    },
+    "menu-item#desktop__home--shirts": {
+        "title": "Desktop categories shirts",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Camisas",
+            "blockClass": "desktop__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Shirts"
+            }
+        }        
+    },
+    "menu-item#desktop__home--tshirts": {
+        "title": "Desktop categories tshirts",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Camisetas y tops",
+            "blockClass": "desktop__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "tshirts"
+            }
+        }        
+    },
+    "menu-item#desktop__home--jackets": {
+        "title": "Desktop categories jackets",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Chaquetas y americanos",
+            "blockClass": "desktop__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Jackets"
+            }
+        }        
+    },
+    "menu-item#desktop__home--sweater": {
+        "title": "Desktop categories sweater",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Jerséis y cárdigans",
+            "blockClass": "desktop__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Sweater"
+            }
+        }        
+    },
+    "menu-item#desktop__home--hoodies": {
+        "title": "Desktop categories hoodies",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Sudaderas",
+            "blockClass": "desktop__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Hoodies"
+            }
+        }        
+    },
+    "menu-item#desktop__home--coats": {
+        "title": "Desktop categories coats",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Abrigos",
+            "blockClass": "desktop__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Coats"
+            }
+        }        
+    },
+    "menu-item#desktop__home--pants": {
+        "title": "Desktop categories pants",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Pantalones",
+            "blockClass": "desktop__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Pants"
+            }
+        }        
+    },
+    "menu-item#desktop__home--jeans": {
+        "title": "Desktop categories jeans",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Vaqueros",
+            "blockClass": "desktop__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Jeans"
+            }
+        }        
+    },
+    "menu-item#desktop__home--skirts": {
+        "title": "Desktop categories skirts",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Faldas",
+            "blockClass": "desktop__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Skirts"
+            }
+        }        
+    },
+    "menu-item#desktop__home--shorts": {
+        "title": "Desktop categories shorts",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Shorts",
+            "blockClass": "desktop__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Shorts"
+            }
+        }        
+    },
+    "menu-item#desktop__home--swimsuit": {
+        "title": "Desktop categories swimsuit",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Bikinis y bañadores",
+            "blockClass": "desktop__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Swimsuit"
+            } 
+        }       
+    },
+    "menu-item#desktop__home--sportswear": {
+        "title": "Desktop categories sportswear",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Ropa deportiva",
+            "blockClass": "desktop__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Sportswear"
+            }
+        }        
+    },
+    "menu-item#desktop__home--lingerie": {
+        "title": "Desktop categories lingerie",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Ropa interior y lencería",
+            "blockClass": "desktop__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Dresses"
+            }
+        }        
+    },
+
+
+    //Accesories section
+    "flex-layout.col#desktop__women--accesories": {
+        "title": "Desktop Women category accesories",
+        "children": [
+            "rich-text#desktop__accesories--category_text",
+            "menu#desktop__accesories--categories"
+        ],
+        "props": {
+            "blockClass": "desktop__women--accesories"
+        }
+    },
+
+    "menu#desktop__accesories--categories": {
+        "title": "Footer menu category",
+        "children": [
+            "menu-item#desktop__home--shoes",
+            "menu-item#desktop__home--bags",
+            "menu-item#desktop__home--jewerly",
+            "menu-item#desktop__home--leather",
+            "menu-item#desktop__home--belts",
+            "menu-item#desktop__home--sunglasses",
+            "menu-item#desktop__home--scarf",
+            "menu-item#desktop__home--hats",
+            "menu-item#desktop__home--more_accesories"
+
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "desktop__accesories--categories"
+        }
+    },
+
+    "menu-item#desktop__home--shoes": {
+        "title": "Desktop categories shoes",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Zapatos",
+            "blockClass": "desktop__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Shoes"
+            }
+        }        
+    },
+    "menu-item#desktop__home--bags": {
+        "title": "Desktop categories bags",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Bolsos",
+            "blockClass": "desktop__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Bags"
+            }
+        }        
+    },
+    "menu-item#desktop__home--jewerly": {
+        "title": "Desktop categories jewerly",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Bisutería",
+            "blockClass": "desktop__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Jewerly"
+            }
+        }        
+    },
+    "menu-item#desktop__home--leather": {
+        "title": "Desktop categories leather",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Marroquinería",
+            "blockClass": "desktop__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "leather"
+            }
+        }        
+    },
+    "menu-item#desktop__home--belts": {
+        "title": "Desktop categories belts",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Cinturones",
+            "blockClass": "desktop__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Belts"
+            }
+        }        
+    },
+    "menu-item#desktop__home--sunglasses": {
+        "title": "Desktop categories sunglasses",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Gafas de sol",
+            "blockClass": "desktop__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Sunglasses"
+            }
+        }        
+    },
+    "menu-item#desktop__home--scarf": {
+        "title": "Desktop categories scarf",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Fulares y pañuelos",
+            "blockClass": "desktop__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Scarf"
+            } 
+        }       
+    },
+    "menu-item#desktop__home--hats": {
+        "title": "Desktop categories hats",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Sombreros",
+            "blockClass": "desktop__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Hats"
+            }
+        }        
+    },
+    "menu-item#desktop__home--more_accesories": {
+        "title": "Desktop categories more_accesories",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Más accesorios",
+            "blockClass": "desktop__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "More_accesories"
+            }
+        }        
+    },
+    
+    "rich-text#desktop__accesories--category_text": {
+        "title": "Desktop accesories category text",
+        "props": {
+            "text": "Accesorios",
+            "blockClass": "desktop__accesories--category_text"
+        }
+    }
+}

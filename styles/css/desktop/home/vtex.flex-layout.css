@@ -5,7 +5,14 @@
 }
 
 .flexRowContent--desktop__home--grid_cards {
-    margin-top: .1rem;
+    gap: 2px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: unset;
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 2px;
 }
 
 .flexRowContent--desktop__section--girls {
@@ -22,9 +29,36 @@
     margin: 5px 6px;
 }
 
-.flexRowContent--desktop__images--lines {
+.flexRowContent--desktop__home--grid_sections {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.flexColChild--desktop__home--grid_kids {
+    width: 26.6rem;
+}
+
+.flexColChild--desktop__home--grid_men {
+    width: 26.7rem;
+}
+
+.flexRowContent--desktop__women--categories {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.flexRowContent--desktop__women--category {
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.flexColChild--desktop__women--accesories {
+    height: 9%!important;
+}
+
+.flexColChild--desktop__women--clothes {
+    margin-top: -1px;
+    margin-bottom: -20px;
 }
 

@@ -1,0 +1,79 @@
+{
+    "sticky-layout#tablet": {
+      "title": "Sticky sección tablet",
+      "props": {
+        "blockClass": "tablet__sticky_layout"
+      },
+      "children": [
+        "flex-layout.row#tablet__header--free_shipping",
+        "flex-layout.row#tablet__header--menu",
+        "flex-layout.row#tablet__searchbar--one"
+      ]
+    },
+  
+    "flex-layout.row#tablet__header--menu": {
+      "title": "Menu header section on phone",
+      "children": [
+        "flex-layout.col#tablet__drawer",
+        "flex-layout.col#tablet__menu--spacer",
+        "logo#phone__header--logo",
+        /* "flex-layout.col#tablet__searchbar",
+        "login#tablet__icon--login",
+        "locale-switcher#tablet__menu--favorites",
+        "minicart.v2#desktop__section--minicart" */
+        "flex-layout.row#tablet__header--icons"
+      ],
+      "props": {
+        "blockClass": "tablet__header--menu",
+        "preventHorizontalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "fullWidth": true
+      }
+    },
+  
+    "locale-switcher#tablet__menu--favorites": {
+      "title": "Tablet favorites icon",
+      "props": {
+        "id": "mpa-globe1",
+        "size": 100,
+        "width": "100%",
+        "viewBox": "0 0 20 20",
+        "blockClass": "tablet__favorites--icon"
+      }
+    },
+  
+    "flex-layout.col#tablet__drawer": {
+      "title": "Contenedor drawer",
+      "children": [
+        "drawer#tablet__header--menu",
+        "rich-text#tablet__drawer--menu_text"
+      ],
+      "props": {
+        "blockClass": "header__middle"
+      }
+    },
+  
+    "rich-text#tablet__drawer--menu_text": {
+      "title": "Texto Menu drawer",
+      "props": {
+        "text": "Menú",
+        "blockClass": "drawer__texto-menu"
+      }
+    },
+  
+    "drawer#tablet__header--menu": {
+      "title": "Drawer header",
+      "props": {
+        "blockClass": "drawer__menu-global"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#mobile__menu--category"
+      ]
+    },
+    "flex-layout.col#tablet__menu--spacer": {
+      "title": "Phone spacer",
+      "props": {
+        "width": "grow"
+      }
+    }
+  }

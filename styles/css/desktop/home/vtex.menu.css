@@ -1,0 +1,28 @@
+.styledLink--desktop__home--category {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: .3px;
+    height: 22px;
+    color: #000;
+    padding: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "MangoSans-light";
+}
+
+.styledLink--desktop__home--category:hover {
+    border-bottom: 1px solid black;
+    padding-bottom: 1.2rem;
+}
+
+.menuContainerNav--desktop__clothes--categories {
+    margin: 24px 0 0 0;
+}
+
+.styledLinkContainer--desktop__home--category {
+    padding: 0;
+}
+
+.menuContainerNav--desktop__accesories--categories {
+    margin: 6px 0 0 0;
+}

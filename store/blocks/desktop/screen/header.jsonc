@@ -1,6 +1,6 @@
 {
   "header-layout.desktop": {
-    "title": "Header Layout Sección escritorio",
+    "title": "Header Layout desktop",
     "props": {
       "blockClass": "desktop__header_layout"
     },

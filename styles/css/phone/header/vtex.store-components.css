@@ -1,0 +1,66 @@
+.logoImage--phone__header--logo {
+    position: absolute;
+    left: 2.8rem;
+    top: 2.5rem;
+    width: 7rem;
+}
+
+@media (max-width: 320px) {
+    .logoImage--phone__header--logo {
+        width: 5.5rem;
+    }
+}
+
+.autoCompleteOuterContainer--phone__header--menu {
+    background-color: #f3f3f3;
+
+}
+
+.autoCompleteOuterContainer--phone__header--menu :first-child {
+    border          : none;
+    background-color: #f3f3f3;
+}
+
+.autoCompleteOuterContainer--phone__header--menu :nth-child(2n) {
+    background-color: #f3f3f3;
+}
+
+.autoCompleteOuterContainer--phone__header--menu :nth-child(1n) {
+    background-color: #f3f3f3;
+}
+
+.searchBarIcon--phone__header--menu--search :first-child {
+    display: none;
+}
+
+.searchBarInnerContainer--phone__header--menu {
+    max-width: 85%;
+    margin-left: 0.6rem;
+    width: 19rem;
+}
+
+.searchBarContainer {
+    width: 97vw;
+    margin: 0 auto;
+}
+
+ @media (min-width: 321px) and (max-width: 395px) {
+    .searchBarInnerContainer--phone__header--menu {
+        /* margin-left: .5rem;
+        width: 20rem; */
+        width: 100%;
+    }  
+}
+
+@media (min-width: 426px) and (max-width: 639px) {
+    .searchBarInnerContainer--phone__header--menu {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 396px) and (max-width: 425px) {
+    .autoCompleteOuterContainer--phone__header--menu {
+        width: 21rem;
+    }
+}

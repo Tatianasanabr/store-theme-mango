@@ -1,0 +1,44 @@
+{
+    "link.product#desktop__section--help": {
+        "props": {
+            "href": "/{slug}/p",
+            "label": "Ayuda"
+        }
+    },
+    "link.product#desktop__section--bag": {
+        "props": {
+            "href": "/{slug}/p",
+            "label": "Mis compras"
+        }
+    },
+    "link.product#desktop__section--returns": {
+        "props": {
+            "href": "/{slug}/p",
+            "label": "Devoluciones"
+        }
+    },
+    "link.product#desktop__section--stores": {
+        "props": {
+            "href": "/{slug}/p",
+            "label": "Tiendas"
+        }
+    },
+    "link.product#desktop__section--apps": {
+        "props": {
+            "href": "/{slug}/p",
+            "label": "Apps"
+        }
+    },
+    "link.product#desktop__section--site_map": {
+        "props": {
+            "href": "/{slug}/p",
+            "label": "Site map"
+        }
+    },
+    "link.product#desktop__section--sustainability": {
+        "props": {
+            "href": "/{slug}/p",
+            "label": "sostenibilidad"
+        }
+    }    
+}   

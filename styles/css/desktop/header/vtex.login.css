@@ -3,6 +3,8 @@
     height          : 1.4rem;
     margin-top      : -7px;
     background-color: transparent;
+    position: absolute;
+    left: -5px;
 }
 
 .vtex-button__label {
@@ -19,7 +21,7 @@
 .optionsList {
     display: flex;
     flex-direction: column-reverse;
-    border-bottom: 1px solid pink;
+    border-bottom : 0.1px solid #aaa;
 }
 
 .optionsListItem {
@@ -27,14 +29,16 @@
 }
 
 .contentContainer {
-    margin-left: 191px;
-    margin-right: -161px;
-    margin-top: 15px;
+    border: 1px solid #aaa;
+    position: absolute;
+    transform: translate(4.8rem,8px);
+    width: 24.8rem;
 }
 
 .arrowUp {
-    margin-right: -20px;
-    margin-top: 6px;
+    margin-right: 17px;
+    margin-top: 13px;
+    border: 1px solid #aaa;
 }
 
 .emailPasswordOptionBtn :first-child {
@@ -92,4 +96,51 @@
     text-transform: capitalize;
     visibility: visible;
     content: "¿No tienes cuenta? Regístrate";
+}
+
+.options :global(.vtex-login-2-x-formTitle) {
+    display: none;
+}
+
+.inputContainerEmail :global(.vtex-input-prefix__group) {
+     border: none;
+     border-bottom: 1px solid #aaa;
+     border-radius: 0;
+}  
+
+.inputContainerPassword :global(.vtex-input-prefix__group) {
+    border: none;
+    border-bottom: 1px solid #aaa;
+    border-radius: 0;
+}
+
+.eyeIcon--invisible {
+    display: none;
+}
+
+.forgotPasswordLink {
+    color: black;
+}
+
+.dontHaveAccount {
+    color: black;
+}
+
+.sendButton :first-child {
+    background-color: black;
+    border: none;
+    border-radius: 0;
+}
+
+.backButton {
+    border: 1px solid black;
+    color: black;
+}
+
+.backButton :global(.vtex-button__label :last-child){
+    color: black;
+}
+
+.emailVerification :first-child {
+    font-size: 13px;
 }

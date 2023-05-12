@@ -1,0 +1,97 @@
+{
+    //Header icons
+  "flex-layout.row#tablet__header--icons": {
+    "title": "tablet header icons container",
+    "children": [
+      /*"flex-layout.col#tablet__header--search_icon"
+      "flex-layout.col#tablet__searchbar",*/
+      "flex-layout.col#tablet__header--search_icon",
+      "flex-layout.col#tablet__header--login_icon",
+      "flex-layout.col#tablet__header--favorites_icon",
+      "flex-layout.col#tablet__header--bag_icon"
+    ],
+    "props": {
+      "blockClass": "tablet__header--icons"
+    }
+  },
+  "flex-layout.col#tablet__header--search_icon": {
+    "title": "tablet header search icon container",
+    "children": [
+      /* "flex-layout.row#tablet__searchbar--one", */
+      "icon#tablet__searchbar--icon1"
+    ],
+    "props": {
+      "blockClass": "tablet__header--search_icon"
+    }
+  },
+  "flex-layout.col#tablet__header--login_icon": {
+    "title": "tablet header search icon container",
+    "children": [
+        "login#tablet__icon--login"
+      /*"login#tablet__menu--login2"
+       "icon#tablet__login--icon", */
+      
+    ],
+    "props": {
+      "blockClass": "tablet__header--login_icon"
+    }
+  },
+  "flex-layout.col#tablet__header--favorites_icon": {
+    "title": "tablet header search icon container",
+    "children": [
+      "icon#tablet__favorites--icon"
+    ],
+    "props": {
+      "blockClass": "tablet__header--favorites_icon"
+    }
+  },
+  "flex-layout.col#tablet__header--bag_icon": {
+    "title": "tablet header search icon container",
+    "children": [
+      "minicart.v2#desktop__section--minicart"
+    ],
+    "props": {
+      "blockClass": "tablet__header--bag_icon"
+    }
+  },
+  "icon#tablet__searchbar--icon1": {
+    "title": "Search bar icon ",
+    "props": {
+      "id": "hpa-search",
+      "size": 25,
+      "width": "15%",
+      "viewBox": "0 0 25 25",
+      "blockClass": "tablet__searchbar--icon"
+    }
+  },
+  "icon#tablet__login--icon": {
+    "title": "tablet login  icon",
+    "props": {
+      "id": "hpa-profile",
+      "size": 40,
+      "width": "20%",
+      "viewBox": "0 0 25 25",
+      "blockClass": "tablet__login--icon"
+    }
+  },
+  "icon#tablet__favorites--icon": {
+    "title": "tablet favorites  icon",
+    "props": {
+      "id": "mpa-globe",
+      "size": 30,
+      "width": "15%",
+      "viewBox": "0 0 25 25",
+      "blockClass": "tablet__favorites--icon"
+    }
+  },
+  "icon#tablet__bag--icon": {
+    "title": "tablet bag  icon",
+    "props": {
+      "id": "hpa-cart",
+      "size": 32,
+      "width": "15%",
+      "viewBox": "0 0 25 25",
+      "blockClass": "tablet__bag--icon"
+    }
+  }
+}

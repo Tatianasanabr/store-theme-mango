@@ -1,0 +1,29 @@
+.autoCompleteOuterContainer--tablet__header--menu {
+    background-color: #f3f3f3;
+}
+
+.autoCompleteOuterContainer--tablet__header--menu :first-child {
+    border          : none;
+    background-color: #f3f3f3;
+}
+
+.autoCompleteOuterContainer--tablet__header--menu :nth-child(2n) {
+    background-color: #f3f3f3;
+}
+
+.autoCompleteOuterContainer--tablet__header--menu :nth-child(1n) {
+    background-color: #f3f3f3;
+}
+
+.searchBarIcon--tablet__header--menu--search :first-child {
+    display: none;
+}
+
+.searchBarInnerContainer--tablet__header--menu {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+    
