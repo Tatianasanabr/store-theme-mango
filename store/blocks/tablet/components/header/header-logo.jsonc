@@ -1,0 +1,12 @@
+{
+  //Tablet logo section
+  "logo#tablet__header--logo": {
+    "title": "Logo tablet",
+    "props": {
+      "href": "/",
+      "url": "assets/img/global/global__logo-mango.png",
+      "width": "140",
+      "blockClass": "tablet__header--logo"
+    }
+  }
+}

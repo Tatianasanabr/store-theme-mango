@@ -1,0 +1,22 @@
+/* .slide--visible  :first-child :global(.vtex-button) {
+    background-color: black;
+    border-color: black;
+    border-radius: 0;
+    font-family: "MangoSans-Regular";
+} */
+
+.slideChildrenContainer--carousel_home :first-child :global(.vtex-button) {
+    background-color: black;
+    border-color: black;
+    border-radius: 0;
+    text-transform: capitalize;
+}
+
+.slide--carousel_home--visible {
+    padding: 9px;
+}
+
+.sliderTrack--home__slider {
+    height: 21rem;
+}
+

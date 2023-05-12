@@ -1,0 +1,49 @@
+.infoCardContainer--phone__home--social_card {
+    height: 16rem;
+}
+
+.infoCardHeadline--phone__home--social_card {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 31px;
+    margin-top: 10rem;
+}
+
+.infoCardCallActionContainer--phone__home--social_card :first-child {
+    background-color: transparent;
+    border: none;
+    text-transform: capitalize;
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+    .infoCardContainer--phone__home--social_card {
+        height: 20rem;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+    .infoCardContainer--phone__home--social_card {
+        height: 23rem;
+    }
+}
+
+.infoCardContainer--phone__home--grid_men,
+.infoCardContainer--phone__home--grid_kids,
+.infoCardContainer--phone__home--grid_teens {
+    height: 13rem;
+    background-position: top;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.infoCardCallActionContainer--phone__home--grid_men :first-child,
+.infoCardCallActionContainer--phone__home--grid_kids :first-child,
+.infoCardCallActionContainer--phone__home--grid_teens :first-child {
+    background-color: #fff;
+    color: black;
+    border: none;
+    text-transform: capitalize;
+    border-radius: 0;
+    font-size: 12px;
+}

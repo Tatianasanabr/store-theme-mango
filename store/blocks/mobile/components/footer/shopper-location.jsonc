@@ -1,0 +1,169 @@
+{
+    "icon#mobile__location--icon": {
+        "title": "Location icon",
+        "props": {
+            "id": "mpa-globe2",
+            "size": 20,
+            "width": "20%",
+            /*"viewBox": "0 0 25 25"*/
+            "blockClass": "mobile__location--icon"
+        }
+    },
+    "flex-layout.col#mobile__footer--location_country": {
+        "title": "mobile footer location country",
+        "children": [
+            "rich-text#mobile__footer--location_country"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--location_country"
+        }
+    },
+    "rich-text#mobile__footer--location_country": {
+        "title": "mobile location country text",
+        "props": {
+            "text": "Colombia",
+            "blockClass": "mobile__footer--location_country"
+        }
+    },
+    "flex-layout.col#mobile__footer--location_arrow": {
+        "title": "mobile footer location country",
+        "children": [
+            "rich-text#mobile__footer--location_arrow"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--location_arrow"
+        }
+    },
+    "rich-text#mobile__footer--location_arrow": {
+        "title": "mobile location arrow text",
+        "props": {
+            "text": " ᐳ",
+            "blockClass": "desktop__footer--location_arrow"
+        }
+    },
+    "modal-trigger#mobile__modal--location": {
+        "title": "Desktop modal location",
+        "children": [
+            "icon#mobile__location--icon",
+            "flex-layout.col#mobile__footer--location_country",
+            "flex-layout.col#mobile__footer--location_arrow",
+            "modal-layout#mobile__modal--container"
+        ],
+        "props": {
+            "blockClass": "mobile__modal--location"
+        }
+    },
+    "modal-layout#mobile__modal--container": {
+        "title": "mobile modal container",
+        "children": [
+            "flex-layout.row#mobile__modal--content"
+        ],
+        "props": {
+            "blockClass": "mobile__modal--container"
+        }
+    },
+    "flex-layout.row#mobile__modal--content": {
+        "title": "mobile modal content",
+        "children": [
+            "flex-layout.row#mobile__modal--title",
+            "flex-layout.row#mobile__modal--content_body",
+            "flex-layout.row#mobile__modal--content_bodylast",
+            "flex-layout.row#mobile__modal--select"
+        ],
+        "props": {
+            "blockClass": "mobile__modal--content"
+        }
+    },
+    "flex-layout.row#mobile__modal--title": {
+        "title": "mobile modal title container",
+        "children": [
+            "rich-text#mobile__modal--title"
+        ],
+        "props": {
+            "blockClass": "mobile__modal--title"
+        }
+    },
+    "rich-text#mobile__modal--title": {
+        "title": "mobile modal title",
+        "props": {
+            "text": "¿En qué país quieres comprar?",
+            "blockClass": "mobile__modal--title"
+        }
+    },
+    "flex-layout.row#mobile__modal--content_body": {
+        "title": "mobile modal content body",
+        "children": [
+            "rich-text#mobile__modal--content"
+        ],
+        "props": {
+            "blockClass": "mobile__modal--content_body"
+        }
+    },
+    "rich-text#mobile__modal--content": {
+        "title": "mobile modal textcontent",
+        "props": {
+            "text": "Compra desde el país que prefieras. Recuerda que solo podremos enviar tu pedido a direcciones ubicadas en el país escogido.",
+            "blockClass": "mobile__modal--content"
+
+        }
+    },
+    "flex-layout.row#mobile__modal--content_bodylast": {
+        "title": "mobile modal content body",
+        "children": [
+            "rich-text#mobile__modal--content2"
+        ],
+        "props": {
+            "blockClass": "mobile__modal--content_bodylast"
+        }
+    },
+    "rich-text#mobile__modal--content2": {
+        "title": "mobile modal textcontent",
+        "props": {
+            "text": "Los métodos de envío, condiciones de venta y puntos de entrega se actualizarán al cambiar de país.",
+            "blockClass": "mobile__modal--content"
+
+        }
+    },
+    "flex-layout.row#mobile__modal--select": {
+        "title": "mobile modal select",
+        "children": ["overlay-trigger#mobile__trigger--container"],
+        "props": {
+            "blockClass": "mobile__modal--select"
+        }
+    },
+    "overlay-trigger#mobile__trigger--container": {
+        "title": "mobile trigger container",
+        "children": [
+          "rich-text#mobile__trigger--cont",
+          "overlay-layout#mobile"    
+        ],
+        "props": {
+            "blockClass": "mobile__trigger--containe"
+        }
+    },
+    
+    "rich-text#mobile__trigger--cont": {
+        "title": "mobile trigger select container",
+        "props": {
+          "text": "**Click to open the Overlay Layout**",
+          "blockClass": "mobile__trigger--cont"
+        }
+    },
+    
+    "overlay-layout#mobile": {
+        "props": {
+          "placement": "left"
+        },
+        "children": [
+          "rich-text#link__mobile"
+        ]
+    },
+    
+    "rich-text#link__mobile": {
+        "props": {
+          "text": "\n**Reach us at**\nwww.vtex.com.br",
+          "blockClass": "link"
+        }
+    }
+        
+}

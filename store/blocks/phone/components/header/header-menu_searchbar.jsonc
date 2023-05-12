@@ -1,0 +1,72 @@
+{
+  //Phone Searchbar section
+  "flex-layout.row#phone__searchbar--one": {
+    "title": "Search bar section",
+    "children": [
+      "flex-layout.col#phone__searchbar--menu",
+      "flex-layout.col#phone__camera--icon"
+    ],
+    "props": {
+      "blockClass": "phone__searchbar--one"
+    }
+  },
+
+  "flex-layout.col#phone__searchbar--menu": {
+    "props": {
+      "blockClass": "phone__searchbar--menu"
+    },
+    "children": ["search-bar#phone__header--menu"]
+  },
+
+  "search-bar#phone__header--menu": {
+    "title": "Search bar icon",
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "blockClass": "phone__header--menu",
+      "hasIconLeft": true,
+      "openAutocompleteOnFocus": true,
+      "containerMode": "overlay",
+      "maxWidth": 900
+    }
+  },
+
+  "flex-layout.col#phone__searchbar": {
+    "children": [
+      "icon#phone__searchbar--icon"
+    ],
+    "props": {
+      "blockClass": "phone__searchbar--icon"
+    }
+  },
+
+  "icon#phone__searchbar--icon": {
+    "title": "Phone search bar icon",
+    "props": {
+      "id": "hpa-search",
+      "size": 30,
+      "width": "15%",
+      "viewBox": "0 0 25 25",
+      "blockClass": "phone__searchbar--icon"
+    }
+  },
+
+  "flex-layout.col#phone__camera--icon": {
+    "title": "Camera icon container",
+    "children": ["icon#phone__camera--icon"],
+    "props": {
+      "blockClass": "phone__camera--icon"
+    }
+  },
+  "icon#phone__camera--icon": {
+    "title": "Phone camera icon",
+    "props": {
+      "id": "mpa-camera",
+      "size": 30,
+      "width": "10%", 
+      /*"viewBox": "0 0 25 25"*/
+      "blockClass": "phone__camera--icon"
+    }
+  }
+}

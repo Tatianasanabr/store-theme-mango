@@ -42,3 +42,26 @@
     padding: 3.8rem;
     font-size: 2.1rem;
 }
+
+.container--desktop__women--category_text {
+    flex-direction: row-reverse;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: .3px;
+    margin-top: 3rem;
+}
+
+.paragraph--desktop__clothes--category_text,
+.paragraph--desktop__accesories--category_text {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.paragraph--desktop__women--category_text {
+    margin-right: -2.8rem;
+}

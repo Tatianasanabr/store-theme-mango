@@ -22,3 +22,11 @@
     top: -9rem;
     left: 12rem;
 }
+
+.flexRow--mobile__product--container {
+    height: 8rem;
+}
+
+.flexColChild--mobile__product--image  {
+    height: 0!important;
+}

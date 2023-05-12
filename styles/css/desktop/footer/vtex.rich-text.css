@@ -1,24 +1,27 @@
-.container--footer__new_clothes {
-    padding       : 2.5rem;
-    font-size     : .9rem;
+.paragraph--desktop__modal--title {
+    margin: 0 auto;
+    font-size: 18px;
+    display: block;
     letter-spacing: .3px;
-    border-bottom : .5px solid #979899;
-
-
-
+    overflow-wrap: break-word;
+    text-align: center;
+    font-weight: bold;
 }
 
-.container--footer__exclusive_discounts {
-    border-top : .5px solid #979899;
-    padding    : 3rem;
-    font-weight: bold;
-    font-size  : .9rem;
-
+.paragraph--desktop__modal--content {
+    display: block;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: .3px;
+    margin-bottom: 15px;
 }
 
-.container--footer__discover {
-    border-top : .5px solid #979899;
-    padding    : 2rem;
+.paragraph--desktop__footer--discounts {
+    font-size: 13px;
     font-weight: bold;
-    font-size  : 1.3rem;
+    letter-spacing: .3px;
+    line-height: 20px;
+    white-space: nowrap;
+    margin-bottom: 1.5rem;
+    margin-top: 3.2rem;
 }

@@ -1,0 +1,8 @@
+{
+  "responsive-layout.tablet#tablet__header--section": {
+    "title": "Header layout sección tablet",
+    "children": [
+      "sticky-layout#tablet"
+    ]
+  }
+}
