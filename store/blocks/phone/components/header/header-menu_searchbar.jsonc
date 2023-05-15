@@ -1,5 +1,4 @@
 {
-  //Phone Searchbar section
   "flex-layout.row#phone__searchbar--one": {
     "title": "Search bar section",
     "children": [
@@ -10,14 +9,15 @@
       "blockClass": "phone__searchbar--one"
     }
   },
-
   "flex-layout.col#phone__searchbar--menu": {
+    "title": "Phone searchbar menu",
     "props": {
       "blockClass": "phone__searchbar--menu"
     },
-    "children": ["search-bar#phone__header--menu"]
+    "children": [
+      "search-bar#phone__header--menu"
+    ]
   },
-
   "search-bar#phone__header--menu": {
     "title": "Search bar icon",
     "blocks": [
@@ -31,8 +31,8 @@
       "maxWidth": 900
     }
   },
-
   "flex-layout.col#phone__searchbar": {
+    "title": "Phone searchbar main",
     "children": [
       "icon#phone__searchbar--icon"
     ],
@@ -40,7 +40,6 @@
       "blockClass": "phone__searchbar--icon"
     }
   },
-
   "icon#phone__searchbar--icon": {
     "title": "Phone search bar icon",
     "props": {
@@ -51,10 +50,11 @@
       "blockClass": "phone__searchbar--icon"
     }
   },
-
   "flex-layout.col#phone__camera--icon": {
     "title": "Camera icon container",
-    "children": ["icon#phone__camera--icon"],
+    "children": [
+      "icon#phone__camera--icon"
+    ],
     "props": {
       "blockClass": "phone__camera--icon"
     }
@@ -64,7 +64,7 @@
     "props": {
       "id": "mpa-camera",
       "size": 30,
-      "width": "10%", 
+      "width": "10%",
       /*"viewBox": "0 0 25 25"*/
       "blockClass": "phone__camera--icon"
     }

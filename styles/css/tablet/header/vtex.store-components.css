@@ -20,9 +20,29 @@
 }
 
 .searchBarInnerContainer--tablet__header--menu {
-    width: 100%;
-    padding: 10px;
+    width        : 100%;
+    padding      : 10px;
     border-radius: 5px;
+}
+
+.infoCardCallActionContainer--desktop__home--grid_card1:last-child :global(.vtex-button__label),
+.infoCardCallActionContainer--desktop__home--grid_card2:last-child :global(.vtex-button__label),
+.infoCardCallActionContainer--desktop__home--grid_card3:last-child :global(.vtex-button__label),
+.infoCardCallActionContainer--desktop__home--grid_card4:last-child :global(.vtex-button__label),
+.infoCardCallActionContainer--desktop__home--grid_card5:last-child :global(.vtex-button__label),
+.infoCardCallActionContainer--desktop__home--grid_card6:last-child :global(.vtex-button__label),
+.infoCardCallActionContainer--desktop__home--grid_card7:last-child :global(.vtex-button__label),
+.infoCardCallActionContainer--desktop__home--grid_card8:last-child :global(.vtex-button__label),
+.infoCardCallActionContainer--desktop__home--grid_card9:last-child :global(.vtex-button__label) {
+    border-bottom: 1px solid white;
+    padding      : 0;
+}
+
+.portalWrapper--phone__header--menu :global(.vtex-search-1-x-biggy-autocomplete) {
+    flex-direction: column;
+    width         : 25rem;
+    margin-left   : -9rem;
+    margin-top    : 13px;
 }
 
 

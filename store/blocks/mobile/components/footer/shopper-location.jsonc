@@ -2,10 +2,9 @@
     "icon#mobile__location--icon": {
         "title": "Location icon",
         "props": {
-            "id": "mpa-globe2",
-            "size": 20,
+            "id": "mpa-globe3",
+            "size": 35,
             "width": "20%",
-            /*"viewBox": "0 0 25 25"*/
             "blockClass": "mobile__location--icon"
         }
     },
@@ -38,19 +37,28 @@
         "title": "mobile location arrow text",
         "props": {
             "text": " ᐳ",
-            "blockClass": "desktop__footer--location_arrow"
+            "blockClass": "mobile__footer--location_arrow"
         }
     },
     "modal-trigger#mobile__modal--location": {
-        "title": "Desktop modal location",
+        "title": "mobile modal location",
         "children": [
-            "icon#mobile__location--icon",
+            "flex-layout.col#mobile__footer--location_icon",
             "flex-layout.col#mobile__footer--location_country",
             "flex-layout.col#mobile__footer--location_arrow",
             "modal-layout#mobile__modal--container"
         ],
         "props": {
             "blockClass": "mobile__modal--location"
+        }
+    },
+    "flex-layout.col#mobile__footer--location_icon": {
+        "title": "mobile footer location icon",
+        "children": [
+            "icon#mobile__location--icon"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--location_icon"
         }
     },
     "modal-layout#mobile__modal--container": {
@@ -104,7 +112,6 @@
         "props": {
             "text": "Compra desde el país que prefieras. Recuerda que solo podremos enviar tu pedido a direcciones ubicadas en el país escogido.",
             "blockClass": "mobile__modal--content"
-
         }
     },
     "flex-layout.row#mobile__modal--content_bodylast": {
@@ -121,12 +128,13 @@
         "props": {
             "text": "Los métodos de envío, condiciones de venta y puntos de entrega se actualizarán al cambiar de país.",
             "blockClass": "mobile__modal--content"
-
         }
     },
     "flex-layout.row#mobile__modal--select": {
-        "title": "mobile modal select",
-        "children": ["overlay-trigger#mobile__trigger--container"],
+        "title": "Desktop modal select",
+        "children": [
+            "overlay-trigger#mobile__trigger--container"
+        ],
         "props": {
             "blockClass": "mobile__modal--select"
         }
@@ -134,36 +142,34 @@
     "overlay-trigger#mobile__trigger--container": {
         "title": "mobile trigger container",
         "children": [
-          "rich-text#mobile__trigger--cont",
-          "overlay-layout#mobile"    
+            "rich-text#mobile__trigger--cont",
+            "overlay-layout"
         ],
         "props": {
             "blockClass": "mobile__trigger--containe"
         }
     },
-    
     "rich-text#mobile__trigger--cont": {
         "title": "mobile trigger select container",
         "props": {
-          "text": "**Click to open the Overlay Layout**",
-          "blockClass": "mobile__trigger--cont"
+            "text": "**Click to open the Overlay Layout**",
+            "blockClass": "mobile__trigger--cont"
         }
     },
-    
-    "overlay-layout#mobile": {
+    "overlay-layout": {
+        "title": "overlay-layout",
         "props": {
-          "placement": "left"
+            "placement": "left"
         },
         "children": [
-          "rich-text#link__mobile"
+            "rich-text#link"
         ]
     },
-    
-    "rich-text#link__mobile": {
+    "rich-text#link": {
+        "title": "Link text",
         "props": {
-          "text": "\n**Reach us at**\nwww.vtex.com.br",
-          "blockClass": "link"
+            "text": "\n**Reach us at**\nwww.vtex.com.br",
+            "blockClass": "link"
         }
     }
-        
 }

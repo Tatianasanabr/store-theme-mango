@@ -1,78 +1,78 @@
 {
-    "flex-layout.row#desktop__section--girls": {
-        "title": "Desktop section girls container",
-        "children": [
-            "flex-layout.col#desktop__section--girl_one",
-            "flex-layout.col#desktop__section--girl_two",
-            "flex-layout.col#desktop__section--girl_three",
-            "flex-layout.col#desktop__section--girl_four"
-        ],
-        "props": {
-            "blockClass": "desktop__section--girls"
-        }
-    },
-    "flex-layout.col#desktop__section--girl_one": {
-        "title": "Desktop section girl one container",
-        "children": [
-            "image#desktop__girl--one"
-        ],
-        "props": {
-            "blockClass": "desktop__section--girl_one"
-        }
-    },
-    "image#desktop__girl--one": {
-        "title": "Girl one image",
-        "props": {
-            "src": "assets/img/global/home/mango__girl1.jpg",
-            "maxHeight": 280
-        }
-    },
-    "flex-layout.col#desktop__section--girl_two": {
-        "title": "Desktop section girl two container",
-        "children": [
-            "image#desktop__girl--two"
-        ],
-        "props": {
-            "blockClass": "desktop__section--girl_two"
-        }
-    },
-    "image#desktop__girl--two": {
-        "title": "Girl two image",
-        "props": {
-            "src": "assets/img/global/home/mango__girl2.jpg",
-            "maxHeight": 280
-        }
-    },
-    "flex-layout.col#desktop__section--girl_three": {
-        "title": "Desktop section girl three container",
-        "children": [
-            "image#desktop__girl--three"
-        ],
-        "props": {
-            "blockClass": "desktop__section--girl_two"
-        }
-    },
-    "image#desktop__girl--three": {
-        "title": "Girl three image",
-        "props": {
-            "src": "assets/img/global/home/mango__girl3.jpg",
-            "maxHeight": 280
-        }
-    },
-    "flex-layout.col#desktop__section--girl_four": {
-        "title": "Desktop section girl four container",
-        "children": [
-            "image#desktop__girl--four"
-        ],
-        "props": {
-            "blockClass": "desktop__section--girl_four"
-        }
-    },
-    "image#desktop__girl--four": {
-        "title": "Girl four image",
-        "props": {
-            "src": "assets/img/global/home/mango__girl4.jpg",
-            "maxHeight": 280
-        }
+  "flex-layout.row#desktop__section--girls": {
+    "title": "Desktop section girls container",
+    "children": [
+      "flex-layout.col#desktop__section--girl_one",
+      "flex-layout.col#desktop__section--girl_two",
+      "flex-layout.col#desktop__section--girl_three",
+      "flex-layout.col#desktop__section--girl_four"
+    ],
+    "props": {
+      "blockClass": "desktop__section--girls"
     }
+  },
+  "flex-layout.col#desktop__section--girl_one": {
+    "title": "Desktop section girl one container",
+    "children": [
+      "image#desktop__girl--one"
+    ],
+    "props": {
+      "blockClass": "desktop__section--girl_one"
+    }
+  },
+  "image#desktop__girl--one": {
+    "title": "Girl one image",
+    "props": {
+      "src": "assets/img/global/home/mango__girl1.jpg",
+      "maxHeight": 280
+    }
+  },
+  "flex-layout.col#desktop__section--girl_two": {
+    "title": "Desktop section girl two container",
+    "children": [
+      "image#desktop__girl--two"
+    ],
+    "props": {
+      "blockClass": "desktop__section--girl_two"
+    }
+  },
+  "image#desktop__girl--two": {
+    "title": "Girl two image",
+    "props": {
+      "src": "assets/img/global/home/mango__girl2.jpg",
+      "maxHeight": 280
+    }
+  },
+  "flex-layout.col#desktop__section--girl_three": {
+    "title": "Desktop section girl three container",
+    "children": [
+      "image#desktop__girl--three"
+    ],
+    "props": {
+      "blockClass": "desktop__section--girl_two"
+    }
+  },
+  "image#desktop__girl--three": {
+    "title": "Girl three image",
+    "props": {
+      "src": "assets/img/global/home/mango__girl3.jpg",
+      "maxHeight": 280
+    }
+  },
+  "flex-layout.col#desktop__section--girl_four": {
+    "title": "Desktop section girl four container",
+    "children": [
+      "image#desktop__girl--four"
+    ],
+    "props": {
+      "blockClass": "desktop__section--girl_four"
+    }
+  },
+  "image#desktop__girl--four": {
+    "title": "Girl four image",
+    "props": {
+      "src": "assets/img/global/home/mango__girl4.jpg",
+      "maxHeight": 280
+    }
+  }
 }

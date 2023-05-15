@@ -1,0 +1,28 @@
+.styledLink--tablet__home--category {
+    font-size     : 14px;
+    line-height   : 22px;
+    letter-spacing: .3px;
+    height        : 22px;
+    color         : #000;
+    padding       : 0;
+    cursor        : pointer;
+    display       : inline-block;
+    font-family   : "MangoSans-light";
+}
+
+.styledLink--tablet__home--category:hover {
+    border-bottom : 1px solid black;
+    padding-bottom: 1.2rem;
+}
+
+.menuContainerNav--tablet__clothes--categories {
+    margin: 16px 0 0 0;
+}
+
+.styledLinkContainer--tablet__home--category {
+    padding: 0;
+}
+
+.menuContainerNav--tablet__accesories--categories {
+    margin: 6px 0 0 0;
+}

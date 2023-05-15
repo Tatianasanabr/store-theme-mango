@@ -1,0 +1,21 @@
+@media (min-width: 640px) and (max-width: 768px) {
+    .flexRowContent--mobile__home--grid_cards {
+        display        : flex;
+        justify-content: space-between;
+        gap            : 10px;
+    }
+
+    .flexCol--mobile__home--grid_card2,
+    .flexCol--mobile__home--grid_card3,
+    .flexCol--mobile__home--grid_card4,
+    .flexCol--mobile__home--grid_card5,
+    .flexCol--mobile__home--grid_card6,
+    .flexCol--mobile__home--grid_card7,
+    .flexCol--mobile__home--grid_card8,
+    .flexCol--mobile__home--grid_card9 {
+        margin-top: 2px;
+    }
+}
+
+
+

@@ -30,56 +30,66 @@
             "maxVisible": "many"
         }
     },
-
-
-    "disclosure-layout#clothes":{
-        "children":[
+    "disclosure-layout#clothes": {
+        "title": "Disclosure layout clothes container",
+        "children": [
             "disclosure-trigger#help",
             "disclosure-content#help"
         ],
-        "props":{
-            "blockClass":"disclosure__help--container"
+        "props": {
+            "blockClass": "disclosure__help--container"
         }
     },
-    "disclosure-trigger#help":{
-        "children":["rich-text#help", "disclosure-state-indicator"],
-        "props":{
-            "blockClass":"disclosure__trigger--container"
+    "disclosure-trigger#help": {
+        "title": "Disclosure help container",
+        "children": [
+            "rich-text#help",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "disclosure__trigger--container"
         }
     },
-    "rich-text#help":{
-        "props":{
+    "rich-text#help": {
+        "title": "Help text",
+        "props": {
             "text": "Prendas",
-            "blockClass":"disclosure__text--title"
+            "blockClass": "disclosure__text--title"
         }
     },
     "disclosure-state-indicator": {
+        "title": "Disclosure state indicator",
         "props": {
             "Show": "icon-caret#down",
             "Hide": "icon-caret#up"
-          }
+        }
     },
     "icon-caret#down": {
+        "title": "Icon caret down",
         "props": {
             "orientation": "down",
             "blockClass": "icon__caret--down"
         }
     },
     "icon-caret#up": {
+        "title": "Icon caret up",
         "props": {
             "orientation": "up",
             "blockClass": "icon__caret--up"
         }
     },
-
-    "disclosure-content#help":{
-        "children":["menu#help"],
-        "props":{
-            "blockClass":"disclosure__content--help"
+    "disclosure-content#help": {
+        "title": "Disclosure help container",
+        "children": [
+            "menu#help"
+        ],
+        "props": {
+            "blockClass": "disclosure__content--help"
         }
     },
-    "menu#help":{
-        "children":[
+    "menu#help": {
+        "title": "Menu help container",
+        "children": [
             "menu-item#desktop__home--dresses",
             "menu-item#desktop__home--shirts",
             "menu-item#desktop__home--tshirts",
@@ -95,41 +105,50 @@
             "menu-item#desktop__home--sportswear",
             "menu-item#desktop__home--lingerie"
         ],
-        "props":{
+        "props": {
             "orientation": "vertical",
-            "blockClass":"disclosure__menu"
+            "blockClass": "disclosure__menu"
         }
     },
-
-    "disclosure-layout#accesories":{
-        "children":[
+    "disclosure-layout#accesories": {
+        "title": "Disclosure layout accesories",
+        "children": [
             "disclosure-trigger#accesories",
             "disclosure-content#accesories"
         ],
-        "props":{
-            "blockClass":"disclosure__help--container"
+        "props": {
+            "blockClass": "disclosure__help--container"
         }
     },
-    "disclosure-trigger#accesories":{
-        "children":["rich-text#accesories", "disclosure-state-indicator"],
-        "props":{
-            "blockClass":"disclosure__trigger--container"
+    "disclosure-trigger#accesories": {
+        "title": "Disclosure trigger accesories",
+        "children": [
+            "rich-text#accesories",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "disclosure__trigger--container"
         }
     },
-    "rich-text#accesories":{
-        "props":{
+    "rich-text#accesories": {
+        "title": "Accesories text menu disclosure",
+        "props": {
             "text": "Accesorios",
-            "blockClass":"disclosure__text--title"
+            "blockClass": "disclosure__text--title"
         }
     },
-    "disclosure-content#accesories":{
-        "children":["menu#help"],
-        "props":{
-            "blockClass":"disclosure__content--help"
+    "disclosure-content#accesories": {
+        "title": "Accesories disclosure content",
+        "children": [
+            "menu#help"
+        ],
+        "props": {
+            "blockClass": "disclosure__content--help"
         }
     },
-    "menu#accesories":{
-        "children":[
+    "menu#accesories": {
+        "title": "Menu accesories main container",
+        "children": [
             "menu-item#desktop__home--shoes",
             "menu-item#desktop__home--bags",
             "menu-item#desktop__home--jewerly",
@@ -140,9 +159,9 @@
             "menu-item#desktop__home--hats",
             "menu-item#desktop__home--more_accesories"
         ],
-        "props":{
+        "props": {
             "orientation": "vertical",
-            "blockClass":"disclosure__menu"
+            "blockClass": "disclosure__menu"
         }
     }
 }

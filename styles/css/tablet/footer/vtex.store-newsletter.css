@@ -1,0 +1,9 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+    .newsletterForm--mobile__newsletter--form {
+        display        : flex;
+        justify-content: center;
+        flex-direction : column;
+        transform      : translate(-73px, 10px);
+    }
+}
+

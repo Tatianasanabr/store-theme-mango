@@ -6,9 +6,9 @@
 }
 
 .contentContainer--desktop__searchbar--one {
-    padding: 0;
+    padding   : 0;
     margin-top: 3px;
-    overflow-y: unset!important;
+    overflow-y: unset !important;
 }
 
 .headerContainer--desktop__searchbar--one {

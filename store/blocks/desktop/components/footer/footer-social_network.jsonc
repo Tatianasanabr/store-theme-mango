@@ -1,0 +1,128 @@
+{
+    "flex-layout.col#global__footer--facebook": {
+        "title": "Footer facebook section container",
+        "children": [
+            "image#global__footer--facebook"
+        ],
+        "props": {
+            "blockClass": "global__footer--facebook"
+        }
+    },
+    "flex-layout.col#global__footer--twitter": {
+        "title": "Footer facebook section container",
+        "children": [
+            "image#global__footer--twitter"
+        ],
+        "props": {
+            "blockClass": "global__footer--twitter"
+        }
+    },
+    "flex-layout.col#global__footer--instagram": {
+        "title": "Footer facebook section container",
+        "children": [
+            "image#global__footer--instagram"
+        ],
+        "props": {
+            "blockClass": "global__footer--instagram"
+        }
+    },
+    "flex-layout.col#global__footer--pinterest": {
+        "title": "Footer facebook section container",
+        "children": [
+            "image#global__footer--pinterest"
+        ],
+        "props": {
+            "blockClass": "global__footer--pinterest"
+        }
+    },
+    "flex-layout.col#global__footer--spotify": {
+        "title": "Footer facebook section container",
+        "children": [
+            "image#global__footer--spotify"
+        ],
+        "props": {
+            "blockClass": "global__footer--spotify"
+        }
+    },
+    "flex-layout.col#global__footer--youtube": {
+        "title": "Footer facebook section container",
+        "children": [
+            "image#global__footer--youtube"
+        ],
+        "props": {
+            "blockClass": "global__footer--youtube"
+        }
+    },
+    "flex-layout.col#global__footer--foursquare": {
+        "title": "Footer facebook section container",
+        "children": [
+            "image#global__footer--foursquare"
+        ],
+        "props": {
+            "blockClass": "global__footer--foursquare"
+        }
+    },
+    "image#global__footer--facebook": {
+        "title": "Global footer facebook image",
+        "props": {
+            "src": "assets/img/global/footer/footer_facebook.png",
+            "link": "",
+            "maxHeight": "14",
+            "blockClass": "global__footer--facebook"
+        }
+    },
+    "image#global__footer--twitter": {
+        "title": "Global footer twitter image",
+        "props": {
+            "src": "assets/img/global/footer/footer_twitter.png",
+            "link": "",
+            "maxHeight": "24",
+            "blockClass": ""
+        }
+    },
+    "image#global__footer--instagram": {
+        "title": "Global footer instagram image",
+        "props": {
+            "src": "assets/img/global/footer/footer_instagram.png",
+            "link": "",
+            "maxHeight": "14",
+            "blockClass": "global__footer--twitter"
+        }
+    },
+    "image#global__footer--pinterest": {
+        "title": "Global footer pinterest image",
+        "props": {
+            "src": "assets/img/global/footer/footer_pinterest.png",
+            "link": "",
+            "maxHeight": "14",
+            "blockClass": "global__footer--pinterest"
+        }
+    },
+    "image#global__footer--spotify": {
+        "title": "Global footer spotify image",
+        "props": {
+            "src": "assets/img/global/footer/footer_spotify.png",
+            "link": "",
+            "maxHeight": "14",
+            "blockClass": "global__footer--spotify"
+        }
+    },
+    "image#global__footer--youtube": {
+        "title": "Global footer youtube image",
+        "props": {
+            "src": "assets/img/global/footer/footer_youtube.png",
+            "link": "",
+            "maxHeight": "14",
+            "blockClass": "global__footer--youtube"
+        }
+    },
+    "image#global__footer--foursquare": {
+        "title": "Global footer foursquare image",
+        "props": {
+            "src": "assets/img/global/footer/footer_foursquare.png",
+            "link": "",
+            "maxHeight": "14",
+            "blockClass": "global__footer--foursquare"
+        }
+    }
+}

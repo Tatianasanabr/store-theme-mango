@@ -1,7 +1,7 @@
 .paragraph--phone--free_shipping {
     font-weight: bold;
     font-size  : 11px;
-    padding: 0.2rem;
+    padding    : 0.2rem;
 }
 
 .paragraph--drawer__texto-menu {
@@ -13,20 +13,20 @@
 @media (max-width: 321px) {
     .paragraph--desktop__taxes--info {
         margin-left: 101px;
-        margin-top: -1rem;
+        margin-top : -1rem;
     }
 }
 
 @media (min-width: 322px) and (max-width: 398px) {
     .paragraph--desktop__taxes--info {
         margin-left: 127px;
-        margin-top: -1rem;
+        margin-top : -1rem;
     }
 }
 
 @media (min-width: 399px) and (max-width: 425px) {
     .paragraph--desktop__taxes--info {
         margin-left: 127px;
-        margin-top: -1rem;
+        margin-top : -1rem;
     }
 }

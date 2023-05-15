@@ -1,19 +1,19 @@
 {
   "responsive-layout.mobile#home__mobile": {
-    "title": "Home Section 1 Mobile",
+    /*"title": "Home Section 1 Mobile",
     "children": [
       "info-card#mobile__home--info_card",
-      "rich-text#mobile__home-info_sale",
-      "flex-layout.row#mobile__home--grid_cards",
+       "rich-text#mobile__home-info_sale",
+      "flex-layout.row#mobile__home--grid_cards"
       "flex-layout.row#mobile__home--grid_cards2",
-      "flex-layout.row#mobile__home--grid_cards3", 
+      "flex-layout.row#mobile__home--grid_cards3",
       "rich-text#desktop__home--info_shop",
       "flex-layout.row#phone__home--social_card",
       "flex-layout.row#phone__home--grid_lines",
       "flex-layout.row#home__shelf",
       "slider-layout#home__slider--children",
       "flex-layout.row#phone__disclosure--container-row",
-      "footer#mobile"
-    ]
+      "footer#mobile" 
+    ]*/
   }
 }

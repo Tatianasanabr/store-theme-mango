@@ -3,9 +3,9 @@
 }
 
 .infoCardHeadline--desktop__home--info_card {
-    color: #ffff;
+    color         : #ffff;
     text-transform: uppercase;
-    font-size: 4.9rem;
+    font-size     : 4.9rem;
     letter-spacing: 1px;
 }
 
@@ -14,19 +14,19 @@
 }
 
 .infoCardCallActionContainer--desktop__home--info_card :first-child {
-    text-transform: capitalize;
+    text-transform  : capitalize;
     background-color: #ffff;
-    color: black;
-    font-size: .9rem;
-    border: none;
-    border-radius: 0;
+    color           : black;
+    font-size       : .9rem;
+    border          : none;
+    border-radius   : 0;
 
 }
 
 .infoCardCallActionContainer--desktop__home--info_card :first-child:hover {
-    background-color     : #d7d7d8;
-    transition: background-color 0.8s ease;
-    background-clip: padding-box;
+    background-color: #d7d7d8;
+    transition      : background-color 0.8s ease;
+    background-clip : padding-box;
 }
 
 .infoCardCallActionContainer--desktop__home--info_card {
@@ -36,24 +36,24 @@
 .infoCardContainer--desktop__home--grid_card1,
 .infoCardContainer--desktop__home--grid_card4,
 .infoCardContainer--desktop__home--grid_card7 {
-    height: 36rem;
+    height      : 36rem;
     margin-right: .1rem;
-    cursor: pointer;
+    cursor      : pointer;
 }
 
 .infoCardContainer--desktop__home--grid_card2,
 .infoCardContainer--desktop__home--grid_card5,
 .infoCardContainer--desktop__home--grid_card8 {
-    height: 36rem;
+    height      : 36rem;
     margin-right: .1rem;
-    cursor: pointer;
+    cursor      : pointer;
 }
 
 .infoCardContainer--desktop__home--grid_card3,
 .infoCardContainer--desktop__home--grid_card6,
 .infoCardContainer--desktop__home--grid_card9 {
-    height: 36rem;
-    cursor: pointer;
+    height      : 36rem;
+    cursor      : pointer;
     margin-right: -1rem;
 }
 
@@ -66,9 +66,9 @@
 .infoCardHeadline--desktop__home--grid_card7,
 .infoCardHeadline--desktop__home--grid_card8,
 .infoCardHeadline--desktop__home--grid_card9 {
-    color: #ffff;
+    color      : #ffff;
     font-weight: 400;
-    font-size: 40px;
+    font-size  : 40px;
     line-height: 48px;
     white-space: nowrap;
 }
@@ -94,14 +94,14 @@
 .infoCardCallActionContainer--desktop__home--grid_card7 :first-child,
 .infoCardCallActionContainer--desktop__home--grid_card8 :first-child,
 .infoCardCallActionContainer--desktop__home--grid_card9 :first-child {
-    text-transform: capitalize;
+    text-transform  : capitalize;
     background-color: transparent;
-    color: #ffff;
-    font-size: .9rem;
-    border: none;
-    border-radius: 0;
-    cursor: pointer;
-    
+    color           : #ffff;
+    font-size       : .9rem;
+    border          : none;
+    border-radius   : 0;
+    cursor          : pointer;
+
 }
 
 .infoCardContainer--desktop__home--grid_card1:hover,
@@ -113,11 +113,11 @@
 .infoCardContainer--desktop__home--grid_card7:hover,
 .infoCardContainer--desktop__home--grid_card8:hover,
 .infoCardContainer--desktop__home--grid_card9:hover {
-    transition-duration: 0.7s;
+    transition-duration       : 0.7s;
     transition-timing-function: ease;
-    transition-delay: 0s;
-    opacity: .8;
-    cursor: pointer;
+    transition-delay          : 0s;
+    opacity                   : .8;
+    cursor                    : pointer;
 }
 
 .infoCardContainer--desktop__home--grid_kids {
@@ -135,31 +135,31 @@
 .infoCardTextContainer--desktop__home--grid_men :global(.vtex-button),
 .infoCardTextContainer--desktop__home--grid_kids :global(.vtex-button),
 .infoCardTextContainer--desktop__home--grid_teens :global(.vtex-button) {
-    position: relative;
-    top: 11rem;
-    left: 50%;
-    transform: translate(78%, 50%);
+    position        : relative;
+    top             : 11rem;
+    left            : 50%;
+    transform       : translate(78%, 50%);
     background-color: #ffff;
-    border: none;
-    border-radius: 0;
-    color: black;
-    text-transform: capitalize;
+    border          : none;
+    border-radius   : 0;
+    color           : black;
+    text-transform  : capitalize;
 }
 
 .infoCardContainer--desktop__home--grid_men:hover,
 .infoCardContainer--desktop__home--grid_kids:hover,
-.infoCardContainer--desktop__home--grid_teens:hover{
-    transition-duration: 0.7s;
+.infoCardContainer--desktop__home--grid_teens:hover {
+    transition-duration       : 0.7s;
     transition-timing-function: ease;
-    transition-delay: 0s;
-    opacity: .8;
-    cursor: pointer;
+    transition-delay          : 0s;
+    opacity                   : .8;
+    cursor                    : pointer;
 }
 
 .infoCardCallActionContainer--desktop__home--grid_men :first-child:hover,
 .infoCardCallActionContainer--desktop__home--grid_kids :first-child:hover,
 .infoCardCallActionContainer--desktop__home--grid_teens :first-child:hover {
-    background-color     : #d7d7d8;
-    transition: background-color 0.8s ease;
-    background-clip: padding-box;
+    background-color: #d7d7d8;
+    transition      : background-color 0.8s ease;
+    background-clip : padding-box;
 }

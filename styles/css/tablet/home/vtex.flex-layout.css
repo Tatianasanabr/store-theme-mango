@@ -1,5 +1,33 @@
-/* Example Tablet:
-.flexRow--home__section-2 {
-    margin: 50px auto;
-    max-width: 1200px;
-} */
+.flexRowContent--tablet__section--girls {
+    padding: 2rem;
+    gap    : 10px;
+}
+
+.flexRow--tablet__button--see_more {
+    display: flex;
+}
+
+.flexRow--tablet__home--grid_sections {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.flexRowContent--tablet__home--grid_sections {
+    justify-content: space-between;
+    width          : 48rem;
+}
+
+.flexRowContent--tablet__women--categories {
+    display       : flex;
+    flex-direction: column-reverse;
+}
+
+.flexRowContent--tablet__women--category {
+    display    : flex;
+    margin-left: 1.5rem;
+}
+
+.flexColChild--tablet__women--accesories {
+    transform: translate(20px, -110px);
+}
+

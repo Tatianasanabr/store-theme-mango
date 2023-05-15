@@ -1,44 +1,58 @@
 {
     "link.product#mobile__section--help": {
+        "title": "Help footer link",
         "props": {
             "href": "/{slug}/p",
-            "label": "Ayuda"
+            "label": "Ayuda",
+            "blockClass": "mobile__section--help"
         }
     },
     "link.product#mobile__section--bag": {
+        "title": "Bag footer link",
         "props": {
             "href": "/{slug}/p",
-            "label": "Mis compras"
+            "label": "Mis compras",
+            "blockClass": "mobile__section--bag"
         }
     },
     "link.product#mobile__section--returns": {
+        "title": "Help footer section link",
         "props": {
             "href": "/{slug}/p",
-            "label": "Devoluciones"
+            "label": "Devoluciones",
+            "blockClass": "mobile__section--returns"
         }
     },
     "link.product#mobile__section--stores": {
+        "title": "Help footer section link",
         "props": {
             "href": "/{slug}/p",
-            "label": "Tiendas"
+            "label": "Tiendas",
+            "blockClass": "mobile__section--stores"
         }
     },
     "link.product#mobile__section--apps": {
+        "title": "Help footer section link",
         "props": {
             "href": "/{slug}/p",
-            "label": "Apps"
+            "label": "Apps",
+            "blockClass": "mobile__section--apps"
         }
     },
     "link.product#mobile__section--site_map": {
+        "title": "Help footer section link",
         "props": {
             "href": "/{slug}/p",
-            "label": "Site map"
+            "label": "Site map",
+            "blockClass": "mobile__section--site_map"
         }
     },
     "link.product#mobile__section--sustainability": {
+        "title": "Help footer section link",
         "props": {
             "href": "/{slug}/p",
-            "label": "sostenibilidad"
+            "label": "sostenibilidad",
+            "blockClass": "mobile__section--sustainability"
         }
-    }    
+    }
 }

@@ -1,5 +1,4 @@
 {
-    //Phone logo section
   "logo#phone__header--logo": {
     "title": "Logo phone",
     "props": {

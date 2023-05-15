@@ -1,5 +1,4 @@
 {
-    //Free shipping section
   "flex-layout.row#desktop__header--free_shipping": {
     "title": "Text container free shipping desktop",
     "props": {
@@ -11,7 +10,6 @@
       "rich-text#desktop__header--free_shipping"
     ]
   },
-
   "rich-text#desktop__header--free_shipping": {
     "title": "Free shipping text",
     "props": {

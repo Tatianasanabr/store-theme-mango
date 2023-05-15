@@ -9,9 +9,9 @@
 }
 
 .flexRowContent--phone__header--icons {
-    display: flex;
+    display       : flex;
     flex-direction: row;
-    align-items: center;
+    align-items   : center;
 }
 
 .flexColChild--phone__header--search_icon {
@@ -29,10 +29,10 @@
 }
  */
 .flexColChild--phone__searchbar--icon {
-    position: absolute;
+    position : absolute;
     transform: translateY(19px);
-    height: 0!important;
-    left: 0rem;
+    height   : 0 !important;
+    left     : 0rem;
 }
 
 .flexRow--phone__searchbar--one {
@@ -49,28 +49,38 @@
 }
 
 .flexColChild--phone__camera--icon {
-    position: absolute;
-    right: 5px;
-    top: 65%;
+    position : absolute;
+    right    : 5px;
+    top      : 65%;
     transform: translateY(-50%);
-    height: 0!important;
+    height   : 0 !important;
 }
 
 .flexRowContent--phone__header--menu {
     padding: 2px;
 }
 
+@media (max-width: 321px) {
+    .flexColChild--phone__header--search_icon {
+        transform: translate(16px, 11px);
+    }
+
+    .flexColChild--phone__header--favorites_icon {
+        transform: translate(18px, 11px);
+    }
+}
+
 @media (max-width: 425px) {
     .flexCol--minicart__footer {
-        display: flex;
+        display       : flex;
         flex-direction: revert;
-        align-items: center;
-        margin-bottom: 18px;
+        align-items   : center;
+        margin-bottom : 18px;
     }
 
     .minicartCheckoutButton--checkout__button {
         width: 100%;
-        left: 1rem;
+        left : 1rem;
     }
 
     .flexRowContent--otraprueba :global(.vtex-rich-text-0-x-container) {
@@ -94,7 +104,7 @@
 
 @media (min-width: 399px) and (max-width: 425px) {
     .flexRowContent--otraprueba {
-        font-size: 15px; 
+        font-size: 15px;
     }
 }
 
