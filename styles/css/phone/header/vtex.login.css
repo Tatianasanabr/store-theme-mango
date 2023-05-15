@@ -1,17 +1,23 @@
 .profileIcon--phone__icon--login {
-    width: 24px;
+    width : 24px;
     height: 27px;
 }
 
 .container :global(.vtex-login-2-x-buttonLink) {
     position: relative;
-    left: 22px;
-    width: 50px;
+    left    : 22px;
+    width   : 50px;
 }
 
 .buttonLink :global(.vtex-button) {
-    width: 43px;
+    width   : 43px;
     position: absolute;
-    top: -1.1rem;
-    left: -19px;
+    top     : -1.1rem;
+    left    : -19px;
+}
+
+@media (max-width: 321px) {
+    .profileIcon--phone__icon--login {
+        transform: translate(8px, 0px);
+    }
 }

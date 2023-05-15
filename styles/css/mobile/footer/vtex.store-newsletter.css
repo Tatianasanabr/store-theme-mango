@@ -1,27 +1,67 @@
 .emailInputContainer--mobile__input--email:first-child :global(.vtex-input-prefix__group) {
-    border: none;
+    border       : none;
     border-bottom: 1px solid #d7d7d8;
     margin-bottom: 27px;
-    border-radius: 0;
-    width: 17rem;
-    margin-left: 2rem;
+    border-radius: 6px;
+    width        : 16rem;
+    margin-left  : 2rem;
 }
 
 .formSubmitContainer--mobile__submit--email :global(.vtex-button) {
     background-color: black;
-    border-color: black;
-    border-radius: 0;
-    text-transform: capitalize;
-    width: 18.7rem;
-    margin-left: 0.7rem;
-    font-size: 13px;
-    border: none;
-    margin-bottom: 1rem;
-    display: flex;
-    justify-content: center;
+    border-color    : black;
+    border-radius   : 0;
+    text-transform  : capitalize;
+    width           : 16rem;
+    margin-left     : 2rem;
+    font-size       : 13px;
+    border          : none;
+    margin-bottom   : 1rem;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    margin-top      : -7px;
 }
 
 .formSubmitContainer--mobile__submit--email:hover :global(.vtex-button) {
-    background-color     : #aaa;
-    transition: background-color 0.8s ease;
+    background-color: #aaa;
+    transition      : background-color 0.8s ease;
+}
+
+@media (min-width: 340px) and (max-width: 375px) {
+    .emailInputContainer--mobile__input--email:first-child :global(.vtex-input-prefix__group) {
+        margin-left: 4rem;
+    }
+
+    .formSubmitContainer--mobile__submit--email :global(.vtex-button) {
+        margin-left: 4rem;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 425px) {
+    .emailInputContainer--mobile__input--email:first-child :global(.vtex-input-prefix__group) {
+        margin-left: 5.5rem;
+    }
+
+    .formSubmitContainer--mobile__submit--email :global(.vtex-button) {
+        margin-left: 5.5rem;
+    }
+}
+
+@media (min-width: 642px) and (max-width: 768px) {
+    .newsletterForm--mobile__newsletter--form {
+        display       : flex;
+        flex-direction: column;
+        align-items   : center;
+        transform     : translate(315px, 10px);
+        margin-bottom : 1rem;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 641px) {
+    .newsletterForm--mobile__newsletter--form {
+        display       : flex;
+        flex-direction: column;
+        transform     : translate(56px, 10px);
+    }
 }

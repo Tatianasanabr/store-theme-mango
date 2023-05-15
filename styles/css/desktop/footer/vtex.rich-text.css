@@ -1,27 +1,61 @@
 .paragraph--desktop__modal--title {
-    margin: 0 auto;
-    font-size: 18px;
-    display: block;
+    margin        : 0 auto;
+    font-size     : 18px;
+    display       : block;
     letter-spacing: .3px;
-    overflow-wrap: break-word;
-    text-align: center;
-    font-weight: bold;
+    overflow-wrap : break-word;
+    text-align    : center;
+    font-weight   : bold;
 }
 
 .paragraph--desktop__modal--content {
-    display: block;
-    font-size: 13px;
-    line-height: 20px;
+    display       : block;
+    font-size     : 13px;
+    line-height   : 20px;
     letter-spacing: .3px;
-    margin-bottom: 15px;
+    margin-bottom : 15px;
 }
 
 .paragraph--desktop__footer--discounts {
-    font-size: 13px;
-    font-weight: bold;
-    letter-spacing: .3px;
-    line-height: 20px;
+    font-size     : 13px;
+    font-weight   : bold;
+    letter-spacing: .4px;
+    line-height   : 20px;
+    white-space   : nowrap;
+    margin-bottom : 1.5rem;
+    margin-top    : 3.2rem;
+    margin-left   : -5.2rem;
+}
+
+.paragraph--desktop__footer--location_country {
+    color         : #121314;
+    cursor        : pointer;
+    font-size     : 14px;
+    letter-spacing: .38px;
+}
+
+.paragraph--desktop__copyright--text {
     white-space: nowrap;
-    margin-bottom: 1.5rem;
-    margin-top: 3.2rem;
+    margin-left: -17.3rem;
+    font-size  : 10px;
+    font-family: "MangoSans-Light";
+    font-weight: bold;
+}
+
+.paragraph--desktop__policy--text {
+    white-space: nowrap;
+    margin-left: 17rem;
+    font-size  : 10px;
+    font-family: "MangoSans-Light";
+    font-weight: bold;
+}
+
+.link--desktop__policy--text {
+    text-decoration: none;
+    color          : black;
+}
+
+.link--desktop__policy--text:hover {
+    border-bottom: 1px solid black;
+    transform    : translateY(5px);
 }

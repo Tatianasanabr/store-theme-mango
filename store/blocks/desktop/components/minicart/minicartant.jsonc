@@ -3,21 +3,13 @@
     "title": "Minicart bag section",
     "props": {
       "blockClass": "desktop__menu--minicart",
-      /* "variation": "popup", */
-     "itemCountMode": "total",
+      "itemCountMode": "total",
       "quantityDisplay": "always"
     },
     "children": [
       "minicart-base-content"
     ]
   },
-
-  "rich-text#test": {
-    "props": {
-      "text": "hola"
-    }
-  },
-
   "minicart-base-content": {
     "title": "Minicart product container",
     "blocks": [
@@ -31,7 +23,6 @@
       "blockClass": "minicart__base--content"
     }
   },
-
   "minicart-product-list": {
     "title": "Minicart product list container",
     "blocks": [
@@ -50,7 +41,6 @@
       "blockClass": "desktop__product--list"
     }
   },
-
   "product-list-content-desktop": {
     "title": "Minicart product list content",
     "children": [
@@ -85,7 +75,6 @@
       "blockClass": "desktop__product--image"
     }
   },
-
   "product-list-image#desktop__product--image": {
     "title": "Minicart product image",
     "props": {
@@ -116,7 +105,6 @@
       "colSizing": "auto"
     }
   },
-
   "flex-layout.row#product-description": {
     "title": "Minicart product description",
     "children": [
@@ -204,7 +192,9 @@
     }
   },
   "flex-layout.row#unit-price.desktop": {
-    "children": ["unit-price#desktop"],
+    "children": [
+      "unit-price#desktop"
+    ],
     "props": {
       "marginTop": "3",
       "preventHorizontalStretch": "true",
@@ -212,12 +202,16 @@
     }
   },
   "unit-price#desktop": {
+    "title": "Unit price desktop",
     "props": {
       "textAlign": "center"
     }
   },
   "flex-layout.col#price.desktop": {
-    "children": ["price#desktop"],
+    "title": "Price desktop container",
+    "children": [
+      "price#desktop"
+    ],
     "props": {
       "blockClass": "desktop__price--container",
       "marginLeft": "6",
@@ -226,11 +220,12 @@
     }
   },
   "price#desktop": {
+    "title": "Price desktop",
     "props": {
       "textAlign": "right",
       "blockClass": "desktop__price--item"
     }
-  }, 
+  },
   "flex-layout.col#remove-button.desktop": {
     "title": "Desktop remove button container",
     "children": [
@@ -265,7 +260,6 @@
       "blockClass": "desktop__message--info"
     }
   },
-
   "minicart-empty-state": {
     "title": "Empty minicart container",
     "children": [
@@ -288,7 +282,6 @@
       "blockClass": "minicart__empty"
     }
   },
-
   "icon-cart#minicart__empty--icon": {
     "title": "Minicart empty icon",
     "props": {
@@ -296,7 +289,6 @@
       "blockClass": "minicart__empty--icon"
     }
   },
-
   "flex-layout.row#minicart__footer": {
     "title": "minicart empty and summary",
     "children": [
@@ -308,8 +300,8 @@
       "blockClass": "minicart__footer"
     }
   },
-
   "flex-layout.col#minicart__footer": {
+    "title": "Minicart footer container",
     "children": [
       "minicart-checkout-button",
       "link.product#desktop__button--see_bag"
@@ -318,7 +310,6 @@
       "blockClass": "minicart__footer"
     }
   },
-
   "minicart-summary": {
     "title": "Minicart summary",
     "blocks": [
@@ -328,10 +319,9 @@
       "blockClass": "minicart__summary--items",
       "customFields": {
         "quantityBadge": true
-    }
+      }
     }
   },
-
   "minicart-checkout-button": {
     "title": "Minicart checkout button",
     "props": {
@@ -339,7 +329,6 @@
       "blockClass": "checkout__button"
     }
   },
-
   "rich-text#desktop__taxes--info": {
     "title": "Taxes text",
     "props": {
@@ -347,7 +336,6 @@
       "blockClass": "desktop__taxes--info"
     }
   },
-
   "link.product#desktop__button--see_bag": {
     "title": "See bag button",
     "props": {
@@ -356,7 +344,6 @@
       "blockClass": "desktop__button--see_bag"
     }
   },
-
   "rich-text#minicart__empty--text": {
     "title": "Empty bag text",
     "props": {
@@ -366,9 +353,8 @@
       "blockClass": "minicart__empty--text"
     }
   },
-
-
   "flex-layout.row#principal": {
+    "title": "Minicart main container",
     "children": [
       "flex-layout.row#otraprueba",
       "flex-layout.col#price.desktop"
@@ -376,10 +362,9 @@
     "props": {
       "blockClass": "principaaaal"
     }
-    
   },
-
   "flex-layout.row#otraprueba": {
+    "title": "Minicart container",
     "children": [
       "flex-layout.col#otraprueba2",
       "flex-layout.col#quantity-selector.desktop"
@@ -389,15 +374,19 @@
     }
   },
   "flex-layout.col#otraprueba2": {
-    "children": ["rich-text#desktop__textoprueba--selector"]
+    "title": "minicart text container",
+    "children": [
+      "rich-text#desktop__textoprueba--selector"
+    ]
   },
   "rich-text#desktop__textoprueba--selector": {
+    "title": "Desktop selector text",
     "props": {
       "text": "Cantidad:"
     }
   },
-
   "flex-layout.col#quantity-selector.desktop": {
+    "title": "Desktop quantity selector desktop",
     "children": [
       "quantity-selector"
     ],
@@ -405,6 +394,4 @@
       "preventHorizontalStretch": "true"
     }
   }
-  
-
 }

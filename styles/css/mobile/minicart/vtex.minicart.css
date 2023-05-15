@@ -1,6 +1,6 @@
 .minicartQuantityBadgeDefault {
     background-color: transparent;
-    color: black;
+    color           : black;
 }
 
 .minicartTitle--mobile__minicart--base_content {
@@ -9,34 +9,34 @@
 
 .minicartCheckoutButton--mobile__checkout--button {
     position: relative;
-    left: -1.5rem;
-    top: 2rem;
-    width: 18rem;
+    left    : -1.5rem;
+    top     : 2rem;
+    width   : 18rem;
 }
- 
- .minicartCheckoutButton--mobile__checkout--button :global(.vtex-button__label){
-    visibility: hidden;
- }
 
- .minicartCheckoutButton--mobile__checkout--button :global(.vtex-button__label)::before{
-    visibility: visible;
-    content: "Comenzar pedido";
+.minicartCheckoutButton--mobile__checkout--button :global(.vtex-button__label) {
+    visibility: hidden;
+}
+
+.minicartCheckoutButton--mobile__checkout--button :global(.vtex-button__label)::before {
+    visibility : visible;
+    content    : "Comenzar pedido";
     white-space: nowrap;
-    font-size: .8125rem;
+    font-size  : .8125rem;
     font-weight: bold;
     margin-left: 4.3rem;
- }
-
- .minicartSummary--mobile__minicart--summary_items {
-    position: relative;
-    right: 6rem;
-    top: 1rem;
-    width: 0!important;
 }
 
-.minicartSummary--mobile__minicart--summary_items:first-child :nth-child(2n){
+.minicartSummary--mobile__minicart--summary_items {
+    position: relative;
+    right   : 6rem;
+    top     : 1rem;
+    width   : 0 !important;
+}
+
+.minicartSummary--mobile__minicart--summary_items:first-child :nth-child(2n) {
     margin-right: -13rem;
-    font-size: .875rem;
+    font-size   : .875rem;
 }
 
 .minicartSummary--mobile__minicart--summaryitems {
@@ -44,6 +44,23 @@
 }
 
 .opened--mobile__menu--minicart {
-    width: 100%!important;
+    width: 100% !important;
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .minicartIconContainer--desktop__menu--minicart {
+        transform: translate(10px, 14px);
+    }
+
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .cartIcon--desktop__menu--minicart {
+        width : 33px;
+        height: 23px;
+    }
+
+}
+
+
 

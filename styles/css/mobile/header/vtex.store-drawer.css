@@ -6,19 +6,19 @@
 }
 
 .opened--drawer__menu-global {
-    overflow: auto;
-    width: 100%!important;
-    max-width: 100%!important;
+    overflow : auto;
+    width    : 100% !important;
+    max-width: 100% !important;
 }
 
 .childrenContainer--drawer__menu-global {
-    border-top: .5px solid #b8b8b8;
+    border-top   : .5px solid #b8b8b8;
     border-bottom: .5px solid #b8b8b8;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .childrenContainer--drawer__menu-global {
-        display: flex;
+        display        : flex;
         justify-content: space-around;
     }
 

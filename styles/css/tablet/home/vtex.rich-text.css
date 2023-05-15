@@ -1,0 +1,33 @@
+.paragraph--tablet__home--hashtag {
+    font-weight   : 400;
+    font-size     : 32px;
+    line-height   : 38px;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+    margin-top    : 2.5rem;
+}
+
+.paragraph--tablet__home--our_lines {
+    padding       : 3rem;
+    font-size     : 32px;
+    line-height   : 38px;
+    letter-spacing: .3px;
+}
+
+.container--tablet__women--category_text {
+    transform     : translate(12rem, 10px);
+    padding       : 2rem;
+    font-size     : 23px;
+    letter-spacing: .3px;
+}
+
+.container--tablet__clothes--category_text {
+    display  : flex;
+    transform: translate(25px, 10px);
+}
+
+.container--tablet__accesories--category_text {
+    display  : flex;
+    transform: translate(23px, 120px);
+}
+

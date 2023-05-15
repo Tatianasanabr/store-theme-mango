@@ -1,0 +1,19 @@
+{
+    "flex-layout.row#tablet__button--see_more": {
+        "title": "See more button tablet container",
+        "children": [
+            "link.product#tablet__button--see_more"
+        ],
+        "props": {
+            "blockClass": "tablet__button--see_more"
+        }
+    },
+    "link.product#tablet__button--see_more": {
+        "title": "See more tablet button",
+        "props": {
+          "href": "/{slug}/p",
+          "label": "Descubre más",
+          "blockClass": "tablet__button--see_more"
+        }
+      }
+}

@@ -1,8 +1,8 @@
 .logoImage--phone__header--logo {
     position: absolute;
-    left: 2.8rem;
-    top: 2.5rem;
-    width: 7rem;
+    left    : 2.8rem;
+    top     : 2.5rem;
+    width   : 7rem;
 }
 
 @media (max-width: 320px) {
@@ -34,27 +34,25 @@
 }
 
 .searchBarInnerContainer--phone__header--menu {
-    max-width: 85%;
+    max-width  : 85%;
     margin-left: 0.6rem;
-    width: 19rem;
+    width      : 19rem;
 }
 
 .searchBarContainer {
-    width: 97vw;
+    width : 97vw;
     margin: 0 auto;
 }
 
- @media (min-width: 321px) and (max-width: 395px) {
+@media (min-width: 321px) and (max-width: 395px) {
     .searchBarInnerContainer--phone__header--menu {
-        /* margin-left: .5rem;
-        width: 20rem; */
         width: 100%;
-    }  
+    }
 }
 
 @media (min-width: 426px) and (max-width: 639px) {
     .searchBarInnerContainer--phone__header--menu {
-        width: 100%;
+        width  : 100%;
         padding: 10px;
     }
 }

@@ -25,7 +25,6 @@
       "vtex.menu@2.x:menu#desktop__department--women-subcategory"
     ]
   },
-
   "vtex.menu@2.x:menu#desktop__department--women-subcategory": {
     "title": "Subcategory departments section women",
     "props": {
@@ -51,7 +50,6 @@
       "menu-item#desktop__subcategory--underwear"
     ]
   },
-
   "rich-text#desktop__subcategory--header": {
     "title": "Header subcategory",
     "props": {
@@ -59,7 +57,6 @@
       "blockClass": "desktop__subcategory--header"
     }
   },
-
   "menu-item#desktop__subcategory--dresses": {
     "title": "Desktop dresses subcategory",
     "props": {
@@ -107,7 +104,6 @@
       }
     }
   },
-
   "menu-item#desktop__subcategory--jackets": {
     "title": "Desktop jackets subcategory",
     "props": {
@@ -123,7 +119,6 @@
       }
     }
   },
-
   "menu-item#desktop__subcategory--jersey": {
     "title": "Desktop jersey subcategory",
     "props": {
@@ -139,7 +134,6 @@
       }
     }
   },
-
   "menu-item#desktop__subcategory--sweatshirts": {
     "title": "Desktop sweatshirts subcategory",
     "props": {

@@ -1,10 +1,11 @@
 @media (max-width: 425px) {
     .paragraph--desktop__taxes--info {
         margin-left: 113px;
-        margin-top: 0rem;
+        margin-top : 0rem;
     }
+
     .productImageContainer--desktop__product--image {
-        width: 85px!important;
+        width: 85px !important;
     }
 
     .price--desktop__price--item {
@@ -13,12 +14,12 @@
 
     .productPrice--desktop__price--item {
         position: relative;
-        top: 4px;
-        left: 57px;
+        top     : 4px;
+        left    : 57px;
     }
 
     .quantitySelector {
-        transform: translateY(-37px);
+        transform  : translateY(-37px);
         margin-left: 40px;
     }
 
@@ -29,13 +30,13 @@
 
 @media (max-width: 374px) {
     .productImageContainer--desktop__product--image {
-        width: 70px!important;
+        width: 70px !important;
     }
 }
 
 @media (min-width: 399px) and (max-width: 425px) {
     .productImageContainer--desktop__product--image {
-        width: 92px!important;
+        width: 92px !important;
     }
 
     .price--desktop__price--item {

@@ -1,0 +1,101 @@
+{
+    "flex-layout.row#tablet__home--info_card": {
+        "title": "Infocard home tablet",
+        "children": [
+            "info-card#tablet__home--info_card"
+        ],
+        "props": {
+            "blockClass": "tablet__home--info_card"
+        }
+    },
+    "info-card#tablet__home--info_card": {
+        "title": "InfoCard tablet home",
+        "props": {
+            "id": "tablet-home-info_card",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "assets/img/global/global__home--infocard.png",
+            "headline": "Soft touch",
+            "callToActionText": "Descubre más",
+            "callToActionUrl": "#",
+            "blockClass": "tablet__home--info_card",
+            "textAlignment": "CENTER"
+        }
+    },
+
+
+    "flex-layout.row#tablet__home--grid_lines": {
+        "title": "Grid cards home main",
+        "children": [
+            "flex-layout.col#tablet__home--grid_men",
+            "flex-layout.col#tablet__home--grid_kids",
+            "flex-layout.col#tablet__home--grid_teens"
+        ],
+        "props": {
+            "blockClass": "tablet__home--grid_sections"
+        }
+    },
+    "flex-layout.col#tablet__home--grid_men": {
+        "title": "First grid container",
+        "children": ["info-card#tablet__home--grid_men"],
+        "props": {
+            "blockClass": "tablet__home--grid_men"
+        }
+    },
+    "flex-layout.col#tablet__home--grid_kids": {
+        "title": "Second grid container",
+        "children": ["info-card#tablet__home--grid_kids"],
+        "props": {
+            "blockClass": "tablet__home--grid_kids"
+        }
+    },
+    "flex-layout.col#tablet__home--grid_teens": {
+        "title": "Third grid container",
+        "children": ["info-card#tablet__home--grid_teens"],
+        "props": {
+            "blockClass": "tablet__home--grid_teens"
+        }
+    },
+    "info-card#tablet__home--grid_men": {
+      "title": "Men grid card",
+      "props": {
+        "id": "tablet-home-info_card",
+        "isFullModeStyle": true,
+        "textPosition": "left",
+        "imageUrl": "assets/img/global/home/lines_men.jpg",
+        "headline": "",
+        "callToActionText": "Hombre",
+        "callToActionUrl": "#",
+        "blockClass": "tablet__home--grid_men",
+        "textAlignment": "CENTER"
+      }
+    },
+    "info-card#tablet__home--grid_kids": {
+        "title": "Kids grid card",
+        "props": {
+          "id": "tablet-home-info_card",
+          "isFullModeStyle": true,
+          "textPosition": "left",
+          "imageUrl": "assets/img/global/home/lines_kids.jpg",
+          "headline": "",
+          "callToActionText": "Niños",
+          "callToActionUrl": "#",
+          "blockClass": "tablet__home--grid_kids",
+          "textAlignment": "CENTER"
+        }
+      },
+      "info-card#tablet__home--grid_teens": {
+        "title": "Third grid card",
+        "props": {
+          "id": "tablet__home--grid_teens",
+          "isFullModeStyle": true,
+          "textPosition": "left",
+          "imageUrl": "assets/img/global/home/lines_teens.jpg",
+          "headline": "",
+          "callToActionText": "Teen",
+          "callToActionUrl": "#",
+          "blockClass": "tablet__home--grid_teens",
+          "textAlignment": "CENTER"
+        }
+      }
+}

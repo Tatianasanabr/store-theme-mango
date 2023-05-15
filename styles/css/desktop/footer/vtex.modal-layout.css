@@ -1,0 +1,13 @@
+.triggerContainer--desktop__modal--location {
+    display      : flex;
+    align-items  : center;
+    margin-top   : 1.7rem;
+    margin-bottom: 1.6rem;
+}
+
+.triggerContainer--desktop__modal--social_media {
+    display      : flex;
+    align-items  : center;
+    margin-top   : 1.7rem;
+    margin-bottom: 1.6rem;
+}

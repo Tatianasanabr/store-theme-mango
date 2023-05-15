@@ -1,0 +1,48 @@
+{
+    "flex-layout.row#mobile__footer--copyright": {
+        "title": "mobile footer copyright container",
+        "children": [
+            "flex-layout.col#mobile__footer--rights",
+            "flex-layout.col#mobile__footer--policy"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--copyright"
+        }
+    },
+    "flex-layout.col#mobile__footer--rights": {
+        "title": "mobile footer rights container",
+        "children": [
+            "rich-text#mobile__copyright--text"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--rights"
+        }
+    },
+    "rich-text#mobile__copyright--text": {
+        "title": "mobile copyright text",
+        "props": {
+            "text": "© 2023 MANGO Todos los derechos reservados",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "mobile__copyright--text"
+        }
+    },
+    "flex-layout.col#mobile__footer--policy": {
+        "title": "mobile footer policy container",
+        "children": [
+            "rich-text#mobile__policy--text"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--policy"
+        }
+    },
+    "rich-text#mobile__policy--text": {
+        "title": "mobile copyright text",
+        "props": {
+            "text": "Política de Privacidad y Cookies | [Condiciones de Venta](https://shop.mango.com/co/helppopup/6570.html)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "mobile__policy--text"
+        }
+    }
+}

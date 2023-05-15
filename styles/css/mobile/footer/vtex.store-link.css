@@ -1,0 +1,10 @@
+.link--mobile__section--help,
+.link--mobile__section--bag,
+.link--mobile__section--returns,
+.link--mobile__section--stores,
+.link--mobile__section--apps,
+.link--mobile__section--site_map,
+.link--mobile__section--sustainability {
+    text-decoration: none;
+    color          : black;
+}

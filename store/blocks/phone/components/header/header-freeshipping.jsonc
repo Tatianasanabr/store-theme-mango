@@ -10,8 +10,6 @@
       "rich-text#phone--free_shipping"
     ]
   },
-
-  //Phone free shipping section
   "rich-text#phone--free_shipping": {
     "title": "Free shipping phone text",
     "props": {

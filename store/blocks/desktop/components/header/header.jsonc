@@ -9,7 +9,6 @@
       "flex-layout.row#desktop__header--menu"
     ]
   },
-
   "flex-layout.row#desktop__header--menu": {
     "title": "Menu header section on desktop",
     "props": {
@@ -26,14 +25,8 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#desktop__menu--spacer",
       "flex-layout.row#desktop__header--icons"
-      /* "flex-layout.row#desktop__searchbar--one",
-      "flex-layout.col#desktop__menu--login",
-      "flex-layout.col#desktop__menu--favorites",
-      "flex-layout.col#desktop__menu--minicart"*/
     ]
   },
-
-  //Menu section
   "vtex.menu@2.x:menu#desktop__menu--category": {
     "title": "Main section menu desktop",
     "props": {
@@ -47,8 +40,6 @@
       "menu-item#desktop__menu--kids"
     ]
   },
-
-  //Women section
   "menu-item#desktop__menu--women": {
     "title": "Women section",
     "props": {
@@ -69,8 +60,6 @@
       "vtex.menu@2.x:submenu#desktop__submenu--women"
     ]
   },
-
-  //Men section
   "menu-item#desktop__menu--men": {
     "title": "Men section",
     "props": {
@@ -91,7 +80,6 @@
       "vtex.menu@2.x:submenu#desktop__submenu--men"
     ]
   },
-
   "vtex.menu@2.x:submenu#desktop__submenu--men": {
     "title": "Men submenu",
     "props": {
@@ -121,7 +109,6 @@
       "image#header__menu--man"
     ]
   },
-
   "vtex.menu@2.x:menu#desktop__department--men": {
     "title": "Menu departments section men",
     "props": {
@@ -136,8 +123,6 @@
       "flex-layout.row#desktop__category--exceptional"
     ]
   },
-
-  //Teens section
   "menu-item#desktop__menu--teens": {
     "title": "Teens section",
     "props": {
@@ -158,7 +143,6 @@
       "vtex.menu@2.x:submenu#desktop__submenu--teens"
     ]
   },
-
   "vtex.menu@2.x:submenu#desktop__submenu--teens": {
     "title": "Submenu teens",
     "props": {
@@ -188,7 +172,6 @@
       "image#header__menu--teen"
     ]
   },
-
   "vtex.menu@2.x:menu#desktop__department--teens": {
     "title": "Menu departments section teens",
     "props": {
@@ -203,8 +186,6 @@
       "flex-layout.row#desktop__category--exceptional"
     ]
   },
-
-  //Kids section
   "menu-item#desktop__menu--kids": {
     "title": "Kids section",
     "props": {
@@ -225,7 +206,6 @@
       "vtex.menu@2.x:submenu#desktop__submenu--kids"
     ]
   },
-
   "vtex.menu@2.x:submenu#desktop__submenu--kids": {
     "title": "Submenu kids",
     "props": {
@@ -255,7 +235,6 @@
       "image#header__menu--kids"
     ]
   },
-
   "vtex.menu@2.x:menu#desktop__department--kids": {
     "title": "Menu departments section kids",
     "props": {
@@ -270,7 +249,6 @@
       "flex-layout.row#desktop__category--exceptional"
     ]
   },
-
   "flex-layout.col#desktop__menu--spacer": {
     "title": "Desktop spacer",
     "props": {
@@ -286,7 +264,6 @@
       "logo#desktop__header--logo"
     ]
   },
-  //Desktop logo section
   "logo#desktop__header--logo": {
     "title": "Logo desktop",
     "props": {

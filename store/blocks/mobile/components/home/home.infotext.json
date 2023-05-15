@@ -2,18 +2,19 @@
   "flex-layout.row#mobile__home--info_sale": {
     "title": "Info sale section container",
     "children": [
-        "flex-layout.col#mobile__home-info_sale",
-        "flex-layout.col#home__info_sale--icon"
+      "flex-layout.col#mobile__home-info_sale",
+      "flex-layout.col#home__info_sale--icon"
     ],
     "props": {
       "blockClass": "mobile__home--info_sale"
     }
   },
-
   "flex-layout.col#mobile__home-info_sale": {
-    "children": ["rich-text#mobile__home-info_sale"]
+    "title": "Mobile info sale container",
+    "children": [
+      "rich-text#mobile__home-info_sale"
+    ]
   },
-
   "rich-text#mobile__home-info_sale": {
     "title": "Informative discount text",
     "props": {
@@ -24,7 +25,10 @@
     }
   },
   "flex-layout.col#home__info_sale--icon": {
-    "children": ["icon#home__info_sale--icon"]
+    "title": "Home info sale icon container",
+    "children": [
+      "icon#home__info_sale--icon"
+    ]
   },
   "icon#home__info_sale--icon": {
     "title": "Info sale icon ",

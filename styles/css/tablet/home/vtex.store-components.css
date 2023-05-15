@@ -1,0 +1,74 @@
+.infoCardContainer--dtablet__home--info_card {
+    height: 28rem;
+}
+
+.infoCardHeadline--tablet__home--info_card {
+    color         : #ffff;
+    text-transform: uppercase;
+    font-size     : 3.5rem;
+    letter-spacing: 1px;
+    white-space   : nowrap;
+}
+
+.infoCardTextContainer--tablet__home--info_card {
+    margin-top: 8rem;
+}
+
+.infoCardCallActionContainer--tablet__home--info_card :first-child {
+    text-transform  : capitalize;
+    background-color: #ffff;
+    color           : black;
+    font-size       : .9rem;
+    border          : none;
+    border-radius   : 0;
+
+}
+
+.infoCardCallActionContainer--tablet__home--info_card {
+    margin-top: 5rem;
+}
+
+.infoCardCallActionContainer--tablet__home--info_card {
+    margin-top: 5rem;
+}
+
+.infoCardContainer--tablet__home--grid_men,
+.infoCardContainer--tablet__home--grid_kids,
+.infoCardContainer--tablet__home--grid_teens {
+    height: 20rem;
+}
+
+.infoCardTextContainer--tablet__home--grid_men :global(.vtex-button),
+.infoCardTextContainer--tablet__home--grid_kids :global(.vtex-button),
+.infoCardTextContainer--tablet__home--grid_teens :global(.vtex-button) {
+    transform       : translate(3rem, 6rem);
+    background-color: #ffff;
+    border          : none;
+    border-radius   : 0;
+    color           : black;
+    text-transform  : capitalize;
+}
+
+.infoCardContainer--tablet__home--grid_men:hover,
+.infoCardContainer--tablet__home--grid_kids:hover,
+.infoCardContainer--tablet__home--grid_teens:hover {
+    transition-duration       : 0.7s;
+    transition-timing-function: ease;
+    transition-delay          : 0s;
+    opacity                   : .8;
+    cursor                    : pointer;
+}
+
+.infoCardCallActionContainer--tablet__home--grid_men :first-child:hover,
+.infoCardCallActionContainer--tablet__home--grid_kids :first-child:hover,
+.infoCardCallActionContainer--tablet__home--grid_teens :first-child:hover {
+    background-color: #d7d7d8;
+    transition      : background-color 0.8s ease;
+    background-clip : padding-box;
+}
+
+.portalWrapper--tablet__header--menu:first-child :global(.vtex-search-1-x-biggy-autocomplete) {
+    flex-direction: column;
+    width         : 48rem;
+    transform     : translate(-363px, 10px);
+}

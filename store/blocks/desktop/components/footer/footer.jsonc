@@ -18,9 +18,9 @@
             "flex-layout.row#desktop__footer--discounts",
             "flex-layout.row#desktop__footer--newsletter",
             "flex-layout.row#desktop__footer--location",
-            "flex-layout.row#desktop__footer--links"
-            /*"flex-layout.row#desktop__footer--social_media",
-            "flex-layout.row#desktop__footer--rigths" */
+            "flex-layout.row#desktop__footer--links",
+            "flex-layout.row#desktop__footer--social_media",
+            "flex-layout.row#desktop__footer--copyright"
         ],
         "props": {
             "blockClass": "desktop__footer--container"
@@ -65,7 +65,22 @@
             "link.product#desktop__section--sustainability"
         ],
         "props": {
-            "blockClass": "desktop__footer--links"
+            "blockClass": "desktop__footer--links_container"
+        }
+    },
+    "flex-layout.row#desktop__footer--social_media": {
+        "title": "Desktop social media footer section",
+        "children": [
+            "flex-layout.col#global__footer--facebook",
+            "flex-layout.col#global__footer--twitter",
+            "flex-layout.col#global__footer--instagram",
+            "flex-layout.col#global__footer--pinterest",
+            "flex-layout.col#global__footer--spotify",
+            "flex-layout.col#global__footer--youtube",
+            "flex-layout.col#global__footer--foursquare"
+        ],
+        "props": {
+            "blockClass": "desktop__footer--social_media"
         }
     }
 }

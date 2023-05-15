@@ -1,7 +1,9 @@
 {
     "footer#mobile": {
         "title": "Footer mobile",
-        "blocks": ["footer-layout.mobile#mobile__footer--layout"]
+        "blocks": [
+            "footer-layout.mobile#mobile__footer--layout"
+        ]
     },
     "footer-layout.mobile#mobile__footer--layout": {
         "title": "Footer mobile container",
@@ -16,11 +18,11 @@
         "title": "Footer mobile container items",
         "children": [
             "flex-layout.row#mobile__footer--discounts",
-            "flex-layout.row#mobile__footer--newsletter"
-            /*"flex-layout.row#mobile__footer--location",
-            "flex-layout.row#mobile__footer--links"
-            "flex-layout.row#desktop__footer--social_media",
-            "flex-layout.row#desktop__footer--rigths" */
+            "flex-layout.row#mobile__footer--newsletter",
+            "flex-layout.row#mobile__footer--location",
+            "flex-layout.row#mobile__footer--links",
+            "flex-layout.row#mobile__footer--social_media",
+            "flex-layout.row#mobile__footer--copyright"
         ],
         "props": {
             "blockClass": "mobile__footer--container"
@@ -28,7 +30,9 @@
     },
     "flex-layout.row#mobile__footer--discounts": {
         "title": "Footer discounts container",
-        "children": ["rich-text#mobile__footer--discounts"],
+        "children": [
+            "rich-text#mobile__footer--discounts"
+        ],
         "props": {
             "blockClass": "mobile__footer--discounts"
         }
@@ -37,15 +41,19 @@
         "title": "mobile footer discounts text",
         "props": {
             "text": "Recibe promociones exclusivas, ventas privadas y novedades",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
             "blockClass": "mobile__footer--discounts"
         }
     },
     "flex-layout.row#mobile__footer--newsletter": {
-        "title": "Mobile footer newsletter section",
-        "children": ["newsletter-form#mobile__newsletter--form"]
+        "title": "mobile footer newsletter section",
+        "children": [
+            "newsletter-form#mobile__newsletter--form"
+        ]
     },
     "flex-layout.row#mobile__footer--location": {
-        "title": "Mobile footer location section",
+        "title": "mobile footer location section",
         "children": [
             "modal-trigger#mobile__modal--location"
         ],
@@ -54,18 +62,33 @@
         }
     },
     "flex-layout.row#mobile__footer--links": {
-        "title": "Desktop footer links",
+        "title": "mobile footer links",
         "children": [
-            "link.product#desktop__section--help",
-            "link.product#desktop__section--bag",
-            "link.product#desktop__section--returns",
-            "link.product#desktop__section--stores",
-            "link.product#desktop__section--apps",
-            "link.product#desktop__section--site_map",
-            "link.product#desktop__section--sustainability"
+            "link.product#mobile__section--help",
+            "link.product#mobile__section--bag",
+            "link.product#mobile__section--returns",
+            "link.product#mobile__section--stores",
+            "link.product#mobile__section--apps",
+            "link.product#mobile__section--site_map",
+            "link.product#mobile__section--sustainability"
         ],
         "props": {
-            "blockClass": "mobile__footer--links"
+            "blockClass": "mobile__footer--links_container"
+        }
+    },
+    "flex-layout.row#mobile__footer--social_media": {
+        "title": "mobile social media footer section",
+        "children": [
+            "flex-layout.col#global__footer--facebook",
+            "flex-layout.col#global__footer--twitter",
+            "flex-layout.col#global__footer--instagram",
+            "flex-layout.col#global__footer--pinterest",
+            "flex-layout.col#global__footer--spotify",
+            "flex-layout.col#global__footer--youtube",
+            "flex-layout.col#global__footer--foursquare"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--social_media"
         }
     }
 }

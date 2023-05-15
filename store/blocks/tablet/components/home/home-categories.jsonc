@@ -1,0 +1,428 @@
+{
+    "flex-layout.row#tablet__women--categories": {
+        "title": "tablet women categories",
+        "children": [
+            "flex-layout.row#tablet__women--category",
+            "rich-text#tablet__women--category_text"
+        ],
+        "props": {
+            "blockClass": "tablet__women--categories"
+        }
+    },
+    "flex-layout.row#tablet__women--category": {
+        "title": "tablet women category",
+        "children": [
+            "flex-layout.col#tablet__women--clothes",
+            "flex-layout.col#tablet__women--accesories"
+        ],
+        "props": {
+            "blockClass": "tablet__women--category"
+        }
+    },
+    "rich-text#tablet__women--category_text": {
+        "title": "Women category text",
+        "props": {
+            "text": "Mujer",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "tablet__women--category_text"
+        }
+    },
+    "flex-layout.col#tablet__women--clothes": {
+        "title": "tablet Women category clothes",
+        "children": [
+            "rich-text#tablet__clothes--category_text",
+            "menu#tablet__clothes--categories"
+        ],
+        "props": {
+            "blockClass": "tablet__women--clothes"
+        }
+    },
+    "rich-text#tablet__clothes--category_text": {
+        "title": "tablet clothes category text",
+        "props": {
+            "text": "Prendas",
+            "blockClass": "tablet__clothes--category_text"
+        }
+    },
+    "menu#tablet__clothes--categories": {
+        "title": "Footer menu category",
+        "children": [
+            "menu-item#tablet__home--dresses",
+            "menu-item#tablet__home--shirts",
+            "menu-item#tablet__home--tshirts",
+            "menu-item#tablet__home--jackets",
+            "menu-item#tablet__home--sweater",
+            "menu-item#tablet__home--hoodies",
+            "menu-item#tablet__home--coats",
+            "menu-item#tablet__home--pants",
+            "menu-item#tablet__home--jeans",
+            "menu-item#tablet__home--skirts",
+            "menu-item#tablet__home--shorts",
+            "menu-item#tablet__home--swimsuit",
+            "menu-item#tablet__home--sportswear",
+            "menu-item#tablet__home--lingerie"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "tablet__clothes--categories"
+        }
+    },
+    "menu-item#tablet__home--dresses": {
+        "title": "tablet categories dresses",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Vestidos y monos",
+            "blockClass": "tablet__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Dresses"
+            }
+        }
+    },
+    "menu-item#tablet__home--shirts": {
+        "title": "tablet categories shirts",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Camisas",
+            "blockClass": "tablet__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Shirts"
+            }
+        }
+    },
+    "menu-item#tablet__home--tshirts": {
+        "title": "tablet categories tshirts",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Camisetas y tops",
+            "blockClass": "tablet__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "tshirts"
+            }
+        }
+    },
+    "menu-item#tablet__home--jackets": {
+        "title": "tablet categories jackets",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Chaquetas y americanos",
+            "blockClass": "tablet__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Jackets"
+            }
+        }
+    },
+    "menu-item#tablet__home--sweater": {
+        "title": "tablet categories sweater",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Jerséis y cárdigans",
+            "blockClass": "tablet__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Sweater"
+            }
+        }
+    },
+    "menu-item#tablet__home--hoodies": {
+        "title": "Tablet categories hoodies",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Sudaderas",
+            "blockClass": "tablet__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Hoodies"
+            }
+        }
+    },
+    "menu-item#tablet__home--coats": {
+        "title": "tablet categories coats",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Abrigos",
+            "blockClass": "tablet__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Coats"
+            }
+        }
+    },
+    "menu-item#tablet__home--pants": {
+        "title": "tablet categories pants",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Pantalones",
+            "blockClass": "tablet__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Pants"
+            }
+        }
+    },
+    "menu-item#tablet__home--jeans": {
+        "title": "Tablet categories jeans",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Vaqueros",
+            "blockClass": "tablet__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Jeans"
+            }
+        }
+    },
+    "menu-item#tablet__home--skirts": {
+        "title": "tablet categories skirts",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Faldas",
+            "blockClass": "tablet__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Skirts"
+            }
+        }
+    },
+    "menu-item#tablet__home--shorts": {
+        "title": "tablet categories shorts",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Shorts",
+            "blockClass": "tablet__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Shorts"
+            }
+        }
+    },
+    "menu-item#tablet__home--swimsuit": {
+        "title": "tablet categories swimsuit",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Bikinis y bañadores",
+            "blockClass": "tablet__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Swimsuit"
+            }
+        }
+    },
+    "menu-item#tablet__home--sportswear": {
+        "title": "tablet categories sportswear",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Ropa deportiva",
+            "blockClass": "tablet__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Sportswear"
+            }
+        }
+    },
+    "menu-item#tablet__home--lingerie": {
+        "title": "tablet categories lingerie",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Ropa interior y lencería",
+            "blockClass": "tablet__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Dresses"
+            }
+        }
+    },
+    "flex-layout.col#tablet__women--accesories": {
+        "title": "tablet Women category accesories",
+        "children": [
+            "rich-text#tablet__accesories--category_text",
+            "menu#tablet__accesories--categories"
+        ],
+        "props": {
+            "blockClass": "tablet__women--accesories"
+        }
+    },
+    "menu#tablet__accesories--categories": {
+        "title": "Footer menu category",
+        "children": [
+            "menu-item#tablet__home--shoes",
+            "menu-item#tablet__home--bags",
+            "menu-item#tablet__home--jewerly",
+            "menu-item#tablet__home--leather",
+            "menu-item#tablet__home--belts",
+            "menu-item#tablet__home--sunglasses",
+            "menu-item#tablet__home--scarf",
+            "menu-item#tablet__home--hats",
+            "menu-item#tablet__home--more_accesories"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "tablet__accesories--categories"
+        }
+    },
+    "menu-item#tablet__home--shoes": {
+        "title": "tablet categories shoes",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Zapatos",
+            "blockClass": "tablet__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Shoes"
+            }
+        }
+    },
+    "menu-item#tablet__home--bags": {
+        "title": "tablet categories bags",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Bolsos",
+            "blockClass": "tablet__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Bags"
+            }
+        }
+    },
+    "menu-item#tablet__home--jewerly": {
+        "title": "tablet categories jewerly",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Bisutería",
+            "blockClass": "tablet__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Jewerly"
+            }
+        }
+    },
+    "menu-item#tablet__home--leather": {
+        "title": "tablet categories leather",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Marroquinería",
+            "blockClass": "tablet__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "leather"
+            }
+        }
+    },
+    "menu-item#tablet__home--belts": {
+        "title": "tablet categories belts",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Cinturones",
+            "blockClass": "tablet__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Belts"
+            }
+        }
+    },
+    "menu-item#tablet__home--sunglasses": {
+        "title": "tablet categories sunglasses",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Gafas de sol",
+            "blockClass": "tablet__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Sunglasses"
+            }
+        }
+    },
+    "menu-item#tablet__home--scarf": {
+        "title": "tablet categories scarf",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Fulares y pañuelos",
+            "blockClass": "tablet__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Scarf"
+            }
+        }
+    },
+    "menu-item#tablet__home--hats": {
+        "title": "tablet categories hats",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Sombreros",
+            "blockClass": "tablet__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Hats"
+            }
+        }
+    },
+    "menu-item#tablet__home--more_accesories": {
+        "title": "Tablet categories more_accesories",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "text": "Más accesorios",
+            "blockClass": "tablet__home--category",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "More_accesories"
+            }
+        }
+    },
+    "rich-text#tablet__accesories--category_text": {
+        "title": "tablet accesories category text",
+        "props": {
+            "text": "Accesorios",
+            "blockClass": "tablet__accesories--category_text"
+        }
+    }
+}

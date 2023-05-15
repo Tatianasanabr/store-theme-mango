@@ -1,0 +1,9 @@
+.nameWrapper--product__name {
+    transform  : translate(-15px, -27px);
+    font-weight: bold;
+}
+
+.currencyContainer--product__price {
+    display        : flex;
+    justify-content: flex-start;
+}

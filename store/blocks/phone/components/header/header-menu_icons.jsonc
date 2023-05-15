@@ -1,10 +1,8 @@
 {
-    //Header icons
+  //Header icons
   "flex-layout.row#phone__header--icons": {
     "title": "Phone header icons container",
     "children": [
-      /*"flex-layout.col#phone__header--search_icon"
-      "flex-layout.col#phone__searchbar",*/
       "flex-layout.col#phone__header--search_icon",
       "flex-layout.col#phone__header--login_icon",
       "flex-layout.col#phone__header--favorites_icon",
@@ -17,7 +15,6 @@
   "flex-layout.col#phone__header--search_icon": {
     "title": "phone header search icon container",
     "children": [
-      /* "flex-layout.row#phone__searchbar--one", */
       "icon#phone__searchbar--icon1"
     ],
     "props": {
@@ -27,10 +24,7 @@
   "flex-layout.col#phone__header--login_icon": {
     "title": "phone header search icon container",
     "children": [
-        "login#phone__icon--login"
-      /*"login#phone__menu--login2"
-       "icon#phone__login--icon", */
-      
+      "login#phone__icon--login"
     ],
     "props": {
       "blockClass": "phone__header--login_icon"
@@ -58,7 +52,7 @@
     "title": "Search bar icon ",
     "props": {
       "id": "hpa-search",
-      "size": 25,
+      "size": 30,
       "width": "15%",
       "viewBox": "0 0 25 25",
       "blockClass": "phone__searchbar--icon"
@@ -84,14 +78,4 @@
       "blockClass": "phone__favorites--icon"
     }
   }
-  /* "icon#phone__bag--icon": {
-    "title": "phone bag  icon",
-    "props": {
-      "id": "hpa-cart",
-      "size": 32,
-      "width": "15%",
-      "viewBox": "0 0 25 25",
-      "blockClass": "phone__bag--icon"
-    }
-  } */
 }

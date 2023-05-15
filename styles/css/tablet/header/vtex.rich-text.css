@@ -1,6 +1,6 @@
 @media (min-width: 426px) and (max-width: 768px) {
     .paragraph--desktop__taxes--info {
-        margin-top: 3px;
+        margin-top : 3px;
         margin-left: -2.5rem;
     }
 }

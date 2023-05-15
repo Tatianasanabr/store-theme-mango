@@ -1,6 +1,4 @@
 {
-  //Icon menu section
-
   "flex-layout.row#mobile__menu--profile": {
     "title": "Main container profile icon",
     "children": [
