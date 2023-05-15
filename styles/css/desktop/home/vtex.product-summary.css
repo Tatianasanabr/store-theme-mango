@@ -1,5 +1,5 @@
 .image--product__image {
-    width: 15rem;
+    width : 15rem;
     height: 15rem;
 }
 
@@ -9,4 +9,18 @@
 
 .productBrand--product__name {
     font-size: 14px;
+}
+
+.containerNormal--home__shelf--products {
+    border : 1px solid black;
+    padding: 1rem;
+}
+
+.containerNormal--home__shelf--products:hover {
+    border : 2px solid black;
+    padding: .7rem;
+}
+
+.price_installment--product__price {
+    font-size: 1px;
 }

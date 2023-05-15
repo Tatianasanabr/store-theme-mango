@@ -1,0 +1,80 @@
+{
+    "flex-layout.row#global__home--info_sale": {
+        "title": "Global home info sale container",
+        "children": [
+            "flex-layout.col#home__sale--text",
+            "flex-layout.col#home__sale--active"
+        ],
+        "props": {
+            "blockClass": "global__home--info_sale",
+            "horizontalAlign": "left",
+            "colJustify": "around",
+            "marginBottom": "0rem"
+        }
+    },
+    "flex-layout.col#home__sale--text": {
+        "title": "Home sale text",
+        "children": [
+            "rich-text#desktop__home--info_sale"
+        ],
+        "props": {
+            "blockClass": "home__sale--text",
+            "marginLeft": 1
+        }
+    },
+    "rich-text#desktop__home--info_sale": {
+        "title": "Informative discount text",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Sale | hasta 50% off [Compra ahora](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+            "blockClass": "desktop__home-info_sale"
+        }
+    },
+    "flex-layout.col#home__sale--active": {
+        "title": "Home sale text",
+        "children": [
+            "modal-trigger#home__modal--sale"
+        ],
+        "props": {
+            "blockClass": "home__sale--active"
+        }
+    },
+    "modal-trigger#home__modal--sale": {
+        "title": "Home modal sale container",
+        "children": [
+            "icon#home__info--icon",
+            "modal-layout#home__info--sale"
+        ],
+        "props": {
+            "blockClass": "home__modal--sale"
+        }
+    },
+    "modal-layout#home__info--sale": {
+        "title": "Home info sale container",
+        "children": [
+            "rich-text#home__modal--info"
+        ],
+        "props": {
+            "blockClass": "home__info--sale",
+            "disableEscapeKeyDown": true
+        }
+    },
+    "rich-text#home__modal--info": {
+        "title": "Home modal info sale",
+        "props": {
+            "text": "Exclusivo en tienda online //shop.mango.com/co. Válido del 24 abril al 14 de junio de 2023. Hasta 50% de descuento en referencias seleccionadas. Desde 10% hasta 50% de descuento. Las referencias seleccionadas se encuentran ubicadas en la sección 'Sale'. El respectivo descuento se encuentra aplicado en el precio del producto, el valor inferior en rojo corresponde al precio final con el descuento aplicado. No acumulable con otras ofertas, promociones o descuentos. En caso de cambio o garantía, se reconocerá el valor pagado por la prenda. El descuento no es redimible en dinero. No aplica para compra de bono de regalo. No aplica en tiendas físicas MNG, ni MNG Outlet, ni en Rappi MNG.",
+            "blockClass": "home__modal--info"
+        }
+    },
+    "icon#home__info--icon": {
+        "title": "Info home icon",
+        "props": {
+            "id": "inf-star",
+            "size": 30,
+            "width": "15%",
+            "viewBox": "0 0 20 25",
+            "blockClass": "home__categories--icon"
+        }
+    }
+}

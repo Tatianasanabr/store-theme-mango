@@ -1,0 +1,20 @@
+{
+    "flex-layout.row#phone__disclosure--title": {
+        "title": "Phone disclosure title container",
+        "children": [
+            "rich-text#phone_disclosure--title"
+        ],
+        "props": {
+            "blockClass": "phone__disclosure--title"
+        }
+    },
+    "rich-text#phone_disclosure--title": {
+        "title": "Phone disclosure title",
+        "props": {
+            "text": "Mujer",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "phone_disclosure--title"
+        }
+    }
+}

@@ -1,5 +1,4 @@
 {
-  //Sección Menú
   "vtex.menu@2.x:menu#mobile__menu--category": {
     "title": "Main section menu mobile",
     "props": {
@@ -12,8 +11,6 @@
       "menu-item#mobile__menu--kids"
     ]
   },
-
-  //Menu images
   "image#mobile__menu--clothing": {
     "title": "Clothing menu image",
     "props": {
@@ -21,7 +18,6 @@
       "blockClass": "header__menu--clothing_image"
     }
   },
-
   "image#mobile__menu--accessories": {
     "title": "Imagen menu accesorios",
     "props": {
@@ -29,7 +25,6 @@
       "blockClass": "header__menu--accessories_image"
     }
   },
-
   "image#mobile__menu--plus-size": {
     "title": "Imagen menu tallas plus",
     "props": {
@@ -37,8 +32,6 @@
       "blockClass": "header__menu--plus_size_image"
     }
   },
-
-  //Women section
   "menu-item#mobile__menu--women": {
     "title": "Women section",
     "props": {
@@ -59,7 +52,6 @@
       "vtex.menu@2.x:submenu#mobile__submenu--women"
     ]
   },
-
   "vtex.menu@2.x:submenu#mobile__submenu--women": {
     "title": "Women submenu",
     "props": {
@@ -82,7 +74,6 @@
       "vtex.menu@2.x:menu#mobile__department--women2"
     ]
   },
-
   "vtex.menu@2.x:menu#mobile__department--women": {
     "title": "Menu container women",
     "props": {
@@ -93,7 +84,6 @@
       "menu-item#mobile__department--clothing"
     ]
   },
-
   "vtex.menu@2.x:menu#mobile__department--women2": {
     "title": "Menu mujeres general",
     "props": {
@@ -121,7 +111,6 @@
       "flex-layout.row#mobile__menu--globe"
     ]
   },
-
   "menu-item#mobile__department--newnow": {
     "title": "Sección New Now",
     "props": {
@@ -139,7 +128,6 @@
       }
     }
   },
-
   "menu-item#mobile__department--clothing": {
     "title": "Sección Prendas",
     "props": {
@@ -160,14 +148,12 @@
       "flex-layout.col#mobile__menu--clothing"
     ]
   },
-
   "flex-layout.col#mobile__menu--clothing": {
     "title": "Clothing image container",
     "children": [
       "image#mobile__menu--clothing"
     ]
   },
-
   "menu-item#mobile__department--accessories": {
     "title": "Accessories section",
     "props": {
@@ -188,14 +174,12 @@
       "flex-layout.col#mobile__menu--accessories"
     ]
   },
-
   "flex-layout.col#mobile__menu--accessories": {
     "title": "Accessories image container",
     "children": [
       "image#mobile__menu--accessories"
     ]
   },
-
   "menu-item#mobile__department--plus_size": {
     "title": "Plus size section",
     "props": {
@@ -216,14 +200,12 @@
       "flex-layout.col#mobile__menu--plus_size"
     ]
   },
-
   "flex-layout.col#mobile__menu--plus_size": {
     "title": "Plus size image container",
     "children": [
       "image#mobile__menu--plus-size"
     ]
   },
-
   "menu-item#mobile__department--discount": {
     "title": "Discount section",
     "props": {
@@ -241,7 +223,6 @@
       }
     }
   },
-
   //Men section
   "menu-item#mobile__menu--men": {
     "title": "Men section mobile",
@@ -263,7 +244,6 @@
       "vtex.menu@2.x:submenu#mobile__submenu--men"
     ]
   },
-
   "vtex.menu@2.x:submenu#mobile__submenu--men": {
     "title": "Men submenu mobile",
     "props": {
@@ -285,7 +265,6 @@
       "vtex.menu@2.x:menu#mobile__department--men"
     ]
   },
-
   "vtex.menu@2.x:menu#mobile__department--men": {
     "title": "Menu departments section men",
     "props": {
@@ -315,8 +294,6 @@
       "flex-layout.row#mobile__menu--globe"
     ]
   },
-
-  //Sección Teens
   "menu-item#mobile__menu--teens": {
     "title": "Teens section",
     "props": {
@@ -337,7 +314,6 @@
       "vtex.menu@2.x:submenu#mobile__submenu--teens"
     ]
   },
-
   "vtex.menu@2.x:submenu#mobile__submenu--teens": {
     "title": "Submenu teens mobile",
     "props": {
@@ -353,14 +329,12 @@
       "flex-layout.col#menu__container--teens2"
     ]
   },
-
   "flex-layout.col#menu__container--teens2": {
     "title": "Vertical menu container teens",
     "children": [
       "vtex.menu@2.x:menu#mobile__department--teens"
     ]
   },
-
   "vtex.menu@2.x:menu#mobile__department--teens": {
     "title": "Menu departments section teens",
     "props": {
@@ -390,8 +364,6 @@
       "flex-layout.row#mobile__menu--globe"
     ]
   },
-
-  //Kids section
   "menu-item#mobile__menu--kids": {
     "title": "Kids section",
     "props": {
@@ -412,7 +384,6 @@
       "vtex.menu@2.x:submenu#mobile__submenu--kids"
     ]
   },
-
   "vtex.menu@2.x:submenu#mobile__submenu--kids": {
     "title": "Submenu kids mobile",
     "props": {
@@ -434,7 +405,6 @@
       "vtex.menu@2.x:menu#mobile__department--kids"
     ]
   },
-
   "vtex.menu@2.x:menu#mobile__department--kids": {
     "title": "Menu departments section kids",
     "props": {

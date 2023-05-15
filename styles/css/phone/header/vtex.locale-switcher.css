@@ -4,18 +4,18 @@
 
 .container--phone__favorites--icon {
     position: relative;
-    left: 1px;
-    width: 43px;
-    top: 3px;
+    left    : 1px;
+    width   : 43px;
+    top     : 3px;
 }
 
 .button--phone__menu--favorites {
     position: relative;
-    left: -19px;
+    left    : -19px;
 }
 
 .globeIcon--phone__favorites--icon {
-    width: 23px!important;
-    height: 22px!important;
+    width : 23px !important;
+    height: 22px !important;
 
 }

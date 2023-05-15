@@ -23,7 +23,7 @@
     align-items   : center;
     margin-left   : 4px;
     cursor        : pointer;
-    margin-top: 0.5px;
+    margin-top    : 0.5px;
 
 }
 
@@ -62,12 +62,12 @@
 }
 
 .flexRowContent--desktop__product--container {
-     padding: 0;
+    padding: 0;
     height : 150px;
     width  : 350px;
     padding: 0;
-    height: 150px;
-    width: 350px;
+    height : 150px;
+    width  : 350px;
 }
 
 .flexColChild--desktop__product--image {
@@ -86,7 +86,7 @@
 }
 
 .flexRowContent--desktop__price--remove {
-   transform: translateX(180px);
+    transform: translateX(180px);
     position : relative;
     top      : -85px;
 }
@@ -108,13 +108,13 @@
     background-color: black;
     border          : black;
     text-transform  : capitalize;
-    border-radius: 0;
+    border-radius   : 0;
 }
 
 .flexRowContent--minicart__footer {
     flex-direction: column;
     align-items   : center;
-    display: flex;
+    display       : flex;
 }
 
 .flexRowContent--desktop__searchbar--one {
@@ -124,7 +124,7 @@
 
 .flexColChild--desktop__remove--button {
     position: relative;
-    left: -11.7rem;
+    left    : -11.7rem;
 }
 
 .flexColChild--desktop__remove--button :global(.vtex-button) {
@@ -142,9 +142,9 @@
 }
 
 .flexCol--minicart__footer {
-    display: flex;
+    display       : flex;
     flex-direction: column;
-    align-items: self-end;
+    align-items   : self-end;
 }
 
 .flexRow--desktop__section--girls {
@@ -153,8 +153,8 @@
 
 .flexCol--priceWrapper {
     position: absolute;
-    top: 16px;
-    right: -17px;
+    top     : 16px;
+    right   : -17px;
 }
 
 .flexColChild--main__container--desktop {
@@ -163,14 +163,14 @@
 
 .flexCol--main__container--desktop {
     display: flex;
-} 
+}
 
 .flexCol--sub__container--desktop {
-    display: flex;
-    flex-direction: column;
+    display        : flex;
+    flex-direction : column;
     justify-content: center;
-    align-items: baseline;
-    margin-left: -4rem;
+    align-items    : baseline;
+    margin-left    : -4rem;
 }
 
 
@@ -183,7 +183,7 @@
 }
 
 .flexRow--desktop__header--free_shipping :global(.vtex-store-components-3-x-container) {
-    max-width: 100vw!important;
+    max-width: 100vw !important;
 }
 
 .flexRow--desktop__home--grid_cards :global(.vtex-store-components-3-x-container) {
@@ -192,28 +192,28 @@
 
 .flexCol--desktop__header--bag_icon {
     justify-content: center;
-    display: flex;
-    align-items: center;
+    display        : flex;
+    align-items    : center;
 }
 
 .flexCol--desktop__header--search_icon {
     justify-content: center;
-    display: flex;
-    align-items: center;
+    display        : flex;
+    align-items    : center;
 }
 
 .flexCol--desktop__header--login_icon {
     justify-content: center;
-    display: flex;
-    align-items: center;
-    margin-top: -2px;
+    display        : flex;
+    align-items    : center;
+    margin-top     : -2px;
 }
 
 .flexCol--desktop__header--favorites_icon {
     justify-content: center;
-    display: flex;
-    align-items: center;
-    margin-top: -2px;
+    display        : flex;
+    align-items    : center;
+    margin-top     : -2px;
 }
 
 /*Estilos iconos header*/
@@ -226,54 +226,54 @@
 }
 
 .flexColChild--desktop__header--search_icon {
-    display: flex;
-    align-items: flex-start;
+    display        : flex;
+    align-items    : flex-start;
     justify-content: center;
 }
 
 .flexColChild--desktop__header--login_icon {
-    display: flex;
-    align-items: flex-start;
+    display        : flex;
+    align-items    : flex-start;
     justify-content: center;
 }
 
 .flexColChild--desktop__header--favorites_icon {
-    display: flex;
-    align-items: flex-start;
+    display        : flex;
+    align-items    : flex-start;
     justify-content: center;
 }
 
 .flexColChild--desktop__header--bag_icon {
-    display: flex;
-    align-items: flex-start;
+    display        : flex;
+    align-items    : flex-start;
     justify-content: center;
 }
 
 .flexColChild--desktop__header--search_icon:first-child {
     position: relative;
-    top: 25px;
+    top     : 25px;
 }
 
 .flexColChild--desktop__header--login_icon:first-child {
     position: relative;
-    top: 11px;
-    left: 9px;
+    top     : 11px;
+    left    : 9px;
 }
 
 .flexColChild--desktop__header--favorites_icon:first-child {
     position: relative;
-    top: 20px;
-    left: 4px;
+    top     : 20px;
+    left    : 4px;
 }
 
 .flexColChild--desktop__header--bag_icon:first-child {
     position: relative;
-    top: 6px;
+    top     : 6px;
 }
 
 .flexColChild--desktop__header--login_icon:first-child :global(.vtex-button) {
-    width: 4rem;
+    width      : 4rem;
     margin-left: -1rem;
-    background: transparent;
+    background : transparent;
 }
 

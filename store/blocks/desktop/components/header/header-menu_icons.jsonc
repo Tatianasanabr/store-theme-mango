@@ -1,5 +1,4 @@
 {
-  //Bag icon
   "flex-layout.col#desktop__menu--minicart": {
     "title": "Bag section container",
     "children": [
@@ -10,7 +9,6 @@
       "blockClass": "desktop__menu--minicart"
     }
   },
-
   "rich-text#desktop__minicart--icon": {
     "title": "Informative text bag section",
     "props": {
@@ -19,7 +17,6 @@
     }
   },
 
-  //Login icon
   "flex-layout.col#desktop__menu--login": {
     "title": "Container login section",
     "children": [
@@ -30,7 +27,6 @@
       "blockClass": "desktop__menu--login"
     }
   },
-
   "login#desktop__menu--login2": {
     "title": "Login section icon",
     "props": {
@@ -39,10 +35,9 @@
       "hideIconLabel": true,
       "isInitialScreenOptionOnly": false,
       "emailPlaceholder": "E-mail",
-      "passwordPlaceholder": "Contraseña"    
+      "passwordPlaceholder": "Contraseña"
     }
   },
-
   "rich-text#desktop__login--info": {
     "title": "Informative text login section",
     "props": {
@@ -52,8 +47,6 @@
       "blockClass": "desktop__login--info"
     }
   },
-
-  //Favorites icon
   "flex-layout.col#desktop__menu--favorites": {
     "title": "Favorites section container",
     "children": [
@@ -78,10 +71,6 @@
       "blockClass": "desktop__favorites--info"
     }
   },
-
-
-
-  //Header icons
   "flex-layout.row#desktop__header--icons": {
     "title": "Desktop header icons container",
     "children": [
@@ -97,8 +86,6 @@
   "flex-layout.col#desktop__header--search_icon": {
     "title": "Desktop header search icon container",
     "children": [
-      /* "icon#desktop__searchbar--icon",
-      "rich-text#desktop__search--icon", */
       "flex-layout.row#desktop__searchbar--one"
     ],
     "props": {
@@ -109,9 +96,7 @@
     "title": "Desktop header search icon container",
     "children": [
       "login#desktop__menu--login2",
-      /* "icon#desktop__login--icon", */
       "rich-text#desktop__login--icon"
-      
     ],
     "props": {
       "blockClass": "desktop__header--login_icon"
@@ -130,7 +115,6 @@
   "flex-layout.col#desktop__header--bag_icon": {
     "title": "Desktop header search icon container",
     "children": [
-      /* "icon#desktop__bag--icon", */
       "minicart.v2#desktop__section--minicart",
       "rich-text#desktop__bag--icon"
     ],
@@ -152,8 +136,6 @@
     "title": "Informative text favorites icon",
     "props": {
       "text": "Buscar",
-      /* "href": "/",
-      "loginLink": "/", */
       "blockClass": "desktop__search--icon"
     }
   },
@@ -171,12 +153,9 @@
     "title": "Informative text login icon",
     "props": {
       "text": "Iniciar sesión",
-      /* "href": "/",
-      "loginLink": "/", */
       "blockClass": "desktop__login--icon"
     }
   },
-  
   "icon#desktop__favorites--icon": {
     "title": "Desktop favorites  icon",
     "props": {
@@ -191,8 +170,6 @@
     "title": "Informative text favorites icon",
     "props": {
       "text": "Favoritos",
-      /* "href": "/",
-      "loginLink": "/", */
       "blockClass": "desktop__favorites--icon"
     }
   },

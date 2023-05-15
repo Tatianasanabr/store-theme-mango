@@ -1,6 +1,6 @@
 .flexColChild--mobile__remove--button {
     position: relative;
-    left: 100rem;
+    left    : 100rem;
 }
 
 .flexColChild--mobile__remove--button :global(.vtex-button) {
@@ -19,14 +19,14 @@
 
 .flexRow--mobile__price--remove {
     position: relative;
-    top: -9rem;
-    left: 12rem;
+    top     : -9rem;
+    left    : 12rem;
 }
 
 .flexRow--mobile__product--container {
     height: 8rem;
 }
 
-.flexColChild--mobile__product--image  {
-    height: 0!important;
+.flexColChild--mobile__product--image {
+    height: 0 !important;
 }

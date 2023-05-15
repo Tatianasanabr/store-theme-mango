@@ -1,0 +1,70 @@
+{
+  "store.search#department": {
+    "title": "Store search department",
+    "blocks": [
+      "search-result-layout#department"
+    ]
+  },
+  "search-result-layout#department": {
+    "title": "Search result department",
+    "blocks": [
+      "search-result-layout.desktop#department",
+      "search-result-layout.mobile#department",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#department": {
+    "title": "Search result main department",
+    "children": [
+      "flex-layout.row#department__breadcrumb"
+      /* "rich-text#desktop-response#department" */
+    ]
+  },
+  "flex-layout.row#department__breadcrumb": {
+    "title": "Department breadcrumb main container",
+    "children": [
+      "flex-layout.col#department__breadcrumb"
+    ]
+  },
+  "flex-layout.col#department__breadcrumb": {
+    "title": "Department breadcrumb container",
+    "children": [
+      "breadcrumb.search"
+    ]
+  },
+  "search-result-layout.mobile#department": {
+    "title": "Department main container",
+    "children": [
+      "flex-layout.row#department__breadcrumb",
+      "flex-layout.row#department__results"
+    ]
+  },
+  "flex-layout.row#department__results": {
+    "title": "Departmen results",
+    "children": [
+      "gallery-layout-switcher"
+      /* "search-content#phone" */
+    ]
+  },
+  "gallery-layout-switcher": {
+    "title": "Gallery switcher",
+    "children": [
+      "gallery-layout-option#grid__two--columns",
+      "gallery-layout-option#grid__one--column"
+    ]
+  },
+  "gallery-layout-option#grid__two--columns": {
+    "title": "Gallery option",
+    "props": {
+      "name": "grid-two-columns",
+      "blockClass": "grid__selector--two_columns"
+    }
+  },
+  "gallery-layout-option#grid__one--column": {
+    "title": "Gallery grid",
+    "props": {
+      "name": "grid-one-column",
+      "blockClass": "grid__selector--one_column"
+    }
+  }
+}

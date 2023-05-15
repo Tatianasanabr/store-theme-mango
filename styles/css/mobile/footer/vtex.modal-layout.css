@@ -1,0 +1,12 @@
+.triggerContainer--mobile__modal--location {
+    display      : flex;
+    align-items  : center;
+    margin-bottom: 11px;
+    margin-top   : 2px;
+}
+
+@media (min-width: 642px) and (max-width: 768px) {
+    .triggerContainer--mobile__modal--location {
+        margin-left: 48px;
+    }
+}

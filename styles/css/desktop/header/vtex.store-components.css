@@ -30,7 +30,7 @@
 }
 
 .autoCompleteOuterContainer--desktop__menu--searchbar :first-child {
-    border     : none;
+    border: none;
 }
 
 .autoCompleteOuterContainer {
@@ -47,10 +47,10 @@
 
 .portalWrapper--desktop__menu--searchbar:first-child :global(.vtex-search-1-x-biggy-autocomplete) {
     position: absolute;
-    left: -18rem;
-    top: 0.9rem;
-    width: 80rem;
-    height: 22rem;
+    left    : -18rem;
+    top     : 0.9rem;
+    width   : 80rem;
+    height  : 22rem;
 }
 
 .closeIcon--desktop__menu--searchbar {

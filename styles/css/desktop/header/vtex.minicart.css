@@ -1,6 +1,6 @@
 .cartIcon--desktop__menu--minicart {
-    width     : 32px;
-    height    : 21px;
+    width    : 32px;
+    height   : 21px;
     transform: translateY(-13px);
 }
 
@@ -12,8 +12,8 @@
 }
 
 .minicartProductListContainer--minicart__product--list {
-    padding: 16px;
-    height: 300px!important;
+    padding   : 16px;
+    height    : 300px !important;
     overflow-x: hidden;
 }
 
@@ -45,12 +45,12 @@
 
 .minicartSummary--minicart__summary {
     position: relative;
-    right: 6rem;
+    right   : 6rem;
 }
 
-.minicartSummary--minicart__summary--items:first-child :nth-child(2n){
+.minicartSummary--minicart__summary--items:first-child :nth-child(2n) {
     margin-right: -13rem;
-    font-size: .875rem;
+    font-size   : .875rem;
 }
 
 .minicartSummary--minicart__summary--items {
@@ -58,28 +58,29 @@
 }
 
 .minicartSideBarContentWrapper--desktop__menu--minicart {
-    height: 70%!important;
+    height: 70% !important;
 }
 
 .minicartCheckoutButton--checkout__button {
-    position: relative;
-    left: 7rem;
-/*     width: 0!important;
- */}
+    position    : relative;
+    left        : 7rem;
+    /*     width: 0!important;
+ */
+}
 
- .minicartCheckoutButton--checkout__button {
+.minicartCheckoutButton--checkout__button {
     width: 13rem;
- }
- 
- .minicartCheckoutButton--checkout__button :global(.vtex-button__label){
-    visibility: hidden;
- }
+}
 
- .minicartCheckoutButton--checkout__button :global(.vtex-button__label)::before{
-    visibility: visible;
-    content: "Comenzar pedido";
+.minicartCheckoutButton--checkout__button :global(.vtex-button__label) {
+    visibility: hidden;
+}
+
+.minicartCheckoutButton--checkout__button :global(.vtex-button__label)::before {
+    visibility : visible;
+    content    : "Comenzar pedido";
     white-space: nowrap;
-    font-size: .8125rem;
+    font-size  : .8125rem;
     font-weight: bold;
     margin-left: 4.3rem;
- }
+}

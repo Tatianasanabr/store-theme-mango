@@ -1,6 +1,4 @@
 {
-  //Collection & trends section
-
   "flex-layout.row#mobile__menu--collections": {
     "title": "Main container collections",
     "children": [
@@ -21,7 +19,6 @@
       "blockClass": "mobile__menu--collections"
     }
   },
-
   "rich-text#mobile__menu--collection_one": {
     "title": "informative text profile icon",
     "props": {
@@ -36,7 +33,6 @@
       "blockClass": "mobile__menu--collection_two"
     }
   },
-
   "flex-layout.row#mobile__menu--see_more": {
     "title": "See more section text",
     "props": {
@@ -56,7 +52,6 @@
       "rich-text#mobile__menu--see_text"
     ]
   },
-
   "rich-text#mobile__menu--see_text": {
     "title": "See more text",
     "props": {
@@ -69,7 +64,6 @@
       "icon#home__menu--see_icon"
     ]
   },
-
   "icon#home__menu--see_icon": {
     "title": "See icon ",
     "props": {
@@ -80,7 +74,6 @@
       "blockClass": "home__menu--see_icon"
     }
   },
-
   "flex-layout.row#mobile__menu--trends": {
     "title": "Main container trends",
     "children": [
@@ -101,7 +94,6 @@
       "blockClass": "mobile__menu--collections"
     }
   },
-
   "rich-text#mobile__menu--trends_one": {
     "title": "informative text profile icon",
     "props": {
@@ -116,9 +108,6 @@
       "blockClass": "mobile__menu--trends_two"
     }
   },
-
-  //collections submenu
-
   "flex-layout.row#mobile__submenu--novelty": {
     "title": "Main container submenu novelty",
     "children": [
@@ -140,7 +129,6 @@
       "blockClass": "mobile__submenu--novelty"
     }
   },
-
   "image#mobile__submenu--novelty": {
     "title": "Novelty image",
     "props": {
@@ -149,7 +137,6 @@
       "blockClass": "mobile__submenu--novelty"
     }
   },
-
   "rich-text#mobile__submenu--novelty_one": {
     "title": "informative first novelty text",
     "props": {
@@ -164,7 +151,6 @@
       "blockClass": "mobile__submenu--novelty_two"
     }
   },
-
   "flex-layout.row#mobile__menu--more": {
     "title": "More information section",
     "props": {
@@ -174,7 +160,6 @@
       "flex-layout.col#mobile__submenu--see_icon"
     ]
   },
-
   "flex-layout.col#mobile__submenu--see_icon": {
     "title": "See icon section",
     "children": [
@@ -184,7 +169,6 @@
       "blockClass": "mobile__submenu--see_icon"
     }
   },
-
   "icon#home__submenu--see_icon": {
     "title": "See icon",
     "props": {
@@ -195,7 +179,6 @@
       "blockClass": "home__submenu--see_icon"
     }
   },
-
   "flex-layout.row#mobile__submenu--party": {
     "title": "Main container submenu party",
     "children": [
@@ -217,7 +200,6 @@
       "blockClass": "mobile__submenu--party"
     }
   },
-
   "image#mobile__submenu--party": {
     "title": "Party image",
     "props": {
@@ -226,7 +208,6 @@
       "blockClass": "mobile__submenu--party"
     }
   },
-
   "rich-text#mobile__submenu--party_one": {
     "title": "informative text profile icon",
     "props": {
@@ -241,7 +222,6 @@
       "blockClass": "mobile__submenu--party_two"
     }
   },
-
   "flex-layout.row#mobile__submenu--office": {
     "title": "Main container submenu office",
     "children": [
@@ -263,7 +243,6 @@
       "blockClass": "mobile__submenu--office"
     }
   },
-
   "image#mobile__submenu--office": {
     "title": "Office image",
     "props": {
@@ -272,7 +251,6 @@
       "blockClass": "mobile__submenu--office"
     }
   },
-
   "rich-text#mobile__submenu--office_one": {
     "title": "informative text profile icon",
     "props": {

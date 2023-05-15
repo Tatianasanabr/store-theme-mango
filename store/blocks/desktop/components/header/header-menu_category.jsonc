@@ -29,7 +29,6 @@
       "image#header__menu--women"
     ]
   },
-
   "vtex.menu@2.x:menu#desktop__department--women": {
     "title": "Menu departments section women",
     "props": {
@@ -44,7 +43,6 @@
       "flex-layout.row#desktop__category--exceptional"
     ]
   },
-
   "flex-layout.row#desktop__category--clothing": {
     "title": "Flex layout category container",
     "props": {
@@ -54,7 +52,6 @@
       "flex-layout.row#menu__category--clothing"
     ]
   },
-
   "flex-layout.row#menu__category--clothing": {
     "title": "Flex layout menu category container",
     "props": {
@@ -64,7 +61,6 @@
       "menu-item#desktop__category--clothing"
     ]
   },
-
   "icon#home__category--icon": {
     "title": "Arrow categories icon",
     "props": {
@@ -75,7 +71,6 @@
       "blockClass": "home__categories--icon"
     }
   },
-
   "menu-item#desktop__category--clothing": {
     "title": "Desktop clothing section",
     "props": {
@@ -96,21 +91,18 @@
       "vtex.menu@2.x:submenu#desktop__subcategory--women"
     ]
   },
-
   "flex-layout.row#desktop__category--accessories": {
     "title": "Flex layout category container",
     "children": [
       "flex-layout.row#menu__category--accessories"
     ]
   },
-
   "flex-layout.row#menu__category--accessories": {
     "title": "Flex layout menu category container",
     "children": [
       "menu-item#desktop__category--accessories"
     ]
   },
-
   "menu-item#desktop__category--accessories": {
     "title": "Desktop Accessories section",
     "props": {
@@ -131,14 +123,12 @@
       "vtex.menu@2.x:submenu#desktop__subcategory--women"
     ]
   },
-
   "flex-layout.row#desktop__category--plus_size": {
     "title": "Flex layout category container",
     "children": [
       "flex-layout.row#menu__category--plus_size"
     ]
   },
-
   "flex-layout.row#menu__category--plus_size": {
     "title": "Flex layout menu category container",
     "children": [
@@ -165,14 +155,12 @@
       "vtex.menu@2.x:submenu#desktop__subcategory--women"
     ]
   },
-
   "flex-layout.row#desktop__category--discount": {
     "title": "Flex layout category container",
     "children": [
       "flex-layout.row#menu__category--discount"
     ]
   },
-
   "flex-layout.row#menu__category--discount": {
     "title": "Flex layout menu category container",
     "children": [
@@ -199,14 +187,12 @@
       "vtex.menu@2.x:submenu#desktop__subcategory--women"
     ]
   },
-
   "flex-layout.row#desktop__category--collections": {
     "title": "Flex layout category container",
     "children": [
       "flex-layout.row#menu__category--collections"
     ]
   },
-
   "flex-layout.row#menu__category--collections": {
     "title": "Flex layout menu category container",
     "children": [
@@ -233,21 +219,18 @@
       "vtex.menu@2.x:submenu#desktop__subcategory--women"
     ]
   },
-
   "flex-layout.row#desktop__category--exceptional": {
     "title": "Flex layout category container",
     "children": [
       "flex-layout.row#menu__category--exceptional"
     ]
   },
-
   "flex-layout.row#menu__category--exceptional": {
     "title": "Flex layout menu category container",
     "children": [
       "menu-item#desktop__category--exceptional"
     ]
   },
-
   "menu-item#desktop__category--exceptional": {
     "title": "Desktop exceptional section",
     "props": {

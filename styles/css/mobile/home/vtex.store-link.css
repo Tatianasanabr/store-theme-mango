@@ -1,30 +1,30 @@
 .label--mobile__button--see_more {
-    position: relative;
-    top: -2rem;
-    border: 1px solid black;
-    right: -5rem;
-    padding: 11.3px 36px;
-    font-size: .8125rem;
+    position        : relative;
+    top             : -2rem;
+    border          : 1px solid black;
+    right           : -5rem;
+    padding         : 11.3px 36px;
+    font-size       : .8125rem;
     background-color: black;
 }
 
 @media (min-width: 321px) and (max-width: 375px) {
     .label--mobile__button--see_more {
-        display: flex;
-       justify-content: center;
-       width: 9rem;
+        display        : flex;
+        justify-content: center;
+        width          : 9rem;
     }
 }
 
 @media (min-width: 376px) and (max-width: 425px) {
     .label--mobile__button--see_more {
-        display: flex;
-       justify-content: center;
-       width: 12rem;
+        display        : flex;
+        justify-content: center;
+        width          : 12rem;
     }
 }
 
 .link--mobile__button--see_more {
-    color: white;
+    color          : white;
     text-decoration: none;
 }

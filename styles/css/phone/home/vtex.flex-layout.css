@@ -3,18 +3,19 @@
 }
 
 .flexRowContent--phone__disclosure--container-row:first-child :global(.vtex-flex-layout-0-x-flexColChild) {
-    display: flex;
+    display       : flex;
     flex-direction: column;
 }
 
 .flexRowContent--phone__disclosure--container-row :first-child :global(.vtex-disclosure-layout-1-x-trigger) {
-    display: flex;
-    justify-content: space-between;
+    display         : flex;
+    justify-content : space-between;
     background-color: transparent;
-    border: none;
-    margin-bottom: 1rem;
+    border          : none;
+    margin-bottom   : 1rem;
 }
 
 .flexRow--phone__disclosure--container-row {
-    padding: 1rem 2rem;
+    padding      : 1rem 2rem;
+    margin-bottom: -14px;
 }

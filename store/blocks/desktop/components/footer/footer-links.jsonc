@@ -1,44 +1,58 @@
 {
     "link.product#desktop__section--help": {
+        "title": "Help footer link",
         "props": {
             "href": "/{slug}/p",
-            "label": "Ayuda"
+            "label": "Ayuda",
+            "blockClass": "desktop__section--help"
         }
     },
     "link.product#desktop__section--bag": {
+        "title": "Bag footer link",
         "props": {
             "href": "/{slug}/p",
-            "label": "Mis compras"
+            "label": "Mis compras",
+            "blockClass": "desktop__section--bag"
         }
     },
     "link.product#desktop__section--returns": {
+        "title": "Help footer section link",
         "props": {
             "href": "/{slug}/p",
-            "label": "Devoluciones"
+            "label": "Devoluciones",
+            "blockClass": "desktop__section--returns"
         }
     },
     "link.product#desktop__section--stores": {
+        "title": "Help footer section link",
         "props": {
             "href": "/{slug}/p",
-            "label": "Tiendas"
+            "label": "Tiendas",
+            "blockClass": "desktop__section--stores"
         }
     },
     "link.product#desktop__section--apps": {
+        "title": "Help footer section link",
         "props": {
             "href": "/{slug}/p",
-            "label": "Apps"
+            "label": "Apps",
+            "blockClass": "desktop__section--apps"
         }
     },
     "link.product#desktop__section--site_map": {
+        "title": "Help footer section link",
         "props": {
             "href": "/{slug}/p",
-            "label": "Site map"
+            "label": "Site map",
+            "blockClass": "desktop__section--site_map"
         }
     },
     "link.product#desktop__section--sustainability": {
+        "title": "Help footer section link",
         "props": {
             "href": "/{slug}/p",
-            "label": "sostenibilidad"
+            "label": "sostenibilidad",
+            "blockClass": "desktop__section--sustainability"
         }
-    }    
-}   
+    }
+}

@@ -1,10 +1,7 @@
 {
-    //Header icons
   "flex-layout.row#tablet__header--icons": {
     "title": "tablet header icons container",
     "children": [
-      /*"flex-layout.col#tablet__header--search_icon"
-      "flex-layout.col#tablet__searchbar",*/
       "flex-layout.col#tablet__header--search_icon",
       "flex-layout.col#tablet__header--login_icon",
       "flex-layout.col#tablet__header--favorites_icon",
@@ -17,7 +14,6 @@
   "flex-layout.col#tablet__header--search_icon": {
     "title": "tablet header search icon container",
     "children": [
-      /* "flex-layout.row#tablet__searchbar--one", */
       "icon#tablet__searchbar--icon1"
     ],
     "props": {
@@ -28,9 +24,6 @@
     "title": "tablet header search icon container",
     "children": [
         "login#tablet__icon--login"
-      /*"login#tablet__menu--login2"
-       "icon#tablet__login--icon", */
-      
     ],
     "props": {
       "blockClass": "tablet__header--login_icon"
@@ -58,7 +51,7 @@
     "title": "Search bar icon ",
     "props": {
       "id": "hpa-search",
-      "size": 25,
+      "size": 30,
       "width": "15%",
       "viewBox": "0 0 25 25",
       "blockClass": "tablet__searchbar--icon"

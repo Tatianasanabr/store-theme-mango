@@ -8,7 +8,6 @@
       "blockClass": "desktop__searchbar--one"
     }
   },
-
   "modal-content#desktop__searchbar--one": {
     "title": "Container Modal section search bar",
     "children": [
@@ -18,7 +17,6 @@
       "blockClass": "desktop__searchbar--one"
     }
   },
-
   "modal-header": {
     "title": "Modal header search bar",
     "props": {
@@ -27,16 +25,17 @@
       "iconCloseSize": 32,
       "blockClass": "desktop__searchbar--one"
     },
-    "children": ["rich-text#desktop__close"]
+    "children": [
+      "rich-text#desktop__close"
+    ]
   },
-
   "rich-text#desktop__close": {
+    "title": "Desktop close text",
     "props": {
       "text": "Cancelar",
       "blockClass": "desktop__close--info"
     }
   },
-
   "modal-trigger#desktop__searchbar--one": {
     "title": "Modal trigger search bar",
     "children": [
@@ -48,7 +47,6 @@
       "blockClass": "desktop__searchbar--one"
     }
   },
-
   "rich-text#desktop__searchbar--one": {
     "title": "Informative text search bar section",
     "props": {
@@ -56,7 +54,6 @@
       "blockClass": "desktop__searchbar--one"
     }
   },
-
   "icon#home__searchbar--icon": {
     "title": "Search bar icon ",
     "props": {
@@ -67,7 +64,6 @@
       "blockClass": "home__searchbar--icon"
     }
   },
-
   "modal-layout#example": {
     "title": "Open search bar modal",
     "children": [
@@ -78,7 +74,6 @@
       "blockClass": "desktop__searchbar--one"
     }
   },
-
   "autocomplete-result-list.v2": {
     "title": "Autocomplete function",
     "props": {
@@ -88,7 +83,6 @@
       "product-summary"
     ]
   },
-
   "search-bar#desktop--menu": {
     "title": "Desktop search bar icon",
     "blocks": [

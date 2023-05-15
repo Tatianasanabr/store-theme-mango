@@ -3,8 +3,8 @@
     height          : 1.4rem;
     margin-top      : -7px;
     background-color: transparent;
-    position: absolute;
-    left: -5px;
+    position        : absolute;
+    left            : -5px;
 }
 
 .vtex-button__label {
@@ -14,12 +14,12 @@
 }
 
 .options {
-    display: flex;
+    display       : flex;
     flex-direction: column-reverse;
 }
 
 .optionsList {
-    display: flex;
+    display       : flex;
     flex-direction: column-reverse;
     border-bottom : 0.1px solid #aaa;
 }
@@ -29,73 +29,73 @@
 }
 
 .contentContainer {
-    border: 1px solid #aaa;
-    position: absolute;
-    transform: translate(4.8rem,8px);
-    width: 24.8rem;
+    border   : 1px solid #aaa;
+    position : absolute;
+    transform: translate(4.8rem, 8px);
+    width    : 24.8rem;
 }
 
 .arrowUp {
     margin-right: 17px;
-    margin-top: 13px;
-    border: 1px solid #aaa;
+    margin-top  : 13px;
+    border      : 1px solid #aaa;
 }
 
 .emailPasswordOptionBtn :first-child {
     background-color: black;
-    color: #fff;
-    font-family: "MangoSans-Regular";
-    text-transform: capitalize;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+    color           : #fff;
+    font-family     : "MangoSans-Regular";
+    text-transform  : capitalize;
+    display         : flex;
+    flex-direction  : column;
+    text-align      : center;
+    align-items     : center;
 }
 
 .emailPasswordOptionBtn :first-child :global(.vtex-button__label :first-child) {
-    color: #fff;
-    font-family: "MangoSans-Regular";
+    color         : #fff;
+    font-family   : "MangoSans-Regular";
     text-transform: capitalize;
-    visibility: hidden;
-    transform: translate(1px, -6px);
-    font-size: .825rem;
+    visibility    : hidden;
+    transform     : translate(1px, -6px);
+    font-size     : .825rem;
 }
 
 
 .emailPasswordOptionBtn :first-child :global(.vtex-button__label ::after) {
-    color: #fff;
-    font-family: "MangoSans-Regular";
+    color         : #fff;
+    font-family   : "MangoSans-Regular";
     text-transform: capitalize;
-    visibility: visible;
-    content: "Iniciar sesión";
+    visibility    : visible;
+    content       : "Iniciar sesión";
 }
 
 
 
 .accessCodeOptionBtn :first-child {
     background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: stretch;
-    border: none;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    align-items     : stretch;
+    border          : none;
 }
 
 .accessCodeOptionBtn :first-child :global(.vtex-button__label :first-child) {
-    color: #fff;
-    font-family: "MangoSans-Regular";
+    color         : #fff;
+    font-family   : "MangoSans-Regular";
     text-transform: capitalize;
-    visibility: hidden;
-    transform: translate(1px, -6px);
-    font-size: .825rem;
+    visibility    : hidden;
+    transform     : translate(1px, -6px);
+    font-size     : .825rem;
 }
 
 .accessCodeOptionBtn :first-child :global(.vtex-button__label ::after) {
-    color: black;
-    font-family: "MangoSans-Regular";
+    color         : black;
+    font-family   : "MangoSans-Regular";
     text-transform: capitalize;
-    visibility: visible;
-    content: "¿No tienes cuenta? Regístrate";
+    visibility    : visible;
+    content       : "¿No tienes cuenta? Regístrate";
 }
 
 .options :global(.vtex-login-2-x-formTitle) {
@@ -103,13 +103,13 @@
 }
 
 .inputContainerEmail :global(.vtex-input-prefix__group) {
-     border: none;
-     border-bottom: 1px solid #aaa;
-     border-radius: 0;
-}  
+    border       : none;
+    border-bottom: 1px solid #aaa;
+    border-radius: 0;
+}
 
 .inputContainerPassword :global(.vtex-input-prefix__group) {
-    border: none;
+    border       : none;
     border-bottom: 1px solid #aaa;
     border-radius: 0;
 }
@@ -128,16 +128,16 @@
 
 .sendButton :first-child {
     background-color: black;
-    border: none;
-    border-radius: 0;
+    border          : none;
+    border-radius   : 0;
 }
 
 .backButton {
     border: 1px solid black;
-    color: black;
+    color : black;
 }
 
-.backButton :global(.vtex-button__label :last-child){
+.backButton :global(.vtex-button__label :last-child) {
     color: black;
 }
 

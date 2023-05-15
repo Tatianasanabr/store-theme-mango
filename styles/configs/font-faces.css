@@ -1,59 +1,59 @@
-@font-face{
+@font-face {
     font-family: "MangoSans-Regular";
     font-weight: 400;
-    font-style: normal;
-    src: url(assets/fonts/MangoSans-Regular.ttf); 
+    font-style : normal;
+    src        : url(assets/fonts/MangoSans-Regular.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: "MangoSans-RegularItalic";
     font-weight: 400;
-    font-style: italic;
-    src: url(assets/fonts/global/MangoSans-RegularItalic.ttf); 
+    font-style : italic;
+    src        : url(assets/fonts/global/MangoSans-RegularItalic.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: "MangoSans-Light";
     font-weight: 300;
-    font-style: normal;
-    src: url(assets/fonts/global/MangoSans-Light.ttf); 
+    font-style : normal;
+    src        : url(assets/fonts/global/MangoSans-Light.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: "MangoSans-LightItalic";
     font-weight: 300;
-    font-style: normal;
-    src: url(assets/fonts/global/MangoSans-LightItalic.ttf); 
+    font-style : normal;
+    src        : url(assets/fonts/global/MangoSans-LightItalic.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: "Austin-Light";
     font-weight: 300;
-    font-style: normal;
-    src: url(assets/fonts/global/Austin-Light.ttf); 
+    font-style : normal;
+    src        : url(assets/fonts/global/Austin-Light.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: "Roboto-Bold";
-    src: url(assets/fonts/Roboto-Bold.ttf); 
+    src        : url(assets/fonts/Roboto-Bold.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: "Roboto-Light";
-    src: url(assets/fonts/Roboto-Light.ttf); 
+    src        : url(assets/fonts/Roboto-Light.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: "Roboto-Medium";
-    src: url(assets/fonts/Roboto-Medium.ttf); 
+    src        : url(assets/fonts/Roboto-Medium.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: "Roboto-Regular";
-    src: url(assets/fonts/Roboto-Regular.ttf); 
+    src        : url(assets/fonts/Roboto-Regular.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: "Roboto-Regular";
-    src: url(assets/fonts/Roboto-Regular.ttf); 
+    src        : url(assets/fonts/Roboto-Regular.ttf);
 }

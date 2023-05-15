@@ -1,5 +1,4 @@
 {
-  //Desktop menu images
   "image#header__menu--women": {
     "title": "Women menu images",
     "props": {
@@ -7,7 +6,6 @@
       "blockClass": "header__menu--image"
     }
   },
-
   "image#header__menu--man": {
     "title": "Men menu images",
     "props": {
@@ -15,7 +13,6 @@
       "blockClass": "header__menu--image"
     }
   },
-
   "image#header__menu--teen": {
     "title": "Teen menu images",
     "props": {
@@ -23,7 +20,6 @@
       "blockClass": "header__menu--image"
     }
   },
-
   "image#header__menu--kids": {
     "title": "Kids menu image",
     "props": {

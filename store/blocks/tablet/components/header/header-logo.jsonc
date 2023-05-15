@@ -1,5 +1,4 @@
 {
-  //Tablet logo section
   "logo#tablet__header--logo": {
     "title": "Logo tablet",
     "props": {

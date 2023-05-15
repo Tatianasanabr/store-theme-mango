@@ -2,10 +2,9 @@
     "icon#desktop__location--icon": {
         "title": "Location icon",
         "props": {
-            "id": "mpa-globe2",
-            "size": 20,
+            "id": "mpa-globe3",
+            "size": 35,
             "width": "20%",
-            /*"viewBox": "0 0 25 25"*/
             "blockClass": "desktop__location--icon"
         }
     },
@@ -44,13 +43,22 @@
     "modal-trigger#desktop__modal--location": {
         "title": "Desktop modal location",
         "children": [
-            "icon#desktop__location--icon",
+            "flex-layout.col#desktop__footer--location_icon",
             "flex-layout.col#desktop__footer--location_country",
             "flex-layout.col#desktop__footer--location_arrow",
             "modal-layout#desktop__modal--container"
         ],
         "props": {
             "blockClass": "desktop__modal--location"
+        }
+    },
+    "flex-layout.col#desktop__footer--location_icon": {
+        "title": "Desktop footer location icon",
+        "children": [
+            "icon#desktop__location--icon"
+        ],
+        "props": {
+            "blockClass": "esktop__footer--location_icon"
         }
     },
     "modal-layout#desktop__modal--container": {
@@ -104,7 +112,6 @@
         "props": {
             "text": "Compra desde el país que prefieras. Recuerda que solo podremos enviar tu pedido a direcciones ubicadas en el país escogido.",
             "blockClass": "desktop__modal--content"
-
         }
     },
     "flex-layout.row#desktop__modal--content_bodylast": {
@@ -121,12 +128,13 @@
         "props": {
             "text": "Los métodos de envío, condiciones de venta y puntos de entrega se actualizarán al cambiar de país.",
             "blockClass": "desktop__modal--content"
-
         }
     },
     "flex-layout.row#desktop__modal--select": {
         "title": "Desktop modal select",
-        "children": ["overlay-trigger#desktop__trigger--container"],
+        "children": [
+            "overlay-trigger#desktop__trigger--container"
+        ],
         "props": {
             "blockClass": "desktop__modal--select"
         }
@@ -134,36 +142,34 @@
     "overlay-trigger#desktop__trigger--container": {
         "title": "Desktop trigger container",
         "children": [
-          "rich-text#desktop__trigger--cont",
-          "overlay-layout"    
+            "rich-text#desktop__trigger--cont",
+            "overlay-layout"
         ],
         "props": {
             "blockClass": "desktop__trigger--containe"
         }
     },
-    
     "rich-text#desktop__trigger--cont": {
         "title": "Desktop trigger select container",
         "props": {
-          "text": "**Click to open the Overlay Layout**",
-          "blockClass": "desktop__trigger--cont"
+            "text": "**Click to open the Overlay Layout**",
+            "blockClass": "desktop__trigger--cont"
         }
     },
-    
     "overlay-layout": {
+        "title": "overlay-layout",
         "props": {
-          "placement": "left"
+            "placement": "left"
         },
         "children": [
-          "rich-text#link"
+            "rich-text#link"
         ]
     },
-    
     "rich-text#link": {
+        "title": "Link text",
         "props": {
-          "text": "\n**Reach us at**\nwww.vtex.com.br",
-          "blockClass": "link"
+            "text": "\n**Reach us at**\nwww.vtex.com.br",
+            "blockClass": "link"
         }
     }
-        
 }

@@ -1,14 +1,21 @@
 .label--desktop__button--see_more {
-    position: relative;
-    top: 1.6rem;
-    border: 1px solid black;
-    right: -39.8rem;
-    padding: 11.3px 36px;
-    font-size: .8125rem;
+    position        : relative;
+    top             : 1.6rem;
+    border          : 1px solid black;
+    right           : -34.7rem;
+    padding         : 11.3px 36px;
+    font-size       : .8125rem;
     background-color: black;
+    border          : none;
 }
 
 .link--desktop__button--see_more {
-    color: white;
+    color          : white;
     text-decoration: none;
+}
+
+.label--desktop__button--see_more:hover {
+    background-color: #979899;
+    transition      : background-color 0.5s ease;
+    border          : none;
 }

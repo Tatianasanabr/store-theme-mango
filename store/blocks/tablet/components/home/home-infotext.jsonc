@@ -1,0 +1,39 @@
+{
+    "flex-layout.row#tablet__home--hashtag": {
+        "title": "Tablet home hashtag container",
+        "children": [
+            "rich-text#tablet__home--hashtag"
+        ],
+        "props": {
+            "blockClass": "tablet__home--hashtag"
+        }
+    },
+    "rich-text#tablet__home--hashtag": {
+        "title": "Hashtag home tablet text",
+        "props": {
+            "text": "#Mangogirls",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "tablet__home--hashtag"
+        }
+    },
+
+    "flex-layout.row#tablet__home--our_lines": {
+        "title": "Tablet home our lines container",
+        "children": [
+            "rich-text#tablet__home--our_lines"
+        ],
+        "props": {
+            "blockClass": "tablet__home--our_lines"
+        }
+    },
+    "rich-text#tablet__home--our_lines": {
+        "title": "Hashtag home tablet text",
+        "props": {
+            "text": "Nuestras lineas",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "tablet__home--our_lines"
+        }
+    }
+}

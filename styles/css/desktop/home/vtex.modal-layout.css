@@ -1,0 +1,10 @@
+.triggerContainer--home__modal--sale {
+    transform: translate(75rem, 19px);
+    cursor   : pointer;
+}
+
+.paper--home__info--sale {
+    text-align: left;
+    padding   : 12px 28px 12px 12px;
+    position  : relative;
+}

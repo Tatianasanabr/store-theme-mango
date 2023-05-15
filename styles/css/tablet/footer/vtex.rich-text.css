@@ -1,0 +1,6 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+    .paragraph--mobile__footer--discounts {
+        white-space: nowrap;
+        font-size  : 14px;
+    }
+}
