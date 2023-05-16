@@ -1,6 +1,6 @@
 .image--product__image {
     width : 15rem;
-    height: 15rem;
+    height: 11rem;
 }
 
 .nameContainer--product__name {
@@ -17,8 +17,7 @@
 }
 
 .containerNormal--home__shelf--products:hover {
-    border : 2px solid black;
-    padding: .7rem;
+    border : 1.5px solid black;
 }
 
 .price_installment--product__price {

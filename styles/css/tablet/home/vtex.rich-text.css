@@ -31,3 +31,13 @@
     transform: translate(23px, 120px);
 }
 
+.paragraph--tablet__home-info_sale {
+    color: #fff;
+}
+
+.link--tablet__home-info_sale {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+

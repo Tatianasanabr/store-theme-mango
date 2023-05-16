@@ -1,11 +1,5 @@
 {
-  "store.search#department": {
-    "title": "Store search department",
-    "blocks": [
-      "search-result-layout#department"
-    ]
-  },
-  "search-result-layout#department": {
+  "search-result-layout#global__department": {
     "title": "Search result department",
     "blocks": [
       "search-result-layout.desktop#department",

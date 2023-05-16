@@ -1,4 +1,25 @@
 {
+    "flex-layout.row#tablet__home--info_sale": {
+        "title": "Tablet home hashtag container",
+        "children": [
+            "rich-text#tablet__home--info_sale"
+        ],
+        "props": {
+            "blockClass": "tablet__home--info_sale"
+        }
+    },
+    
+    "rich-text#tablet__home--info_sale": {
+        "title": "Informative discount text",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Sale | hasta 50% off [Compra ahora](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+            "blockClass": "tablet__home-info_sale"
+        }
+    },
+    
+    
     "flex-layout.row#tablet__home--hashtag": {
         "title": "Tablet home hashtag container",
         "children": [
