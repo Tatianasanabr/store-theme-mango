@@ -1,0 +1,149 @@
+{
+    "flex-layout.row#plp__top--section": {
+        "title": "Top plp section container",
+        "children": [
+            "flex-layout.row#department__breadcrumb",
+            "flex-layout.col#plp__modal--filter"
+        ]
+    },
+    "flex-layout.row#department__breadcrumb": {
+        "title": "Department  breadcrumb container row",
+        "children": [
+            "flex-layout.col#department__breadcrumb",
+            "flex-layout.row#departmen__title--container"
+        ],
+        "props": {
+            "blockClass": "department__breadcrumb--row"
+        }
+    },
+    "flex-layout.col#department__breadcrumb": {
+        "title": "Department  breadcrumb container column",
+        "children": [
+            "breadcrumb.search"
+        ],
+        "props": {
+            "blockClass": "department__breadcrumb--col"
+        }
+    },
+    "flex-layout.row#departmen__title--container": {
+        "title": "Department title container",
+        "children": [
+            "flex-layout.col#department__title--complement",
+            "flex-layout.col#department__title"
+        ],
+        "props": {
+            "blockClass": "departmen__title--container"
+        }
+    },
+    "flex-layout.col#department__title--complement": {
+        "title": "Department title complement container",
+        "children": [
+            "rich-text#desktop__department--title"
+        ],
+        "props": {
+            "blockClass": "department__title--complement"
+        }
+    },
+
+    "rich-text#desktop__department--title": {
+        "title": "Departmen title complement text",
+        "props": {
+            "text": "Resultado de la búsqueda de",
+            "blockClass": "desktop__department--title"
+        }
+    },
+
+
+    "flex-layout.col#department__title": {
+        "title": "Department  breadcrumb container column",
+        "children": [
+            "search-title.v2#desktop__search--title"
+        ],
+        "props": {
+            "blockClass": "department__breadcrumb--col"
+        }
+    },
+
+    "search-title.v2#desktop__search--title": {
+        "title": "Search result title",
+        "props": {
+            "blockClass": "desktop__search--title"
+        }
+    },
+
+
+
+
+
+    "flex-layout.col#plp__modal--filter": {
+        "title": "Plp switcher",
+        "children": [
+            "flex-layout.row#desktop__plp--switcher",
+            "flex-layout.row#desktop__plp--filters"
+        ],
+        "props": {
+            "blockClass": "plp__modal--filter"
+        }
+    },
+    "flex-layout.row#desktop__plp--switcher": {
+        "title": "Desktop plp switcher",
+        "children": [
+            "gallery-layout-switcher"
+        ],
+        "props": {
+            "blockClass": "desktop__plp--switcher"
+        }
+    },
+    "flex-layout.row#desktop__plp--filters": {
+        "title": "desktop plp switcher",
+        "children": [
+          "drawer#header__plp--filters"
+        ],
+        "props": {
+          "blockClass": "plp__filters--desktop"
+        }
+    },
+    "drawer#header__plp--filters": {
+        "title": "header plp filters",
+        "blocks": [
+          "drawer-trigger#mobile__text--filters"
+          // "drawer-header#header--menu"
+      ],
+      "props": {
+        "slideDirection": "horizontal",
+        "blockClass": "drawer__filters"
+      },
+      "children": [
+        "filter-navigator.v3"
+      ]
+      },
+    
+      "drawer-trigger#mobile__text--filters": {
+        "children":[
+            "icon#global__filter--icon",
+            "rich-text#plp__filters--btn"
+        ],
+        "props": {
+            "blockClass": "mobile__text--filters"
+        }
+      },
+    
+      "rich-text#plp__filters--btn": {
+        "title": "plp filters btn",
+        "props": {
+          "text": "Filtrar y Ordenar",
+          "blockClass": "plp__filters--btn"
+        }
+      },
+
+      "icon#global__filter--icon": {
+        "title": "Filter icon",
+        "props": {
+            "id": "mpa-filter",
+            "size": 35,
+            "width": "20%",
+            "blockClass": "global__filter--icon"
+        }
+    }
+
+}

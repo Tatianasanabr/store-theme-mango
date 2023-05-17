@@ -1,4 +1,177 @@
 {
-    "flex-layout.row#global__search--result": {
+  "flex-layout.row#search__results--plp": {
+    "title": "search result plp global",
+    "children": [
+      "flex-layout.col#search__results--plp"
+    ],
+    "props": {
+      "blockClass": "search__results--plp"
+    }
+  },
+  "flex-layout.col#search__results--plp": {
+    "title": "search result plp",
+    "children": [
+      "search-content#content__search--results"
+    ]
+  },
+  "search-content#content__search--results": {
+    "title": "content search result plp",
+    "blocks": [
+      "gallery#search__results--gallery",
+      "not-found"
+    ]
+  },
+  "gallery#search__results--gallery": {
+    "title": "gallery search result plp",
+    "props": {
+      "layouts": [
+        {
+          "name": "general-grid",
+          "component": "GeneralGrid",
+          "itemsPerRow": {
+            "desktop": 3,
+            "tablet": 2,
+            "phone": 1
+          }
+        },
+        {
+          "name": "general-list",
+          "component": "GeneralList",
+          "itemsPerRow": 1
+        }
+      ],
+      "GeneralGrid": "product-summary.shelf#plp__products--grid",
+      "GeneralList": "product-summary.shelf#plp__products--list"
+    }
+  },
+  "product-summary.shelf#plp__products--grid": {
+    "title": "plp product grid",
+    "children": [
+      /* "stack-layout", */
+      "product-summary-image#plp__product--image",
+      "product-summary-name#plp__product--name",
+      "product-summary-brand#plp__product--brand",
+      "product-summary-space",
+      "product-summary-price#plp__product--price"
+      // "add-to-cart-button#plp__product--button"
+    ],
+    "props": {
+      "blockClass": "plp__shelf--products"
+    }
+  },
+  /* "stack-layout": {
+    "title": "stack layout wishlist grid",
+    "children": [
+      "add-to-list-btn#plp__product--favorites"
+    ]
+  },
+  "add-to-list-btn#plp__product--favorites": {
+    "title": "plp product favorites grid",
+    "props": {
+      "blockClass": "plp__product--favorites",
+      "icon": "icon-favorites"
+    }
+  }, */
+  "product-summary-image#plp__product--image": {
+    "title": "plp product image grid",
+    "props": {
+      "blockClass": "plp__product--image"
+    }
+  },
+  "product-summary-name#plp__product--name": {
+    "title": "plp product name grid",
+    "props": {
+      "blockClass": "plp__product--name"
+    }
+  },
+  "product-summary-brand#plp__product--brand": {
+    "title": "plp product brand grid",
+    "props": {
+      "blockClass": "plp__product--name"
+    }
+  },
+  "product-summary-price#plp__product--price": {
+    "title": "plp product price grid",
+    "props": {
+      "blockClass": "plp__product--price"
+    }
+  },
+
+  //PRODUCT LIST
+  "product-summary.shelf#plp__products--list": {
+    "title": "plp product list",
+    "children": [
+      "flex-layout.row#plp__products--list-container"
+    ],
+    "props": {
+      "blockClass": "plp__products--list"
+    }
+  },
+  "flex-layout.row#plp__products--list-container": {
+    "title": "plp product list container",
+    "children": [
+      "flex-layout.col#product__list--image",
+      "flex-layout.col#product__list--info"
+    ],
+    "props": {
+      "blockClass": "plp__products--list-container"
+    }
+  },
+  "flex-layout.col#product__list--image": {
+    "title": "plp product list image container",
+    "children": [
+      /* "stack-layout#product__list", */
+      "product-summary-image#plp__list--image"
+    ],
+    "props": {
+      "blockClass": "product__list--image"
+    }
+  },
+  "flex-layout.col#product__list--info": {
+    "title": "plp product list info container",
+    "children": [
+      "product-summary-name#plp__list--name",
+      "product-summary-brand#plp__list--brand",
+      "product-summary-price#plp__list--price"
+    ],
+    "props": {
+      "blockClass": "product__list--info"
+    }
+  },
+  /* "stack-layout#product__list": {
+    "title": "plp product list stack layout",
+    "children": [
+      "add-to-list-btn#plp__list--favorites"
+    ]
+  }, 
+  "add-to-list-btn#plp__list--favorites": {
+    "title": "plp product favorites list",
+    "props": {
+      "blockClass": "plp__list--favorites"
+    }
+  },*/
+  "product-summary-image#plp__list--image": {
+    "title": "plp product image list",
+    "props": {
+      "blockClass": "plp__list--image"
+    }
+  },
+  "product-summary-name#plp__list--name": {
+    "title": "plp product name list",
+    "props": {
+      "blockClass": "plp__list--name"
+    }
+  },
+  "product-summary-brand#plp__list--brand": {
+    "title": "plp product brand list",
+    "props": {
+      "blockClass": "plp__list--brand"
+    }
+  },
+  "product-summary-price#plp__list--price": {
+    "title": "plp product price list",
+    "props": {
+      "blockClass": "plp__product--price"
     }
   }
+}

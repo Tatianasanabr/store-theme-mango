@@ -42,3 +42,14 @@
 .price_listPrice--product__price {
     color: red;
 }
+
+.element--home__shelf--products :global(.vtex-button__label) {
+    background-color: black;
+
+}
+
+.element--home__shelf--products :global(.vtex-button) {
+    background-color: black;
+    border-radius: 0%;
+    border-color: black;
+}

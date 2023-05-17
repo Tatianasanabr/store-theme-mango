@@ -1,0 +1,16 @@
+.flexRowContent--departmen__title--container {
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
+    gap           : 3.5rem;
+    font-weight   : bold;
+}
+
+.flexRow--departmen__title--container {
+    transform: translate(130px, 10px);
+}
+
+.flexRowContent--department__results--container {
+    display       : flex;
+    flex-direction: column;
+}

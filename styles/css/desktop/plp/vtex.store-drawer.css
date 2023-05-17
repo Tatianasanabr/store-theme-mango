@@ -1,0 +1,9 @@
+.openIconContainer--drawer__filters {
+    transform: translate(-598px, 32px);
+}
+
+.drawerTriggerContainer--mobile__text--filters {
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
+}

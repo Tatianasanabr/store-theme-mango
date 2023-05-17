@@ -16,7 +16,7 @@
     "store.search#global__department": {
         "title": "Store search department",
         "blocks": [
-            "search-result-layout#global__department"
+            "search-result-layout#global__search--result"
         ],
         "props": {
             "blockClass": "global__department",
@@ -79,12 +79,12 @@
         "props": {
             "blockClass": "global__search--result"
         }
-    },
+    }
 
 
 
 
-    "search-result-layout.desktop#desktop__global--search_result": {
+    /* "search-result-layout.desktop#desktop__global--search_result": {
         "title": "Desktop search result",
         "children": [
             "rich-text#desktop-response"
@@ -108,5 +108,5 @@
         "props": {
             "text": "# Mobile search"
         }
-    }
+    } */
 }
