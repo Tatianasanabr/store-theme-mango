@@ -1,0 +1,27 @@
+.paragraph--desktop__department--title {
+    font-size     : 13px;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+    white-space   : nowrap;
+    font-weight   : bold;
+}
+
+.paragraph--plp__filters--btn {
+    font-size     : 13px;
+    font-weight   : bold;
+    letter-spacing: .3px;
+    line-height   : 20px;
+    font-family   : "MangoSans-Light";
+}
+
+.container--plp__filters--btn {
+    transform: translate(5px, -3px);
+}
+
+.paragraph--global__plus--available {
+    text-overflow   : ellipsis;
+    background-color: rgba(255, 255, 255, .85);
+    font-size       : 12px;
+    padding         : 4px 8px;
+    letter-spacing  : .3px;
+}

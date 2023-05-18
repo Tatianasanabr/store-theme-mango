@@ -1,0 +1,59 @@
+.galleryTitle--layout {
+    font-size     : 13px;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    font-weight   : bold;
+}
+
+.gallery--search__result--gallery--main-grid {
+    transform: translate(-20px, 43px);
+}
+
+.galleryLayoutSwitcher--desktop__gallery--switcher {
+    display       : flex;
+    flex-direction: inherit;
+    position      : inherit;
+    margin-left   : 17rem;
+}
+
+.galleryLayoutSwitcher--desktop__gallery--switcher {
+    transform: translate(10px, 32px);
+}
+
+.filtersWrapper--search__filter--navigator {
+    width          : 19rem;
+    margin-left    : 3rem;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    gap            : 7rem;
+}
+
+.filterItem--search__filter--navigator--ladrillos :global(.vtex-checkbox__inner-container) {
+    border-radius: 1rem;
+}
+
+.filterItem--search__filter--navigator--hierro :global(.vtex-checkbox__inner-container) {
+    border-radius: 1rem;
+}
+
+.filterItem--search__filter--navigator--unacem :global(.vtex-checkbox__inner-container) {
+    border-radius: 1rem;
+}
+
+.filterItem--search__filter--navigator--cemento :global(.vtex-checkbox__inner-container) {
+    border-radius: 1rem;
+}
+
+.filterTitleSpan--search__filter--navigator {
+    font-size  : 15px;
+    white-space: nowrap;
+}
+
+.filterTemplateOverflow--search__filter--navigator :global(.vtex-slider__base-internal) {
+    background-color: #666;
+}
+
+.filterTemplateOverflow--search__filter--navigator :global(.vtex-slider__selector) {
+    background-color: #666;
+}

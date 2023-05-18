@@ -60,6 +60,10 @@
         height: 23px;
     }
 
+    .minicartQuantityBadge--desktop__menu--minicart {
+        margin-right: 1px;
+    }
+
 }
 
 
