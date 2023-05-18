@@ -12,7 +12,6 @@
             }
         }
     },
-
     "store.search#global__department": {
         "title": "Store search department",
         "blocks": [
@@ -26,7 +25,6 @@
             }
         }
     },
-
     "store.search#global__category": {
         "title": "Store category search",
         "blocks": [
@@ -40,7 +38,6 @@
             }
         }
     },
-
     "store.search#global__subcategory": {
         "title": "store subcategory search",
         "blocks": [
@@ -54,7 +51,6 @@
             }
         }
     },
-
     "store.search#global__brand": {
         "title": "Store brand search",
         "blocks": [
@@ -68,7 +64,6 @@
             }
         }
     },
-
     "search-result-layout#global__search--result": {
         "title": "Search result",
         "blocks": [
@@ -80,33 +75,4 @@
             "blockClass": "global__search--result"
         }
     }
-
-
-
-
-    /* "search-result-layout.desktop#desktop__global--search_result": {
-        "title": "Desktop search result",
-        "children": [
-            "rich-text#desktop-response"
-        ]
-    },
-    "search-result-layout.mobile#mobile__global--search_result": {
-        "title": "Mobile search result",
-        "children": [
-            "rich-text#mobile-response"
-        ]
-    },
-    "rich-text#desktop-response": {
-        "title": "Desktop response text",
-        "props": {
-            "text": "# Desktop search",
-            "textAlignment": "CENTER"
-        }
-    },
-    "rich-text#mobile-response": {
-        "title": "Mobile response text",
-        "props": {
-            "text": "# Mobile search"
-        }
-    } */
 }

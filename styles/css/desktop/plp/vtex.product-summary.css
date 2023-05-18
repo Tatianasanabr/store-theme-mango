@@ -1,3 +1,78 @@
-.imageWrapper--plp__product--image {
-    width: 14rem;
+.brandName--plp__product--name {
+    font-size: 13px;
+}
+
+.nameWrapper--plp__product--name {
+    display   : flex;
+    text-align: initial;
+}
+
+.productBrandContainer--plp__product--name {
+    display: flex;
+}
+
+.nameContainer--plp__product--name {
+    display        : flex;
+    justify-content: flex-start;
+}
+
+.priceContainer--plp__product--price {
+    display       : flex;
+    flex-direction: row-reverse;
+    padding-top   : 0;
+}
+
+.price_sellingPrice--plp__product--price {
+    font-size: 13px;
+    transform: translate(-72px, 10px);
+}
+
+.price_sellingPrice--plp__list--price {
+    font-size: 13px;
+    transform: translate(-27px, 10px);
+}
+
+.price_sellingPriceContainer--plp__product--price {
+    display        : flex;
+    justify-content: center;
+}
+
+.price_listPriceLabel--plp__product--price {
+    display: none;
+}
+
+.price_listPrice--plp__product--price {
+    display: none;
+}
+
+.price_sellingPriceLabel--plp__product--price {
+    display: none;
+}
+
+.element--plp__grid--products :global(.vtex-button) {
+    background    : black;
+    border        : none;
+    border-radius : 0;
+    text-transform: capitalize;
+    font-size     : 13px;
+}
+
+.brandName--plp__list--name {
+    font-size: 13px;
+}
+
+.productBrandName--plp__list--brand {
+    font-size: 13px;
+}
+
+.nameContainer--plp__list--name {
+    padding-bottom: 0;
+}
+
+.price_installmentContainer--plp__list--price {
+    display: none;
+}
+
+.price_sellingPriceLabel--plp__list--price {
+    display: none;
 }

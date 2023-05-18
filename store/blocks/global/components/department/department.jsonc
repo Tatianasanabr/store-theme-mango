@@ -50,6 +50,7 @@
     "children": [
       "slider-layout#plp__slider--image",
       "stack-layout#global__plus--available",
+      "stack-layout#global__section--add_to_cart",
       "product-summary-name#plp__product--name",
       "product-summary-brand#plp__product--brand",
       "product-summary-price#plp__product--price",
@@ -82,7 +83,8 @@
   "product-summary-image#plp__product--image": {
     "title": "Product list page image",
     "props": {
-      "blockClass": "plp__product--image"
+      "blockClass": "plp__product--image",
+      "aspectRatio": "1:1"
     }
   },
   "stack-layout#global__plus--available": {
@@ -108,6 +110,133 @@
     "props": {
       "text": "Disponible plus",
       "blockClass": "global__plus--available"
+    }
+  },
+  "stack-layout#global__section--add_to_cart": {
+    "title": "Global plus size available stack",
+    "children": [
+      "flex-layout.row#global__section--add_to_cart"
+    ],
+    "props": {
+      "blockClass": "global__plus--available"
+    }
+  },
+  "flex-layout.row#global__section--add_to_cart": {
+    "title": "Global plus size available container",
+    "children": [
+      /* "rich-text#global__section--add_size", */
+      "flex-layout.col#global__section--size_xs",
+      "flex-layout.col#global__section--size_s",
+      "flex-layout.col#global__section--size_m",
+      "flex-layout.col#global__section--size_l",
+      "flex-layout.col#global__section--size_xl",
+      "flex-layout.col#global__section--size_xxl"
+    ],
+    "props": {
+      "blockClass": "global__section--add_to_cart"
+    }
+  },
+  "rich-text#global__section--add_size": {
+    "title": "Global add size product",
+    "props": {
+      "text": "Añadir talla",
+      "blockClass": "global__section--add_size"
+    }
+  },
+  "flex-layout.col#global__section--size_xs": {
+    "title": "Global section size xs container",
+    "children": [
+      "rich-text#global__section--size_xs"
+    ],
+    "props": {
+      "blockClass": "global__section--size_xs"
+    }
+  },
+  "flex-layout.col#global__section--size_s": {
+    "title": "Global section size s container",
+    "children": [
+      "rich-text#global__section--size_s"
+    ],
+    "props": {
+      "blockClass": "global__section--size_s"
+    }
+  },
+  "flex-layout.col#global__section--size_m": {
+    "title": "Global section size m container",
+    "children": [
+      "rich-text#global__section--size_m"
+    ],
+    "props": {
+      "blockClass": "global__section--size_m"
+    }
+  },
+  "flex-layout.col#global__section--size_l": {
+    "title": "Global section size l container",
+    "children": [
+      "rich-text#global__section--size_l"
+    ],
+    "props": {
+      "blockClass": "global__section--size_l"
+    }
+  },
+  "flex-layout.col#global__section--size_xl": {
+    "title": "Global section size xl container",
+    "children": [
+      "rich-text#global__section--size_xl"
+    ],
+    "props": {
+      "blockClass": "global__section--size_xl"
+    }
+  },
+  "flex-layout.col#global__section--size_xxl": {
+    "title": "Global section size xxl container",
+    "children": [
+      "rich-text#global__section--size_xxl"
+    ],
+    "props": {
+      "blockClass": "global__section--size_xxl"
+    }
+  },
+  "rich-text#global__section--size_xs": {
+    "title": "Global section size xs",
+    "props": {
+      "text": "XS",
+      "blockClass": "global__section--size_xs"
+    }
+  },
+  "rich-text#global__section--size_s": {
+    "title": "Global section size s",
+    "props": {
+      "text": "S",
+      "blockClass": "global__section--size_s"
+    }
+  },
+  "rich-text#global__section--size_m": {
+    "title": "Global section size m",
+    "props": {
+      "text": "M",
+      "blockClass": "global__section--size_m"
+    }
+  },
+  "rich-text#global__section--size_l": {
+    "title": "Global section size l",
+    "props": {
+      "text": "L",
+      "blockClass": "global__section--size_l"
+    }
+  },
+  "rich-text#global__section--size_xl": {
+    "title": "Global section size xl",
+    "props": {
+      "text": "XL",
+      "blockClass": "global__section--size_xl"
+    }
+  },
+  "rich-text#global__section--size_xxl": {
+    "title": "Global section size xxl",
+    "props": {
+      "text": "XXL",
+      "blockClass": "global__section--size_xxl"
     }
   },
   "add-to-cart-button#plp__product--button": {
@@ -151,9 +280,6 @@
       ]
     }
   },
-
-
-  /*Product List*/
   "product-summary.shelf#home__list--product": {
     "title": "Plp product list",
     "children": [
@@ -196,7 +322,8 @@
   "product-summary-image#plp__product--image_list": {
     "title": "Plp product image list",
     "props": {
-      "blockClass": "plp__product--image_list"
+      "blockClass": "plp__product--image_list",
+      "aspectRatio": "1:1"
     }
   },
   "product-summary-name#plp__list--name": {

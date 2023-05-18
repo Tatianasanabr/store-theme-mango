@@ -3,7 +3,6 @@
         "title": "Search result for desktop view",
         "children": [
             "flex-layout.row#plp__top--section",
-            /* "flex-layout.row#department__breadcrumb", */
             "flex-layout.row#department__results"
         ],
         "props": {

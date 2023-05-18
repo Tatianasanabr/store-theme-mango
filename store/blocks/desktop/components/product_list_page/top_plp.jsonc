@@ -3,11 +3,74 @@
         "title": "Top plp section container",
         "children": [
             "flex-layout.row#department__breadcrumb",
-            "flex-layout.col#plp__modal--filter"
+            "flex-layout.col#plp__modal--filter",
+            "gallery-layout-switcher#desktop__gallery--switcher"
         ]
     },
+    "gallery-layout-switcher#desktop__gallery--switcher": {
+        "title": "Gallery desktop switcher container",
+        "children": [
+            "gallery-layout-option#desktop__grid--gallery",
+            "gallery-layout-option#desktop__grid--list"
+        ],
+        "props": {
+            "blockClass": "desktop__gallery--switcher"
+        }
+    },
+    "gallery-layout-option#desktop__grid--gallery": {
+        "title": "Gallery desktop switcher container",
+        "children": [
+            "icon-grid",
+            "responsive-layout.desktop#text__name--grid"
+        ],
+        "props": {
+            "name": "main-grid",
+            "blockClass": "grid"
+        }
+    },
+    "gallery-layout-option#desktop__grid--list": {
+        "title": "Desktop grid list container",
+        "children": [
+            "icon-inline-grid",
+            "responsive-layout.desktop#text__name--list"
+        ],
+        "props": {
+            "name": "main-list",
+            "blockClass": "list"
+        }
+    },
+    "responsive-layout.desktop#text__name--grid": {
+        "title": "Responsive layout text desktop container",
+        "children": [
+            "rich-text#text__name--grid"
+        ],
+        "props": {
+            "blockClass": "text__name--grid"
+        }
+    },
+    "responsive-layout.desktop#text__name--list": {
+        "title": "Responsive layout text desktop name list",
+        "children": [
+            "rich-text#text__name--list"
+        ],
+        "props": {
+            "blockClass": "text__name--list"
+        }
+    },
+    "rich-text#text__name--grid": {
+        "title": "Grid text name icon",
+        "props": {
+            "text": "Grid"
+        }
+    },
+    "rich-text#text__name--list": {
+        "title": "List text name icon",
+        "props": {
+            "text": "List"
+        }
+    },
     "flex-layout.row#department__breadcrumb": {
-        "title": "Department  breadcrumb container row",
+        "title": "Department breadcrumb container row",
         "children": [
             "flex-layout.col#department__breadcrumb",
             "flex-layout.row#departmen__title--container"
@@ -44,7 +107,6 @@
             "blockClass": "department__title--complement"
         }
     },
-
     "rich-text#desktop__department--title": {
         "title": "Departmen title complement text",
         "props": {
@@ -52,8 +114,6 @@
             "blockClass": "desktop__department--title"
         }
     },
-
-
     "flex-layout.col#department__title": {
         "title": "Department  breadcrumb container column",
         "children": [
@@ -63,18 +123,12 @@
             "blockClass": "department__breadcrumb--col"
         }
     },
-
     "search-title.v2#desktop__search--title": {
         "title": "Search result title",
         "props": {
             "blockClass": "desktop__search--title"
         }
     },
-
-
-
-
-
     "flex-layout.col#plp__modal--filter": {
         "title": "Plp switcher",
         "children": [
@@ -97,46 +151,45 @@
     "flex-layout.row#desktop__plp--filters": {
         "title": "desktop plp switcher",
         "children": [
-          "drawer#header__plp--filters"
+            "drawer#header__plp--filters"
         ],
         "props": {
-          "blockClass": "plp__filters--desktop"
+            "blockClass": "plp__filters--desktop"
         }
     },
     "drawer#header__plp--filters": {
         "title": "header plp filters",
         "blocks": [
-          "drawer-trigger#mobile__text--filters"
-          // "drawer-header#header--menu"
-      ],
-      "props": {
-        "slideDirection": "horizontal",
-        "blockClass": "drawer__filters"
-      },
-      "children": [
-        "filter-navigator.v3"
-      ]
-      },
-    
-      "drawer-trigger#mobile__text--filters": {
-        "children":[
+            "drawer-trigger#mobile__text--filters"
+        ],
+        "props": {
+            "slideDirection": "horizontal",
+            "blockClass": "header__plp--filters"
+        },
+        "children": [
+            "filter-navigator.v3"
+        ]
+    },
+    "drawer-trigger#mobile__text--filters": {
+        "title": "Mobile text filters",
+        "children": [
             "icon#global__filter--icon",
             "rich-text#plp__filters--btn"
         ],
         "props": {
-            "blockClass": "mobile__text--filters"
+            "blockClass": "mobile__text--filters",
+            "isFullWidth": true,
+            "slideDirection": "vertical"
         }
-      },
-    
-      "rich-text#plp__filters--btn": {
+    },
+    "rich-text#plp__filters--btn": {
         "title": "plp filters btn",
         "props": {
-          "text": "Filtrar y Ordenar",
-          "blockClass": "plp__filters--btn"
+            "text": "Filtrar y Ordenar",
+            "blockClass": "plp__filters--btn"
         }
-      },
-
-      "icon#global__filter--icon": {
+    },
+    "icon#global__filter--icon": {
         "title": "Filter icon",
         "props": {
             "id": "mpa-filter",
@@ -145,5 +198,4 @@
             "blockClass": "global__filter--icon"
         }
     }
-
 }

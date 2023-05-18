@@ -2,6 +2,10 @@
     display: none;
 }
 
+.caretIcon--plp__slider--image {
+    color: #f1f1f2;
+}
+
 .caretIcon--plp__slider--image:hover {
     color: #979899;
 }
