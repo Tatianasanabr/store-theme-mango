@@ -1,3 +1,9 @@
 .price_className--product__price {
+    display: flex;
     align-items: flex-start;
+}
+
+.price_className--product__price {
+    display: flex;
+    transform: translate(-44px, -12px);
 }

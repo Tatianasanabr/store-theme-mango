@@ -1,9 +1,55 @@
-.nameWrapper--product__name {
+/* .nameWrapper--product__name {
     transform  : translate(-15px, -27px);
     font-weight: bold;
-}
+} */
 
 .currencyContainer--product__price {
     display        : flex;
     justify-content: flex-start;
+}
+
+.nameContainer--product__name {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.brandName--product__name {
+    display: flex;
+    text-align: initial;
+    margin-top: 3px;
+}
+
+.price_sellingPriceContainer--product__price {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.currencyContainer--product__price {
+    font-size: 11px;
+}
+
+.price_installmentContainer--product__price {
+    font-size: 11px;
+}
+
+.priceContainer--product__price {
+    display: flex;
+    align-items: flex-start;
+}
+
+.price_listPrice--product__price {
+    color: red;
+}
+
+.element--home__shelf--products :global(.vtex-button__label) {
+    background-color: black;
+
+}
+
+.element--home__shelf--products :global(.vtex-button) {
+    background-color: black;
+    border-radius: 0%;
+    border-color: black;
 }

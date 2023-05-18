@@ -1,0 +1,14 @@
+{
+    "search-result-layout.desktop#desktop__global--search_result": {
+        "title": "Search result for desktop view",
+        "children": [
+            "flex-layout.row#plp__top--section",
+            "flex-layout.row#department__results"
+        ],
+        "props": {
+            "pagination": "show-more",
+            "defaultGalleryLayout": "main-grid",
+            "blockClass": "search__layout--desktop"
+        }
+    }
+}

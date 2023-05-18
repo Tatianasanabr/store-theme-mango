@@ -31,3 +31,10 @@
     transform: translate(20px, -110px);
 }
 
+.flexRow--tablet__home--info_sale {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #C20E0E;
+}
+
