@@ -16,10 +16,6 @@
     margin-left   : 17rem;
 }
 
-.galleryLayoutSwitcher--desktop__gallery--switcher {
-    transform: translate(10px, 32px);
-}
-
 .filtersWrapper--search__filter--navigator {
     width          : 19rem;
     margin-left    : 3rem;
