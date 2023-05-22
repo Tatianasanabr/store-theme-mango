@@ -15,4 +15,23 @@
 .drawerTriggerContainer--global__text--search {
     display: flex;
     flex-direction: row;
+    transform: translate(10px, 3px);
+}
+
+.opened--header__plp--filters {
+    transform: translate(0px, 213px)!important;
+}
+
+.overlay--header__plp--filters--visible {
+    opacity: -0.5!important;
+}
+
+.moving--header__plp--search {
+    height: 27rem;
+    transform: translate(0px, 219px)!important;
+    width: 1rem;
+}
+
+.overlay--header__plp--search--visible {
+    opacity: -0.5!important;
 }

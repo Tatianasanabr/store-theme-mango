@@ -1,0 +1,170 @@
+{
+  "flex-layout.row#plp__sku--selector": {
+    "title": "Plp sku selector main container",
+    "children": [
+      "flex-layout.col#plp__sku--first",
+      "flex-layout.col#plp__sku--second",
+      "flex-layout.col#plp__sku--third",
+      "flex-layout.col#plp__sku--fourth"
+    ],
+    "props": {
+      "blockClass": "plp__sku--selector"
+    }
+  },
+  "flex-layout.col#plp__sku--first": {
+    "title": "Plp sku first container",
+    "children": [
+      "image#plp__sku--first"
+    ],
+    "props": {
+      "blockClass": "plp__sku--first",
+      "width": "10%"
+    }
+  },
+  "image#plp__sku--first": {
+    "title": "Plp sku first image",
+    "props": {
+      "src": "assets/img/global/PLP/plp__sku--first.jpg",
+      "maxHeight": 16,
+      "blockClass": "plp__sku--image"
+    }
+  },
+  "flex-layout.col#plp__sku--second": {
+    "title": "Plp sku second container",
+    "children": [
+      "image#plp__sku--second"
+    ],
+    "props": {
+      "blockClass": "plp__sku--second",
+      "width": "10%"
+    }
+  },
+  "image#plp__sku--second": {
+    "title": "Plp sku second image",
+    "props": {
+      "src": "assets/img/global/PLP/plp__sku--second.jpg",
+      "maxHeight": 16,
+      "blockClass": "plp__sku--image"
+    }
+  },
+  "flex-layout.col#plp__sku--third": {
+    "title": "Plp sku third container",
+    "children": [
+      "image#plp__sku--third"
+    ],
+    "props": {
+      "blockClass": "plp__sku--third",
+      "width": "10%"
+    }
+  },
+  "image#plp__sku--third": {
+    "title": "Plp sku third image",
+    "props": {
+      "src": "assets/img/global/PLP/plp__sku--third.jpg",
+      "maxHeight": 16,
+      "blockClass": "plp__sku--image"
+    }
+  },
+  "flex-layout.col#plp__sku--fourth": {
+    "title": "Plp sku fourth container",
+    "children": [
+      "image#plp__sku--fourth"
+    ],
+    "props": {
+      "blockClass": "plp__sku--fourth",
+      "width": "10%"
+    }
+  },
+  "image#plp__sku--fourth": {
+    "title": "Plp sku fourth image",
+    "props": {
+      "src": "assets/img/global/PLP/plp__sku--fourth.jpg",
+      "maxHeight": 16,
+      "blockClass": "plp__sku--image"
+    }
+  },
+  "flex-layout.row#plp__sku--selector_list": {
+    "title": "Plp sku selector main container",
+    "children": [
+      "flex-layout.col#plp__sku--first_list",
+      "flex-layout.col#plp__sku--second_list",
+      "flex-layout.col#plp__sku--third_list",
+      "flex-layout.col#plp__sku--fourth_list"
+    ],
+    "props": {
+      "blockClass": "plp__sku--selector_list"
+    }
+  },
+  "flex-layout.col#plp__sku--first_list": {
+    "title": "Plp sku first container",
+    "children": [
+      "image#plp__sku--first_list"
+    ],
+    "props": {
+      "blockClass": "plp__sku--first_list",
+      "width": "10%"
+    }
+  },
+  "image#plp__sku--first_list": {
+    "title": "Plp sku first image",
+    "props": {
+      "src": "assets/img/global/PLP/plp__sku--first.jpg",
+      "maxHeight": 16,
+      "blockClass": "plp__sku--image_list"
+    }
+  },
+  "flex-layout.col#plp__sku--second_list": {
+    "title": "Plp sku second container",
+    "children": [
+      "image#plp__sku--second_list"
+    ],
+    "props": {
+      "blockClass": "plp__sku--second_list",
+      "width": "10%"
+    }
+  },
+  "image#plp__sku--second_list": {
+    "title": "Plp sku second image",
+    "props": {
+      "src": "assets/img/global/PLP/plp__sku--second.jpg",
+      "maxHeight": 16,
+      "blockClass": "plp__sku--image_list"
+    }
+  },
+  "flex-layout.col#plp__sku--third_list": {
+    "title": "Plp sku third container",
+    "children": [
+      "image#plp__sku--third_list"
+    ],
+    "props": {
+      "blockClass": "plp__sku--third_list",
+      "width": "10%"
+    }
+  },
+  "image#plp__sku--third_list": {
+    "title": "Plp sku third image",
+    "props": {
+      "src": "assets/img/global/PLP/plp__sku--third.jpg",
+      "maxHeight": 16,
+      "blockClass": "plp__sku--image_list"
+    }
+  },
+  "flex-layout.col#plp__sku--fourth_list": {
+    "title": "Plp sku fourth container",
+    "children": [
+      "image#plp__sku--fourth_list"
+    ],
+    "props": {
+      "blockClass": "plp__sku--fourth_list",
+      "width": "10%"
+    }
+  },
+  "image#plp__sku--fourth_list": {
+    "title": "Plp sku fourth image",
+    "props": {
+      "src": "assets/img/global/PLP/plp__sku--fourth.jpg",
+      "maxHeight": 16,
+      "blockClass": "plp__sku--image_list"
+    }
+  }
+}

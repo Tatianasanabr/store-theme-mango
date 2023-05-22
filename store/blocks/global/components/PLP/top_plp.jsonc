@@ -1,0 +1,388 @@
+{
+  "flex-layout.row#plp__top--section": {
+    "title": "Top plp section container",
+    "children": [
+      "flex-layout.col#plp__top--container"
+    ]
+  },
+  "flex-layout.col#plp__top--container": {
+    "title": "Plp top container",
+    "children": [
+      "flex-layout.row#plp__first--head_section",
+      "flex-layout.row#plp__second--head_section"
+    ],
+    "props": {
+      "blockClass": "plp__top--container"
+    }
+  },
+  "flex-layout.row#plp__first--head_section": {
+    "title": "Plp first head section",
+    "children": [
+      "flex-layout.col#plp__header--breadcrumb",
+      "flex-layout.col#plp__header--title"
+    ],
+    "props": {
+      "blockClass": "plp__first--head_section"
+    }
+  },
+  "flex-layout.col#plp__header--breadcrumb": {
+    "title": "Plp header breadcrumb container",
+    "children": [
+      "breadcrumb.search#plp__header--breadcrumb"
+    ],
+    "props": {
+      "blockClass": "plp__header--breadcrumb",
+      "colGap": 2,
+      "width": "35%"
+    }
+  },
+  "breadcrumb.search#plp__header--breadcrumb": {
+    "title": "Plp header breadcrumb",
+    "props": {
+      "blockClass": "plp__header--breadcrumb"
+    }
+  },
+  "flex-layout.col#plp__header--title": {
+    "title": "Plp header title container",
+    "children": [
+      "flex-layout.row#plp__header--title_compelement",
+      "flex-layout.row#plp__header--title_full"
+    ],
+    "props": {
+      "blockClass": "plp__header--title"
+    }
+  },
+  "flex-layout.row#plp__header--title_compelement": {
+    "title": "Plp header title compelement container",
+    "children": [
+      "rich-text#desktop__department--title"
+    ],
+    "props": {
+      "blockClass": "plp__header--title_compelement"
+    }
+  },
+  "rich-text#desktop__department--title": {
+    "title": "Departmen title complement text",
+    "props": {
+      "text": "Resultado de la búsqueda de",
+      "blockClass": "desktop__department--title"
+    }
+  },
+  "flex-layout.row#plp__header--title_full": {
+    "title": "Plp header title compelement container",
+    "children": [
+      "search-title.v2#desktop__search--title"
+    ],
+    "props": {
+      "blockClass": "plp__header--title_full"
+    }
+  },
+  "search-title.v2#desktop__search--title": {
+    "title": "Search result title",
+    "props": {
+      "blockClass": "desktop__search--title"
+    }
+  },
+  "flex-layout.row#plp__second--head_section": {
+    "title": "Plp second head section container",
+    "children": [
+      "flex-layout.col#plp__header--search",
+      "flex-layout.col#plp__header--filter",
+      "header-spacer",
+      "header-spacer",
+      "flex-layout.col#plp__header--switcher",
+      "flex-layout.col#plp__header--pagination"
+    ]
+  },
+  "flex-layout.col#plp__header--search": {
+    "title": "Plp header filter container",
+    "children": [
+      "flex-layout.row#plp__header--search"
+    ],
+    "props": {
+      "blockClass": "plp__header--search",
+      "width": "15%"
+    }
+  },
+  "flex-layout.row#plp__header--search": {
+    "title": "desktop plp switcher",
+    "children": [
+      "drawer#header__plp--search"
+    ],
+    "props": {
+      "blockClass": "plp__header--search"
+    }
+  },
+  "drawer#header__plp--search": {
+    "title": "header plp filters",
+    "blocks": [
+      "drawer-trigger#global__text--search"
+    ],
+    "props": {
+      "slideDirection": "horizontal",
+      "blockClass": "header__plp--search"
+    },
+    "children": [
+      "filter-navigator.v3#header__plp--search"
+    ]
+  },
+  "filter-navigator.v3#header__plp--search": {
+    "title": "Filter plp header",
+    "props": {
+      "blockClass": "header__plp--search"
+    }
+  },
+  "drawer-trigger#global__text--search": {
+    "title": "Mobile text filters",
+    "children": [
+      "icon#global__search--icon",
+      "rich-text#plp__search--btn"
+    ],
+    "props": {
+      "blockClass": "global__text--search",
+      "isFullWidth": true,
+      "slideDirection": "vertical"
+    }
+  },
+  "rich-text#plp__search--btn": {
+    "title": "plp filters btn",
+    "props": {
+      "text": "Buscar en otras líneas",
+      "blockClass": "plp__search--btn"
+    }
+  },
+  "icon#global__search--icon": {
+    "title": "Filter icon",
+    "props": {
+      "id": "mpa-filterlines",
+      "size": 27,
+      "width": "20%",
+      "blockClass": "global__search--icon"
+    }
+  },
+  "flex-layout.col#plp__header--filter": {
+    "title": "Plp header filter container",
+    "children": [
+      "flex-layout.row#desktop__plp--filters"
+    ],
+    "props": {
+      "blockClass": "plp__header--filter"
+    }
+  },
+  "flex-layout.row#desktop__plp--filters": {
+    "title": "desktop plp switcher",
+    "children": [
+      "drawer#header__plp--filters"
+    ],
+    "props": {
+      "blockClass": "plp__filters--desktop"
+    }
+  },
+  "drawer#header__plp--filters": {
+    "title": "header plp filters",
+    "blocks": [
+      "drawer-trigger#mobile__text--filters"
+    ],
+    "props": {
+      "slideDirection": "horizontal",
+      "blockClass": "header__plp--filters"
+    },
+    "children": [
+      "flex-layout.row#plp__drawer--main"
+    ]
+  },
+  "flex-layout.row#plp__drawer--main": {
+    "title": "Plp drawe main container",
+    "children": [
+      "flex-layout.col#plp__drawer--main"
+    ],
+    "props": {
+      "blockClass": "plp__drawer--main"
+    }
+  },
+  "flex-layout.col#plp__drawer--main": {
+    "title": "Plp drawer main container",
+    "children": [
+      "flex-layout.row#plp__drawer--top",
+      "flex-layout.row#plp__drawer--bottom"
+    ],
+    "props": {
+      "blockClass": "plp__drawer--main"
+    }
+  },
+  "flex-layout.row#plp__drawer--top": {
+    "title": "Plp drawer top",
+    "children": [
+      "filter-navigator.v3"
+    ],
+    "props": {
+      "blockClass": "plp__drawer--top"
+    }
+  },
+  "flex-layout.row#plp__drawer--bottom": {
+    "title": "Plp drawer top",
+    "children": [
+      "flex-layout.col#plp__drawer--sizes",
+      "header-spacer",
+      "header-spacer",
+      "flex-layout.col#plp__drawer--results"
+    ],
+    "props": {
+      "blockClass": "plp__drawer--bottom",
+      "width": "100%"
+    }
+  },
+  "flex-layout.col#plp__drawer--sizes": {
+    "title": "Plp drawer links container",
+    "children": [
+      "link.product#plp__drawer--sizes"
+    ],
+    "props": {
+      "blockClass": "plp__drawer--sizes",
+      "width": "100%"
+    }
+  },
+  "flex-layout.col#plp__drawer--results": {
+    "title": "Plp drawer links container",
+    "children": [
+      "link.product#plp__drawer--results"
+    ],
+    "props": {
+      "blockClass": "plp__drawer--results",
+      "width": "100%"
+    }
+  },
+  "link.product#plp__drawer--sizes": {
+    "title": "Plp drawer sizes link",
+    "props": {
+      "href": "/{slug}/p",
+      "label": "Guía de tallas",
+      "blockClass": "plp__drawer--sizes"
+    }
+  },
+  "link.product#plp__drawer--results": {
+    "title": "Plp drawer sizes link",
+    "props": {
+      "href": "/{slug}/p",
+      "label": "Ver resultados",
+      "blockClass": "plp__drawer--results"
+    }
+  },
+  "drawer-trigger#mobile__text--filters": {
+    "title": "Mobile text filters",
+    "children": [
+      "icon#global__filter--icon",
+      "rich-text#plp__filters--btn"
+    ],
+    "props": {
+      "blockClass": "mobile__text--filters",
+      "isFullWidth": true,
+      "slideDirection": "vertical"
+    }
+  },
+  "rich-text#plp__filters--btn": {
+    "title": "plp filters btn",
+    "props": {
+      "text": "Filtrar y Ordenar",
+      "blockClass": "plp__filters--btn"
+    }
+  },
+  "icon#global__filter--icon": {
+    "title": "Filter icon",
+    "props": {
+      "id": "mpa-filter",
+      "size": 35,
+      "width": "20%",
+      "blockClass": "global__filter--icon"
+    }
+  },
+  "flex-layout.col#plp__header--switcher": {
+    "title": "Plp header switcher container",
+    "children": [
+      "gallery-layout-switcher#desktop__gallery--switcher"
+    ],
+    "props": {
+      "blockClass": "plp__header--switcher"
+    }
+  },
+  "gallery-layout-switcher#desktop__gallery--switcher": {
+    "title": "Gallery desktop switcher container",
+    "children": [
+      "gallery-layout-option#desktop__grid--gallery",
+      "gallery-layout-option#desktop__grid--list"
+    ],
+    "props": {
+      "blockClass": "desktop__gallery--switcher"
+    }
+  },
+  "gallery-layout-option#desktop__grid--gallery": {
+    "title": "Gallery desktop switcher container",
+    "children": [
+      "icon-grid",
+      "responsive-layout.desktop#text__name--grid"
+    ],
+    "props": {
+      "name": "main-grid",
+      "blockClass": "grid"
+    }
+  },
+  "gallery-layout-option#desktop__grid--list": {
+    "title": "Desktop grid list container",
+    "children": [
+      "icon-inline-grid",
+      "responsive-layout.desktop#text__name--list"
+    ],
+    "props": {
+      "name": "main-list",
+      "blockClass": "list"
+    }
+  },
+  "responsive-layout.desktop#text__name--grid": {
+    "title": "Responsive layout text desktop container",
+    "children": [
+      "rich-text#text__name--grid"
+    ],
+    "props": {
+      "blockClass": "text__name--grid"
+    }
+  },
+  "responsive-layout.desktop#text__name--list": {
+    "title": "Responsive layout text desktop name list",
+    "children": [
+      "rich-text#text__name--list"
+    ],
+    "props": {
+      "blockClass": "text__name--list"
+    }
+  },
+  "rich-text#text__name--grid": {
+    "title": "Grid text name icon",
+    "props": {
+      "text": "Grid",
+      "blockClass": "text__name--grid"
+    }
+  },
+  "rich-text#text__name--list": {
+    "title": "List text name icon",
+    "props": {
+      "text": "List",
+      "blockClass": "text__name--list"
+    }
+  },
+  "flex-layout.col#plp__header--pagination": {
+    "title": "Plp header pagination container",
+    "children": [
+      "rich-text#plp__header--pagination"
+    ],
+    "props": {
+      "blockClass": "plp__header--pagination"
+    }
+  },
+  "rich-text#plp__header--pagination": {
+    "title": "Plp header pagination text",
+    "props": {
+      "text": "Ver 2|4",
+      "blockClass": "plp__header--pagination"
+    }
+  }
+}

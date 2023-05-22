@@ -4,7 +4,6 @@
     "children": [
       "flex-layout.row#tablet__home--info_card",
       "flex-layout.row#tablet__home--info_sale",
-      /*"flex-layout.row#global__home--info_sale",*/
       "flex-layout.row#mobile__home--grid_cards",
       "flex-layout.row#mobile__home--grid_cards2",
       "flex-layout.row#mobile__home--grid_cards3", 

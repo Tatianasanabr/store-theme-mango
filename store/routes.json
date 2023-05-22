@@ -1,0 +1,6 @@
+{
+  "store.custom#privacy-policy": {
+    "title": "Privacy policy route",
+    "path": "/privacy-policy"
+  }
+}

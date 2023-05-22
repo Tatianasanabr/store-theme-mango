@@ -1,0 +1,17 @@
+.imageElement--plp__sku--image {
+    border-radius: 13px;
+}
+
+.imageElement--plp__sku--image:hover {
+    border: 1px solid #d7d7d8;
+    padding: 1px;
+}
+
+.imageElement--plp__sku--image_list {
+    border-radius: 13px;
+}
+
+.imageElement--plp__sku--image_list:hover {
+    border: 1px solid #d7d7d8;
+    padding: 1px;
+}
