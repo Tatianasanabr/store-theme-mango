@@ -1,0 +1,28 @@
+@media (max-width: 425px) {
+    .flexRow--global__section--add_to_cart {
+        width: 3rem;
+        transform: translate(127px, 0px);
+    }
+
+    .flexCol--mobile__plp--header_filter {
+        width: 21rem!important;
+    }
+
+    .flexRowContent--plp__product--info {
+        width: 9rem;
+        transform: translate(4px,-14px);
+    }
+}
+
+@media (max-width: 375px) {
+    .flexCol--mobile__plp--header_filter {
+        width: 18rem!important;
+    }
+}
+
+@media (max-width: 320px) {
+    .flexCol--mobile__plp--header_filter {
+        width: 15rem!important;
+    }  
+}
+

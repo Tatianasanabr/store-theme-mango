@@ -1,0 +1,10 @@
+@media (max-width: 425px) {
+    .price_sellingPrice--plp__product--price {
+        transform: translate(-82px,10px);
+    }
+
+    .containerNormal--plp__grid--products {
+        transform: translate(20px, 0px);
+    }
+}
+

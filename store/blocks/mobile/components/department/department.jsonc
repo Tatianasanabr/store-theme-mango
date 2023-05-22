@@ -1,9 +1,0 @@
-{
-    "search-result-layout.mobile#mobile__global--search_result":{
-        "title":"Search result for mobile view",
-        "children":[
-           /*  "flex-layout.col#plp__header--breadcrumb", */
-            "flex-layout.row#department__results"
-        ]
-    }
-}

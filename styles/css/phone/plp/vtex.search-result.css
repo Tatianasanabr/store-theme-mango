@@ -1,0 +1,9 @@
+@media (max-width: 425px) {
+    .gallery--search__result--gallery--main-grid {
+        transform: translate(-20px,43px);
+    }
+
+    .filtersWrapperMobile--mobile__filter--navigator:first-child :global(.vtex-search-result) {
+        height: 2.3rem!important;
+    }
+}

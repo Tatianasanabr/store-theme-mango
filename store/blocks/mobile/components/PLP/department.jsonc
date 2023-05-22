@@ -1,0 +1,9 @@
+{
+  "search-result-layout.mobile#mobile__global--search_result": {
+    "title": "Search result for mobile view",
+    "children": [
+      "flex-layout.row#mobile__plp__top",
+      "flex-layout.row#department__results"
+    ]
+  }
+}

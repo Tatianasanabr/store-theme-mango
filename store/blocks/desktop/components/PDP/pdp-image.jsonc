@@ -1,0 +1,15 @@
+{
+  "flex-layout.col#desktop__pdp--image": {
+    "title": "Pdp image desktop container",
+    "children": [
+      "product-images#pdp__images--container"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--image",
+      "width": "60%"
+    }
+  },
+  "product-images#pdp__images--container": {
+    "title": "Pdp images container"
+  }
+}

@@ -47,13 +47,11 @@
   "product-summary.shelf#plp__products--grid": {
     "title": "plp product grid",
     "children": [
-      /* "stack-layout", */
       "product-summary-image#plp__product--image",
       "product-summary-name#plp__product--name",
       "product-summary-brand#plp__product--brand",
       "product-summary-space",
       "product-summary-price#plp__product--price"
-      // "add-to-cart-button#plp__product--button"
     ],
     "props": {
       "blockClass": "plp__shelf--products"
