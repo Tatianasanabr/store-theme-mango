@@ -2,7 +2,6 @@
   "header-layout.mobile": {
     "title": "Header Layout Sección Mobile",
     "children": [
-      /* "sticky-layout#mobile" */
       "responsive-layout.phone#phone__header--section",
       "responsive-layout.tablet#tablet__header--section"
 

@@ -1,0 +1,145 @@
+{
+  "flex-layout.row#mobile__plp__top": {
+    "title": "Top plp section container mobile",
+    "children": [
+      "flex-layout.col#mobile__plp--top_container"
+    ],
+    "props": {
+      "blockClass": "mobile__plp__top"
+    }
+  },
+  "flex-layout.col#mobile__plp--top_container": {
+    "title": "Plp top container",
+    "children": [
+      "flex-layout.row#mobile__plp--first_head",
+      "flex-layout.row#mobile__plp--second_head"
+    ],
+    "props": {
+      "blockClass": "mobile__plp--top_container"
+    }
+  },
+  "flex-layout.row#mobile__plp--first_head": {
+    "title": "Plp first head section mobile",
+    "children": [
+      "flex-layout.col#mobile__plp--header_title"
+    ],
+    "props": {
+      "blockClass": "mobile__plp--first_head"
+    }
+  },
+  "flex-layout.col#mobile__plp--header_title": {
+    "title": "Plp header title mobile container",
+    "children": [
+      "flex-layout.row#mobile__plp--header_titlecompelement",
+      "flex-layout.row#mobile__plp--header_titlefull"
+    ],
+    "props": {
+      "blockClass": "mobile__plp--header_title"
+    }
+  },
+  "flex-layout.row#mobile__plp--header_titlecompelement": {
+    "title": "Plp header title compelement mobilecontainer",
+    "children": [
+      "rich-text#mobile__department--title"
+    ],
+    "props": {
+      "blockClass": "mobile__plp--header_titlecompelement"
+    }
+  },
+  "rich-text#mobile__department--title": {
+    "title": "Departmen title complement mobile text",
+    "props": {
+      "text": "Resultado de la búsqueda de",
+      "blockClass": "mobile__department--title"
+    }
+  },
+  "flex-layout.row#mobile__plp--header_titlefull": {
+    "title": "Plp header title compelement mobile container",
+    "children": [
+      "search-title.v2#mobile__search--title"
+    ],
+    "props": {
+      "blockClass": "mobile__plp--header_titlefull"
+    }
+  },
+  "search-title.v2#mobile__search--title": {
+    "title": "Search result mobile title",
+    "props": {
+      "blockClass": "mobile__search--title"
+    }
+  },
+  "flex-layout.row#mobile__plp--second_head": {
+    "title": "Plp second head section mobile container",
+    "children": [
+      "flex-layout.col#mobile__plp--header_filter",
+     "flex-layout.col#mobile__plp--header_switcher"
+    ],
+    "props": {
+      "blockClass": "mobile__plp--second_head"
+    }
+  },
+  "flex-layout.col#mobile__plp--header_filter": {
+    "title": "Plp header filter mobile container",
+    "children": [
+      "flex-layout.row#mobile__plp--filters"
+    ],
+    "props": {
+      "blockClass": "mobile__plp--header_filter",
+      "width": "85%"
+    }
+  },
+  "flex-layout.row#mobile__plp--filters": {
+    "title": "Mobile plp switcher",
+    "children": [
+      "filter-navigator.v3#mobile__filter--navigator"
+    ],
+    "props": {
+      "blockClass": "mobile__plp--filters"
+    }
+  },
+  "filter-navigator.v3#mobile__filter--navigator": {
+    "title": "Mobile filter navigator",
+    "props": {
+      "blockClass": "mobile__filter--navigator"
+    }
+  },
+  "flex-layout.col#mobile__plp--header_switcher": {
+    "title": "Plp header switcher mobile container",
+    "children": [
+      "gallery-layout-switcher#mobile__gallery--switcher"
+    ],
+    "props": {
+      "blockClass": "mobile__plp--header_switcher"
+    }
+  },
+  "gallery-layout-switcher#mobile__gallery--switcher": {
+    "title": "Gallery mobile switcher container",
+    "children": [
+      "gallery-layout-option#mobile__grid--gallery",
+      "gallery-layout-option#mobile__grid--list"
+    ],
+    "props": {
+      "blockClass": "mobile__gallery--switcher"
+    }
+  },
+  "gallery-layout-option#mobile__grid--gallery": {
+    "title": "Gallery mobile switcher container",
+    "children": [
+      "icon-grid" 
+    ],
+    "props": {
+      "name": "main-grid",
+      "blockClass": "mobile__grid--gallery"
+    }
+  },
+  "gallery-layout-option#mobile__grid--list": {
+    "title": "Mobile grid list container",
+    "children": [
+      "icon-inline-grid"
+    ],
+    "props": {
+      "name": "main-list",
+      "blockClass": "mobile__grid--list"
+    }
+  }
+}

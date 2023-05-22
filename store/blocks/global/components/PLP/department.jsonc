@@ -2,7 +2,6 @@
   "flex-layout.row#department__results": {
     "title": "Department Results container",
     "children": [
-      /* "filter-navigator.v3", */
       "gallery-layout-switcher",
       "search-content#search__result--container"
     ],
@@ -52,18 +51,16 @@
       "stack-layout#global__plus--available",
       "stack-layout#global__section--add_to_cart",
       "product-summary-name#plp__product--name",
-      "product-summary-brand#plp__product--brand",
+      "flex-layout.row#plp__brand--container",
       "product-summary-price#plp__product--price",
-      "flex-layout.row#plp__produc--sku",
-      /*"product-summary-space",*/
-      /* "flex-layout.row#plp__product--dots", */
-      "add-to-cart-button#plp__product--button"
+      "flex-layout.row#plp__sku--selector"
     ],
     "props": {
       "blockClass": "plp__grid--products"
     }
   },
   "slider-layout#plp__slider--image": {
+    "title": "Plp slider image",
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -115,16 +112,31 @@
   "stack-layout#global__section--add_to_cart": {
     "title": "Global plus size available stack",
     "children": [
-      "flex-layout.row#global__section--add_to_cart"
+      "flex-layout.row#plp__section--main_cart"
     ],
     "props": {
       "blockClass": "global__plus--available"
     }
   },
+  "flex-layout.row#plp__section--main_cart": {
+    "title": "Plp section add to cart main",
+    "children": [
+      "flex-layout.col#plp__main--add_to_cart"
+    ],
+    "props": {
+      "blockClass": "plp__section--main_cart"
+    }
+  },
+  "flex-layout.col#plp__main--add_to_cart": {
+    "title": "Plp main add to cart section container",
+    "children": [
+      "flex-layout.row#global__section--add_sizetext",
+      "flex-layout.row#global__section--add_to_cart"
+    ]
+  },
   "flex-layout.row#global__section--add_to_cart": {
     "title": "Global plus size available container",
     "children": [
-      /* "rich-text#global__section--add_size", */
       "flex-layout.col#global__section--size_xs",
       "flex-layout.col#global__section--size_s",
       "flex-layout.col#global__section--size_m",
@@ -136,107 +148,117 @@
       "blockClass": "global__section--add_to_cart"
     }
   },
+  "flex-layout.row#global__section--add_sizetext": {
+    "title": "Global section add size text",
+    "children": [
+      "rich-text#global__section--add_size"
+    ],
+    "props": {
+      "blockClass": "global__section--add_sizetext"
+    }
+  },
   "rich-text#global__section--add_size": {
     "title": "Global add size product",
     "props": {
       "text": "Añadir talla",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
       "blockClass": "global__section--add_size"
     }
   },
   "flex-layout.col#global__section--size_xs": {
     "title": "Global section size xs container",
     "children": [
-      "rich-text#global__section--size_xs"
+      "add-to-cart-button#plp__product--button_size_xs"
     ],
     "props": {
       "blockClass": "global__section--size_xs"
+    }
+  },
+  "add-to-cart-button#plp__product--button_size_xs": {
+    "props": {
+      "text": "XS",
+      "blockClass": "plp__product--button_size_xs"
     }
   },
   "flex-layout.col#global__section--size_s": {
     "title": "Global section size s container",
     "children": [
-      "rich-text#global__section--size_s"
+      "add-to-cart-button#plp__product--button_size_s"
     ],
     "props": {
       "blockClass": "global__section--size_s"
+    }
+  },
+  "add-to-cart-button#plp__product--button_size_s": {
+    "title": "Plp button product size S",
+    "props": {
+      "text": "S",
+      "blockClass": "plp__product--button_size_s"
     }
   },
   "flex-layout.col#global__section--size_m": {
     "title": "Global section size m container",
     "children": [
-      "rich-text#global__section--size_m"
+      "add-to-cart-button#plp__product--button_size_m"
     ],
     "props": {
       "blockClass": "global__section--size_m"
+    }
+  },
+  "add-to-cart-button#plp__product--button_size_m": {
+    "title": "Plp button product size M",
+    "props": {
+      "text": "M",
+      "blockClass": "plp__product--button_size_m"
     }
   },
   "flex-layout.col#global__section--size_l": {
     "title": "Global section size l container",
     "children": [
-      "rich-text#global__section--size_l"
+      "add-to-cart-button#plp__product--button_size_l"
     ],
     "props": {
       "blockClass": "global__section--size_l"
+    }
+  },
+  "add-to-cart-button#plp__product--button_size_l": {
+    "title": "Plp button product size L",
+    "props": {
+      "text": "L",
+      "blockClass": "plp__product--button_size_l"
     }
   },
   "flex-layout.col#global__section--size_xl": {
     "title": "Global section size xl container",
     "children": [
-      "rich-text#global__section--size_xl"
+      "add-to-cart-button#plp__product--button_size_xl"
     ],
     "props": {
       "blockClass": "global__section--size_xl"
+    }
+  },
+  "add-to-cart-button#plp__product--button_size_xl": {
+    "title": "Plp button product size XL",
+    "props": {
+      "text": "XL",
+      "blockClass": "plp__product--button_size_xl"
     }
   },
   "flex-layout.col#global__section--size_xxl": {
     "title": "Global section size xxl container",
     "children": [
-      "rich-text#global__section--size_xxl"
+      "add-to-cart-button#plp__product--button_size_xxl"
     ],
     "props": {
       "blockClass": "global__section--size_xxl"
     }
   },
-  "rich-text#global__section--size_xs": {
-    "title": "Global section size xs",
-    "props": {
-      "text": "XS",
-      "blockClass": "global__section--size_xs"
-    }
-  },
-  "rich-text#global__section--size_s": {
-    "title": "Global section size s",
-    "props": {
-      "text": "S",
-      "blockClass": "global__section--size_s"
-    }
-  },
-  "rich-text#global__section--size_m": {
-    "title": "Global section size m",
-    "props": {
-      "text": "M",
-      "blockClass": "global__section--size_m"
-    }
-  },
-  "rich-text#global__section--size_l": {
-    "title": "Global section size l",
-    "props": {
-      "text": "L",
-      "blockClass": "global__section--size_l"
-    }
-  },
-  "rich-text#global__section--size_xl": {
-    "title": "Global section size xl",
-    "props": {
-      "text": "XL",
-      "blockClass": "global__section--size_xl"
-    }
-  },
-  "rich-text#global__section--size_xxl": {
-    "title": "Global section size xxl",
+  "add-to-cart-button#plp__product--button_size_xxl": {
+    "title": "Plp button product size XXL",
     "props": {
       "text": "XXL",
-      "blockClass": "global__section--size_xxl"
+      "blockClass": "plp__product--button_size_xxl"
     }
   },
   "add-to-cart-button#plp__product--button": {
@@ -246,9 +268,28 @@
     }
   },
   "product-summary-name#plp__product--name": {
-    "title": "Producto name PLP",
+    "title": "Product name PLP",
     "props": {
       "blockClass": "plp__product--name"
+    }
+  },
+  "flex-layout.row#plp__brand--container": {
+    "title": "Plp brand container",
+    "children": [
+      "flex-layout.col#plp__brand--name",
+      "flex-layout.col#plp__favorites--section"
+    ],
+    "props": {
+      "blockClass": "plp__brand--container"
+    }
+  },
+  "flex-layout.col#plp__brand--name": {
+    "title": "Plp brand dame", 
+    "children": [
+      "product-summary-brand#plp__product--brand"
+    ],
+    "props": {
+      "blockClass": "plp__brand--name"
     }
   },
   "product-summary-brand#plp__product--brand": {
@@ -257,29 +298,32 @@
       "blockClass": "plp__brand--name"
     }
   },
+  "flex-layout.col#plp__favorites--section": {
+    "title": "Plp brand dame", 
+    "children": [
+      "icon#plp__favorites--icon"
+    ],
+    "props": {
+      "blockClass": "plp__favorites--section"
+    }
+  },
+  "icon#plp__favorites--icon": {
+    "title": "Plp favorites  icon",
+    "props": {
+      "id": "mpa-globe",
+      "size": 30,
+      "width": "15%",
+      "viewBox": "0 0 25 25",
+      "blockClass": "plp__favorites--icon"
+    }
+  },
   "product-summary-price#plp__product--price": {
     "title": "Product price PLP",
     "props": {
       "blockClass": "plp__product--price"
     }
   },
-  "flex-layout.row#plp__produc--sku": {
-    "title": "PLP product SKU selector",
-    "children": [
-      "sku-selector#plp__sku--selector"
-    ],
-    "props": {
-      "blockClass": "plp__produc--sku"
-    }
-  },
-  "sku-selector#plp__sku--selector": {
-    "props": {
-      "hideImpossibleCombinations": true,
-      "thumbnailImage": [
-        "LabelName"
-      ]
-    }
-  },
+  
   "product-summary.shelf#home__list--product": {
     "title": "Plp product list",
     "children": [
@@ -292,14 +336,24 @@
   "flex-layout.row#global__product--list": {
     "title": "Plp product list container",
     "children": [
-      "flex-layout.col#plp__product--image_list",
-      "flex-layout.col#plp__product--info_list"
+      "flex-layout.col#global__product--list_first",
+      "flex-layout.col#global__product--list_second"
     ],
     "props": {
       "blockClass": "global__product--list"
     }
   },
-  "flex-layout.col#plp__product--image_list": {
+  "flex-layout.col#global__product--list_first": {
+    "title": "Global product list main container first",
+    "children": [
+      "flex-layout.row#plp__product--image_list",
+      "flex-layout.row#plp__product--sku_list"
+    ],
+    "props": {
+      "blockClass": "global__product--list_first"
+    }
+  },
+  "flex-layout.row#plp__product--image_list": {
     "title": "Plp product list image container",
     "children": [
       "product-summary-image#plp__product--image_list"
@@ -308,7 +362,26 @@
       "blockClass": "plp__product--image_list"
     }
   },
-  "flex-layout.col#plp__product--info_list": {
+  "flex-layout.row#plp__product--sku_list": {
+    "title": "Plp product sku list container",
+    "children": [
+      "flex-layout.row#plp__sku--selector_list"
+    ],
+    "props": {
+      "blockClass": "plp__product--sku_list"
+    }
+  },
+  "flex-layout.col#global__product--list_second": {
+    "title": "Global product list second main container",
+    "children": [
+      "flex-layout.row#plp__product--info_list",
+      "flex-layout.row#plp__product--cart_list"
+    ],
+    "props": {
+      "blockClass": "global__product--list_second"
+    }
+  },
+  "flex-layout.row#plp__product--info_list": {
     "title": "Plp product list info container",
     "children": [
       "product-summary-name#plp__list--name",
@@ -344,7 +417,23 @@
       "blockClass": "plp__list--price"
     }
   },
+  "flex-layout.row#plp__product--cart_list": {
+    "title": "Plp product cart list main",
+    "children": [
+      "add-to-cart-button#plp__product--button_list"
+    ],
+    "props": {
+      "blockClass": "plp__product--cart_list"
+    }
+  },
+  "add-to-cart-button#plp__product--button_list": {
+    "title": "Plp add to cart button list",
+    "props": {
+      "blockClass": "plp__product--button_list"
+    }
+  },
   "filter-navigator.v3": {
+    "title": "Filter navigator",
     "props": {
       "facetOrdering": [
         {

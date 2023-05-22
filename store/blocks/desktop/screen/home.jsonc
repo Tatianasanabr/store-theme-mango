@@ -13,8 +13,6 @@
       "link.product#desktop__button--see_more",
       "rich-text#desktop__our--lines",
       "flex-layout.row#desktop__home--grid_lines",
-      /* "flex-layout.row#home__section-1", 
-      "flex-layout.row#global__home--product-summary",*/
       "flex-layout.row#home__shelf",
       "slider-layout#home__slider--children",
       "flex-layout.row#desktop__women--categories"

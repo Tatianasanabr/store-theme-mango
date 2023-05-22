@@ -25,3 +25,43 @@
     padding         : 4px 8px;
     letter-spacing  : .3px;
 }
+
+.paragraph--plp__search--btn {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: .3px;
+    line-height: 20px;
+    font-family: "MangoSans-Light";
+}
+
+.paragraph--plp__search--btn {
+    transform: translate(10px, 1px);
+}
+
+.container--plp__header--pagination {
+    display: flex;
+    align-items: center;
+    transform: translate(10px, -4px);
+    font-size: 13px;
+}
+
+.wrapper--text__name--grid,
+.wrapper--text__name--list {
+    font-size: 13px;
+}
+
+.paragraph--global__section--add_size {
+    font-size: 13px;
+    letter-spacing: .3px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.paragraph--global__section--size_xs,
+.paragraph--global__section--size_s,
+.paragraph--global__section--size_m,
+.paragraph--global__section--size_l,
+.paragraph--global__section--size_xl,
+.paragraph--global__section--size_xxl {
+    font-size: 13px;
+}

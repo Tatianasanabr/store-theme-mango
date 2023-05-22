@@ -11,9 +11,6 @@
 
 .galleryLayoutSwitcher--desktop__gallery--switcher {
     display       : flex;
-    flex-direction: inherit;
-    position      : inherit;
-    margin-left   : 17rem;
 }
 
 .filtersWrapper--search__filter--navigator {
@@ -52,4 +49,65 @@
 
 .filterTemplateOverflow--search__filter--navigator :global(.vtex-slider__selector) {
     background-color: #666;
+}
+
+.filterMessage--search__filter--navigator {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.filterTitleSpan--search__filter--navigator {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.filterItem--search__filter--navigator--ladrillos,
+.filterItem--search__filter--navigator--hierro {
+    font-size: 13px;
+    letter-spacing: .3px;
+}
+
+.filterItem--search__filter--navigator--unacem {
+    font-size: 13px;
+    letter-spacing: .3px;
+}
+
+.filterMessage--header__plp--search {
+    display: none;
+}
+
+.filterTitleSpan--header__plp--search {
+    visibility: hidden;
+}
+
+.filterTitleSpan--header__plp--search::before {
+    visibility: visible;
+    content: "Buscar en otras líneas";
+}
+
+.filterTemplateOverflow--header__plp--search :global(.vtex-slider-container){
+    display: none;
+}
+
+.filterTitleSpan--header__plp--search {
+    color: #121314;
+    font-size: 11px;
+    font-style: normal;
+    letter-spacing: 1px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.filterItem--header__plp--search--ladrillos,
+.filterItem--header__plp--search--hierro,
+.filterItem--header__plp--search--unacem{
+    font-size: 13px;
+}
+
+.filtersWrapper--header__plp--search {
+    padding: 1rem;
 }

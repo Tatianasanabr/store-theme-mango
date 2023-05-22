@@ -1,0 +1,31 @@
+.label--plp__drawer--results {
+    white-space: nowrap;
+}
+
+.label--plp__drawer--sizes {
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    color: black;
+}
+
+.label--plp__drawer--results {
+    white-space: nowrap;
+    position: relative;
+    border: 1px solid black;
+    padding: 11.3px 36px;
+    font-size: .8125rem;
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+.link--plp__drawer--results {
+    text-decoration: none;
+    
+}
+
+.label--plp__drawer--results:hover {
+    background-color: #979899;
+    transition      : background-color 0.5s ease;
+    border          : none;
+}

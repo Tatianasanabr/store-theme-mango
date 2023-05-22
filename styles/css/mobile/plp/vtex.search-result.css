@@ -1,0 +1,76 @@
+.filterIcon--mobile__filter--navigator {
+    display: none;
+}
+
+.filterPopupTitle--mobile__filter--navigator {
+    visibility: hidden;
+    text-transform: lowercase;
+}
+
+.filterPopupTitle--mobile__filter--navigator::first-letter {
+    text-transform: capitalize;
+}
+
+.filterPopupTitle--mobile__filter--navigator::before {
+    visibility: visible;
+    content: "Filtrar y ordenar";
+    text-transform: inherit;
+    font-size: 17px;
+}
+
+.filtersWrapperMobile--mobile__filter--navigator {
+    border: 1px solid #d7d7d8;
+}
+
+.filterBreadcrumbsText--mobile__filter--navigator {
+    font-family: "MangoSans-Light";
+    font-weight: bold;
+}
+
+.accordionFilterItemTitle--mobile__filter--navigator {
+    font-family: "MangoSans-Light";
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.filterApplyButtonWrapper--mobile__filter--navigator :global(.vtex-button) {
+    background-color: #eeeeee;
+    color: #707070;
+    text-transform: lowercase;
+    visibility: hidden;
+}
+
+.filterApplyButtonWrapper--mobile__filter--navigator :global(.vtex-button)::first-letter {
+    text-transform: capitalize;
+    
+}
+
+.filterApplyButtonWrapper--mobile__filter--navigator :global(.vtex-button)::before {
+    background-color: #eeeeee;
+    color: #707070;
+    visibility: visible; 
+    content: "Aplicar filtros";
+    padding: 6px 10px;
+}
+
+.filterClearButtonWrapper--mobile__filter--navigator :global(.vtex-button) {
+    border: 1px solid #eeeeee;
+    text-transform: lowercase;
+    visibility: hidden;
+}
+
+.filterClearButtonWrapper--mobile__filter--navigator :global(.vtex-button)::first-letter {
+    text-transform: capitalize;
+}
+
+.filterClearButtonWrapper--mobile__filter--navigator :global(.vtex-button)::before {
+    visibility: visible; 
+    border: 1px solid #eeeeee;
+    content: "Quitar filtros";
+    color: black;
+    padding: 6px 10px;
+}
+
+.sidebar {
+    width: 90vw;
+}
