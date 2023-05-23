@@ -1,0 +1,29 @@
+.productBrand--pdp__product--name {
+    font-size: 18px !important;
+}
+
+.currencyContainer--pdp__product--price {
+    font-size: 18px !important;
+}
+
+.imageElement--desktop__pdp--dot_first {
+    max-height: 25px;
+    border    : 1px solid black;
+    padding   : 1px;
+}
+
+.content--desktop__pdp--description {
+    font-size     : 13px;
+    letter-spacing: .3px;
+    font-family   : "MangoSans-Light";
+    color         : black;
+}
+
+.productDescriptionTitle--desktop__pdp--description {
+    visibility: hidden;
+}
+
+.productDescriptionTitle--desktop__pdp--description::before {
+    visibility: visible;
+    content   : "Descripción";
+}

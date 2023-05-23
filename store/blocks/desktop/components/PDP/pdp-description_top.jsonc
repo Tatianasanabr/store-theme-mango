@@ -1,0 +1,42 @@
+{
+  "flex-layout.row#desktop__pdp--title_price": {
+    "title": "Desktop pdp title price main container",
+    "children": [
+      "flex-layout.col#desktop__pdp--title_product",
+      "flex-layout.col#desktop__pdp--price_product"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--title_price"
+    }
+  },
+  "flex-layout.col#desktop__pdp--title_product": {
+    "title": "Desktop pdp title product container",
+    "children": [
+      "vtex.store-components:product-name#pdp__product--name"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--title_product"
+    }
+  },
+  "vtex.store-components:product-name#pdp__product--name": {
+    "title": "Desktop product name",
+    "props": {
+      "blockClass": "pdp__product--name"
+    }
+  },
+  "flex-layout.col#desktop__pdp--price_product": {
+    "title": "Desktop pdp title price container",
+    "children": [
+      "product-price#pdp__product--price"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--price_product"
+    }
+  },
+  "product-price#pdp__product--price": {
+    "title": "Pdp product price",
+    "props": {
+      "blockClass": "pdp__product--price"
+    }
+  }
+}

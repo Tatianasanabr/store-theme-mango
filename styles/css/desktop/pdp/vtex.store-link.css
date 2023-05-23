@@ -1,0 +1,54 @@
+.label--pdp__link--sizes {
+    font-size      : .8350rem;
+    line-height    : 1.25rem;
+    color          : black;
+    text-decoration: none;
+}
+
+.label--desktop__section--help {
+    font-size: .8125rem;
+}
+
+.link--desktop__pdp--add_button {
+    color          : white;
+    text-decoration: none;
+    font-size      : .8125rem;
+    font-weight    : bold;
+}
+
+.label--pdp__delivery--time {
+    font-size: 13px;
+    color    : black;
+}
+
+.link--pdp__delivery--time {
+    text-decoration: none;
+}
+
+.label--pdp__available--store {
+    font-size: 13px;
+    color    : black;
+}
+
+.link--pdp__available--store {
+    text-decoration: none;
+}
+
+.label--pdp__product--details {
+    font-size: 13px;
+    color    : black;
+}
+
+.link--pdp__product--details {
+    text-decoration: none;
+}
+
+.label--pdp__share {
+    font-size: 13px;
+    color    : black;
+}
+
+.link--pdp__share {
+    text-decoration: none;
+}
+

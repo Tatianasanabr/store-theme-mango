@@ -6,10 +6,15 @@
     ],
     "props": {
       "blockClass": "desktop__pdp--image",
-      "width": "60%"
+      "width": "70%"
     }
   },
   "product-images#pdp__images--container": {
-    "title": "Pdp images container"
+    "title": "Pdp images container",
+    "props": {
+      "blockClass": "pdp__images--container",
+      "displayMode": "list",
+      "aspectRatio":"1:1"
+    }
   }
 }

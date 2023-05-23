@@ -1,0 +1,70 @@
+{
+  "flex-layout.col#desktop__pdp--info": {
+    "title": "Desktop pdp info main container",
+    "children": [
+      "flex-layout.row#desktop__pdp--product_description",
+      "flex-layout.row#desktop__pdp--product_import",
+      "flex-layout.row#desktop__pdp--product_categories"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--info"
+    }
+  },
+  "flex-layout.row#desktop__pdp--product_description": {
+    "title": "Desktop pdp product description container",
+    "children": [
+      "product-description#desktop__pdp--description"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--product_description"
+    }
+  },
+  "product-description#desktop__pdp--description": {
+    "title": "Desktop pdp product description",
+    "props": {
+      "blockClass": "desktop__pdp--description"
+    }
+  },
+  "flex-layout.row#desktop__pdp--product_import": {
+    "title": "Desktop pdp product import info container",
+    "children": [
+      "rich-text#desktop__pdp--country",
+      "rich-text#desktop__pdp--imported_for",
+      "rich-text#desktop__pdp--imported_country"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--product_import"
+    }
+  },
+  "rich-text#desktop__pdp--country": {
+    "title": "Desktop pdp country text",
+    "props": {
+      "text": "País de origen: Bangladesh",
+      "blockClass": "desktop__pdp--country"
+    }
+  },
+  "rich-text#desktop__pdp--imported_for": {
+    "title": "Desktop pdp imported for text",
+    "props": {
+      "text": "IMPORTADO POR: JOHN URIBE E HIJOS S.A. NIT: 811.018.676-1. REGISTRO SIC: 811018676.",
+      "blockClass": "desktop__pdp--imported_for"
+    }
+  },
+  "rich-text#desktop__pdp--imported_country": {
+    "title": "Desktop pdp imported country text",
+    "props": {
+      "text": "MEDELLIN – COLOMBIA",
+      "blockClass": "desktop__pdp--imported_country"
+    }
+  },
+  "flex-layout.row#desktop__pdp--product_categories": {
+    "children": []
+  },
+  "flex-layout.col#desktop__pdp--care": {
+    "title": "Desktop pdp info main container",
+    "children": [],
+    "props": {
+      "blockClass": "desktop__pdp--care"
+    }
+  }
+}

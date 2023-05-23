@@ -1,0 +1,117 @@
+{
+  "flex-layout.row#desktop__pdp--sku_dots": {
+    "title": "Desktop pdp sku dots",
+    "children": [
+      "flex-layout.col#desktop__pdp--sku_dots",
+      "flex-layout.col#desktop__pdp--sku_name"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--sku_dots"
+    }
+  },
+  "flex-layout.col#desktop__pdp--sku_dots": {
+    "title": "Desktop pdp sku dots",
+    "children": [
+      "flex-layout.row#desktop__pdp--dots"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--sku_dots"
+    }
+  },
+  "flex-layout.row#desktop__pdp--dots": {
+    "title": "Desktop pdp sku dots main container",
+    "children": [
+      "flex-layout.col#desktop__pdp--dot_first",
+      "flex-layout.col#desktop__pdp--dot_second",
+      "flex-layout.col#desktop__pdp--dot_third",
+      "flex-layout.col#desktop__pdp--dot_fourth"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--dots"
+    }
+  },
+  "flex-layout.col#desktop__pdp--dot_first": {
+    "title": "Desktop pdp dot first container",
+    "children": [
+      "image#desktop__pdp--dot_first"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--dot_first"
+    }
+  },
+  "image#desktop__pdp--dot_first": {
+    "title": "Pdp sku first image",
+    "props": {
+      "src": "assets/img/global/PLP/plp__sku--first.jpg",
+      "maxHeight": 23,
+      "blockClass": "desktop__pdp--dot_first"
+    }
+  },
+  "flex-layout.col#desktop__pdp--dot_second": {
+    "title": "Desktop pdp dot second container",
+    "children": [
+      "image#desktop__pdp--dot_second"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--dot_second"
+    }
+  },
+  "image#desktop__pdp--dot_second": {
+    "title": "Pdp sku second image",
+    "props": {
+      "src": "assets/img/global/PLP/plp__sku--second.jpg",
+      "maxHeight": 23,
+      "blockClass": "desktop__pdp--dot_second"
+    }
+  },
+  "flex-layout.col#desktop__pdp--dot_third": {
+    "title": "Desktop pdp dot third container",
+    "children": [
+      "image#desktop__pdp--dot_third"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--dot_third"
+    }
+  },
+  "image#desktop__pdp--dot_third": {
+    "title": "Pdp sku third image",
+    "props": {
+      "src": "assets/img/global/PLP/plp__sku--third.jpg",
+      "maxHeight": 23,
+      "blockClass": "desktop__pdp--dot_third"
+    }
+  },
+  "flex-layout.col#desktop__pdp--dot_fourth": {
+    "title": "Desktop pdp dot fourth container",
+    "children": [
+      "image#desktop__pdp--dot_fourth"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--dot_fourth"
+    }
+  },
+  "image#desktop__pdp--dot_fourth": {
+    "title": "Pdp sku fourth image",
+    "props": {
+      "src": "assets/img/global/PLP/plp__sku--fourth.jpg",
+      "maxHeight": 23,
+      "blockClass": "desktop__pdp--dot_fourth"
+    }
+  },
+  "flex-layout.col#desktop__pdp--sku_name": {
+    "title": "Desktop pdp sku dots name",
+    "children": [
+      "rich-text#desktop__pdp--sku_name"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--sku_name"
+    }
+  },
+  "rich-text#desktop__pdp--sku_name": {
+    "title": "Desktop pdp sku name text",
+    "props": {
+      "text": "Blanco roto",
+      "blockClass": "desktop__pdp--sku_name"
+    }
+  }
+}

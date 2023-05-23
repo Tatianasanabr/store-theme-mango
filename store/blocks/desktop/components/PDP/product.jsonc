@@ -2,15 +2,15 @@
   "responsive-layout.desktop#desktop__pdp--section": {
     "title": "Pdp responsive layout desktop main",
     "children": [
-      "flex-layout.row#desktop__pdp--main_container"
-      /* "flex-layout.row#desktop__pdp--bottom_container" */
+      "flex-layout.row#desktop__pdp--main_container",
+      "flex-layout.row#desktop__pdp--bottom_container"
     ]
   },
   "flex-layout.row#desktop__pdp--main_container": {
     "title": "Pdp desktop main container",
     "children": [
-      "flex-layout.col#desktop__pdp--image"
-      /* "flex-layout.col#desktop__pdp--description" */
+      "flex-layout.col#desktop__pdp--image",
+      "flex-layout.col#desktop__pdp--description"
     ],
     "props": {
       "blockClass": "desktop__pdp--main_container"
@@ -19,7 +19,8 @@
   "flex-layout.row#desktop__pdp--bottom_container": {
     "title": "Pdp desktop bottom container",
     "children": [
-      /* "flex-layout.col#desktop__pdp--info" */
+      "flex-layout.col#desktop__pdp--info",
+      "flex-layout.col#desktop__pdp--care"
     ],
     "props": {
       "blockClass": "desktop__pdp--bottom_container"

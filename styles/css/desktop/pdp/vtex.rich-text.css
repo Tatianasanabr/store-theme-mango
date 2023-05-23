@@ -1,0 +1,50 @@
+.container--desktop__pdp--pagination {
+    display        : flex;
+    flex-direction : row;
+    justify-content: flex-end;
+    color          : #aaa;
+    font-size      : 11px;
+    line-height    : 16px;
+    letter-spacing : .3px;
+    margin-top     : 1.3rem;
+    transform      : translateX(-61px);
+}
+
+.paragraph--desktop__pdp--reference {
+    color         : #666;
+    font-size     : 10px;
+    line-height   : 16px;
+    letter-spacing: 1px;
+}
+
+.paragraph--desktop__pdp--sku_name {
+    font-size     : 13px;
+    letter-spacing: .3px;
+}
+
+.paragraph--desktop__pdp--imported_for {
+    white-space: nowrap;
+}
+
+.paragraph--desktop__pdp--imported_for {
+    color         : #aaa;
+    font-size     : 11px;
+    line-height   : 16px;
+    letter-spacing: .3px;
+}
+
+.paragraph--desktop__pdp--imported_country {
+    color         : #aaa;
+    font-size     : 11px;
+    line-height   : 16px;
+    letter-spacing: .3px;
+}
+
+.paragraph--desktop__pdp--country {
+    color         : #aaa;
+    font-size     : 11px;
+    line-height   : 16px;
+    letter-spacing: .3px;
+}
+
+

@@ -1,0 +1,259 @@
+{
+  "flex-layout.col#desktop__pdp--description": {
+    "title": "Desktop pdp description main container",
+    "children": [
+      "flex-layout.row#desktop__pdp--pagination",
+      "flex-layout.row#desktop__pdp--title_price",
+      "flex-layout.row#desktop__pdp--reference",
+      "flex-layout.row#desktop__pdp--sku_dots",
+      "flex-layout.row#desktop__pdp--sizes_link",
+      "flex-layout.row#desktop__pdp--sku_selector",
+      "flex-layout.row#desktop__pdp--sku_sizes",
+      "flex-layout.row#desktop__pdp--add_to_cart",
+      "flex-layout.row#desktop__pdp--delivery",
+      "flex-layout.row#desktop__pdp--details"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--description",
+      "width": "grow",
+      "rowGap": "5",
+      "colGap": "5"
+    }
+  },
+  "flex-layout.row#desktop__pdp--pagination": {
+    "title": "Desktop pdp pagination container",
+    "children": [
+      "rich-text#desktop__pdp--pagination"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--pagination"
+    }
+  },
+  "rich-text#desktop__pdp--pagination": {
+    "title": "Desktop pdp pagination text",
+    "props": {
+      "text": "Anterior  /  Siguiente",
+      "blockClass": "desktop__pdp--pagination"
+    }
+  },
+  "flex-layout.row#desktop__pdp--reference": {
+    "title": "Desktop pdp reference container",
+    "children": [
+      "rich-text#desktop__pdp--reference"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--reference"
+    }
+  },
+  "rich-text#desktop__pdp--reference": {
+    "title": "Desktop pdp reference text",
+    "props": {
+      "text": "REF. 47095651-LINO-LM",
+      "blockClass": "desktop__pdp--reference"
+    }
+  },
+  "flex-layout.row#desktop__pdp--sizes_link": {
+    "title": "Desktop pdp sizes link",
+    "children": [
+      "link.product#pdp__link--sizes"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--sizes_link"
+    }
+  },
+  "link.product#pdp__link--sizes": {
+    "title": "Pdp drawer sizes link",
+    "props": {
+      "href": "/{slug}/p",
+      "label": "Guía de tallas",
+      "blockClass": "pdp__link--sizes"
+    }
+  },
+  "flex-layout.row#desktop__pdp--sku_selector": {
+    "title": "Desktop pdp sku selector container",
+    "children": [
+      "sku-selector"
+    ]
+  },
+  "sku-selector": {
+    "props": {
+      "hideImpossibleCombinations": false,
+      "displayMode": "slider"
+    }
+  },
+  "flex-layout.row#desktop__pdp--add_to_cart": {
+    "title": "Desktop pdp add to cart main container",
+    "children": [
+      "flex-layout.col#desktop__pdp--add_button",
+      "flex-layout.col#desktop__pdp--favorites_button"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--add_to_cart"
+    }
+  },
+  "flex-layout.col#desktop__pdp--add_button": {
+    "title": "Desktop pdp add button container",
+    "children": [
+      "link.product#desktop__pdp--add_button"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--add_button",
+      "width": "77%"
+    }
+  },
+  "link.product#desktop__pdp--add_button": {
+    "title": "Help footer section link",
+    "props": {
+      "href": "/{slug}/p",
+      "label": "Añadir a la bolsa",
+      "blockClass": "desktop__pdp--add_button"
+    }
+  },
+  "flex-layout.col#desktop__pdp--favorites_button": {
+    "title": "Desktop pdp add button container",
+    "children": [
+      "icon#desktop__pdp--favorites_icon"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--favorites_button"
+    }
+  },
+  "icon#desktop__pdp--favorites_icon": {
+    "title": "Desktop favorites  icon",
+    "props": {
+      "id": "mpa-globewi",
+      "size": 25,
+      "width": "15%",
+      "viewBox": "0 0 25 25",
+      "blockClass": "desktop__pdp--favorites_icon"
+    }
+  },
+  "flex-layout.row#desktop__pdp--delivery": {
+    "title": "Desktop pdp delivery container",
+    "children": [
+      "flex-layout.col#desktop_pdp--delivery_time",
+      "flex-layout.col#desktop_pdp--available_store"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--delivery"
+    }
+  },
+  "flex-layout.col#desktop_pdp--delivery_time": {
+    "title": "Desktop pdp delivery time container",
+    "children": [
+      "icon#pdp__delivery--time",
+      "link.product#pdp__delivery--time"
+    ],
+    "props": {
+      "blockClass": "desktop_pdp--delivery_time"
+    }
+  },
+  "link.product#pdp__delivery--time": {
+    "props": {
+      "href": "/{slug}/p",
+      "label": "Envío y devoluciones",
+      "blockClass": "pdp__delivery--time"
+    }
+  },
+  "icon#pdp__delivery--time": {
+    "title": "Delivery time icon",
+    "props": {
+      "id": "mpa-deliverytime",
+      "size": 50,
+      "width": "15%",
+      "viewBox": "0 0 20 25",
+      "blockClass": "pdp__delivery--time"
+    }
+  },
+  "flex-layout.col#desktop_pdp--available_store": {
+    "title": "Desktop pdp delivery time container",
+    "children": [
+      "icon#pdp__available--store",
+      "link.product#pdp__available--store"
+    ],
+    "props": {
+      "blockClass": "desktop_pdp--available_store"
+    }
+  },
+  "link.product#pdp__available--store": {
+    "props": {
+      "href": "/{slug}/p",
+      "label": "Disponibilidad en tienda",
+      "blockClass": "pdp__available--store"
+    }
+  },
+  "icon#pdp__available--store": {
+    "title": "Delivery time icon",
+    "props": {
+      "id": "mpa-available",
+      "size": 50,
+      "width": "15%",
+      "viewBox": "0 0 20 25",
+      "blockClass": "pdp__available--store"
+    }
+  },
+  "flex-layout.row#desktop__pdp--details": {
+    "title": "Desktop pdp details container",
+    "children": [
+      "flex-layout.col#desktop__pdp--details",
+      "flex-layout.col#desktop__pdp--share"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--details"
+    }
+  },
+  "flex-layout.col#desktop__pdp--details": {
+    "title": "Desktop pdp details container",
+    "children": [
+      "icon#pdp__product--details",
+      "link.product#pdp__product--details"
+    ],
+    "props": {
+      "blockClass": "desktop_pdp--details"
+    }
+  },
+  "link.product#pdp__product--details": {
+    "props": {
+      "href": "/{slug}/p",
+      "label": "Detalles del producto",
+      "blockClass": "pdp__product--details"
+    }
+  },
+  "icon#pdp__product--details": {
+    "title": "Delivery time icon",
+    "props": {
+      "id": "mpa-details",
+      "size": 50,
+      "width": "15%",
+      "viewBox": "0 0 20 25",
+      "blockClass": "pdp__product--details"
+    }
+  },
+  "flex-layout.col#desktop__pdp--share": {
+    "title": "Desktop pdp share container",
+    "children": [
+      "icon#pdp__share",
+      "link.product#pdp__share"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--share"
+    }
+  },
+  "link.product#pdp__share": {
+    "props": {
+      "href": "/{slug}/p",
+      "label": "Compartir",
+      "blockClass": "pdp__share"
+    }
+  },
+  "icon#pdp__share": {
+    "title": "Delivery time icon",
+    "props": {
+      "id": "mpa-share",
+      "size": 50,
+      "width": "15%",
+      "viewBox": "0 0 20 25",
+      "blockClass": "pdp__share"
+    }
+  }
+}

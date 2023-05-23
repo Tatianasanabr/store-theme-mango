@@ -1,0 +1,120 @@
+{
+  "flex-layout.row#desktop__pdp--sku_sizes": {
+    "title": "Desktop pdp sku sizes main container",
+    "children": [
+      "flex-layout.col#desktop__pdp--sku_container"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--sku_sizes"
+    }
+  },
+  "flex-layout.col#desktop__pdp--sku_container": {
+    "title": "Desktop pdp sku list",
+    "children": [
+      "link.product#pdp__size--xxs",
+      "link.product#pdp__size--xs",
+      "link.product#pdp__size--s",
+      "link.product#pdp__size--m",
+      "link.product#pdp__size--l",
+      "link.product#pdp__size--xl",
+      "link.product#pdp__size--xxl",
+      "link.product#pdp__size--1xl",
+      "link.product#pdp__size--2xl",
+      "link.product#pdp__size--3xl",
+      "link.product#pdp__size--4xl"
+
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--sku_container"
+    }
+  },
+  "link.product#pdp__size--xxs": {
+    "title": "Pdp size xxs link",
+    "props": {
+        "href": "/{slug}/p",
+        "label": "XXS",
+        "blockClass": "desktop__section--help"
+    }
+  },
+  "link.product#pdp__size--xs": {
+    "title": "Pdp size xs link",
+    "props": {
+        "href": "/{slug}/p",
+        "label": "XS",
+        "blockClass": "desktop__section--help"
+    }
+  },
+  "link.product#pdp__size--s": {
+    "title": "Pdp size s link",
+    "props": {
+        "href": "/{slug}/p",
+        "label": "S",
+        "blockClass": "desktop__section--help"
+    }
+  },
+  "link.product#pdp__size--m": {
+    "title": "Pdp size m link",
+    "props": {
+        "href": "/{slug}/p",
+        "label": "M",
+        "blockClass": "desktop__section--help"
+    }
+  },
+  "link.product#pdp__size--l": {
+    "title": "Pdp size l link",
+    "props": {
+        "href": "/{slug}/p",
+        "label": "L",
+        "blockClass": "desktop__section--help"
+    }
+  },
+  "link.product#pdp__size--xl": {
+    "title": "Pdp size xl link",
+    "props": {
+        "href": "/{slug}/p",
+        "label": "XL",
+        "blockClass": "desktop__section--help"
+    }
+  },
+  "link.product#pdp__size--xxl": {
+    "title": "Pdp size xxl link",
+    "props": {
+        "href": "/{slug}/p",
+        "label": "XXL",
+        "blockClass": "desktop__section--help"
+    }
+  },
+  "link.product#pdp__size--1xl": {
+    "title": "Pdp size 1xl link",
+    "props": {
+        "href": "/{slug}/p",
+        "label": "1XL",
+        "blockClass": "desktop__section--help"
+    }
+  },
+  "link.product#pdp__size--2xl": {
+    "title": "Pdp size 2xl link",
+    "props": {
+        "href": "/{slug}/p",
+        "label": "2XL",
+        "blockClass": "desktop__section--help"
+    }
+  },
+  "link.product#pdp__size--3xl": {
+    "title": "Pdp size 3xl link",
+    "props": {
+        "href": "/{slug}/p",
+        "label": "3XL",
+        "blockClass": "desktop__section--help"
+    }
+  },
+  "link.product#pdp__size--4xl": {
+    "title": "Pdp size 4xl link",
+    "props": {
+        "href": "/{slug}/p",
+        "label": "4XL",
+        "blockClass": "desktop__section--help"
+    }
+  }
+
+}
