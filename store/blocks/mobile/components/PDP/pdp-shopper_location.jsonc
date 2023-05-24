@@ -1,0 +1,28 @@
+{
+  "flex-layout.col#mobile__pdp--shopper_location": {
+    "title": "Mobile pdp shopper location",
+    "children": [
+      "flex-layout.row#mobile__pdp--shopper_location"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--shopper_location"
+    }
+  },
+  "flex-layout.row#mobile__pdp--shopper_location": {
+    "title": "Mobile pdp shopper location container",
+    "children": [
+      "link.product#mobile__pdp--shopper_location"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--shopper_location"
+    }
+  },
+  "link.product#mobile__pdp--shopper_location": {
+    "title": "Pdp shopper location link",
+    "props": {
+      "href": "/{slug}/p",
+      "label": "Disponibilidad en tienda",
+      "blockClass": "mobile__pdp--shopper_location"
+    }
+  }
+}

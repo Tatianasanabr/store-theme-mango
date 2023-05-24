@@ -1,0 +1,3 @@
+.container--mobile__pdp--sizes :global(.vtex-modal-layout-0-x-paper) {
+    width: 16rem;
+}

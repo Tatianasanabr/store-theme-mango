@@ -12,12 +12,12 @@
 }
 
 .containerNormal--home__shelf--products {
-    border : 1px solid black;
+    border : 1px solid #d7d7d7;
     padding: 1rem;
 }
 
 .containerNormal--home__shelf--products:hover {
-    border : 1.5px solid black;
+    border : 1.5px solid #d7d7d7;
 }
 
 .price_installment--product__price {

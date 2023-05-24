@@ -1,0 +1,22 @@
+.link--mobile__pdp--link_sizes {
+    color: black;
+}
+
+.link--mobile__pdp--link_sizes {
+    display        : flex;
+    justify-content: center;
+    font-size      : 14px;
+    letter-spacing : .3px;
+}
+
+.label--mobile__pdp--link_sizes {
+    padding: 9px;
+}
+
+.link--mobile__pdp--shopper_location {
+    text-decoration: none;
+    color          : black;
+    font-size      : 13px;
+    display        : flex;
+    justify-content: center;
+}

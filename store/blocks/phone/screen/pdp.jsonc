@@ -1,0 +1,9 @@
+{
+  "responsive-layout.mobile#phone__pdp--section": {
+    "title": "responsive layout desktop pdp",
+    "children": [
+      "flex-layout.row#phone__pdp--main_container",
+      "footer#mobile" 
+    ]
+  }
+}

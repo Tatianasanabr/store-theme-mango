@@ -26,4 +26,13 @@
 .productDescriptionTitle--desktop__pdp--description::before {
     visibility: visible;
     content   : "Descripción";
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bold;
 }
+
+.imageElement--desktop__pdp--product_care:hover::before {
+    content: "Prueba";
+}
+

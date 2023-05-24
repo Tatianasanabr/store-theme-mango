@@ -1,0 +1,100 @@
+{
+    "flex-layout.row#mobile__pdp--sku_dots": {
+      "title": "mobile pdp sku dots",
+      "children": [
+        "flex-layout.col#mobile__pdp--sku_dots"
+      ],
+      "props": {
+        "blockClass": "mobile__pdp--sku_dots"
+      }
+    },
+    "flex-layout.col#mobile__pdp--sku_dots": {
+      "title": "Mobile pdp sku dots",
+      "children": [
+        "flex-layout.row#mobile__pdp--dots"
+      ],
+      "props": {
+        "blockClass": "mobile__pdp--sku_dots"
+      }
+    },
+    "flex-layout.row#mobile__pdp--dots": {
+      "title": "Mobile pdp sku dots main container",
+      "children": [
+        "flex-layout.col#mobile__pdp--dot_first",
+        "flex-layout.col#mobile__pdp--dot_second",
+        "flex-layout.col#mobile__pdp--dot_third",
+        "flex-layout.col#mobile__pdp--dot_fourth"
+      ],
+      "props": {
+        "blockClass": "mobile__pdp--dots"
+      }
+    },
+    "flex-layout.col#mobile__pdp--dot_first": {
+      "title": "Desktop pdp dot first container",
+      "children": [
+        "image#mobile__pdp--dot_first"
+      ],
+      "props": {
+        "blockClass": "mobile__pdp--dot_first"
+      }
+    },
+    "image#mobile__pdp--dot_first": {
+      "title": "Pdp sku first image",
+      "props": {
+        "src": "assets/img/global/PLP/plp__sku--first.jpg",
+        "maxHeight": 20,
+        "blockClass": "mobile__pdp--dot_first"
+      }
+    },
+    "flex-layout.col#mobile__pdp--dot_second": {
+      "title": "Desktop pdp dot second container",
+      "children": [
+        "image#mobile__pdp--dot_second"
+      ],
+      "props": {
+        "blockClass": "mobile__pdp--dot_second"
+      }
+    },
+    "image#mobile__pdp--dot_second": {
+      "title": "Pdp sku second image",
+      "props": {
+        "src": "assets/img/global/PLP/plp__sku--second.jpg",
+        "maxHeight": 20,
+        "blockClass": "mobile__pdp--dot_second"
+      }
+    },
+    "flex-layout.col#mobile__pdp--dot_third": {
+      "title": "Desktop pdp dot third container",
+      "children": [
+        "image#mobile__pdp--dot_third"
+      ],
+      "props": {
+        "blockClass": "mobile__pdp--dot_third"
+      }
+    },
+    "image#mobile__pdp--dot_third": {
+      "title": "Pdp sku third image",
+      "props": {
+        "src": "assets/img/global/PLP/plp__sku--third.jpg",
+        "maxHeight": 20,
+        "blockClass": "mobile__pdp--dot_third"
+      }
+    },
+    "flex-layout.col#mobile__pdp--dot_fourth": {
+      "title": "Desktop pdp dot fourth container",
+      "children": [
+        "image#mobile__pdp--dot_fourth"
+      ],
+      "props": {
+        "blockClass": "mobile__pdp--dot_fourth"
+      }
+    },
+    "image#mobile__pdp--dot_fourth": {
+      "title": "Pdp sku fourth image",
+      "props": {
+        "src": "assets/img/global/PLP/plp__sku--fourth.jpg",
+        "maxHeight": 20,
+        "blockClass": "mobile__pdp--dot_fourth"
+      }
+    }
+}

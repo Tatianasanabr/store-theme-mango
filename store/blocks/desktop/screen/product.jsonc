@@ -3,7 +3,9 @@
     "title": "Pdp responsive layout desktop main",
     "children": [
       "flex-layout.row#desktop__pdp--main_container",
-      "flex-layout.row#desktop__pdp--bottom_container"
+      "flex-layout.row#desktop__pdp--bottom_container",
+      "flex-layout.row#desktop__pdp--products_text",
+      "flex-layout.row#global__pdp--products"
     ]
   },
   "flex-layout.row#desktop__pdp--main_container": {
@@ -24,6 +26,22 @@
     ],
     "props": {
       "blockClass": "desktop__pdp--bottom_container"
+    }
+  },
+  "flex-layout.row#desktop__pdp--products_text": {
+    "title": "Desktop__pdp--products_text container",
+    "children": [
+      "rich-text#global__pdp--products"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--products_text"
+    }
+  },
+  "rich-text#global__pdp--products": {
+    "title": "Global pdp products text",
+    "props": {
+      "text": "DEL MISMO ESTILO",
+      "blockClass": "global__pdp--products"
     }
   }
 }

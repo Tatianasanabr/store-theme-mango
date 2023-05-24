@@ -52,3 +52,26 @@
     text-decoration: none;
 }
 
+.link--pdp__department--home_appliances,
+.link--pdp__department--cheese,
+.link--pdp__department--women {
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: .3px;
+    color: black;
+    background-color: #f3f3f3;
+    font-family: "MangoSans-Light";
+    cursor: pointer;
+    padding: 2px 8px;
+}
+
+.link--pdp__department--home_appliances:hover,
+.link--pdp__department--cheese:hover,
+.link--pdp__department--women:hover {
+   /*  background-color: #f3f3f3; */
+    transition: all .25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    background-color: #d5d5d6;
+   
+}
+
+

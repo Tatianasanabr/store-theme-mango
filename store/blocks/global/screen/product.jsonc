@@ -3,7 +3,9 @@
     "title": "Product store",
     "children": [
       /* "responsive-layout.mobile#mobile__pdp", */
-      "responsive-layout.desktop#desktop__pdp--section"
+      "responsive-layout.desktop#desktop__pdp--section",
+      "responsive-layout.mobile#desktop__pdp--section"/* ,
+      "responsive-layout.mobile#phone__pdp--section" */
     ]
   }
 }

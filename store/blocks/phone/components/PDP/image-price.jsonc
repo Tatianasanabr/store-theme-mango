@@ -1,0 +1,20 @@
+{
+    "flex-layout.row#phone__pdp--product_image": {
+      "title": "Pdp image desktop container",
+      "children": [
+        "product-images#phone__pdp--images"
+      ],
+      "props": {
+        "blockClass": "phone__pdp--product_image",
+        "width": "70%"
+      }
+    },
+    "product-images#phone__pdp--images": {
+      "title": "Pdp images container",
+      "props": {
+        "blockClass": "phone__pdp--images",
+        "displayMode": "list",
+        "aspectRatio":"4:2"
+      }
+    }
+  }

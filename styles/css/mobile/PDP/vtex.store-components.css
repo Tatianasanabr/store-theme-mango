@@ -1,0 +1,14 @@
+.price_sellingPriceContainer--mobile__pdp--product_price {
+    display: flex;
+}
+
+.price_sellingPrice--mobile__pdp--product_price {
+    background-color: #d7d7d7;
+    font-size       : 14px;
+    position        : sticky;
+    flex-shrink     : 0;
+}
+
+.price_sellingPriceContainer--mobile__pdp--product_price {
+    transform: translate(43px, 18px);
+}

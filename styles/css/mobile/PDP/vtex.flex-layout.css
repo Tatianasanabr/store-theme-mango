@@ -1,0 +1,89 @@
+.flexCol--mobile__pdp--image {
+    display       : flex;
+    flex-direction: column-reverse;
+    align-items   : center;
+}
+
+.flexRowContent--mobile__pdp--dots {
+    display       : flex;
+    flex-direction: row;
+    margin-top    : 1rem;
+    width         : 13rem !important;
+}
+
+.flexRow--mobile__pdp--dots {
+    display        : flex;
+    justify-content: center;
+}
+
+.flexRowContent--mobile__pdp--sizes_active {
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
+    gap           : 5rem;
+    margin-top    : 2rem;
+    border        : 1px solid #d7d7d7;
+    padding       : 7px 30px;
+}
+
+.flexColChild--mobile__pdp--sizes {
+    display        : flex;
+    justify-content: center;
+}
+
+.flexColChild--mobile__pdp--sizes_table {
+    border-top: 1px solid #d7d7d7;
+}
+
+.flexColChild--mobile__pdp--sizes_table {
+    padding: 1px 9px;
+}
+
+.flexRowContent--mobile__psp--add_to_cart {
+    display       : flex;
+    flex-direction: row;
+    padding       : 1.1rem;
+}
+
+.flexColChild--mobilep__pdp--add_button :global(.vtex-button) {
+    background-color: black;
+    border          : none;
+    border-radius   : 0;
+    font-size       : 13px;
+    text-transform  : capitalize;
+}
+
+.flexColChild--mobile__pdp--favorites_button {
+    background-color: black;
+    width           : 3rem !important;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+}
+
+.flexCol--mobile__pdp--favorites_button {
+    display        : flex;
+    flex-direction : row;
+    justify-content: center;
+    width          : 4rem
+}
+
+.flexCol--mobilep__pdp--add_button {
+    width: 14.7rem !important;
+}
+
+.flexColChild--mobile__psp--add_to_cart {
+    display        : flex;
+    justify-content: center;
+}
+
+.flexCol--mobile__pdp--shopper_location {
+    padding: 1px 18px;
+}
+
+.flexRowContent--mobile__pdp--shopper_location {
+    display       : flex;
+    flex-direction: row;
+    padding       : 11px;
+    border        : 1px solid #d7d7d7;
+}

@@ -47,4 +47,45 @@
     letter-spacing: .3px;
 }
 
+.paragraph--desktop__pdp--care_title {
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.paragraph--desktop__pdp--composition {
+    font-size: .8125rem;
+    line-height: 1.25rem!important;
+    letter-spacing: .01875rem;
+    color: #121314;
+    font-family: "MangoSans-Light";
+}
+
+.paragraph--desktop__pdp--designed {
+    font-size: .8125rem;
+    line-height: 1.25rem!important;
+    letter-spacing: .01875rem;
+    color: #121314;
+    font-family: "MangoSans-Light";
+}
+
+.paragraph--desktop__pdp--origin {
+    font-size: .6875rem;
+    line-height: 1rem;
+    letter-spacing: .01875rem;
+    font-family: "MangoSans-Light";
+}
+
+.wrapper--desktop__pdp--country {
+    margin-top: 18px;
+}
+
+.paragraph--global__pdp--products {
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    letter-spacing: .0625rem;
+    /* font-family: "MangoSans-Light"; */
+    font-weight: bold;
+}
+
 

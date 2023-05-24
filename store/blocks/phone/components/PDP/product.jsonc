@@ -1,0 +1,17 @@
+{
+    "flex-layout.row#phone__pdp--main_container": {
+        "title": "Phone pdp main container",
+        "children": [
+            "flex-layout.col#phone__pdp--main_container"
+        ],
+        "props": {
+            "blockClass": "phone__pdp--main_container"
+        }
+    },
+    "flex-layout.col#phone__pdp--main_container": {
+        "title": "Phone pdp container",
+        "children": [
+            "flex-layout.row#phone__pdp--product_image"
+        ]
+    }
+}

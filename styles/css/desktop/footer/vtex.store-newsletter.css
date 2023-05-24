@@ -23,3 +23,11 @@
     background-color: #aaa;
     transition      : background-color 0.8s ease;
 }
+
+.emailInputContainer--desktop__input--email :global(.vtex-styleguide-9-x-input) {
+    color: black!important;
+}
+
+.emailInputContainer--desktop__input--email :global(.vtex-styleguide-9-x-noAppearance) {
+    color: black!important;
+}

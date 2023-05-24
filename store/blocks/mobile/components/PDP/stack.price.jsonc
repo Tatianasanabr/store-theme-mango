@@ -1,0 +1,17 @@
+{
+  "stack-layout#mobile__pdp--price": {
+    "title": "Mobile pdp price container",
+    "children": [
+      "product-price#mobile__pdp--product_price"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--price"
+    }
+  },
+  "product-price#mobile__pdp--product_price": {
+    "title": "Mobile pdp product price",
+    "props": {
+      "blockClass": "mobile__pdp--product_price"
+    }
+  }
+}

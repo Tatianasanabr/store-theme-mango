@@ -1,0 +1,56 @@
+{
+  "flex-layout.col#mobile__pdp--image": {
+    "title": "Pdp image mobile container",
+    "children": [
+      "flex-layout.row#mobile__pdp--image",
+      "flex-layout.row#mobile__pdp--image_price"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--image",
+      "width": "70%"
+    }
+  },
+  "flex-layout.row#mobile__pdp--image": {
+    "title": "Mobile pdp image container",
+    "children": [
+      "slider-layout#pdp__images--container"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--image"
+    }
+  },
+  "flex-layout.row#mobile__pdp--image_price": {
+    "title": "Mobile pdp image container",
+    "children": [
+      "stack-layout#mobile__pdp--price"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--image"
+    }
+  },
+  "slider-layout#pdp__images--container": {
+    "title": "Pdp slider layout images",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "pdp__images--container"
+    },
+    "children": [
+      "product-images#pdp__images--container",
+      "product-images#pdp__images--container"
+    ]
+  },
+  "product-images#mobile__pdp--images": {
+    "title": "Pdp images container",
+    "props": {
+      "blockClass": "mobile__pdp--images",
+      "displayMode": "list",
+      "aspectRatio": "4:2"
+    }
+  }
+}

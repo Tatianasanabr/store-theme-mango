@@ -1,0 +1,14 @@
+.container--mobile__pdp--sizes_text {
+    font-size  : 15px;
+    white-space: nowrap;
+}
+
+.container--mobile__pdp--size_select {
+    font-size     : 14px;
+    letter-spacing: .3px;
+}
+
+.container--mobile__pdp--size_select {
+    display        : flex;
+    justify-content: center;
+}

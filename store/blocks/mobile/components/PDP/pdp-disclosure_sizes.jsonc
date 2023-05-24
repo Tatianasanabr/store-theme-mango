@@ -1,0 +1,226 @@
+{
+  "flex-layout.col#mobile__pdp--sizes": {
+    "title": "Mobile pdp sizes main container",
+    "children": [
+      "modal-trigger#mobile__pdp--sizes"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--sizes"
+    }
+  },
+  "modal-trigger#mobile__pdp--sizes": {
+    "title": "Mobile pdp sizes container",
+    "children": [
+      "flex-layout.row#mobile__pdp--sizes_active",
+      "modal-layout#mobile__pdp--sizes"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--sizes"
+    }
+  },
+  "flex-layout.row#mobile__pdp--sizes_active": {
+    "title": "Mobile pdp sizes active button main container",
+    "children": [
+      "flex-layout.col#mobile__pdp--sizes_text",
+      "flex-layout.col#mobile__pdp--sizes_icon"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--sizes_active"
+    }
+  },
+  "flex-layout.col#mobile__pdp--sizes_text": {
+    "title": "Mobile pdp sizes text container",
+    "children": [
+      "rich-text#mobile__pdp--sizes_text"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--sizes_text"
+    }
+  },
+  "rich-text#mobile__pdp--sizes_text": {
+    "title": "Mobile pdp sizes text",
+    "props": {
+      "text": "Selecciona tu talla",
+      "blockClass": "mobile__pdp--sizes_text"
+    }
+  },
+  "flex-layout.col#mobile__pdp--sizes_icon": {
+    "title": "Mobile odo sizes icon container",
+    "children": [
+      "icon-caret#down__pdp--sizes"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--sizes_icon"
+    }
+  },
+  "icon-caret#down__pdp--sizes": {
+    "title": "Icon caret down pdp",
+    "props": {
+      "orientation": "down",
+      "blockClass": "icon__caret--down"
+    }
+  },
+  "modal-layout#mobile__pdp--sizes": {
+    "title": "Mobile pdp sizes main container modal",
+    "children": [
+      "flex-layout.row#mobile__pdp--sizes_title",
+      "flex-layout.row#mobile__pdp--sizes_table"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--sizes"
+    }
+  },
+  "flex-layout.row#mobile__pdp--sizes_title": {
+    "title": "Mobile pdp sizes title",
+    "children": [
+      "link.product#mobile__pdp--link_sizes"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--sizes_title"
+    }
+  },
+  "link.product#mobile__pdp--link_sizes": {
+    "title": "Pdp drawer sizes link",
+    "props": {
+      "href": "/{slug}/p",
+      "label": "Guía de tallas",
+      "blockClass": "mobile__pdp--link_sizes"
+    }
+  },
+  "flex-layout.row#mobile__pdp--sizes_table": {
+    "title": "Mobile pdp sizes table container",
+    "children": [
+      "flex-layout.col#mobile__pdp--sizes_table"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--sizes_table"
+    }
+  },
+  "flex-layout.col#mobile__pdp--sizes_table": {
+    "title": "Mobile pdp sizes table",
+    "children": [
+      "flex-layout.row#mobile__pdp--size_select",
+      "flex-layout.row#mobile__pdp--size_xs",
+      "flex-layout.row#mobile__pdp--size_s",
+      "flex-layout.row#mobile__pdp--size_m",
+      "flex-layout.row#mobile__pdp--size_l",
+      "flex-layout.row#mobile__pdp--size_xl",
+      "flex-layout.row#mobile__pdp--size_xxl"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--sizes_table"
+    }
+  },
+  "flex-layout.row#mobile__pdp--size_select": {
+    "title": "Mobile pdp sizes container select",
+    "children": [
+      "rich-text#mobile__pdp--size_select"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--size_select"
+    }
+  },
+  "rich-text#mobile__pdp--size_select": {
+    "title": "Mobile pdp sizes select text",
+    "props": {
+      "text": "Selecciona tu talla",
+      "blockClass": "mobile__pdp--size_select"
+    }
+  },
+  "flex-layout.row#mobile__pdp--size_xs": {
+    "title": "Mobile pdp size xs container",
+    "children": [
+      "rich-text#mobile__pdp--size_xs"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--size_xs"
+    }
+  },
+  "rich-text#mobile__pdp--size_xs": {
+    "title": "Mobile pdp size xs",
+    "props": {
+      "text": "XS",
+      "blockClass": "mobile__pdp--size_xs"
+    }
+  },
+  "flex-layout.row#mobile__pdp--size_s": {
+    "title": "Mobile pdp size s container",
+    "children": [
+      "rich-text#mobile__pdp--size_s"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--size_s"
+    }
+  },
+  "rich-text#mobile__pdp--size_s": {
+    "title": "Mobile pdp size s",
+    "props": {
+      "text": "S",
+      "blockClass": "mobile__pdp--size_s"
+    }
+  },
+  "flex-layout.row#mobile__pdp--size_m": {
+    "title": "Mobile pdp size m container",
+    "children": [
+      "rich-text#mobile__pdp--size_m"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--size_m"
+    }
+  },
+  "rich-text#mobile__pdp--size_m": {
+    "title": "Mobile pdp size m",
+    "props": {
+      "text": "M",
+      "blockClass": "mobile__pdp--size_m"
+    }
+  },
+  "flex-layout.row#mobile__pdp--size_l": {
+    "title": "Mobile pdp size l container",
+    "children": [
+      "rich-text#mobile__pdp--size_l"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--size_l"
+    }
+  },
+  "rich-text#mobile__pdp--size_l": {
+    "title": "Mobile pdp size l",
+    "props": {
+      "text": "L",
+      "blockClass": "mobile__pdp--size_l"
+    }
+  },
+  "flex-layout.row#mobile__pdp--size_xl": {
+    "title": "Mobile pdp size xl container",
+    "children": [
+      "rich-text#mobile__pdp--size_xl"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--size_xl"
+    }
+  },
+  "rich-text#mobile__pdp--size_xl": {
+    "title": "Mobile pdp size xl",
+    "props": {
+      "text": "XL",
+      "blockClass": "mobile__pdp--size_xl"
+    }
+  },
+  "flex-layout.row#mobile__pdp--size_xxl": {
+    "title": "Mobile pdp size xxl container",
+    "children": [
+      "rich-text#mobile__pdp--size_xxl"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--size_xxl"
+    }
+  },
+  "rich-text#mobile__pdp--size_xxl": {
+    "title": "Mobile pdp size xxl",
+    "props": {
+      "text": "XXL",
+      "blockClass": "mobile__pdp--size_xxl"
+    }
+  }
+}

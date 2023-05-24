@@ -1,0 +1,29 @@
+{
+  "flex-layout.row#global__pdp--products": {
+    "title": "Global pdp products main container",
+    "children": [
+      "list-context.product-list"
+    ],
+    "props": {
+      "blockClass": "global__pdp--products"
+    }
+  },
+  "list-context.product-list": {
+    "blocks": [
+      "product-summary.shelf#global__pdp--products"
+    ]
+  },
+  "product-summary.shelf#global__pdp--products": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ],
+    "props": {
+      "blockClass": "global__pdp--products"
+    }
+  }
+}

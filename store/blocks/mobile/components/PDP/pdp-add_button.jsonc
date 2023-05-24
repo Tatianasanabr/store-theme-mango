@@ -1,0 +1,55 @@
+{
+  "flex-layout.col#mobile__pdp--add_to_cart": {
+    "title": "Mobile psp add to cart main container",
+    "children": [
+      "flex-layout.row#mobile__psp--add_to_cart"
+    ],
+    "props": {
+      "blockClass": "mobile__psp--add_to_cart"
+    }
+  },
+  "flex-layout.row#mobile__psp--add_to_cart": {
+    "title": "Mobile pdp add to cart container",
+    "children": [
+      "flex-layout.col#mobile__pdp--add_button",
+      "flex-layout.col#mobile__pdp--favorites_button"
+    ],
+    "props": {
+      "blockClass": "mobile__psp--add_to_cart"
+    }
+  },
+  "add-to-cart-button#mobile__product--button": {
+    "title": "Product summary button",
+    "props": {
+      "blockClass": "product__button"
+    }
+  },
+  "flex-layout.col#mobile__pdp--add_button": {
+    "title": "Mobile pdp add button container",
+    "children": [
+      "add-to-cart-button#mobile__product--button"
+    ],
+    "props": {
+      "blockClass": "mobilep__pdp--add_button"
+    }
+  },
+  "flex-layout.col#mobile__pdp--favorites_button": {
+    "title": "Mobile pdp add button container",
+    "children": [
+      "icon#mobile__pdp--favorites_icon"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--favorites_button"
+    }
+  },
+  "icon#mobile__pdp--favorites_icon": {
+    "title": "Mobile favorites  icon",
+    "props": {
+      "id": "mpa-globewi",
+      "size": 25,
+      "width": "15%",
+      "viewBox": "0 0 25 25",
+      "blockClass": "mobile__pdp--favorites_icon"
+    }
+  }
+}
