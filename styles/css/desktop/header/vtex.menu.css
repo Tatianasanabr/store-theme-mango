@@ -163,3 +163,17 @@
     left    : 35rem;
 }
 
+@media (min-width: 1900px) {
+    .menuContainerNav--desktop__department--women-subcategory {
+        margin-left: 7rem;
+    }
+
+    .styledLinkContent--header__menu--category_name {
+        left: -15rem;
+    }
+
+    .styledLinkContent--header__menu--category_name-discount {
+        left: -15rem;
+    }
+}
+

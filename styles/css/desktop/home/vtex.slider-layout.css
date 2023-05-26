@@ -13,3 +13,9 @@
     height: 21rem;
 }
 
+@media (min-width: 1000px) {
+    .sliderTrack--home__slider {
+        height: 35rem;
+    }
+}
+

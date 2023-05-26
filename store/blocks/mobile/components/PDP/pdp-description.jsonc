@@ -1,0 +1,293 @@
+{
+    "flex-layout.col#mobile__pdp--info": {
+      "title": "Mobile pdp info main container",
+      "children": [
+        "flex-layout.row#mobile__pdp--product_description",
+        "flex-layout.row#mobile__pdp--product_import",
+        "flex-layout.row#mobile__pdp--product_categories"
+      ],
+      "props": {
+        "blockClass": "mobile__pdp--info"
+      }
+    },
+    "flex-layout.row#mobile__pdp--product_description": {
+      "title": "Mobile pdp product description container",
+      "children": [
+        "product-description#mobile__pdp--description"
+      ],
+      "props": {
+        "blockClass": "mobile__pdp--product_description"
+      }
+    },
+    "product-description#mobile__pdp--description": {
+      "title": "Mobile pdp product description",
+      "props": {
+        "blockClass": "mobile__pdp--description"
+      }
+    },
+    "flex-layout.row#mobile__pdp--product_import": {
+      "title": "Mobile pdp product import info container",
+      "children": [
+        "rich-text#mobile__pdp--country",
+        "rich-text#mobile__pdp--imported_for",
+        "rich-text#mobile__pdp--imported_country"
+      ],
+      "props": {
+        "blockClass": "mobile__pdp--product_import"
+      }
+    },
+    "rich-text#mobile__pdp--country": {
+      "title": "Mobile pdp country text",
+      "props": {
+        "text": "País de origen: Bangladesh",
+        "blockClass": "mobile__pdp--country"
+      }
+    },
+    "rich-text#mobile__pdp--imported_for": {
+      "title": "Mobile pdp imported for text",
+      "props": {
+        "text": "IMPORTADO POR: JOHN URIBE E HIJOS S.A. NIT: 811.018.676-1. REGISTRO SIC: 811018676.",
+        "blockClass": "mobile__pdp--imported_for"
+      }
+    },
+    "rich-text#mobile__pdp--imported_country": {
+      "title": "Mobile pdp imported country text",
+      "props": {
+        "text": "MEDELLIN – COLOMBIA",
+        "blockClass": "mobile__pdp--imported_country"
+      }
+    },
+    "flex-layout.row#mobile__pdp--product_categories": {
+      "children": [
+        "flex-layout.col#mobile__pdp--first_department",
+        "flex-layout.col#mobile__pdp--second_department",
+        "flex-layout.col#mobile__pdp--third_department"
+      ],
+      "props": {
+        "blockClass": "mobile__pdp--product_categories"
+      }
+    },
+    "flex-layout.col#mobile__pdp--first_department": {
+      "title": "Mobile pdp first department",
+      "children": [
+        "link.product#pdp__department--home_appliances"
+      ],
+      "props": {
+        "blockClass": "mobile__pdp--first_department"
+      }
+    },
+    "link.product#pdp__department--home_appliances": {
+      "title": "Pdp home appliances link",
+      "props": {
+        "href": "https://mango--itgloberspartnercl.myvtex.com/electrodomesticos",
+        "label": "Mujer",
+        "blockClass": "pdp__department--home_appliances"
+      }
+    },
+    "flex-layout.col#mobile__pdp--second_department": {
+      "title": "Mobile pdp first department",
+      "children": [
+        "link.product#pdp__department--cheese"
+      ],
+      "props": {
+        "blockClass": "mobile__pdp--second_department"
+      }
+    },
+    "link.product#pdp__department--cheese": {
+      "title": "Pdp cheese link",
+      "props": {
+        "href": "https://mango--itgloberspartnercl.myvtex.com/queso",
+        "label": "Hombre",
+        "blockClass": "pdp__department--cheese"
+      }
+    },
+    "flex-layout.col#mobile__pdp--third_department": {
+      "title": "Mobile pdp first department",
+      "children": [
+        "link.product#pdp__department--women"
+      ],
+      "props": {
+        "blockClass": "mobile__pdp--third_department"
+      }
+    },
+    "link.product#pdp__department--women": {
+      "title": "Pdp women link",
+      "props": {
+        "href": "https://mango--itgloberspartnercl.myvtex.com/mujer",
+        "label": "Niños",
+        "blockClass": "pdp__department--women"
+      }
+    },
+
+
+
+
+    "flex-layout.col#desktop__pdp--care": {
+      "title": "Desktop pdp info main container",
+      "children": [
+        "flex-layout.row#desktop__pdp--care_title",
+        "flex-layout.row#desktop__pdp--composition",
+        "flex-layout.row#desktop__pdp--designed",
+        "flex-layout.row#desktop__pdp--origin",
+        "flex-layout.row#desktop__pdp--care_images"
+      ],
+      "props": {
+        "blockClass": "desktop__pdp--care"
+      }
+    },
+    "flex-layout.row#desktop__pdp--care_title": {
+      "title": "Desktop pdp care title container",
+      "children": [
+        "rich-text#desktop__pdp--care_title"
+      ],
+      "props": {
+        "blockClass": "desktop__pdp--care_title"
+      }
+    },
+    "rich-text#desktop__pdp--care_title": {
+      "title": "Desktop pdp care title",
+      "props": {
+        "blockClass": "desktop__pdp--care_title",
+        "text": "COMPOSICIÓN, ORIGEN Y CUIDADOS"
+      }
+    },
+    "flex-layout.row#desktop__pdp--composition": {
+      "title": "Desktop pdp composition container",
+      "children": [
+        "rich-text#desktop__pdp--composition"
+      ],
+      "props": {
+        "blockClass": "desktop__pdp--composition"
+      }
+    },
+    "rich-text#desktop__pdp--composition": {
+      "title": "Desktop pdp composition text",
+      "props": {
+        "blockClass": "desktop__pdp--composition",
+        "text": "Composición: 100% lino"
+      }
+    },
+    "flex-layout.row#desktop__pdp--designed": {
+      "title": "Desktop pdp care title container",
+      "children": [
+        "rich-text#desktop__pdp--designed"
+      ],
+      "props": {
+        "blockClass": "desktop__pdp--designed"
+      }
+    },
+    "rich-text#desktop__pdp--designed": {
+      "title": "Desktop pdp designed text",
+      "props": {
+        "blockClass": "desktop__pdp--designed",
+        "text": "Diseñado en Barcelona"
+      }
+    },
+    "flex-layout.row#desktop__pdp--origin": {
+      "title": "Desktop pdp care title container",
+      "children": [
+        "rich-text#desktop__pdp--origin"
+      ],
+      "props": {
+        "blockClass": "desktop__pdp--origin"
+      }
+    },
+    "rich-text#desktop__pdp--origin": {
+      "title": "Desktop pdp origin text",
+      "props": {
+        "blockClass": "desktop__pdp--origin",
+        "text": "Fabricación: Bangladesh",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT"
+      }
+    },
+    "flex-layout.row#desktop__pdp--care_images": {
+      "title": "Desktop pdp care title container",
+      "children": [
+        "flex-layout.col#desktop__pdp--washing_machine",
+        "flex-layout.col#desktop__pdp--bleach",
+        "flex-layout.col#desktop__pdp--iron",
+        "flex-layout.col#desktop__pdp--perchlorethylene",
+        "flex-layout.col#desktop__pdp--dryer"
+      ],
+      "props": {
+        "blockClass": "desktop__pdp--care_images"
+      }
+    },
+    "flex-layout.col#desktop__pdp--washing_machine": {
+      "title": "Desktop pdp washing machine container",
+      "children": [
+        "image#desktop__pdp--washing_machine"
+      ]
+    },
+    "image#desktop__pdp--washing_machine": {
+      "title": "Desktop plp washing machine image",
+      "props": {
+        "src": "assets/img/PDP/machine.png",
+        "link": "",
+        "maxHeight": "10",
+        "blockClass": "desktop__pdp--product_care"
+      }
+    },
+    "flex-layout.col#desktop__pdp--bleach": {
+      "title": "Desktop pdp washing machine container",
+      "children": [
+        "image#desktop__pdp--bleach"
+      ]
+    },
+    "image#desktop__pdp--bleach": {
+      "title": "Desktop plp bleach image",
+      "props": {
+        "src": "assets/img/PDP/bleach.png",
+        "link": "",
+        "maxHeight": "10",
+        "blockClass": "desktop__pdp--bleach"
+      }
+    },
+    "flex-layout.col#desktop__pdp--iron": {
+      "title": "Desktop pdp washing machine container",
+      "children": [
+        "image#desktop__pdp--iron"
+      ]
+    },
+    "image#desktop__pdp--iron": {
+      "title": "Desktop plp iron image",
+      "props": {
+        "src": "assets/img/PDP/iron.png",
+        "link": "",
+        "maxHeight": "10",
+        "blockClass": "desktop__pdp--iron"
+      }
+    },
+    "flex-layout.col#desktop__pdp--perchlorethylene": {
+      "title": "Desktop pdp perchlorethylene container",
+      "children": [
+        "image#desktop__pdp--perchlorethylene"
+      ]
+    },
+    "image#desktop__pdp--perchlorethylene": {
+      "title": "Desktop plp perchlorethylene image",
+      "props": {
+        "src": "assets/img/PDP/perchlorethylene.png",
+        "link": "",
+        "maxHeight": "10",
+        "blockClass": "desktop__pdp--perchlorethylene"
+      }
+    },
+    "flex-layout.col#desktop__pdp--dryer": {
+      "title": "Desktop pdp washing machine container",
+      "children": [
+        "image#desktop__pdp--dryer"
+      ]
+    },
+    "image#desktop__pdp--dryer": {
+      "title": "Desktop plp dryer image",
+      "props": {
+        "src": "assets/img/PDP/dryer.png",
+        "link": "",
+        "maxHeight": "5",
+        "title": "Prueba hover",
+        "blockClass": "desktop__pdp--dryer"
+      }
+    }
+  }

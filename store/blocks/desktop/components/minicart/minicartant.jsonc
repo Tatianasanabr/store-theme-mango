@@ -339,7 +339,7 @@
   "link.product#desktop__button--see_bag": {
     "title": "See bag button",
     "props": {
-      "href": "/checkout",
+      "href": "https://mango--itgloberspartnercl.myvtex.com/checkout",
       "label": "Ver bolsa",
       "blockClass": "desktop__button--see_bag"
     }

@@ -149,3 +149,9 @@
     width: 8rem;
     transform: translate(14px, -12px);
 }
+
+.flexColChild--desktop__pdp--add_button :global(.vtex-button) {
+    background-color: black;
+    border: none;
+    text-transform: capitalize;
+}

@@ -1,0 +1,50 @@
+{
+  "flex-layout.row#global__custom--personal_information": {
+    "title": "Global custom personal information main container",
+    "children": [
+      "flex-layout.col#global__custom--personal_information"
+    ],
+    "props": {
+      "blockClass": "global__custom--personal_information"
+    }
+  },
+  "flex-layout.col#global__custom--personal_information": {
+    "title": "Global custom personal information container",
+    "children": [
+      "flex-layout.row#global__custom--personal_information_title",
+      "flex-layout.row#global__custom--personal_information_content"
+    ]
+  },
+  "flex-layout.row#global__custom--personal_information_title": {
+    "title": "Global custom personal information title container",
+    "children": [
+      "rich-text#global__custom--personal_information_title"
+    ],
+    "props": {
+      "blockClass": "global__custom--personal_information_title"
+    }
+  },
+  "rich-text#global__custom--personal_information_title": {
+    "title": "Global custom personal information title",
+    "props": {
+      "text": "¿Qué tipo de información personal recoge y trata Mango?",
+      "blockClass": "global__custom--personal_information_title"
+    }
+  },
+  "flex-layout.row#global__custom--personal_information_content": {
+    "title": "Global custom personal information title container",
+    "children": [
+      "rich-text#global__custom--personal_information_content"
+    ],
+    "props": {
+      "blockClass": "global__custom--personal_information_content"
+    }
+  },
+  "rich-text#global__custom--personal_information_content": {
+    "title": "Global custom personal information title",
+    "props": {
+      "text": "MANGO puede recopilar directamente de tu relación y uso de nuestros servicios, principalmente, los datos y/o categorías de datos siguientes: i) datos identificativos y de contacto; ii) datos de características personales; iii) datos económicos como tarjeta de crédito (PAN+CVV2) en cumplimiento de los estándares PCI DSS que serán utilizados para la tramitación del pago en el caso que compres alguno de nuestros artículos o, en caso de devolución para las transferencias, el número de cuenta en el que tendremos que tramitar la devolución de tu compra; iv). datos observados en la compra de nuestros productos y los hábitos y preferencias de consumo de nuestros clientes; v) datos de uso de la web o app de MANGO y navegación de acuerdo con lo previsto en la política de cookies. \n\n Además, MANGO recopila toda la información relativa a tu navegación en la WEB/APP así como tu interacción con la marca. \n \n Todos los datos personales que recopila MANGO proceden del interesado, a excepción de los datos de contacto que nos pueden ser facilitados por amigos o familiares para el envío de un cheque regalo u otro obsequio.",
+      "blockClass": "global__custom--personal_information_content"
+    }
+  }
+}

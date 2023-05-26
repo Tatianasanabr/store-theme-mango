@@ -1,0 +1,29 @@
+{
+  "store.custom#global__privacy_policy": {
+    "title": "Privacy policy main section container",
+    "blocks": [
+      "flex-layout.row#global__privacy_policy"
+    ],
+    "props": {
+      "blockClass": "global__privacy_policy"
+    }
+  },
+  "flex-layout.row#global__privacy_policy": {
+    "title": "Global privacy policy container",
+    "children": [
+      "flex-layout.col#global__main--privacy_policy"
+    ],
+    "props": {
+      "blockClass": "global__privacy_policy"
+    }
+  },
+  "flex-layout.col#global__main--privacy_policy": {
+    "title": "Global main provacy policy",
+    "children": [
+      "flex-layout.row#global__custom--title",
+      "flex-layout.row#global__custom--responsible",
+      "flex-layout.row#global__custom--personal_information",
+      "flex-layout.row#global__custom--rights_table"
+    ]
+  }
+}

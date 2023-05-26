@@ -1,0 +1,163 @@
+.headingLevel1--global__custom--title {
+    font-size: 2rem;
+    line-height: 2.375rem;
+    letter-spacing: .01875rem;
+    color: black;
+}
+
+.paragraph--global__custom--version {
+    font-size: .6875rem;
+    line-height: 1rem;
+    letter-spacing: .01875rem;
+}
+
+.headingLevel3--global__custom--data {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    letter-spacing: .01875rem;
+    font-weight: bold;
+    color: black;
+}
+
+.paragraph--global__custom--responsible_title {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: .01875rem;
+    font-weight: bold;
+    color: black;
+}
+
+.paragraph--global__custom--responsible_content {
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    letter-spacing: .01875rem;
+    font-family: "MangoSans-Light";
+    color: black;
+}
+
+.listItem--global__custom--responsible_address {
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    letter-spacing: .01875rem;
+    white-space: nowrap;
+    font-family: "MangoSans-Light";
+    color: black;
+}
+
+.listItem--global__custom--responsible_telephone {
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    letter-spacing: .01875rem;
+    font-family: "MangoSans-Light";
+    color: black;
+}
+
+.listItem--global__custom--responsible_email {
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    letter-spacing: .01875rem;
+    white-space: nowrap;
+    font-family: "MangoSans-Light";
+    color: black;
+}
+
+.paragraph--global__custom--responsible_delegate {
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    letter-spacing: .01875rem;
+    font-family: "MangoSans-Light";
+    color: black;
+}
+
+.paragraph--global__custom--personal_information_title {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: .01875rem;
+    font-weight: bold;
+    color: black;
+    padding-top: 3.5rem;
+}
+
+.paragraph--global__custom--personal_information_content {
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    letter-spacing: .01875rem;
+    font-family: "MangoSans-Light";
+    color: black;
+    padding-top: 1rem;
+}
+
+.list--global__custom--responsible_address,
+.list--global__custom--responsible_telephone,
+.list--global__custom--responsible_email {
+   margin: 0;
+}
+
+.paragraph--global__custom--responsible_title {
+    padding: 1rem 0;
+}
+
+.paragraph--rights_first_topic {
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    letter-spacing: .01875rem;
+    font-family: "MangoSans-Light";
+    color: black;
+}
+
+.paragraph--rights_second_topic {
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    letter-spacing: .01875rem;
+    font-family: "MangoSans-Light";
+    color: black;
+}
+
+@media (max-width: 425px) {
+    .headingLevel1--global__custom--title {
+        font-size: 1rem;
+    }
+
+    .headingLevel3--global__custom--data {
+        font-size: 1rem;
+    }
+
+    .paragraph--global__custom--responsible_content {
+        font-size: 0.7000rem;
+    }
+
+    .listItem--global__custom--responsible_address {
+        font-size: .6125rem;
+    }
+
+    .listItem--global__custom--responsible_phone {
+        font-size: .6125rem;
+    }
+
+    .listItem--global__custom--responsible_email {
+        font-size: .6125rem;
+    }
+    .paragraph--global__custom--responsible_title {
+        font-size: 13px;
+    }
+    .paragraph--global__custom--responsible_delegate {
+        font-size: 11px;
+    }
+    .paragraph--global__custom--personal_information_title {
+        font-size: 11px;
+    }
+    .paragraph--global__custom--personal_information_content {
+        font-size: 11px;
+    }
+    .paragraph--rights_first_topic {
+        font-size: 11px;
+    }
+    .paragraph--rights_second_topic {
+        font-size: 11px;
+    }
+    .listItem--global__custom--responsible_address {
+        white-space: pre-wrap;
+    }
+}
+
+

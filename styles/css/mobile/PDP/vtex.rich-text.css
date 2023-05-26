@@ -12,3 +12,36 @@
     display        : flex;
     justify-content: center;
 }
+
+.paragraph--mobile__pdp--country {
+    font-size     : 13px;
+    letter-spacing: .3px;
+    font-family   : "MangoSans-Light";
+    color         : #aaa;
+}
+
+.paragraph--mobile__pdp--imported_for {
+    font-size     : 11px;
+    letter-spacing: .3px;
+    font-family   : "MangoSans-Light";
+    color         : #aaa;
+}
+
+.wrapper--mobile__pdp--imported_for {
+    padding: 0 0.3rem;
+}
+
+.wrapper--mobile__pdp--country {
+    padding: 0 0.3rem;
+}
+
+.paragraph--mobile__pdp--imported_country {
+    font-size     : 11px;
+    letter-spacing: .3px;
+    font-family   : "MangoSans-Light";
+    color         : #aaa;
+}
+
+.wrapper--mobile__pdp--imported_country {
+    padding: 0 0.3rem;
+}

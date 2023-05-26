@@ -1,15 +1,6 @@
 {
-    "flex-layout.row#mobile__pdp--sku_dots": {
-      "title": "mobile pdp sku dots",
-      "children": [
-        "flex-layout.col#mobile__pdp--sku_dots"
-      ],
-      "props": {
-        "blockClass": "mobile__pdp--sku_dots"
-      }
-    },
     "flex-layout.col#mobile__pdp--sku_dots": {
-      "title": "Mobile pdp sku dots",
+      "title": "mobile pdp sku dots",
       "children": [
         "flex-layout.row#mobile__pdp--dots"
       ],
@@ -17,6 +8,15 @@
         "blockClass": "mobile__pdp--sku_dots"
       }
     },
+    /* "flex-layout.col#mobile__pdp--sku_dots": {
+      "title": "Mobile pdp sku dots",
+      "children": [
+        "flex-layout.row#mobile__pdp--dots"
+      ],
+      "props": {
+        "blockClass": "mobile__pdp--sku_dots"
+      }
+    }, */
     "flex-layout.row#mobile__pdp--dots": {
       "title": "Mobile pdp sku dots main container",
       "children": [

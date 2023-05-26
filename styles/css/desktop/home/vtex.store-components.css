@@ -163,3 +163,9 @@
     transition      : background-color 0.8s ease;
     background-clip : padding-box;
 }
+
+@media (min-width: 1900px) {
+    .infoCardContainer--desktop__home--info_card {
+        height: 39rem!important;
+    }
+}

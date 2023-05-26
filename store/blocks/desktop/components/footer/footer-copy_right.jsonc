@@ -39,7 +39,7 @@
     "rich-text#desktop__policy--text": {
         "title": "Desktop copyright text",
         "props": {
-            "text": "Política de Privacidad y Cookies | [Condiciones de Venta](https://shop.mango.com/co/helppopup/6570.html)",
+            "text": "[Política de Privacidad y Cookies](https://mango--itgloberspartnercl.myvtex.com/privacy-policy) | [Condiciones de Venta](https://shop.mango.com/co/helppopup/6570.html)",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "blockClass": "desktop__policy--text"

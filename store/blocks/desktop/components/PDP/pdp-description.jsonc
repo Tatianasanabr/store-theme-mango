@@ -94,11 +94,17 @@
   "flex-layout.col#desktop__pdp--add_button": {
     "title": "Desktop pdp add button container",
     "children": [
-      "link.product#desktop__pdp--add_button"
+      "add-to-cart-button#desktop__pdp--add_button"
+      /* "link.product#desktop__pdp--add_button" */
     ],
     "props": {
       "blockClass": "desktop__pdp--add_button",
       "width": "77%"
+    }
+  },
+  "add-to-cart-button#desktop__pdp--add_button": {
+    "props": {
+      "blockClass": "desktop__pdp--add_button"
     }
   },
   "link.product#desktop__pdp--add_button": {

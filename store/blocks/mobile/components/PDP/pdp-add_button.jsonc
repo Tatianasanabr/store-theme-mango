@@ -46,9 +46,9 @@
     "title": "Mobile favorites  icon",
     "props": {
       "id": "mpa-globewi",
-      "size": 25,
+      "size": 20,
       "width": "15%",
-      "viewBox": "0 0 25 25",
+      "viewBox": "0 0 15 17",
       "blockClass": "mobile__pdp--favorites_icon"
     }
   }

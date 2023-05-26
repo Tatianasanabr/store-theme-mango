@@ -11,7 +11,7 @@
     "link.product#tablet__button--see_more": {
         "title": "See more tablet button",
         "props": {
-          "href": "/{slug}/p",
+          "href": "https://mango--itgloberspartnercl.myvtex.com/electrodomesticos",
           "label": "Descubre más",
           "blockClass": "tablet__button--see_more"
         }

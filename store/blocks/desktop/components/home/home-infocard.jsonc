@@ -8,7 +8,7 @@
       "imageUrl": "assets/img/global/global__home--infocard.png",
       "headline": "Soft touch",
       "callToActionText": "Descubre más",
-      "callToActionUrl": "#",
+      "callToActionUrl": "https://mango--itgloberspartnercl.myvtex.com/electrodomesticos",
       "blockClass": "desktop__home--info_card",
       "textAlignment": "CENTER"
     }
@@ -17,7 +17,7 @@
   "link.product#desktop__button--see_more": {
     "title": "See more button",
     "props": {
-      "href": "/{slug}/p",
+      "href": "https://mango--itgloberspartnercl.myvtex.com/electrodomesticos",
       "label": "Descubre más",
       "blockClass": "desktop__button--see_more"
     }

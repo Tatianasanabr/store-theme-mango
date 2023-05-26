@@ -1,0 +1,114 @@
+{
+  "flex-layout.row#global__custom--rights_table": {
+    "title": "Global custom rights table main container",
+    "children": [
+      "flex-layout.col#global__custom--rights_table"
+    ],
+    "props": {
+      "blockClass": "global__custom--rights_table"
+    }
+  },
+  "flex-layout.col#global__custom--rights_table": {
+    "title": "Global custom rights table main",
+    "children": [
+      "flex-layout.row#global__custom--rights_first",
+      "flex-layout.row#global__custom--rights_second",
+      "flex-layout.row#global__custom--rights_first",
+      "flex-layout.row#global__custom--rights_second",
+      "flex-layout.row#global__custom--rights_first"
+    ],
+    "props": {
+      "blockClass": "global__custom--rights_table"
+    }
+  },
+  "flex-layout.row#global__custom--rights_first": {
+    "children": [
+      "flex-layout.col#global__custom--rights_first_topic",
+      "flex-layout.col#global__custom--rights_second_topic"
+    ],
+    "props": {
+      "blockClass": "global__custom--rights_first"
+    }
+  },
+  "flex-layout.col#global__custom--rights_first_topic": {
+    "children": [
+      "rich-text#rights_first_topic"
+    ],
+    "props": {
+      "blockClass": "global__custom--rights_first_topic"
+    }
+  },
+  "flex-layout.col#global__custom--rights_second_topic": {
+    "children": [
+      "rich-text#rights_second_topic"
+    ],
+    "props": {
+      "blockClass": "global__custom--rights_second_topic"
+    }
+  },
+  "rich-text#rights_first_topic": {
+    "props": {
+      "text": "Derecho de acceso",
+      "blockClass": "rights_first_topic",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#rights_second_topic": {
+    "props": {
+      "text": "Tienes derecho a obtener confirmación sobre si en MANGO estamos tratando datos personales que te conciernen, o no, así como a acceder a los datos personales que MANGO disponga de ti.",
+      "blockClass": "rights_second_topic",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+
+
+
+
+
+
+
+  "flex-layout.row#global__custom--rights_second": {
+    "children": [
+      "flex-layout.col#global__custom--rights_third_topic",
+      "flex-layout.col#global__custom--rights_fourth_topic"
+    ],
+    "props": {
+      "blockClass": "global__custom--rights_second"
+    }
+  },
+  "flex-layout.col#global__custom--rights_third_topic": {
+    "children": [
+      "rich-text#rights_third_topic"
+    ],
+    "props": {
+      "blockClass": "global__custom--rights_tird_topic"
+    }
+  },
+  "flex-layout.col#global__custom--rights_fourth_topic": {
+    "children": [
+      "rich-text#rights_fourth_topic"
+    ],
+    "props": {
+      "blockClass": "global__custom--rights_fourth_topic"
+    }
+  },
+  "rich-text#rights_third_topic": {
+    "props": {
+      "text": "Derecho de rectificación",
+      "blockClass": "rights_first_topic",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#rights_fourth_topic": {
+    "props": {
+      "text": "Tienes derecho a solicitar que MANGO rectifique los datos personales cuando sean inexactos o que se completen cuando sean incompletos. En el caso de que dispongas de una cuenta de usuario, deberás corregir directamente tus datos accediendo al apartado “Mis datos” de tu perfil.",
+      "blockClass": "rights_second_topic",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

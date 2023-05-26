@@ -2,7 +2,7 @@
     position        : relative;
     top             : 1.6rem;
     border          : 1px solid black;
-    right           : -34.7rem;
+    /* right           : -34.7rem; */
     padding         : 11.3px 36px;
     font-size       : .8125rem;
     background-color: black;
@@ -12,7 +12,11 @@
 .link--desktop__button--see_more {
     color          : white;
     text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
+
 
 .label--desktop__button--see_more:hover {
     background-color: #979899;

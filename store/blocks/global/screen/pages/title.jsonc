@@ -1,0 +1,67 @@
+{
+  "flex-layout.row#global__custom--title": {
+    "title": "Global custom title main container",
+    "children": [
+      "flex-layout.col#global__custom--title"
+    ]
+  },
+  "flex-layout.col#global__custom--title": {
+    "title": "Global custom tittle container",
+    "children": [
+      "flex-layout.row#global__custom--title_text",
+      "flex-layout.row#global__custom--version",
+      "flex-layout.row#global__custom--data"
+    ],
+    "props": {
+      "blockClass": "global__custom--tittle"
+    }
+  },
+  "flex-layout.row#global__custom--title_text": {
+    "title": "Global custom tittle",
+    "children": [
+      "rich-text#global__custom--title"
+    ],
+    "props": {
+      "blockClass": "global__custom--title_text"
+    }
+  },
+  "rich-text#global__custom--title": {
+    "title": "Global custom title text",
+    "props": {
+      "text": "# Política de Privacidad y Cookies",
+      "blockClass": "global__custom--title"
+    }
+  },
+  "flex-layout.row#global__custom--version": {
+    "title": "Global custom tittle",
+    "children": [
+      "rich-text#global__custom--version"
+    ],
+    "props": {
+      "blockClass": "global__custom--version"
+    }
+  },
+  "rich-text#global__custom--version": {
+    "title": "Global custom version text",
+    "props": {
+      "text": "Última versión: 24/02/2023",
+      "blockClass": "global__custom--version"
+    }
+  },
+  "flex-layout.row#global__custom--data": {
+    "title": "Global custom tittle",
+    "children": [
+      "rich-text#global__custom--data"
+    ],
+    "props": {
+      "blockClass": "global__custom--data"
+    }
+  },
+  "rich-text#global__custom--data": {
+    "title": "Global custom version text",
+    "props": {
+      "text": "### Información sobre el tratamiento de datos personales",
+      "blockClass": "global__custom--data"
+    }
+  }
+}

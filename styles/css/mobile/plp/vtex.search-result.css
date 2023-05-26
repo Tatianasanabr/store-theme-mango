@@ -3,7 +3,7 @@
 }
 
 .filterPopupTitle--mobile__filter--navigator {
-    visibility: hidden;
+    visibility    : hidden;
     text-transform: lowercase;
 }
 
@@ -12,10 +12,10 @@
 }
 
 .filterPopupTitle--mobile__filter--navigator::before {
-    visibility: visible;
-    content: "Filtrar y ordenar";
+    visibility    : visible;
+    content       : "Filtrar y ordenar";
     text-transform: inherit;
-    font-size: 17px;
+    font-size     : 17px;
 }
 
 .filtersWrapperMobile--mobile__filter--navigator {
@@ -30,33 +30,33 @@
 .accordionFilterItemTitle--mobile__filter--navigator {
     font-family: "MangoSans-Light";
     font-weight: bold;
-    font-size: 15px;
+    font-size  : 15px;
 }
 
 .filterApplyButtonWrapper--mobile__filter--navigator :global(.vtex-button) {
     background-color: #eeeeee;
-    color: #707070;
-    text-transform: lowercase;
-    visibility: hidden;
+    color           : #707070;
+    text-transform  : lowercase;
+    visibility      : hidden;
 }
 
 .filterApplyButtonWrapper--mobile__filter--navigator :global(.vtex-button)::first-letter {
     text-transform: capitalize;
-    
+
 }
 
 .filterApplyButtonWrapper--mobile__filter--navigator :global(.vtex-button)::before {
     background-color: #eeeeee;
-    color: #707070;
-    visibility: visible; 
-    content: "Aplicar filtros";
-    padding: 6px 10px;
+    color           : #707070;
+    visibility      : visible;
+    content         : "Aplicar filtros";
+    padding         : 6px 10px;
 }
 
 .filterClearButtonWrapper--mobile__filter--navigator :global(.vtex-button) {
-    border: 1px solid #eeeeee;
+    border        : 1px solid #eeeeee;
     text-transform: lowercase;
-    visibility: hidden;
+    visibility    : hidden;
 }
 
 .filterClearButtonWrapper--mobile__filter--navigator :global(.vtex-button)::first-letter {
@@ -64,13 +64,17 @@
 }
 
 .filterClearButtonWrapper--mobile__filter--navigator :global(.vtex-button)::before {
-    visibility: visible; 
-    border: 1px solid #eeeeee;
-    content: "Quitar filtros";
-    color: black;
-    padding: 6px 10px;
+    visibility: visible;
+    border    : 1px solid #eeeeee;
+    content   : "Quitar filtros";
+    color     : black;
+    padding   : 6px 10px;
 }
 
 .sidebar {
     width: 90vw;
+}
+
+.galleryItem--search__result--gallery--main-grid {
+    flex-basis: auto;
 }

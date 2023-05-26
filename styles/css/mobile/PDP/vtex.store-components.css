@@ -12,3 +12,32 @@
 .price_sellingPriceContainer--mobile__pdp--product_price {
     transform: translate(43px, 18px);
 }
+
+.productDescriptionTitle--mobile__pdp--description {
+    display: none;
+}
+
+.content--mobile__pdp--description {
+    font-size     : 13px;
+    letter-spacing: .3px;
+    font-family   : "MangoSans-Light";
+    padding       : 0rem 0.3rem;
+}
+
+.skuSelectorContainer--mobile__pdp--sku {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+    margin-top     : 3px;
+}
+
+.skuSelectorContainer--mobile__pdp--sku :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) {
+    margin: 0;
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+    .content--mobile__pdp--description {
+        width: 26rem !important;
+    }
+}
